@@ -9,10 +9,7 @@ _Key-points and high-level summaries of papers mentioned in lecture or included 
 
 **Full Citation:** Heider, F., & Simmel, M. (1944). *An Experimental Study of Apparent Behavior.* Journal of Psychology.
 
-### Topic Tags
-- Attribution theory
-- Animacy
-- Intentional stance
+**Topic Tags:** Attribution theory, Animacy, Intentional stance
 
 ### Core Question / Problem
 How do simple motion cues (shapes moving on a screen) provoke attributions of intentional action, social motives, and personality — i.e., when do observers treat abstract motion as “agents”?
@@ -59,10 +56,9 @@ Heider & Simmel provide a clear demonstration that perception alone can trigger 
 
 ## 1971 — Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy* / collected essays.
 
-**Full Citation:** Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy* / collected essays. 
+**Full Citation:** Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy* / collected essays.
 
-##### Topic Tags
-intentional stance; design stance; physical stance; intentional systems; rationality; heuristics.
+**Topic Tags:** intentional stance, design stance, physical stance, intentional systems, rationality, heuristics
 
 ##### Core Question / Problem
 What does it mean to treat systems (organisms, machines) as having beliefs and desires — and how useful is that strategy for explanation and prediction?
@@ -108,8 +104,7 @@ Dennett offers a pragmatic account: intentionality as a tool, not a metaphysical
 
 **Full Citation:** Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? *Behavioral and Brain Sciences*.
 
-### Topic Tags
-theory of mind (ToM), mentalizing, comparative cognition, experimental logic
+**Topic Tags:** theory of mind (ToM), mentalizing, comparative cognition, experimental logic
 
 ### Core Question / Problem
 Can non-human primates (chimpanzees) attribute mental states (beliefs, desires, intentions) to others — i.e., do they possess a theory of mind?
@@ -157,8 +152,7 @@ Premack & Woodruff’s paper launched ToM as an empirical question and a researc
 
 **Full Citation:** Augusto, L. M. (2005). Review: Symbols and Knowledge Systems. *Journal of Knowledge Structures & Systems* (review/overview).
 
-### Topic Tags
-Symbolic Processing; Physical Symbol System; Representation; Newell & Simon Test; Information Processing Languages
+**Topic Tags:** Symbolic Processing, Physical Symbol System, Representation, Newell & Simon Test, Information Processing Languages
 
 ### Core Question / Problem
 What role do symbolic representations and symbolic systems play in modeling cognition? The review surveys historical and conceptual roots of symbolic processing, the architecture of symbolic systems (memory, control, operators), and criteria for when symbolic representations are an appropriate model of cognition.
@@ -215,11 +209,7 @@ A canonical architecture composed of Memory, Control, Input/Output, and Operator
 
 **Full Citation:** Mitchell, J. P. (2006). *Mentalizing and Marr: An information‑processing approach to the study of social cognition.* (Paper)
 
-### Topic Tags
-- Mentalizing
-- Marr’s levels
-- Representations
-- Predictive mind
+**Topic Tags:** Mentalizing, Marr's levels, Representations, Predictive mind
 
 ### Core Question / Problem
 How can Marr’s levels (computational, algorithmic, implementational) be usefully applied to “mentalizing” — the process by which perceivers represent and predict others’ minds?
@@ -268,8 +258,7 @@ Mitchell reframes social cognition as computational inference. This matters peda
 
 **Full Citation:** Gray, H. M., Gray, K., & Wegner, D. M. (2007). Dimensions of Mind Perception. *Science*, 315, 619–619.
 
-##### Topic Tags
-mind perception, agency, experience, dimensionality reduction, social evaluation
+**Topic Tags:** mind perception, agency, experience, dimensionality reduction, social evaluation
 
 ##### Core Question / Problem
 Do people represent minds in others along meaningful dimensions, and if so, what are those dimensions and their psychological consequences?
@@ -309,10 +298,9 @@ A compact representational account explains diverse phenomena — anthropomorphi
 
 ## 2010 — Epley, N. & Waytz, A. (2010). Mind perception. *In S. T. Fiske (Ed.), Handbook of Social Psychology* (5th ed.). Wiley.
 
-**Full Citation:** Epley, N. & Waytz, A. (2010). Mind perception. *In S. T. Fiske (Ed.), Handbook of Social Psychology* (5th ed.). Wiley. 
+**Full Citation:** Epley, N. & Waytz, A. (2010). Mind perception. *In S. T. Fiske (Ed.), Handbook of Social Psychology* (5th ed.). Wiley.
 
-##### Topic Tags
-mentalizing, mind perception, anthropomorphism, agency, experience, attribution
+**Topic Tags:** mentalizing, mind perception, anthropomorphism, agency, experience, attribution
 
 ##### Core Question / Problem
 When and why do people attribute minds to others (including non-human agents), and what are the psychological consequences of those attributions?
@@ -362,10 +350,9 @@ Epley & Waytz synthesize scattered literatures into a compact representational m
 
 ## 2010 — Epley, N., & Waytz, A. (2010). Mind Perception. In *Society & Animals* / Social Cognition chapter (selected pages).
 
-**Full Citation:** Epley, N., & Waytz, A. (2010). Mind Perception. In *Society & Animals* / Social Cognition chapter (selected pages). 
+**Full Citation:** Epley, N., & Waytz, A. (2010). Mind Perception. In *Society & Animals* / Social Cognition chapter (selected pages).
 
-##### Topic Tags
-mentalizing, mind perception, animacy, agency, experience
+**Topic Tags:** mentalizing, mind perception, animacy, agency, experience
 
 ##### Core Question / Problem
 How do people perceive "minds" in others (human and non‑human), what dimensions organize those perceptions, and how do those perceptions influence social judgment and behavior?
@@ -416,8 +403,7 @@ Links to animacy, intentional stance, Theory of Mind, predictive processing, and
 
 **Full Citation:** Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences*.
 
-### Topic Tags
-mentalizing, mind perception, anthropomorphism, agency, experience, dehumanization, moral cognition
+**Topic Tags:** mentalizing, mind perception, anthropomorphism, agency, experience, dehumanization, moral cognition
 
 ### Core Question / Problem
 When and why do people perceive minds in others (including non-human entities), and what are the psychological and social consequences of that perception?
@@ -472,8 +458,7 @@ Links to: animacy/biological motion research, dehumanization literature, implici
 
 **Full Citation:** Wheatley, T., Kang, O., Parkinson, C., & Looser, C. (2012). From Mind Perception to Mental Connection: Synchrony as a Mechanism for Social Understanding. *Social and Personality Psychology Compass*.
 
-### Topic Tags
-mind perception, synchrony, neural entrainment, social bonding, empathy, predictive processing
+**Topic Tags:** mind perception, synchrony, neural entrainment, social bonding, empathy, predictive processing
 
 ### Core Question / Problem
 How do humans progress from detecting minds to forming deep interpersonal connection, and what role does synchrony (neural and behavioral entrainment) play as a mechanism for social understanding and bonding?
@@ -534,8 +519,7 @@ Ties to animacy detection (Wheatley’s ERP animacy tipping point work), mirror/
 
 **Full Citation:** Clark, A. (2013). Whatever next? Predictive brains, situated agents, and the future of cognitive science. *Behavioral and Brain Sciences*.
 
-### Topic Tags
-predictive processing, generative models, action-oriented processing, representation, Marr’s levels
+**Topic Tags:** predictive processing, generative models, action-oriented processing, representation, Marr's levels
 
 ### Core Question / Problem
 Can a unified, action-oriented predictive processing framework (hierarchical generative models minimizing prediction error) plausibly explain perception, action, attention, and higher-level cognition, and if so, what are its limits?
@@ -589,8 +573,7 @@ Clark’s paper reframes classical distinctions: perception ≈ inference; actio
 
 **Full Citation:** Hohwy, J. (2013). *The Predictive Mind* (excerpts/analysis). (uploaded as Howy - PredictiveMind.pdf)
 
-### Topic Tags
-prediction error minimization (PEM), content vs covariance, perception as hypothesis testing, binding, misperception
+**Topic Tags:** prediction error minimization (PEM), content vs covariance, perception as hypothesis testing, binding, misperception
 
 ### Core Question / Problem
 What is the best philosophical and computational framing to explain perception as prediction-error minimization (PEM), and does PEM deliver truth-tracking (content) or only covariance-based regularities?
@@ -641,8 +624,7 @@ Hohwy’s book sharpens predictive-processing into a philosophically rigorous th
 
 **Full Citation:** Uleman, J. S., & Kressel, L. (2013). A brief history of theory and research on impression formation. *(Annual Review / Social Cognition review chapter)*.
 
-##### Topic Tags
-impression formation, person perception, attribution, heuristics, warmth/competence
+**Topic Tags:** impression formation, person perception, attribution, heuristics, warmth/competence
 
 ##### Core Question / Problem
 How do perceivers form stable impressions from limited behavioral data, what representational structures support impressions (e.g., trait inference, schema), and how have theories evolved historically?
@@ -691,8 +673,7 @@ Links to mind perception (pre‑attributional stages), stereotyping research, an
 
 **Full Citation:** Freeman, T. (2016). What is Mentalizing? An Overview. *British Journal of Psychotherapy*, 32(2), 189–201.
 
-##### Topic Tags
-mentalizing, clinical mentalizing, social prediction, developmental trajectories
+**Topic Tags:** mentalizing, clinical mentalizing, social prediction, developmental trajectories
 
 ##### Core Question / Problem
 What is mentalizing (clinical and cognitive), how does it develop, and why is it central to both healthy social functioning and clinical disorders where it breaks down (e.g., borderline personality disorder)?
@@ -739,8 +720,7 @@ This overview links cognitive-science models of mental state inference to clinic
 
 **Full Citation:** Kriegeskorte, N. & Douglas, P. (2018). Cognitive computational neuroscience. *Nature Neuroscience*.
 
-##### Topic Tags
-computational neuroscience, representational models, deep neural networks, Marr’s levels, task-performing models
+**Topic Tags:** computational neuroscience, representational models, deep neural networks, Marr's levels, task-performing models
 
 ##### Core Question / Problem
 How can cognitive science, computational neuroscience, and artificial intelligence be productively integrated to explain brain information processing? The paper asks what it means to “understand the brain” and argues for building task-performing computational models that are constrained by brain and behavioral data.
@@ -791,8 +771,7 @@ The paper argues for a cultural and methodological shift: move from isolated exp
 
 **Full Citation:** Lockwood, P. L., Apps, M. A. J., & Klein-Flügge, M. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences*.
 
-### Topic Tags
-social brain, Marr’s levels, algorithmic vs implementational, ACCg, social learning, ToM
+**Topic Tags:** social brain, Marr's levels, algorithmic vs implementational, ACCg, social learning, ToM
 
 ### Core Question / Problem
 Are there algorithms or brain implementations that are specialized for social cognition, or does social behavior reuse general-purpose mechanisms? How should we test social specificity across Marr’s levels?
@@ -842,8 +821,7 @@ The article reframes the “social brain” debate: rather than asking “is the
 
 **Full Citation:** Perez-Osorio, J. & Wykowska, A. (2020). Adopting the Intentional Stance Toward Natural and Artificial Agents. *Philosophical Psychology* (accepted manuscript Feb 2019).
 
-##### Topic Tags
-intentional stance, human-robot interaction, social attunement, stance-taking
+**Topic Tags:** intentional stance, human-robot interaction, social attunement, stance-taking
 
 ##### Core Question / Problem
 When and why do humans adopt the intentional stance — treating a system as if it has beliefs and desires — and what does it imply for interactions with artificial agents (robots, AI)?
@@ -886,8 +864,7 @@ For computational social cognition, the paper clarifies that adopting an intenti
 
 **Full Citation:** Thornton, M. A., & Tamir, D. I. (2021). The Organization of Social Knowledge Is Tuned for Prediction. *[journal]*.
 
-### Topic Tags
-Predictive Mind; Mentalizing; Transition Structure; Generative Model; Representation; Neural geometry
+**Topic Tags:** Predictive Mind, Mentalizing, Transition Structure, Generative Model, Representation, Neural geometry
 
 ### Core Question / Problem
 How is social knowledge—people’s knowledge of actions, mental states, and traits—organized so that observers can rapidly predict other people’s future mental states and actions? The paper asks whether conceptual (psychological) and neural representations are structured not merely to describe people but specifically to support prediction of their future states.
@@ -941,8 +918,7 @@ A compact action taxonomy outlining dimensions (e.g., Agency, Competence, Tempor
 
 **Full Citation:** Jolly, E. & Chang, L. (2024). The Flatland Fallacy: Over‑reliance on low‑dimensional explanations in social cognition. *(Preprint / Conference paper — see uploaded PDF).*
 
-##### Topic Tags
-Flatland Fallacy, mentalizing, representation, naturalistic behavior, predictive models
+**Topic Tags:** Flatland Fallacy, mentalizing, representation, naturalistic behavior, predictive models
 
 ##### Core Question / Problem
 Why do many models in social cognition over‑simplify complex social phenomena (the "Flatland Fallacy") and what are the consequences for theory and experiment? The paper diagnoses the problem and proposes remedies centered on richer representations and naturalistic tasks.
@@ -993,8 +969,7 @@ The Flatland Fallacy critique pushes the field to (1) adopt richer representatio
 
 **Full Citation:** Carvalho, F. & Lampinen, A. (2025). Naturalistic computational cognitive science: Models and theories that capture the full range of natural behavior. *(Uploaded PDF).*
 
-##### Topic Tags
-naturalistic tasks, ecological validity, computational models, shared datasets
+**Topic Tags:** naturalistic tasks, ecological validity, computational models, shared datasets
 
 ##### Core Question / Problem
 How should computational cognitive science evolve to explain real‑world behavior rather than constrained laboratory tasks? The authors argue for methods and models that embrace naturalistic data and testing regimes.
@@ -1038,8 +1013,7 @@ This paper operationalizes the “big data + big models” vision for cognitive 
 
 **Full Citation:** Moskowitz, D. (2025). Introduction to social cognition and social inference. *(Uploaded PDF — introductory chapter).*
 
-##### Topic Tags
-social cognition, attribution, mentalizing, predictive mind, ecological tasks
+**Topic Tags:** social cognition, attribution, mentalizing, predictive mind, ecological tasks
 
 ##### Core Question / Problem
 What are the core mechanisms by which people infer others’ mental states and predict social behavior? This introductory piece frames social cognition as an interplay of perceptual cues, internal generative models, and contextual constraints.
@@ -1084,8 +1058,7 @@ As an introduction, the chapter situates social cognition within broader computa
 
 **Full Citation:** Wang, X., et al. (2025). Modeling Other Minds: A computational account of social cognition and its development. *(Preprint / Review — computational social development)*.
 
-##### Topic Tags
-computational social development, generative models, theory of mind, predictive processing, developmental modeling
+**Topic Tags:** computational social development, generative models, theory of mind, predictive processing, developmental modeling
 
 ##### Core Question / Problem
 How can computational (generative/Bayesian) models explain how humans develop representations of others' minds, and what are the mechanistic principles that guide social prediction across development?
@@ -1131,10 +1104,9 @@ Directly links to Epley & Waytz (mind perception as input to inference), impress
 
 ## n.d. — Dennett, D. C. (Précis). A Précis of *The Intentional Stance*.
 
-**Full Citation:** Dennett, D. C. (Précis). A Précis of *The Intentional Stance*. 
+**Full Citation:** Dennett, D. C. (Précis). A Précis of *The Intentional Stance*.
 
-##### Topic Tags
-intentional stance; Searle critique; heuristic overlay; consensus in philosophy of mind.
+**Topic Tags:** intentional stance, Searle critique, heuristic overlay, consensus in philosophy of mind
 
 ##### Core Question / Problem
 Why is the intentional stance defensible as a pragmatic, heuristic strategy given critiques (e.g., Searle's Chinese Room) that demand metaphysical grounding?
@@ -1159,10 +1131,9 @@ The Précis helps students situate Dennett historically and shows why the Intent
 
 ## n.d. — Greifeneder, R. (Year). Chapters 1–2. *[book/edited volume]*.
 
-**Full Citation:** Greifeneder, R. (Year). Chapters 1–2. *[book/edited volume]*. 
+**Full Citation:** Greifeneder, R. (Year). Chapters 1–2. *[book/edited volume]*.
 
-##### Topic Tags
-social cognition; top‑down vs bottom‑up processing; context dependency; attention; adaptation; heuristics.
+**Topic Tags:** social cognition, top‑down vs bottom‑up processing, context dependency, attention, adaptation, heuristics
 
 ##### Core Question / Problem
 How is social cognition distinct from general cognitive processing? Greifeneder argues social cognition is specialized for context‑sensitive, adaptive processing that supports fast, effective behavior in complex social environments.
@@ -1210,11 +1181,7 @@ The chapters provide an integrated argument that social cognition is not merely 
 
 **Full Citation:** Moskowitz, D. S. — Chapter 2: *We Create Internal Mental Representations of External Reality.* (Chapter PDF provided)
 
-### Topic Tags
-- Schemas
-- Prototypes & Exemplars
-- Embodied cognition
-- Mindsets
+**Topic Tags:** Schemas, Prototypes & Exemplars, Embodied cognition, Mindsets
 
 ### Core Question / Problem
 How are social knowledge and categories represented (schemas, prototypes, exemplars), and how do these representations shape perception, memory, and behavior?
@@ -1262,10 +1229,9 @@ The chapter stitches together classical schema theory with emerging embodied and
 
 ## n.d. — Moskowitz, G. B. (Year). Chapter 1. *Introduction to Social Cognition.*
 
-**Full Citation:** Moskowitz, G. B. (Year). Chapter 1. *Introduction to Social Cognition.* 
+**Full Citation:** Moskowitz, G. B. (Year). Chapter 1. *Introduction to Social Cognition.*
 
-##### Topic Tags
-motivated reasoning; self‑esteem maintenance; epistemic needs; just‑world hypothesis; impression formation.
+**Topic Tags:** motivated reasoning, self‑esteem maintenance, epistemic needs, just‑world hypothesis, impression formation
 
 ##### Core Question / Problem
 How do motivational forces — particularly needs to maintain self‑esteem and a sense of control — shape basic social cognition (impression formation, attribution, memory)?
@@ -1311,12 +1277,7 @@ The chapter foregrounds motivation as central to social inference: cognitive mec
 
 **Full Citation:** Pennington — *History of Social Cognition* (uploaded PDF; historical chapter)
 
-### Topic Tags
-- Field theory
-- Behaviorism
-- Cognitivism
-- Constructivism
-- Timeline terms
+**Topic Tags:** Field theory, Behaviorism, Cognitivism, Constructivism, Timeline terms
 
 ### Core Question / Problem
 What historical schools of thought shaped the emergence of social cognition (behaviorism → Gestalt/cognitivism → computational cognitive science), and how do these lineages inform contemporary approaches?
