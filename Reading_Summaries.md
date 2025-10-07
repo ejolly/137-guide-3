@@ -292,6 +292,35 @@ A compact representational account explains diverse phenomena — anthropomorphi
 
 ---
 
+## 2009 — Mitchell, J. P. (2009). Social psychology as a natural kind. *Trends in Cognitive Sciences.*
+
+**Full Citation:** Mitchell, J. P. (2009). *Social psychology as a natural kind.* Trends in Cognitive Sciences.
+
+**Topic Tags:** mentalizing, mPFC, representation, natural kind, Marr’s levels
+
+### Core Question / Problem
+Why do diverse social-psychological phenomena (self-knowledge, attitudes, emotion, understanding others) repeatedly recruit a common set of brain systems—especially medial prefrontal cortex (mPFC)—and what does that convergence imply about social cognition as a domain?
+
+### Conceptual or Computational Framework
+Mitchell argues that social psychology constitutes a “natural kind”: a coherent domain with shared computational demands—representing persons and predicting their future states—and overlapping neural substrates (notably mPFC). At Marr’s levels, the **computational** goal is social prediction; **algorithmically**, person-level summaries and trait/valuation representations support inference; **implementationally**, subregions of mPFC contribute differentially to valuation vs person knowledge. 
+
+### Methods Overview
+Opinion/review synthesizing neuroimaging, lesion, and behavioral evidence showing convergent mPFC engagement across self/other judgment, impression formation, and affective tasks; highlights subregional dissociations and cross-task ubiquity. 
+
+### Key Findings
+- mPFC is consistently engaged across social tasks; ventral vs dorsal subregions map roughly onto valuation vs person-knowledge operations.  
+- Convergent lesion and imaging evidence supports a shared representational workspace for social information.  
+- The cross-phenomenon overlap motivates theory at the computational/algorithmic levels rather than mere functional localization. 
+
+### Interpretation & Significance
+If social tasks share goals and representations, we should build models that **do** person-level prediction and test them against behavior/brain data (not just map regions). This frames social cognition as mechanistically unified and guides hypothesis-driven experiments. 
+
+### Computational-Social-Cognitive-Scientist Hat
+- **Lewin:** Internal representations (R) in mPFC help explain B = f(P, E, R).  
+- **Marr:** Separate *what* is computed (social prediction) from *how* (representations/inference) and *where* (mPFC network). 
+
+---
+
 ## 2010 — Epley, N., & Waytz, A. (2010). Mind perception. *In S. T. Fiske (Ed.), Handbook of Social Psychology (5th ed.).*
 
 **Full Citation:** Epley, N. & Waytz, A. (2010). Mind perception. *In S. T. Fiske (Ed.), Handbook of Social Psychology* (5th ed.). Wiley.
@@ -657,6 +686,63 @@ Links to mind perception (pre‑attributional stages), stereotyping research, an
 ### Concept Graph
 - Observed behaviors → trait inference (diagnostic weighting) → memory/schema updating → predicted future behavior.
 
+--- 
+
+## 2013 — Sievers, B., Polansky, L., Casey, M., & Wheatley, T. (2013). Music and movement share a dynamic structure that supports universal expressions of emotion. *PNAS.*
+
+**Full Citation:** Sievers, B., Polansky, L., Casey, M., & Wheatley, T. (2013). *Music and movement share a dynamic structure that supports universal expressions of emotion.* Proceedings of the National Academy of Sciences.
+
+**Topic Tags:** cross-modal dynamics, emotion, biological motion, representation
+
+### Core Question / Problem
+Do music and movement share a **common dynamic code** for emotion that generalizes across cultures? 
+
+### Conceptual or Computational Framework
+A cross-modal representational geometry: emotional meaning maps onto low-level dynamical features (tempo, jitter, amplitude) that receivers use for inference. **Computationally**, efficient affect communication; **algorithmically**, reduce high-dimensional dynamics to a low-dimensional emotion space. 
+
+### Methods Overview
+Participants sculpted music and animations with sliders to express emotions; a remote Kreung sample replicated mappings. Analyses: clustering in parameter space, Monte-Carlo tests, and ANOVA across settings. 
+
+### Key Findings
+- Music and movement converge on similar feature configurations for the same emotions (cross-modal clustering).  
+- Broad cross-cultural similarity supports a shared code; dynamical features reliably predict perceived emotion. 
+
+### Interpretation & Significance
+Identifies concrete features for models of affect perception and generative social signaling—useful input channels to students’ predictive-processing intuitions about how we read others’ states. 
+
+### Computational-Social-Cognitive-Scientist Hat
+- **Brunswik:** Cue reliability across cultures → ecological validity.  
+- **Marr:** Precisely specifies the *algorithmic* features likely read out by receivers. 
+
+---
+
+## 2015 — Parkinson, C., & Wheatley, T. (2015). The repurposed social brain. *Philosophical Transactions of the Royal Society B.*
+
+**Full Citation:** Parkinson, C., & Wheatley, T. (2015). *The repurposed social brain.* Philosophical Transactions of the Royal Society B.
+
+**Topic Tags:** neural reuse, repurposing, social cognition, predictive models
+
+### Core Question / Problem
+How can brains solve novel social problems using “old” circuitry? The paper synthesizes evidence that perception/space/time systems are **repurposed** to compute social variables (e.g., social distance). 
+
+### Conceptual or Computational Framework
+A constraints-and-reuse account: **computationally**, social prediction is the goal; **algorithmically**, pre-existing representational primitives (spatial maps, timing, sensory codes) are reinterpreted to encode abstract social dimensions; **implementationally**, circuits originally tuned for perception/space are recruited in social tasks across evolutionary, cultural, and individual (instrumental) timescales. 
+
+### Methods Overview
+Review of comparative work, lesion cases, and neuroimaging/meta-analyses demonstrating overlaps between social and non-social maps (e.g., physical ↔ social distance). Distinguishes evolutionary, cultural, and instrumental repurposing. 
+
+### Key Findings
+- Overlapping cortical topographies for spatial/perceptual coding and social variables.  
+- Multiple repurposing routes (evolutionary → cultural → instrumental) constrain and enable social computation.  
+- Reuse explains both efficiency and limits of social algorithms. 
+
+### Interpretation & Significance
+Rather than a wholly specialized “social module,” social cognition emerges from flexible reuse—guiding models to leverage general representational tools the brain already computes. Pedagogically, this reframes the “social brain” debate as **where** specialization lies across Marr’s levels. 
+
+### Computational-Social-Cognitive-Scientist Hat
+- **Lewin:** Inherited representational constraints (R) shape behavior across environments.  
+- **Marr:** Build mid-level models showing how spatial/temporal codes are reinterpreted to compute social variables. 
+
 ---
 
 ## 2016 — Freeman, T. (2016). What is Mentalizing? An Overview. *British Journal of Psychotherapy.*
@@ -754,6 +840,34 @@ The paper argues for a cultural and methodological shift: move from isolated exp
 ### Concept Graph
 - Task design → model training → neural representation similarity → behavioral prediction.
 - Cognitive model (top-down) ↔ neural implementation (bottom-up) — both constrain each other.
+
+---
+
+## 2019 — Sievers, B., Lee, C., Haslett, W., & Wheatley, T. (2019). A multi-sensory code for emotional arousal. *Proceedings of the Royal Society B.*
+
+**Full Citation:** Sievers, B., Lee, C., Haslett, W., & Wheatley, T. (2019). *A multi-sensory code for emotional arousal.* Proceedings of the Royal Society B.
+
+**Topic Tags:** emotional arousal, spectral centroid, multi-sensory code, predictive models
+
+### Core Question / Problem
+Is there a single low-level statistic that robustly signals **arousal** across modalities? Tests spectral centroid as a supramodal cue used by senders and decoded by receivers. 
+
+### Conceptual or Computational Framework
+**Computationally**, arousal estimation is a low-dimensional decoding problem; **algorithmically**, extracting the central tendency of frequency content (spectral centroid) supports cross-modal arousal judgments (sound, speech, movement, visual form). 
+
+### Methods Overview
+Regression and Bayesian classifiers relate spectral-centroid-like features to arousal ratings across datasets (e.g., emotional speech), testing generalization and discrimination (AUCs). 
+
+### Key Findings
+- Higher spectral centroid → higher perceived arousal across modalities.  
+- Classifiers using centroid features discriminate arousal strongly and generalize across datasets. 
+
+### Interpretation & Significance
+Provides an implementable feature for computational models of affect perception and cross-channel social communication—ideal for students’ projects linking signal processing to social inference. 
+
+### Computational-Social-Cognitive-Scientist Hat
+- **Lewin:** Adds a measurable R mediating P/E → behavior.  
+- **Marr:** Clear *algorithmic* feature with plausible *implementational* correlates (neural coding of spectral statistics). 
 
 ---
 
@@ -1119,7 +1233,7 @@ The Précis helps students situate Dennett historically and shows why the Intent
 
 ## n.d. — Greifeneder, R. (n.d.). Chapters 1–2. *Social Cognition: How Individuals Construct Social Reality.*
 
-**Full Citation:** Greifeneder, R. (Year). Chapters 1–2. *[book/edited volume]*.
+**Full Citation:** Greifeneder, R. (n.d.). Chapters 1–2. *Social Cognition: How Individuals Construct Social Reality.*
 
 **Topic Tags:** social cognition, top‑down vs bottom‑up processing, context dependency, attention, adaptation, heuristics
 
@@ -1167,7 +1281,7 @@ The chapters provide an integrated argument that social cognition is not merely 
 
 ## n.d. — Moskowitz, D. S. (n.d.). We Create Internal Mental Representations of External Reality. *In Social Cognition Textbook, Chapter 2.*
 
-**Full Citation:** Moskowitz, D. S. — Chapter 2: *We Create Internal Mental Representations of External Reality.* (Chapter PDF provided)
+**Full Citation:** Moskowitz, D. S. (n.d.). We Create Internal Mental Representations of External Reality. *In Social Cognition Textbook, Chapter 2.*
 
 **Topic Tags:** Schemas, Prototypes & Exemplars, Embodied cognition, Mindsets
 
@@ -1217,7 +1331,7 @@ The chapter stitches together classical schema theory with emerging embodied and
 
 ## n.d. — Moskowitz, G. B. (n.d.). Introduction to Social Cognition. *In Social Cognition Textbook, Chapter 1.*
 
-**Full Citation:** Moskowitz, G. B. (Year). Chapter 1. *Introduction to Social Cognition.*
+**Full Citation:** Moskowitz, G. B. (n.d.). Introduction to Social Cognition. *In Social Cognition Textbook, Chapter 1.*
 
 **Topic Tags:** motivated reasoning, self‑esteem maintenance, epistemic needs, just‑world hypothesis, impression formation
 
@@ -1263,7 +1377,7 @@ The chapter foregrounds motivation as central to social inference: cognitive mec
 
 ## n.d. — Pennington, D. (n.d.). History of Social Cognition. *In Social Cognition Textbook.*
 
-**Full Citation:** Pennington — *History of Social Cognition* (uploaded PDF; historical chapter)
+**Full Citation:** Pennington, D. (n.d.). History of Social Cognition. *In Social Cognition Textbook.*
 
 **Topic Tags:** Field theory, Behaviorism, Cognitivism, Constructivism, Timeline terms
 
