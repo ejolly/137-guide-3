@@ -2,71 +2,6 @@
 
 _Key-points and high-level summaries of papers mentioned in lecture or included in optional-readings on Canvas_
 
-
----
-
-## 1884 — Abbott, E. A. (1884). Flatland. *Seeley & Co.*
-
-**Full Citation:** Abbott, E. A. (1884). *Flatland: A Romance of Many Dimensions.* Seeley & Co.
-
-**Topic Tags:** [To be determined]
-
-### Core Question / Problem
-
-[To be completed]
-
-### Conceptual or Computational Framework
-
-[To be completed]
-
-### Methods Overview
-
-[To be completed]
-
-### Key Findings
-
-[To be completed]
-
-### Interpretation & Significance
-
-[To be completed]
-
-### Connections
-
-[To be completed]
-
----
-
-## 1932 — Bartlett, F. (1932). Remembering: A Study in Experimental and Social Psychology. *Cambridge University Press.*
-
-**Full Citation:** Bartlett, F. (1932). *Remembering: A Study in Experimental and Social Psychology.* Cambridge University Press.
-
-**Topic Tags:** [To be determined]
-
-### Core Question / Problem
-
-[To be completed]
-
-### Conceptual or Computational Framework
-
-[To be completed]
-
-### Methods Overview
-
-[To be completed]
-
-### Key Findings
-
-[To be completed]
-
-### Interpretation & Significance
-
-[To be completed]
-
-### Connections
-
-[To be completed]
-
 ---
 
 ## 1944 — Heider, F., & Simmel, M. (1944). An Experimental Study of Apparent Behavior. *Journal of Psychology.*
@@ -118,38 +53,6 @@ Heider & Simmel provide a clear demonstration that perception alone can trigger 
 
 ---
 
-## 1951 — Lewin, K. (1951). Field Theory in Social Science. *Harper & Brothers.*
-
-**Full Citation:** Lewin, K. (1951). *Field Theory in Social Science: Selected Theoretical Papers.* Harper & Brothers.
-
-**Topic Tags:** [To be determined]
-
-### Core Question / Problem
-
-[To be completed]
-
-### Conceptual or Computational Framework
-
-[To be completed]
-
-### Methods Overview
-
-[To be completed]
-
-### Key Findings
-
-[To be completed]
-
-### Interpretation & Significance
-
-[To be completed]
-
-### Connections
-
-[To be completed]
-
----
-
 ## 1971 — Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy.*
 
 **Full Citation:** Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy* / collected essays.
@@ -198,33 +101,53 @@ Dennett offers a pragmatic account: intentionality as a tool, not a metaphysical
 
 ## 1973 — Johansson, G. (1973). Visual Perception of Biological Motion and a Model for Its Analysis. *Perception & Psychophysics.*
 
-**Full Citation:** Johansson, G. (1973). Visual perception of biological motion and a model for its analysis. *Perception & Psychophysics*, 14(2), 201-211.
+**Full Citation:** Johansson, G. (1973). Visual Perception of Biological Motion and a Model for Its Analysis. *Perception & Psychophysics*, 14(2), 201–211.  
 
-**Topic Tags:** [To be determined]
+**Topic Tags:** Biological Motion; Animacy; Perceptual Grouping; Vector Analysis; Representation
 
 ### Core Question / Problem
-
-[To be completed]
+How can observers recover rich information about biological actions (walking, running, dancing) from extremely sparse motion signals (point-light displays), and what computational principles might the visual system use to perform this inference?
 
 ### Conceptual or Computational Framework
-
-[To be completed]
+Johansson proposes a **visual vector-analysis** approach: the proximal motion field is decomposed into common (global/translatory) and residual (pendular/rotational) motion components; grouping is achieved by pooling elements that share equal motion components. Framed by Marr’s levels: (a) Computational — infer distal biological motion type from proximal motion; (b) Algorithmic — hierarchical vector decomposition and grouping; (c) Implementational — hypothesized low-level perceptual machinery (unspecified neural substrate).
 
 ### Methods Overview
-
-[To be completed]
+Experimental manipulations use point-light displays (typically 10–12 joint markers, variants with as few as 5), transformations that add/subtract global motion components, and controlled perturbations (rotations, phase shifts). Measures include rapid recognition, verbal descriptions, and forced-choice identification by naive observers viewing brief sequences.
 
 ### Key Findings
-
-[To be completed]
+- Sparse point-light configurations robustly evoke vivid impressions of human actions; observers identify actions quickly and reliably.  
+- Recognition remains rapid (<1 s) and resilient to large manipulations of common motion components, supporting an automatic decomposition process.  
+- Vector-analysis principles (subtract common components to reveal residual pendular/rotational motion) explain perception of articulated limbs and gait.  
+- Even very minimal displays (≈5 points) can suffice for reliable identification — kinematic relations (phase, pendular timing) carry the bulk of information.
 
 ### Interpretation & Significance
+This paper established point-light biological motion as a foundational paradigm for social perception: motion alone carries rich cues to animacy, action type, and identity. Johansson’s geometric-kinematic account emphasizes lawful, proximal computations that recover distal structure, seeding decades of work on biological motion, animacy detection, and neural substrates (e.g., STS/pSTS).
 
-[To be completed]
+### Computational-Social-Cognitive-Scientist Hat
+- **Lewin:** motion is ecologically valuable — life-space dynamics provide critical social information.
+- **Marr:** applauds the explicit algorithmic account (vector decomposition) but asks for formal representation and error metrics.
+- **Brunswik:** highlights which kinematic relations are reliable cues (phase, constant lengths) and how the system might weight them.
+
+### Teaching Hooks
+- Show classic point-light walker clips and ask students to name the action before revealing the source. 
+- Demonstration: remove global translation and show residual pendular motion to illustrate decomposition.
+
+### Pedagogical Lens
+- **Conceptual difficulty:** 2–3/5.  
+- **Pre-reqs:** basic motion perception, Gestalt grouping (common fate), central-projection geometry.  
+- **Exam prompt:** Explain how subtracting a common motion component reveals pendular residuals that support limb perception.
 
 ### Connections
+Links to Animacy, Mentalizing (motion cues can trigger social attributions), and Predictive Mind (motion provides input for forecasting actions). 
 
-[To be completed]
+### Key Quotes or Phrases
+- “10–12 such elements in adequate motion combinations evoke a compelling impression of human walking.” 
+
+### Concept Graph
+Joint-motion phase relations → perceived gait; Common-component subtraction → residual limb oscillation → animacy inference.
+
+### Relevant Terms
+**Existing Terms Used:** Biological Motion; Animacy; Perceptual Grouping; Representation. 
 
 ---
 
@@ -273,38 +196,6 @@ Premack & Woodruff’s paper launched ToM as an empirical question and a researc
 ### Concept Graph
 - Observed behavior + context → inferred knowledge state → predictive behavior (sender/receiver strategy)
 - Controlled manipulations → distinguish mentalizing vs behavior-reading
-
----
-
-## 1982 — Marr, D. (1982). Vision. *MIT Press.*
-
-**Full Citation:** Marr, D. (1982). *Vision: A Computational Investigation into the Human Representation and Processing of Visual Information.* MIT Press.
-
-**Topic Tags:** [To be determined]
-
-### Core Question / Problem
-
-[To be completed]
-
-### Conceptual or Computational Framework
-
-[To be completed]
-
-### Methods Overview
-
-[To be completed]
-
-### Key Findings
-
-[To be completed]
-
-### Interpretation & Significance
-
-[To be completed]
-
-### Connections
-
-[To be completed]
 
 ---
 
@@ -1176,67 +1067,107 @@ Links strongly to Predictive Mind, Generative Models, Mentalizing, the ACT‑FAS
 
 ---
 
-## 2023 — Tamir, D. I., & Thornton, M. A. (2023). Predicting Other People Shapes the Social Mind. *Annual Review of Psychology.*
+## 2023 — Tamir, D. I., & Thornton, M. A. (2023). Predicting Other People Shapes the Social Mind. *Advances in Experimental Social Psychology.*
 
-**Full Citation:** Tamir, D. I., & Thornton, M. A. (2023). Predicting other people shapes the social mind. *Annual Review of Psychology*, 74, 633-658.
+**Full Citation:** Tamir, D. I., & Thornton, M. A. (2023). Predicting other people shapes the social mind. In *Advances in Experimental Social Psychology.* Academic Press.  
 
-**Topic Tags:** [To be determined]
+**Topic Tags:** Mentalizing; Social Prediction; Theory of Mind; Predictive Mind; Generative Models; Representation; Transition Structure
 
 ### Core Question / Problem
-
-[To be completed]
+Is social knowledge primarily organized to support prediction of other people’s future behavior, and how does a predictive framing change representational organization compared to descriptive or label-based framings?
 
 ### Conceptual or Computational Framework
-
-[To be completed]
+Situated in predictive-processing / computational cognitive science: social cognition is tuned for forecasting. At Marr’s levels: (a) Computational — minimize surprise about others’ actions; (b) Algorithmic — representations and transition structures that encode how latent states generate observable actions over time; (c) Implementational — social brain regions that instantiate predictive representations.
 
 ### Methods Overview
-
-[To be completed]
+Integrates large behavioral paradigms, representational similarity analyses (RSA), clustering tasks contrasting predictive vs. descriptive prompts, prediction-learning experiments, cognitive modeling (transition/generative models), and neuroimaging analyses linking representational geometry to transition structure.
 
 ### Key Findings
-
-[To be completed]
+- Predictive framing reorganizes social representations: participants emphasize transition-relevant features when asked to predict, improving forecasting accuracy.  
+- RSA and behavioral clustering show predictive structure explains more variance in representational geometry than static label-based structures.  
+- Models that encode transitions/generative mappings outperform static trait-only models in explaining behavior.  
+- Neuroimaging evidence (where present) indicates mPFC/TPJ representational geometry aligns with predictive transition structures.
 
 ### Interpretation & Significance
+The paper reframes social cognition as an active prediction engine: representation and task goals (prediction vs description) shape mental organization. Emphasizing transition structure shifts theoretical focus from static trait inference to dynamic, generative models of agents, consistent with Predictive Mind frameworks.
 
-[To be completed]
+### Computational-Social-Cognitive-Scientist Hat
+- **Lewin:** sees representations (R) mediating person×environment dynamics (B = f(P,E,R)).  
+- **Marr:** supports mapping computational goal (predict) to algorithmic/representational proposals (transition matrices/generative models).  
+- **Brunswik:** asks about ecological validity and cue reliability — transition emphasis aligns with probabilistic cue-validity thinking.
+
+### Teaching Hooks
+- Analogy: social knowledge as a weather model — transitions matter more than snapshots.  
+- Figure idea: 2×2 contrast of trait-based vs transition-based grouping and resulting prediction differences.
+
+### Pedagogical Lens
+- **Pre-reqs:** predictive processing, RSA basics, ToM foundations.  
+- **Discussion prompt:** "If you could store one feature about a person to best predict future behavior, what would it be and why?"
 
 ### Connections
+Links to Predictive Mind, Generative Models, Thornton & Tamir work on transition structure and neural geometry.
 
-[To be completed]
+### Key Quotes or Phrases
+- “Social knowledge is organized to support accurate prediction of others.”  
+- “Transition structure — how states change over time — explains representational geometry better than static labels.”  
+
+### Concept Graph
+Latent states → generate actions (via generative models); Transition structure → organizes representation; Predictive task framing → reshapes representational geometry.
+
+### Relevant Terms
+**Existing Terms Used:** Mentalizing; Predictive Mind; Representation; Theory of Mind; Transition Structure.  
 
 ---
 
-## 2023 — Wheatley, T., Thornton, M. A., Stolk, A., & Chang, L. J. (2023). The Emerging Science of Interacting Minds. *Trends in Cognitive Sciences.*
+## 2023 — Wheatley, T., Thornton, M. A., Stolk, A., & Chang, L. J. (2023). The Emerging Science of Interacting Minds. *Perspectives on Psychological Science.*
 
-**Full Citation:** Wheatley, T., Thornton, M. A., Stolk, A., & Chang, L. J. (2023). The emerging science of interacting minds. *Trends in Cognitive Sciences*, 27(4), 346-359.
+**Full Citation:** Wheatley, T., Thornton, M. A., Stolk, A., & Chang, L. J. (2023). The emerging science of interacting minds. *Perspectives on Psychological Science: A Journal of the Association for Psychological Science.* https://doi.org/10.1177/17456916231200177  
 
-**Topic Tags:** [To be determined]
+**Topic Tags:** Interacting Minds; Synchrony; Mutual Prediction; Neural Coupling; Cross-Modal Dynamics; Representation
 
 ### Core Question / Problem
-
-[To be completed]
+How should cognitive science conceptualize and study *interacting minds* — cognition that arises in real-time social interaction — and what computational and neural mechanisms support interpersonal coordination, synchrony, and shared meaning?
 
 ### Conceptual or Computational Framework
-
-[To be completed]
+The authors synthesize dynamical-systems (coupled oscillators, synchrony), predictive-processing (mutual prediction, joint error minimization), and representation-level accounts (shared representations, representational alignment). Mapped to Marr: (a) Computational — coordinate behavior and communication; (b) Algorithmic — predictive loops, phase-locking, cross-modal alignment; (c) Implementational — inter-brain coupling measurable with hyperscanning and shared representational patterns in social brain areas.  
 
 ### Methods Overview
+Review integrates behavioral synchrony tasks, musical/movement naturalistic stimuli, computational models (coupled oscillators), and neuroimaging hyperscanning (EEG/fMRI) plus multivariate representational analyses and causal perturbations.
 
-[To be completed]
-
-### Key Findings
-
-[To be completed]
+### Key Findings / Synthesized Insights
+- **Synchrony as mechanism:** temporal alignment across behavior, physiology, and neural signals supports affiliation and smoother prediction.  
+- **Mutual prediction:** reciprocal generative models (each agent predicts the other) can produce spontaneous alignment.  
+- **Cross-modal codes:** movement and music share dynamic structures facilitating cross-modal emotion/action understanding.  
+- **Neural coupling:** hyperscanning shows interbrain synchrony correlates with cooperative success and shared meaning; representational alignment occurs in social brain regions.
 
 ### Interpretation & Significance
+The review reframes social cognition as an emergent, interactive phenomenon: cognition arises from coupling across agents, implying new computational goals (e.g., minimize joint prediction error) and methods (hyperscanning, naturalistic interaction tasks). It argues for importing dynamical systems and control theory tools into social cognitive science.  
 
-[To be completed]
+### Computational-Social-Cognitive-Scientist Hat
+- **Lewin:** person-in-environment dynamics fit a Lewinian life-space perspective.  
+- **Marr:** pushes for clear computational goals for interaction (joint error minimization) and algorithmic proposals mapping to measurable signals.  
+- **Brunswik:** asks about ecological cue validity for interaction cues — the review addresses this with cross-modal/synchrony evidence.  
+
+### Teaching Hooks
+- Live in-class synchrony demo (clap-in-time) to feel affiliation effects.  
+- Analogy: coupled metronomes synchronizing — short video demo.
+
+### Pedagogical Lens
+- **Conceptual difficulty:** 3–4/5.  
+- **Pre-reqs:** basic dynamics (phase, frequency), predictive coding, RSA/hyperscanning basics.  
+- **Common misconception:** neural synchrony ≠ merging minds; it’s correlation (sometimes causally relevant).
 
 ### Connections
+Ties to Predictive Mind, Biological Motion (as interaction cue), Cross-Modal Dynamics, and empirical synchrony literature (e.g., Sievers et al., Wheatley et al. 2012).  
 
-[To be completed]
+### Key Quotes or Phrases
+- “Interaction is not simply two isolated minds added together — it is an emergent process of coupling.”  
+
+### Concept Graph
+Action timing ↔ partner prediction (aligned timing reduces mutual prediction error); Cross-modal dynamics → shared meaning; Neural coupling ↔ behavioral synchrony.
+
+### Relevant Terms
+**Existing Terms Used:** Synchrony; Predictive Mind; Cross-Modal Dynamics; Representation.  
 
 ---
 

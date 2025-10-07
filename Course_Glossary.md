@@ -4,7 +4,7 @@
 
 **How to use this glossary**
 
-- **Scope:** Terms covered so far (Lectures 09‑25, 09‑29, 10‑01, 10‑03). Brain region names (e.g., mPFC, TPJ/STS) and paper-title entries (e.g., "Castelli et al.") are intentionally omitted.
+- **Scope:** Terms covered so far (Lectures 09‑25, 09‑29, 10‑01, 10‑03)
 - **Style:** Concepts are not eponyms (e.g., **Intentional Stance**, not *Dennett's Intentional Stance*). Key figures are listed separately under **People** or within each entry as **Notable Figures**.
 - **Alternative phrasings:** Where lecture slides and glossaries differed, multiple phrasings are listed for clarity.
 - **Citations:** References to optional course readings and slide numbers are provided for additional context.
@@ -221,8 +221,15 @@ Brains continuously **generate predictions** and update via **prediction errors*
 
 ### Representation
 
-An **internal encoding** that mediates between perception and action; the modern addition to Lewin’s equation (*B = f(P, E, R)*).\
+An **internal encoding** that mediates between perception and action; the modern addition to Lewin’s equation (*B = f(P, E, R)*); predictive in nature\
 **Related Concepts:** Central to **Cognitivism**, **Computational Models**, and **Predictive Mind**.
+
+### Synchrony
+
+**Time-locked coupling** across neural, physiological, and behavioral signals between interacting agents that supports **mutual prediction** and connection. Synchrony serves as both an index (marker) and mechanism (causal factor) for social bonding — aligning communication windows to reduce prediction error and creating subjective experiences of closeness.\
+**Example:** People tapping in rhythm together report increased trust and liking; musical ensembles and religious rituals exploit synchrony for group cohesion.\
+**Citations:** Wheatley et al. (2012), Wheatley et al. (2023)\
+**Related Concepts:** supports **Predictive Mind** (phase alignment reduces joint prediction error); linked to **Cross-Modal Dynamics** and **Biological Motion** as interaction cues.
 
 ### Symbolic System (SS)
 
