@@ -5,6 +5,70 @@ _Key-points and high-level summaries of papers mentioned in lecture or included 
 
 ---
 
+## 1884 — Abbott, E. A. (1884). Flatland. *Seeley & Co.*
+
+**Full Citation:** Abbott, E. A. (1884). *Flatland: A Romance of Many Dimensions.* Seeley & Co.
+
+**Topic Tags:** [To be determined]
+
+### Core Question / Problem
+
+[To be completed]
+
+### Conceptual or Computational Framework
+
+[To be completed]
+
+### Methods Overview
+
+[To be completed]
+
+### Key Findings
+
+[To be completed]
+
+### Interpretation & Significance
+
+[To be completed]
+
+### Connections
+
+[To be completed]
+
+---
+
+## 1932 — Bartlett, F. (1932). Remembering: A Study in Experimental and Social Psychology. *Cambridge University Press.*
+
+**Full Citation:** Bartlett, F. (1932). *Remembering: A Study in Experimental and Social Psychology.* Cambridge University Press.
+
+**Topic Tags:** [To be determined]
+
+### Core Question / Problem
+
+[To be completed]
+
+### Conceptual or Computational Framework
+
+[To be completed]
+
+### Methods Overview
+
+[To be completed]
+
+### Key Findings
+
+[To be completed]
+
+### Interpretation & Significance
+
+[To be completed]
+
+### Connections
+
+[To be completed]
+
+---
+
 ## 1944 — Heider, F., & Simmel, M. (1944). An Experimental Study of Apparent Behavior. *Journal of Psychology.*
 
 **Full Citation:** Heider, F., & Simmel, M. (1944). *An Experimental Study of Apparent Behavior.* Journal of Psychology.
@@ -54,6 +118,38 @@ Heider & Simmel provide a clear demonstration that perception alone can trigger 
 
 ---
 
+## 1951 — Lewin, K. (1951). Field Theory in Social Science. *Harper & Brothers.*
+
+**Full Citation:** Lewin, K. (1951). *Field Theory in Social Science: Selected Theoretical Papers.* Harper & Brothers.
+
+**Topic Tags:** [To be determined]
+
+### Core Question / Problem
+
+[To be completed]
+
+### Conceptual or Computational Framework
+
+[To be completed]
+
+### Methods Overview
+
+[To be completed]
+
+### Key Findings
+
+[To be completed]
+
+### Interpretation & Significance
+
+[To be completed]
+
+### Connections
+
+[To be completed]
+
+---
+
 ## 1971 — Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy.*
 
 **Full Citation:** Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy* / collected essays.
@@ -97,6 +193,38 @@ Dennett offers a pragmatic account: intentionality as a tool, not a metaphysical
 
 ### Concept Graph
 - System complexity → choice of stance (physical/design/intentional) → prediction accuracy.
+
+---
+
+## 1973 — Johansson, G. (1973). Visual Perception of Biological Motion and a Model for Its Analysis. *Perception & Psychophysics.*
+
+**Full Citation:** Johansson, G. (1973). Visual perception of biological motion and a model for its analysis. *Perception & Psychophysics*, 14(2), 201-211.
+
+**Topic Tags:** [To be determined]
+
+### Core Question / Problem
+
+[To be completed]
+
+### Conceptual or Computational Framework
+
+[To be completed]
+
+### Methods Overview
+
+[To be completed]
+
+### Key Findings
+
+[To be completed]
+
+### Interpretation & Significance
+
+[To be completed]
+
+### Connections
+
+[To be completed]
 
 ---
 
@@ -145,6 +273,38 @@ Premack & Woodruff’s paper launched ToM as an empirical question and a researc
 ### Concept Graph
 - Observed behavior + context → inferred knowledge state → predictive behavior (sender/receiver strategy)
 - Controlled manipulations → distinguish mentalizing vs behavior-reading
+
+---
+
+## 1982 — Marr, D. (1982). Vision. *MIT Press.*
+
+**Full Citation:** Marr, D. (1982). *Vision: A Computational Investigation into the Human Representation and Processing of Visual Information.* MIT Press.
+
+**Topic Tags:** [To be determined]
+
+### Core Question / Problem
+
+[To be completed]
+
+### Conceptual or Computational Framework
+
+[To be completed]
+
+### Methods Overview
+
+[To be completed]
+
+### Key Findings
+
+[To be completed]
+
+### Interpretation & Significance
+
+[To be completed]
+
+### Connections
+
+[To be completed]
 
 ---
 
@@ -1013,6 +1173,70 @@ Links strongly to Predictive Mind, Generative Models, Mentalizing, the ACT‑FAS
 - Transition probabilities + conceptual maps → enable prediction of next states/actions.\
 - Neural geometry (mPFC, STS/ATL) ↔ encodes the same dimensions → allows readout of predictions.
   - **ACT‑FAST Taxonomy:** A compact action taxonomy outlining dimensions (e.g., Agency, Competence, Temporal features) used to scaffold action prediction across domains. **Notable Figures:** Thornton & Tamir. **Related Concepts:** Action representation; Transition Structure.
+
+---
+
+## 2023 — Tamir, D. I., & Thornton, M. A. (2023). Predicting Other People Shapes the Social Mind. *Annual Review of Psychology.*
+
+**Full Citation:** Tamir, D. I., & Thornton, M. A. (2023). Predicting other people shapes the social mind. *Annual Review of Psychology*, 74, 633-658.
+
+**Topic Tags:** [To be determined]
+
+### Core Question / Problem
+
+[To be completed]
+
+### Conceptual or Computational Framework
+
+[To be completed]
+
+### Methods Overview
+
+[To be completed]
+
+### Key Findings
+
+[To be completed]
+
+### Interpretation & Significance
+
+[To be completed]
+
+### Connections
+
+[To be completed]
+
+---
+
+## 2023 — Wheatley, T., Thornton, M. A., Stolk, A., & Chang, L. J. (2023). The Emerging Science of Interacting Minds. *Trends in Cognitive Sciences.*
+
+**Full Citation:** Wheatley, T., Thornton, M. A., Stolk, A., & Chang, L. J. (2023). The emerging science of interacting minds. *Trends in Cognitive Sciences*, 27(4), 346-359.
+
+**Topic Tags:** [To be determined]
+
+### Core Question / Problem
+
+[To be completed]
+
+### Conceptual or Computational Framework
+
+[To be completed]
+
+### Methods Overview
+
+[To be completed]
+
+### Key Findings
+
+[To be completed]
+
+### Interpretation & Significance
+
+[To be completed]
+
+### Connections
+
+[To be completed]
 
 ---
 
