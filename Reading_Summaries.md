@@ -60,42 +60,42 @@ Heider & Simmel provide a clear demonstration that perception alone can trigger 
 
 **Topic Tags:** intentional stance, design stance, physical stance, intentional systems, rationality, heuristics
 
-##### Core Question / Problem
+### Core Question / Problem
 What does it mean to treat systems (organisms, machines) as having beliefs and desires — and how useful is that strategy for explanation and prediction?
 
-##### Conceptual or Computational Framework
-Dennett defines an Intentional System as any system whose behavior can be predicted by ascribing beliefs, desires, and rationality. He contrasts three explanatory stances: Physical (laws), Design (function), and Intentional (attributing mental states). The intentional stance is a heuristically powerful, stance‑level algorithm for prediction. Map to Marr: computational level = predicting behavior; algorithmic level = adopting a stance (rule set for ascription); implementational level = physical/biological substrate (irrelevant to stance validity). 
+### Conceptual or Computational Framework
+Dennett defines an Intentional System as any system whose behavior can be predicted by ascribing beliefs, desires, and rationality. He contrasts three explanatory stances: Physical (laws), Design (function), and Intentional (attributing mental states). The intentional stance is a heuristically powerful, stance‑level algorithm for prediction. Map to Marr: computational level = predicting behavior; algorithmic level = adopting a stance (rule set for ascription); implementational level = physical/biological substrate (irrelevant to stance validity).
 
-##### Methods Overview
+### Methods Overview
 Philosophical analysis and illustration (AI/chess, game theory, Skinner’s behaviorism counterexamples). Dennett uses thought experiments and cross‑disciplinary examples (economics, AI) to show how intentional descriptions simplify complex design problems.
 
-##### Key Findings
-- Intentional characterization is useful even for non‑biological systems (chess programs) and yields genuine predictive power without needing metaphysical claims about consciousness.   
-- Treating agents as rational approximators explains why economics and game theory succeed even if psychology must explain that rationality.   
+### Key Findings
+- Intentional characterization is useful even for non‑biological systems (chess programs) and yields genuine predictive power without needing metaphysical claims about consciousness.
+- Treating agents as rational approximators explains why economics and game theory succeed even if psychology must explain that rationality.
 - The concept is "uncluttered" — it avoids metaphysical commitments and focuses on predictive/organizational utility.
 
-##### Interpretation & Significance
+### Interpretation & Significance
 Dennett offers a pragmatic account: intentionality as a tool, not a metaphysical property. For social cognition, this legitimizes mental‑state attribution as an adaptive predictive strategy (aligns with course’s Intentional Stance entry). It also explains cross‑disciplinary borrowings (AI, economics) where intentional terms function as useful heuristics. 
 
-##### Computational‑Social‑Cognitive‑Scientist Hat
-- Lewin: Intentional ascription is a representational heuristic within the life‑space affecting behavior prediction.   
+### Computational‑Social‑Cognitive‑Scientist Hat
+- Lewin: Intentional ascription is a representational heuristic within the life‑space affecting behavior prediction.
 - Marr: Intentional stance sits at an algorithmic/heuristic level for social prediction.
 
-##### Teaching Hooks
+### Teaching Hooks
 - Use chess programs and thermostats to show when intentional attributions help/hinder prediction.  
 - Contrast with Searle’s Chinese Room (see the Précis commentary) to spark debate about "real" intentionality.
 
-##### Pedagogical Lens
-- Prereqs: Familiarity with basic philosophy of mind and attribution theory.  
+### Pedagogical Lens
+- Prereqs: Familiarity with basic philosophy of mind and attribution theory.
 - Misconceptions: That ascribing beliefs requires consciousness.
 
-##### Connections
+### Connections
 - Directly connects to Intentional Stance, Design Stance, Mentalizing, and Generative Models in the glossary. 
 
-##### Key Quotes or Phrases
-- "The concept of an Intentional system is a relatively uncluttered and unmetaphysical notion." 
+### Key Quotes or Phrases
+- "The concept of an Intentional system is a relatively uncluttered and unmetaphysical notion."
 
-##### Concept Graph
+### Concept Graph
 - System complexity → choice of stance (physical/design/intentional) → prediction accuracy.
 
 ---
@@ -197,10 +197,10 @@ Connects to Representations, Marr’s Levels, the Physical/Design/Intentional st
 - IPL / GPS implementations → historic demonstrations of symbolic adequacy.\
 - Newell & Simon Test → evaluation criterion for cognitive theories.
 
-##### Newell & Simon Test
+### Newell & Simon Test
 A set of practical criteria for evaluating whether a theory of cognition can adequately express and operate on the symbolic structures it posits (a stronger test than the Turing test for claims about cognitive architectures). Notable Figures: A. Newell, H. A. Simon. Related Concepts: Physical Symbol System; Representation.
 
-##### Symbolic System (SS)
+### Symbolic System (SS)
 A canonical architecture composed of Memory, Control, Input/Output, and Operators (Assign, Copy, Read, Write, Do, Continue‐IF, Quote, Behave). Serves as a template for testing symbolic theories. Notable Figures: Newell & Simon. Related Concepts: IPL, GPS.
 
 ---
@@ -260,38 +260,38 @@ Mitchell reframes social cognition as computational inference. This matters peda
 
 **Topic Tags:** mind perception, agency, experience, dimensionality reduction, social evaluation
 
-##### Core Question / Problem
+### Core Question / Problem
 Do people represent minds in others along meaningful dimensions, and if so, what are those dimensions and their psychological consequences?
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 Gray et al. provide experimental evidence for a low-dimensional representation of minds (primarily Agency and Experience). At Marr’s levels: computational goal = compress a high-dimensional space of possible mental features into tractable dimensions for fast inference; algorithmic = two-dimensional mapping; implementational = patterns of attribution consistent across participants and correlations with moral judgments.
 
-##### Methods Overview
+### Methods Overview
 Multiple experiments: participants rated a variety of targets (humans, animals, gods, robots) on trait adjectives; principal components / factor analyses revealed two stable dimensions. Follow-up behavioral measures connect dimensions to moral judgments and perceived responsibility.
 
-##### Key Findings
+### Key Findings
 - A two-factor structure (Experience, Agency) captures most variance in mind attributions.
 - These dimensions predict distinct moral consequences: Experience predicts moral rights (do not harm), Agency predicts moral responsibility (blame, praise).
 
-##### Interpretation & Significance
+### Interpretation & Significance
 A compact representational account explains diverse phenomena — anthropomorphism, dehumanization, moral judgments — by showing that a small set of latent dimensions governs social inference. This aligns with computational cognitive science’s emphasis on compressed representations for efficient prediction.
 
-##### Teaching Hooks
+### Teaching Hooks
 - Quick rating exercise: give students target list (baby, dog, robot, corpse) and ask them to place each on two axes.
 - Explain PCA as a method for discovering dimensions.
 
-##### Pedagogical Lens
+### Pedagogical Lens
 - Difficulty: 2/5
 - Pre-reqs: basic stats (factor/PCA), ToM
 - Misconception: dimensions are mutually exclusive; many targets score on both.
 
-##### Connections
+### Connections
 - Strongly connected to Epley & Waytz, Waytz et al., and course glossary terms like agency/experience and moral typecasting.
 
-##### Key Quotes or Phrases
+### Key Quotes or Phrases
 - "Mind perception is organized along dimensions of experience and agency."
 
-##### Concept Graph
+### Concept Graph
 - Target features → (map to) Agency/Experience → (drive) moral judgments.
 
 ---
@@ -302,46 +302,46 @@ A compact representational account explains diverse phenomena — anthropomorphi
 
 **Topic Tags:** mentalizing, mind perception, anthropomorphism, agency, experience, attribution
 
-##### Core Question / Problem
+### Core Question / Problem
 When and why do people attribute minds to others (including non-human agents), and what are the psychological consequences of those attributions?
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 This chapter frames mind perception as a two-dimensional representational space — **Experience** (capacity to feel) and **Agency** (capacity to act/plan) — that underlies anthropomorphism and mentalizing. At the computational level, the problem is: given observable behavior, how should a perceiver infer hidden mental-state variables (feelings, intentions) for prediction and social coordination? Algorithmically, people use quick heuristics (similarity, causal uncertainty, need for social connection) and stance-taking (intentional/design/physical) to map observable cues to latent mental attributes. Implementationally, the chapter points to neural correlates (e.g., mPFC) for social inference.
 
-##### Methods Overview
+### Methods Overview
 This is a theory-and-review chapter synthesizing developmental studies (infancy sensitivity to goal-directed motion), experimental manipulations that trigger anthropomorphism (loneliness, lack of control), neuroimaging contrasts showing differential MPFC activation, and cross-species comparisons. The chapter emphasizes converging behavioral and correlational evidence rather than a single new experiment.
 
-##### Key Findings
+### Key Findings
 - People represent minds along two stable dimensions: **Agency** and **Experience**. 
 - Perceiver motives (need for understanding, control, or social connection) and perceived target features (human-likeness, unpredictability, similarity) jointly determine mind attributions.
 - Attributing mind changes moral treatment: agents are more blameworthy; patients more deserving of moral rights.
 - Anthropomorphism can be adaptive (satisfying effectance or social needs) and maladaptive (objectification or moral neglect).
 
-##### Interpretation & Significance
+### Interpretation & Significance
 Epley & Waytz synthesize scattered literatures into a compact representational model that explains when people ascribe minds and why it matters for moral judgment and social behavior. For the course’s computational lens, their synthesis shows how representational constraints (agency vs experience) guide fast inference strategies that act like approximate generative models for social prediction.
 
-##### Computational-Social-Cognitive-Scientist Hat
+### Computational-Social-Cognitive-Scientist Hat
 - Kurt Lewin: This account operationalizes *B = f(P, E)* by showing how perceiver state (P) and environment/target (E) map to representations (R) of mind.
 - David Marr: Marr’s computational level = “explain/predict others’ behavior”; algorithmic = the two-dimension heuristic + stance-taking; implementational = social brain circuits (mPFC, TPJ).
 - Egon Brunswik: Ecological validity arises from the reliability of cues (human-like motion, contingency).
 
-##### Teaching Hooks
+### Teaching Hooks
 - Play a short Heider & Simmel clip (triangles) and ask students to annotate perceived feelings/intentions.
 - Analogy: mind perception as a 2‑axis map (agency x experience) — place pets, infants, robots, corporations on the map.
 
-##### Pedagogical Lens
+### Pedagogical Lens
 - Pre-requisite ideas: Attributions, basic experimental logic, representational models
 - Common misconceptions: Anthropomorphism = irrational; in fact it is often goal-directed inference.
 - Prompt: "Design a 5-minute experiment that tests whether loneliness increases agency or experience attributions to a household object."
 
-##### Connections
+### Connections
 - Marr’s levels, intentional stance (Dennett), predictive mind, moral typecasting.
 
-##### Key Quotes or Phrases
+### Key Quotes or Phrases
 - "Mind perception organizes in terms of capacity to feel and capacity to plan." 
 - "Ascribing a mind confers moral standing and responsibility."
 
-##### Concept Graph
+### Concept Graph
 - Perceiver motives → (increase) Anthopomorphism because they raise need for effectance.
 - Humanlike cues → (increase) Agency/Experience because of cue reliability.
 - Mind attribution → (causes) Moral status shifts (rights or blame).
@@ -354,47 +354,47 @@ Epley & Waytz synthesize scattered literatures into a compact representational m
 
 **Topic Tags:** mentalizing, mind perception, animacy, agency, experience
 
-##### Core Question / Problem
+### Core Question / Problem
 How do people perceive "minds" in others (human and non‑human), what dimensions organize those perceptions, and how do those perceptions influence social judgment and behavior?
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 Epley & Waytz frame mind perception as a graded, two‑dimensional attributional space (Experience vs Agency) that functions as an early *preattributional* step in social cognition: first, perceivers ask “Does it have a mind?” then “What state is it in?”. This sits naturally at Marr’s Algorithmic level (representations: 2‑D mind space; operations: cues→attribution) and connects to the Computational level via the goal of enabling prediction and coordination in social environments.
 
-##### Methods Overview
+### Methods Overview
 This is a conceptual synthesis and review integrating laboratory experiments (e.g., cue manipulations that trigger animacy), developmental studies (infant sensitivity to teleology/goal-directed motion), cross‑cultural evidence, and moral judgment paradigms (e.g., attributions of responsibility and dehumanization). Core manipulations reviewed include motion cues, agency cues, moral contexts, and social distance (ingroup/outgroup).
 
-##### Key Findings
+### Key Findings
 - Mind perception is structured primarily along two separable dimensions: **Experience** (capacity to feel) and **Agency** (capacity to plan/act). These vary independently across targets (e.g., pets = high experience/low agency; gods = high agency/low experience). 
 - Perceivers use perceptual and contextual cues (animacy, goal‑directed motion, social closeness) to infer mind status; these inferences serve predictive and moral functions (assigning blame/praise, granting moral worth). 
 - Mind perception is modulated by social distance and culture: ingroup members are attributed richer mental capacities than distant outgroups, and interdependent cultures show greater habitual perspective taking. 
 - Errors and biases occur: people over‑attribute intentionality (leading to blame) and under‑attribute experience to dehumanized groups; activation of mind perception is effortful and context‑dependent. 
 
-##### Interpretation & Significance
+### Interpretation & Significance
 Epley & Waytz show that mind perception is not a binary cognitive act but a graded representational mapping that scaffolds later causal attributions and moral evaluations. Mechanistically, the two‑dimensional representation compresses complex mental states into actionable summaries for social coordination and prediction. In course framing, this work demonstrates how Lewin’s B = f(P,E,R) benefits from an explicit representation (R) for other minds and connects to the Predictive Mind: attributing mental states improves prediction and coordination.
 
-##### Computational‑Social‑Cognitive‑Scientist Hat
+### Computational‑Social‑Cognitive‑Scientist Hat
 - Lewin: Mind perception supplies the “R” (representation) that mediates how person and environment produce behavior.
 - Marr: Algorithmic level — the two‑dimensional mind map is the representation; computational level — goal is accurate social prediction & moral evaluation.
 - Brunswik: Emphasizes cue validity and ecological sampling — which cues reliably indicate agency or experience across contexts.
 
-##### Teaching Hooks
+### Teaching Hooks
 - Show Heider & Simmel animation and ask students to rate Experience/Agency for shapes.
 - Moral vignette: vary perceived agency (intentional vs accidental) to generate graded blame judgments.
 - Cultural comparison activity: short negotiation task with manipulated interdependence prompts.
 
-##### Pedagogical Lens
+### Pedagogical Lens
 - Pre‑requisites: basic attribution theory; Heider & Simmel; dimensions (warmth/competence) analogy.
 - Common misconceptions: mind perception = ToM; actually it’s a perceptual/preattributional step.
 - Exam prompt: "Explain how Experience and Agency differ and why each matters for moral judgment. Provide experimental evidence."
 
-##### Connections
+### Connections
 Links to animacy, intentional stance, Theory of Mind, predictive processing, and dehumanization literature. Useful precursor reading before Wang et al. (2025).
 
-##### Key Quotes or Phrases
+### Key Quotes or Phrases
 - "Mind perception is a pre‑attributional process: first do we see a mind, then what is that mind like?" 
 - "Perceiving mindful agency is tied to causal responsibility; perceiving experience is tied to moral worth." 
 
-##### Concept Graph
+### Concept Graph
 - Perceptual cues → (animacy detection) → Mind presence estimate → Map onto (Agency, Experience) → Guides prediction & moral judgment.
 
 ---
@@ -505,11 +505,11 @@ Ties to animacy detection (Wheatley’s ERP animacy tipping point work), mirror/
 ### Concept Graph
 - Mind detection (face/voice/motion) → simulation (resonance, contagion) → behavioral synchrony (anticipation) → neural entrainment → reward & bonding.
 
-##### Synchrony
+### Synchrony
 **Definition:** Time-locked coupling across neural, physiological, and behavioral signals between interacting agents that supports mutual prediction and partial access to internal states.
 **Related Concepts:** synchrony, resonance, neural entrainment, simulation.
 
-##### Neural efficiency (social sense)
+### Neural efficiency (social sense)
 **Definition:** A reduction in processing cost achieved when the perceiver and perceived entrain neural dynamics, aligning communication windows and lowering prediction-error propagation during interaction.
 **Related Concepts:** predictive processing, entrainment, reward.
 
@@ -626,45 +626,45 @@ Hohwy’s book sharpens predictive-processing into a philosophically rigorous th
 
 **Topic Tags:** impression formation, person perception, attribution, heuristics, warmth/competence
 
-##### Core Question / Problem
+### Core Question / Problem
 How do perceivers form stable impressions from limited behavioral data, what representational structures support impressions (e.g., trait inference, schema), and how have theories evolved historically?
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 Uleman & Kressel trace impression formation from trait averaging and associative network models to modern constructive frameworks emphasizing schemata and predictive representations. Map: Computational (goal = accurate social inference and memory efficiency), Algorithmic (representations: trait nodes, schemas, associative weights), Implementational (memory systems, attention).
 
-##### Methods Overview
+### Methods Overview
 This review synthesizes decades of laboratory paradigms: trait inference tasks, spontaneous trait transference, person memory paradigms, and comparative judgments across individuals and groups. Key manipulations include exposure content (behavior descriptions), trait diagnosticity, and context (semantic priming, group stereotypes).
 
-##### Key Findings
+### Key Findings
 - Impression formation exhibits regularities: two fundamental evaluative dimensions (warmth/competence) robustly structure judgments across targets and contexts. 
 - Schemas and associative networks explain many ordering and memory effects: perceivers use prior knowledge to fill gaps and generate stable trait impressions even from sparse data. 
 - Perceiver goals, attention, and social visibility modulate accuracy vs bias: reputations are more accurate for well‑known targets; for unfamiliar targets, prior theories drive impressions. 
 
-##### Interpretation & Significance
+### Interpretation & Significance
 The paper situates impression formation as both adaptive (fast, memory‑efficient) and error‑prone (biases from priors and schemas). For computational social cognition, it highlights the need to model how priors, evidence sampling, and representational compression trade off accuracy for efficiency — a classic rational analysis problem.
 
-##### Computational‑Social‑Cognitive‑Scientist Hat
+### Computational‑Social‑Cognitive‑Scientist Hat
 - Lewin: Impression = R in B = f(P,E,R) — internal "life‑space" encoding of others.
 - Marr: Algorithmic focus on how trait‑based or schema representations map behaviors to predictions.
 - Brunswik: Stresses ecological validity — cue reliability matters for accurate impressions.
 
-##### Teaching Hooks
+### Teaching Hooks
 - Short "vignette swap" in class: give students minimal behaviors and see how trait attributions converge.
 - Warmth/Competence quadrant exercise with celebrities or brands.
 
-##### Pedagogical Lens
+### Pedagogical Lens
 - Pre‑requisites: basic memory and schema theory, attribution basics
 - Misconceptions: Averaging vs weighted diagnostic inference — perceivers often privilege diagnostic behaviors.
 - Exam prompt: "Describe two models of impression formation (trait averaging vs schema‑based) and design an experiment to distinguish them."
 
-##### Connections
+### Connections
 Links to mind perception (pre‑attributional stages), stereotyping research, and predictive processing via priors/schemas.
 
-##### Key Quotes or Phrases
+### Key Quotes or Phrases
 - "Two fundamental dimensions — warmth and competence — keep reappearing in impressions of both individuals and groups." 
 - "Reputations are more accurate for well‑known individuals; for less‑known targets, prior theories dominate." 
 
-##### Concept Graph
+### Concept Graph
 - Observed behaviors → trait inference (diagnostic weighting) → memory/schema updating → predicted future behavior.
 
 ---
@@ -675,43 +675,43 @@ Links to mind perception (pre‑attributional stages), stereotyping research, an
 
 **Topic Tags:** mentalizing, clinical mentalizing, social prediction, developmental trajectories
 
-##### Core Question / Problem
+### Core Question / Problem
 What is mentalizing (clinical and cognitive), how does it develop, and why is it central to both healthy social functioning and clinical disorders where it breaks down (e.g., borderline personality disorder)?
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 Freeman provides a clinically oriented account of mentalizing as a multi-component capacity: representing others' mental states, monitoring self-other boundaries, and using those representations to regulate social action. At Marr’s computational level: the goal is accurate prediction and regulation of social interactions. Algorithmically, mentalizing requires layered representations (beliefs, desires, meta-representations) and monitoring processes that arbitrate when to use self-projection vs analytic inference. Implementation links to attachment systems and neural circuitry supporting affect regulation.
 
-##### Methods Overview
+### Methods Overview
 Review integrating clinical case studies, developmental psychology, and theoretical synthesis from attachment theory and psychoanalytic research. Emphasizes longitudinal and therapeutic evidence that improving reflective functioning (mentalizing) benefits social outcomes.
 
-##### Key Findings
+### Key Findings
 - Mentalizing spans implicit automatic inference and explicit controlled reasoning.
 - Development relies on caregiver attunement and secure attachment; deficits produce clinical symptoms.
 - Training mentalizing (e.g., mentalization-based therapy) improves outcomes in personality disorders.
 
-##### Interpretation & Significance
+### Interpretation & Significance
 This overview links cognitive-science models of mental state inference to clinical practice, showing that mechanistic accounts of social prediction can inform therapeutic interventions. For PSYC 137, it provides a bridge from lab-based models (generative models, prediction errors) to real-world social functioning and psychopathology.
 
-##### Computational-Social-Cognitive-Scientist Hat
+### Computational-Social-Cognitive-Scientist Hat
 - Lewin: clinical states shift P (perceiver) and thus distort R (representations).
 - Marr: computational goal = stable social coordination; algorithmic deficits explain symptoms.
 
-##### Teaching Hooks
+### Teaching Hooks
 - Case vignette exercise where students diagnose mentalizing failure and propose an intervention.
 - Demonstrate implicit vs explicit mentalizing with rapid video inference vs reasoning prompts.
 
-##### Pedagogical Lens
+### Pedagogical Lens
 - Difficulty: 3/5
 - Pre-reqs: basic ToM, attachment theory
 - Misconception: mentalizing is only 'theory of mind' — it's broader (self-other boundaries, emotion regulation).
 
-##### Connections
+### Connections
 - Links to developmental ToM literature, predictive mind models, and therapeutic practices (MBT).
 
-##### Key Quotes or Phrases
+### Key Quotes or Phrases
 - "Mentalizing is a process we are continually engaged in whether implicitly or explicitly."
 
-##### Concept Graph
+### Concept Graph
 - Attachment security → (supports) Accurate mentalizing → (improves) social regulation.
 
 ---
@@ -722,46 +722,46 @@ This overview links cognitive-science models of mental state inference to clinic
 
 **Topic Tags:** computational neuroscience, representational models, deep neural networks, Marr's levels, task-performing models
 
-##### Core Question / Problem
+### Core Question / Problem
 How can cognitive science, computational neuroscience, and artificial intelligence be productively integrated to explain brain information processing? The paper asks what it means to “understand the brain” and argues for building task-performing computational models that are constrained by brain and behavioral data.
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 The authors propose a *cognitive computational neuroscience* program: development of brain‑computational models (BCMs) that (a) perform cognitive tasks, (b) are neurobiologically plausible at an appropriate level, and (c) predict detailed patterns of brain activity and behavior. Mapped to Marr’s levels: the work stresses integrating the computational level (what problem is solved), algorithmic/representational level (how representations and algorithms realize the computation), and the implementational level (how neural dynamics plausibly implement those algorithms).
 
-##### Methods Overview
+### Methods Overview
 This is a synthesis / review. It surveys representational analyses (encoding/decoding/RSA), connectivity and dynamical models, neural network (deep) models, and cognitive-level formalisms (production systems, reinforcement learning, Bayesian models). The paper highlights studies that test models’ internal representations against neuronal and fMRI data (e.g., deep nets predicting ventral-stream responses).
 
-##### Key Findings
+### Key Findings
 - Representational and decoding approaches reveal what information is present in brain regions but are insufficient alone to explain computational mechanisms.
 - Deep convolutional neural networks optimized for object classification currently provide the best image-computable models of ventral-stream representations.
 - Cognitive-level models (e.g., Bayesian, reinforcement learning, production systems) remain invaluable for higher-level cognition; they complement neural-net models where biological fidelity is low.
 - The field needs *task‑performing* models that bridge behavior and neural dynamics, tested with carefully designed tasks, shared datasets, and quantitative tests.
 
-##### Interpretation & Significance
+### Interpretation & Significance
 The paper argues for a cultural and methodological shift: move from isolated experiments and verbal theorizing toward large-scale, task-driven computational models evaluated against brain and behavioral data. This agenda frames much of modern computational social cognition — not just mapping functions to regions but building mechanistic models that *do* the cognitive work.
 
-##### Computational‑Social‑Cognitive‑Scientist Hat
+### Computational‑Social‑Cognitive‑Scientist Hat
 - Lewin: would appreciate the emphasis on behavior arising from person × environment × representation (task worlds as environments).
 - Marr: would approve of integrating computational, algorithmic, and implementational levels — but would insist on clear separation of levels when designing tests.
 - Brunswik: would emphasize ecological validity and probabilistic cues — the paper’s call for naturalistic tasks and big datasets resonates with Brunswikian probabilistic functionalism.
 
-##### Teaching Hooks
+### Teaching Hooks
 - Show the *representational similarity* figure (ventral-stream ↔ deep-net layers) and ask students to predict which network layer will best match early vs late visual areas.
 - Analogy: building a car (task) vs mapping engine parts (implementation) — both necessary to understand driving behavior.
 
-##### Pedagogical Lens
+### Pedagogical Lens
 - Prerequisites: basic ML (what a neural net does), fMRI basics, Marr’s levels.
 - Common misconceptions: "A brain map = an algorithm"; "high decoding accuracy implies understanding."
 - Discussion prompt: Design a simple task and propose how you would test two competing BCMs using brain and behavioral data.
 
-##### Connections
+### Connections
 - Links to Predictive Mind (generative models), Marr’s levels, and modern debates about interpretability of large models.
 
-##### Key Quotes or Phrases
+### Key Quotes or Phrases
 - “What I cannot create, I do not understand.”  
 - “Task‑performing computational models that explain how cognition arises from neurobiologically plausible dynamic components will be central to a new cognitive computational neuroscience.”
 
-##### Concept Graph
+### Concept Graph
 - Task design → model training → neural representation similarity → behavioral prediction.
 - Cognitive model (top-down) ↔ neural implementation (bottom-up) — both constrain each other.
 
@@ -823,39 +823,39 @@ The article reframes the “social brain” debate: rather than asking “is the
 
 **Topic Tags:** intentional stance, human-robot interaction, social attunement, stance-taking
 
-##### Core Question / Problem
+### Core Question / Problem
 When and why do humans adopt the intentional stance — treating a system as if it has beliefs and desires — and what does it imply for interactions with artificial agents (robots, AI)?
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 The paper treats the intentional stance as an efficient predictive strategy: when the design or behavior of an agent makes intentional inference pay off, humans adopt it. Marr’s computational level: achieve accurate prediction in social settings; algorithmic: stance selection (physical/design/intentional) based on cue reliability, task demands, and cultural norms; implementational implications for robot design (appearance, contingency) to promote social attunement.
 
-##### Methods Overview
+### Methods Overview
 A literature review integrating philosophy (Dennett), developmental findings on stance emergence, cross-cultural variability, and HRI studies showing how robot appearance and contingency modulate adoption of the intentional stance.
 
-##### Key Findings
+### Key Findings
 - Intentional stance is a fast, pragmatic strategy rather than a metaphysical claim about true intentionality.
 - Robot features that increase contingency, goal-directed motion, and communicative signals increase adoption of the stance and social attunement.
 - Cultural norms influence how readily people anthropomorphize and the norms governing acceptable stance adoption.
 
-##### Interpretation & Significance
+### Interpretation & Significance
 For computational social cognition, the paper clarifies that adopting an intentional stance is an inference policy: agents (including designers) can manipulate cues to make mentalistic predictions more reliable, shaping social interaction. It connects philosophical theory (Dennett) directly to empirical HRI evidence.
 
-##### Teaching Hooks
+### Teaching Hooks
 - Show short clips of robots with varying human-likeness; ask students which stance they'd use and why.
 - Mini design challenge: propose 3 features that would increase intentional stance adoption for a service robot.
 
-##### Pedagogical Lens
+### Pedagogical Lens
 - Difficulty: 3/5
 - Pre-reqs: intentional stance, agency, predictive models
 - Misconception: adopting stance = believing the machine is conscious.
 
-##### Connections
+### Connections
 - Links to Epley & Waytz, Gray et al., and course glossary entries on the intentional stance and animacy.
 
-##### Key Quotes or Phrases
+### Key Quotes or Phrases
 - "Adopting the intentional stance is a pragmatic predictive strategy that facilitates social attunement."
 
-##### Concept Graph
+### Concept Graph
 - Robot cues (contingency, appearance) → (increase) Intentional stance adoption → (increase) Social attunement/perceived mind.
 
 ---
@@ -909,7 +909,7 @@ Links strongly to Predictive Mind, Generative Models, Mentalizing, the ACT‑FAS
 - Transition probabilities + conceptual maps → enable prediction of next states/actions.\
 - Neural geometry (mPFC, STS/ATL) ↔ encodes the same dimensions → allows readout of predictions.
 
-##### ACT‑FAST Taxonomy
+### ACT‑FAST Taxonomy
 A compact action taxonomy outlining dimensions (e.g., Agency, Competence, Temporal features) used to scaffold action prediction across domains. Notable Figures: Thornton & Tamir. Related Concepts: Action representation; Transition Structure.
 
 ---
@@ -920,46 +920,46 @@ A compact action taxonomy outlining dimensions (e.g., Agency, Competence, Tempor
 
 **Topic Tags:** Flatland Fallacy, mentalizing, representation, naturalistic behavior, predictive models
 
-##### Core Question / Problem
+### Core Question / Problem
 Why do many models in social cognition over‑simplify complex social phenomena (the "Flatland Fallacy") and what are the consequences for theory and experiment? The paper diagnoses the problem and proposes remedies centered on richer representations and naturalistic tasks.
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 The authors argue from a computational‑representational standpoint: social cognition requires multi‑dimensional, structured representations (causal, compositional, temporal) and algorithms that operate within realistic task worlds. Marr’s levels appear as a guiding frame: computational aim (predict others), algorithmic representation (compositional generative models / transition structure), and implementational plausibility (neural dynamics that can approximate required inference).
 
-##### Methods Overview
+### Methods Overview
 The paper mixes argument, illustrative simulations, and re-analyses of existing datasets. Core methodological recommendations include moving to naturalistic stimuli, analyzing transition structure in behavior streams, and evaluating models on their ability to generalize across contexts.
 
-##### Key Findings
+### Key Findings
 - Low‑dimensional summaries (e.g., single scalar biases) often miss structural constraints that explain why behaviors generalize.
 - Transition structure — knowledge about how states evolve — is a powerful, testable signal for prediction in social contexts.
 - Rich generative models (hierarchical, compositional) better capture one‑shot learning and inference about others’ goals.
 - Empirical tests require time‑continuous tasks, richer annotations, and model‑based behavioral signatures rather than simple aggregate statistics.
 
-##### Interpretation & Significance
+### Interpretation & Significance
 The Flatland Fallacy critique pushes the field to (1) adopt richer representational hypotheses, (2) design tasks that reveal structural inferences (not just point estimates), and (3) adopt cross‑disciplinary standards (shared tasks, datasets, model tests) akin to Kriegeskorte et al.’s recommendations for cognitive computational neuroscience.
 
-##### Computational‑Social‑Cognitive‑Scientist Hat
+### Computational‑Social‑Cognitive‑Scientist Hat
 - Lewin: would endorse emphasis on person × environment (task worlds) interactions.
 - Marr: would require explicit separation of levels and formal definitions of representations.
 - Brunswik: would welcome the call for ecological sampling and attention to probabilistic cues.
 
-##### Teaching Hooks
+### Teaching Hooks
 - Recreate a tiny “Flatland” example: simulate two agents with different internal state spaces and show how a low‑dimensional reading collapses crucial differences.
 - Classroom exercise: ask students to design a one‑shot inference task where only a compositional generative model succeeds.
 
-##### Pedagogical Lens
+### Pedagogical Lens
 - Difficulty: 4/5
 - Prereqs: Bayesian inference, basic RL, simple generative models.
 - Misconceptions: “more dimensions = overfitting” — clarify role of inductive bias and structured representations.
 
-##### Connections
+### Connections
 - Ties to Predictive Mind, Generative Models, Transition Structure, and representational analyses.
 
-##### Key Quotes or Phrases
+### Key Quotes or Phrases
 - “Reducing social cognition to a few axes risks throwing away the very structure that enables prediction.”  
 - “Naturalistic tasks reveal the transition structure that low‑dimensional summaries obscure.”
 
-##### Concept Graph
+### Concept Graph
 - Rich representations → better generalization because they capture causal & compositional structure.
 - Transition structure → predictive accuracy → behavioral adaptation.
 
@@ -971,40 +971,40 @@ The Flatland Fallacy critique pushes the field to (1) adopt richer representatio
 
 **Topic Tags:** naturalistic tasks, ecological validity, computational models, shared datasets
 
-##### Core Question / Problem
+### Core Question / Problem
 How should computational cognitive science evolve to explain real‑world behavior rather than constrained laboratory tasks? The authors argue for methods and models that embrace naturalistic data and testing regimes.
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 A synthesis arguing for the combination of (i) generative models that capture causal, compositional structure, (ii) scalable learning algorithms (amortized inference, meta‑learning), and (iii) experimental designs that collect continuous, multimodal behavior in rich environments. Marr’s levels motivate aligning computational goals with implementational constraints to maintain plausibility.
 
-##### Methods Overview
+### Methods Overview
 Recommendations include deploying virtual reality and continuous recording (video, motion, physiology), leveraging large‑scale annotated datasets, using hierarchical Bayesian and neural‑hybrid models, and developing benchmark tasks/test suites shared across labs.
 
-##### Key Findings / Proposals
+### Key Findings / Proposals
 - Naturalistic data expose representational demands (temporal structure, multi‑agent dynamics) that small lab tasks cannot.
 - Hybrid models (neural networks with structured generative cores) are promising: they combine representational flexibility with inductive structure for sample‑efficient learning.
 - Methodologically, the field needs open benchmarks, standardized tasks, and adversarial cooperation across labs (sharing tasks/data/models/tests).
 
-##### Interpretation & Significance
+### Interpretation & Significance
 This paper operationalizes the “big data + big models” vision for cognitive science, emphasizing reproducibility and ecological validity. For social cognition, its approach directly supports studying dynamic mentalizing, multi‑agent interaction, and cultural/contextual effects.
 
-##### Computational‑Social‑Cognitive‑Scientist Hat
+### Computational‑Social‑Cognitive‑Scientist Hat
 - Lewin: supportive of studying behavior as a function of life‑space dynamics in natural environments.
 - Marr: would insist on precise computational goals and testable predictions despite ecological complexity.
 - Brunswik: would welcome the multimodal, probabilistic sampling approach to environmental cues.
 
-##### Teaching Hooks
+### Teaching Hooks
 - Assign students to annotate a short social video for goal transitions and test which model (simple RL vs hierarchical generative) predicts human annotations.
 
-##### Pedagogical Lens
+### Pedagogical Lens
 - Difficulty: 4/5
 - Prereqs: Bayesian models, basic deep learning, experimental design for naturalistic data.
 - Misconception: Naturalistic = messy/unusable. Counter by showing how structure can be extracted and constrained by models.
 
-##### Connections
+### Connections
 - Bridges Predictive Mind, Flatland Fallacy critique, and Kriegeskorte et al.’s call for task‑performing models.
 
-##### Key Quotes or Phrases
+### Key Quotes or Phrases
 - “To explain natural behavior we must meet naturalistic data on its own terms: temporally rich, multimodal, and socially structured.”
 
 ---
@@ -1015,41 +1015,41 @@ This paper operationalizes the “big data + big models” vision for cognitive 
 
 **Topic Tags:** social cognition, attribution, mentalizing, predictive mind, ecological tasks
 
-##### Core Question / Problem
+### Core Question / Problem
 What are the core mechanisms by which people infer others’ mental states and predict social behavior? This introductory piece frames social cognition as an interplay of perceptual cues, internal generative models, and contextual constraints.
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 The chapter frames social inference as probabilistic, generative, and structured: perceivers combine sensory evidence with priors (about agents, goals, and social norms) to infer latent mental states. Marr’s levels appear implicitly: computational goals (predict others), algorithmic representations (beliefs, goals, transition models), and neural implementation (brain regions/networks for mentalizing).
 
-##### Methods Overview
+### Methods Overview
 Surveys common experimental paradigms: Heider & Simmel animations, false‑belief tasks, point‑light biological motion, and more naturalistic observation paradigms. Emphasizes combining behavioral measures with neuroimaging and model‑based analyses.
 
-##### Key Findings / Themes
+### Key Findings / Themes
 - Mentalizing is often automatic, triggered by animacy/agency cues; attribution processes map perceived actions onto candidate mental states.
 - Representational richness (causal and temporal structure) supports fast generalization and prediction.
 - Laboratory tasks illuminate mechanisms but can miss dynamics found in richer, temporally extended social interactions.
 
-##### Interpretation & Significance
+### Interpretation & Significance
 As an introduction, the chapter situates social cognition within broader computational perspectives (predictive mind, generative models) and motivates a research program that integrates formal models with ecological methods.
 
-##### Computational‑Social‑Cognitive‑Scientist Hat
+### Computational‑Social‑Cognitive‑Scientist Hat
 - Lewin: the chapter’s emphasis on person×environment echoes field theory.
 - Marr: would call for formalizing the computational goal and deriving algorithms.
 - Brunswik: would emphasize sampling of cues across contexts.
 
-##### Teaching Hooks
+### Teaching Hooks
 - Use Heider & Simmel to illustrate how simple motion cues elicit rich attributions.
 - Quick in‑class experiment: show point‑light walkers and ask for inferred emotion/intent.
 
-##### Pedagogical Lens
+### Pedagogical Lens
 - Difficulty: 2.5/5
 - Prereqs: basic probability, experimental design.
 - Misconceptions: Attributions are always deliberative — many are rapid and automatic.
 
-##### Connections
+### Connections
 - Directly ties to Predictive Mind, Attribution Theory, Mentalizing, and the Flatland Fallacy critique.
 
-##### Key Quotes or Phrases
+### Key Quotes or Phrases
 - “Perception of agency and animacy is often the perceptual doorway through which more elaborate belief‑attribution is built.”
 
 ---
@@ -1060,44 +1060,44 @@ As an introduction, the chapter situates social cognition within broader computa
 
 **Topic Tags:** computational social development, generative models, theory of mind, predictive processing, developmental modeling
 
-##### Core Question / Problem
+### Core Question / Problem
 How can computational (generative/Bayesian) models explain how humans develop representations of others' minds, and what are the mechanistic principles that guide social prediction across development?
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 Wang et al. propose that children and adults build **generative models** mapping latent mental states (beliefs, goals) to observed actions and that learning these models requires structured inductive biases and social sampling. At Marr’s levels: Computational — infer hidden causes of actions for prediction; Algorithmic — approximate inference, hierarchical generative representations and transition structures; Implementational — neural substrates implementing prediction‑error learning and social memory. 
 
-##### Methods Overview
+### Methods Overview
 The paper synthesizes computational modeling (Bayesian inverse planning, hierarchical models), developmental experiments (infant goal understanding, teleological reasoning), and cross‑domain data (adult plan inference, cultural scaffolds). Core manipulations discussed include task structure complexity, observational sampling, and prior biases.
 
-##### Key Findings / Claims
+### Key Findings / Claims
 - Generative models with structured priors explain core developmental milestones: infants' teleological reasoning and older children's grasp of false beliefs emerge from richer hierarchical models and richer social exposure. 
 - Transition structure — knowledge of how mental states map across time — is central for prediction and develops with experience and social scaffolding. 
 - Computational models reconcile simulation and theory approaches by showing how approximate inverse‑planning plus learned priors can produce both fast intuitive inferences and later explicit ToM. 
 
-##### Interpretation & Significance
+### Interpretation & Significance
 Wang et al. offer a formal framework linking developmental data to mechanistic models: social cognition is a problem of inverse inference under uncertainty solved by building generative models whose structure is shaped by learning and culture. This naturally connects to the Predictive Mind framework and provides operational variables (priors, sampling, model complexity) for experimental testing.
 
-##### Computational‑Social‑Cognitive‑Scientist Hat
+### Computational‑Social‑Cognitive‑Scientist Hat
 - Lewin: Models specify how person/environment/history interact to produce behavior via learned representations.
 - Marr: Clear mapping across levels; the paper’s strength is explicit algorithmic proposals (approximate inference) tied to computational goals.
 - Brunswik: The paper operationalizes cue validity and sampling — how children learn which cues are informative.
 
-##### Teaching Hooks
+### Teaching Hooks
 - Simple Bayesian inverse planning demo: students infer goals from observed paths.
 - Developmental vignette: why infants expect efficient action — link to teleological reasoning studies.
 
-##### Pedagogical Lens
+### Pedagogical Lens
 - Pre‑requisites: basic Bayesian inference, inverse planning, Marr’s levels
 - Misconceptions: "Models are literal descriptions of the brain" — clarify they are explanatory/computational tools.
 
-##### Connections
+### Connections
 Directly links to Epley & Waytz (mind perception as input to inference), impression formation (how priors shape trait learning), and broader predictive processing debates.
 
-##### Key Quotes or Phrases
+### Key Quotes or Phrases
 - "Generative models map latent mental states to observable actions; learning them is the heart of social cognition." 
 - "Transition structure — how mental states evolve — is central for predicting others." 
 
-##### Concept Graph
+### Concept Graph
 - Priors + observed actions → inverse inference (approximate) → latent mental state estimates → updated generative model → improved prediction.
 
 ---
@@ -1108,23 +1108,23 @@ Directly links to Epley & Waytz (mind perception as input to inference), impress
 
 **Topic Tags:** intentional stance, Searle critique, heuristic overlay, consensus in philosophy of mind
 
-##### Core Question / Problem
+### Core Question / Problem
 Why is the intentional stance defensible as a pragmatic, heuristic strategy given critiques (e.g., Searle's Chinese Room) that demand metaphysical grounding?
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 Dennett argues the stance is a "heuristic overlay" that captures a community of practices; disagreements often reflect overstatements rather than deep problems. The defense emphasizes explanatory power and empirical adequacy over metaphysical commitments. 
 
-##### Methods Overview
+### Methods Overview
 Essay‑length précis with commentary on contemporary debates (Sellars, Quine, Searle, Fodor) and notes on the consensus shifting toward a moderate, pragmatic view.
 
-##### Key Findings
+### Key Findings
 - Responds to Searle: even if biochemistry produces intentionality, that doesn't resolve the epistemic/practical reasons we adopt the stance.   
 - Philosophers are converging on seeing intentional attribution as a useful heuristic rather than a metaphysical claim. 
 
-##### Interpretation & Significance
+### Interpretation & Significance
 The Précis helps students situate Dennett historically and shows why the Intentional Stance remains influential: it provides an operational toolkit for prediction and explanation across domains (AI, economics, psychology). 
 
-##### Teaching Hooks
+### Teaching Hooks
 - Pair the précis with the 1971 article and Searle’s Chinese Room thought experiment for an in‑class debate.
 
 ---
@@ -1135,44 +1135,44 @@ The Précis helps students situate Dennett historically and shows why the Intent
 
 **Topic Tags:** social cognition, top‑down vs bottom‑up processing, context dependency, attention, adaptation, heuristics
 
-##### Core Question / Problem
+### Core Question / Problem
 How is social cognition distinct from general cognitive processing? Greifeneder argues social cognition is specialized for context‑sensitive, adaptive processing that supports fast, effective behavior in complex social environments.
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 The chapters frame social cognition as an adaptive information‑processing system: constrained resources force tradeoffs (speed vs accuracy), encouraging use of heuristics, top‑down priors, and socially tuned representations. Map to Marr’s levels: computational (goals: adaptive social prediction and coordination), algorithmic (heuristics, schemas, attention allocation, top‑down/bottom‑up interplay), implementational (neural attention networks implicit but not specified). See course glossary on Predictive Mind and Representation for framing.  
 
-##### Methods Overview
+### Methods Overview
 These are textbook chapters — synthetic review and didactic examples (e.g., the Wason selection task framed as social contract; gorilla inattentional blindness example). Empirical touchpoints are cited throughout (Cosmides on social‑contract improvements to reasoning; classic illusions showing context dependence).
 
-##### Key Findings
+### Key Findings
 - Social context dramatically reshapes the information people use (Wason selection results; context turns hard logic into solvable problems).   
 - Perception and judgment are highly context dependent and use top‑down construals to be “good enough” for social action.   
 - Attention and memory are organized around socially relevant goals: we omit irrelevant detail and amplify trait‑consistent information via schemas and motivated processing.
 
-##### Interpretation & Significance
+### Interpretation & Significance
 The chapters provide an integrated argument that social cognition is not merely “cognition + social stimuli” but often uses distinct adaptive procedures (heuristics, priors) that make human social performance efficient. This supports a predictive/representational view of social perception: representations and priors scaffold rapid social inferences (links to Generative Model and Predictive Mind in the course glossary).  
 
-##### Computational‑Social‑Cognitive‑Scientist Hat
+### Computational‑Social‑Cognitive‑Scientist Hat
 - Lewin: B = f(P,E), extended — add R (representations) to explain context sensitivity and goal‑directed construals.   
 - Marr: Computational goal = predict social outcomes; algorithmic = heuristics and schemas; implementational = attention systems and cortical circuits (not deeply specified in these chapters).   
 - Brunswik: Emphasize ecological validity — social cues are noisy, so cue‑utilization matches the ecological demands described.
 
-##### Teaching Hooks
+### Teaching Hooks
 - Show the gorilla video (inattentional blindness) and compare responses.  
 - Give Wason tasks in social vs non‑social framing to demonstrate context effects (Box 1.1). 
 
-##### Pedagogical Lens
+### Pedagogical Lens
 - Prereqs: basic perception, attention, and schemas.  
 - Common misconceptions: "People always reason logically" — corrected by social framing effects.  
 - Discussion prompt: When is a heuristic adaptive vs harmful in social settings?
 
-##### Connections
+### Connections
 - Links to Predictive Mind, Generative Models, Representation (course glossary). 
 
-##### Key Quotes or Phrases
+### Key Quotes or Phrases
 - "Social cognition needs to be highly adaptive and sensitive to the requirements of a situation." 
 
-##### Concept Graph
+### Concept Graph
 - Social context → activates priors (why?) → changes attention allocation → alters judgment/outcome.
 
 ---
@@ -1233,42 +1233,42 @@ The chapter stitches together classical schema theory with emerging embodied and
 
 **Topic Tags:** motivated reasoning, self‑esteem maintenance, epistemic needs, just‑world hypothesis, impression formation
 
-##### Core Question / Problem
+### Core Question / Problem
 How do motivational forces — particularly needs to maintain self‑esteem and a sense of control — shape basic social cognition (impression formation, attribution, memory)?
 
-##### Conceptual or Computational Framework
+### Conceptual or Computational Framework
 Moskowitz frames social cognition as a goal‑directed process where epistemic and self‑protective motives bias information encoding and causal attribution. At Marr’s levels: computational = preserve self‑concept while making valid social predictions; algorithmic = biased sampling, defensive attribution, selective discounting of disconfirming evidence; implementational = cognitive strategies like selective attention and memory reconsolidation. 
 
-##### Methods Overview
+### Methods Overview
 Chapter summarizes classic experiments (e.g., Miller 1976 feedback paradigm; Sicoli & Ross 1977 manipulated success/failure feedback) and contemporary work showing how observers discount threatening information and question source reliability when feedback is negative.
 
-##### Key Findings
+### Key Findings
 - People protect self‑esteem by reinterpreting negative feedback as situational (external attribution) and positive feedback as internal (ability).   
 - When observers give threatening feedback, perceivers often attack the observer’s credibility rather than update their self‑view — a motivated reasoning strategy.   
 - Epistemic needs shape impressions even from sparse or ambiguous input (creating meaning where objective evidence is thin).
 
-##### Interpretation & Significance
+### Interpretation & Significance
 The chapter foregrounds motivation as central to social inference: cognitive mechanisms (attention, memory, attribution) are not neutral processors but are tuned by goals. This reframes “errors” in social judgment as adaptive responses to protect identity and manage uncertainty — linking to course themes of Representations and Predictive Mind (priors shaped by motivation). 
 
-##### Computational‑Social‑Cognitive‑Scientist Hat
+### Computational‑Social‑Cognitive‑Scientist Hat
 - Lewin: Motives are part of the life‑space that shape behavior (B = f(P,E,R)).   
 - Marr: Computational goal includes self‑preservation; algorithmic implementations are biased sampling and selective memory.
 
-##### Teaching Hooks
+### Teaching Hooks
 - Recreate Miller’s feedback manipulation as a classroom poll; compare reactions to positive vs negative feedback.  
 - Discuss modern echo‑chamber phenomena (social media) as institutionalized motivated reasoning (Moskowitz cites contemporary social media work). 
 
-##### Pedagogical Lens
+### Pedagogical Lens
 - Prereqs: Attribution theory, memory basics.  
 - Misconception: People are primarily rational when judging self — corrected by motivated‑reasoning literature.
 
-##### Connections
+### Connections
 - Links to Attribution Theory, Mentalizing, and Predictive Mind (priors shaped by motivation). 
 
-##### Key Quotes or Phrases
+### Key Quotes or Phrases
 - "When the observer states the participant is responsible for a success, the participant judges the observer accurate; for failures, the observer is judged biased." 
 
-##### Concept Graph
+### Concept Graph
 - Threatening feedback → motivated discounting → preserves self‑esteem → alters social judgment.
 
 ---
