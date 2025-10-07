@@ -196,12 +196,8 @@ Connects to Representations, Marr’s Levels, the Physical/Design/Intentional st
 - Symbolic tokens + Operators → compositional reasoning.\
 - IPL / GPS implementations → historic demonstrations of symbolic adequacy.\
 - Newell & Simon Test → evaluation criterion for cognitive theories.
-
-### Newell & Simon Test
-A set of practical criteria for evaluating whether a theory of cognition can adequately express and operate on the symbolic structures it posits (a stronger test than the Turing test for claims about cognitive architectures). Notable Figures: A. Newell, H. A. Simon. Related Concepts: Physical Symbol System; Representation.
-
-### Symbolic System (SS)
-A canonical architecture composed of Memory, Control, Input/Output, and Operators (Assign, Copy, Read, Write, Do, Continue‐IF, Quote, Behave). Serves as a template for testing symbolic theories. Notable Figures: Newell & Simon. Related Concepts: IPL, GPS.
+  - **Newell & Simon Test:** A set of practical criteria for evaluating whether a theory of cognition can adequately express and operate on the symbolic structures it posits (a stronger test than the Turing test for claims about cognitive architectures). **Notable Figures:** A. Newell, H. A. Simon. **Related Concepts:** Physical Symbol System; Representation.
+  - **Symbolic System (SS):** A canonical architecture composed of Memory, Control, Input/Output, and Operators (Assign, Copy, Read, Write, Do, Continue‐IF, Quote, Behave). Serves as a template for testing symbolic theories. **Notable Figures:** Newell & Simon. **Related Concepts:** IPL, GPS.
 
 ---
 
@@ -504,14 +500,8 @@ Ties to animacy detection (Wheatley’s ERP animacy tipping point work), mirror/
 
 ### Concept Graph
 - Mind detection (face/voice/motion) → simulation (resonance, contagion) → behavioral synchrony (anticipation) → neural entrainment → reward & bonding.
-
-### Synchrony
-**Definition:** Time-locked coupling across neural, physiological, and behavioral signals between interacting agents that supports mutual prediction and partial access to internal states.
-**Related Concepts:** synchrony, resonance, neural entrainment, simulation.
-
-### Neural efficiency (social sense)
-**Definition:** A reduction in processing cost achieved when the perceiver and perceived entrain neural dynamics, aligning communication windows and lowering prediction-error propagation during interaction.
-**Related Concepts:** predictive processing, entrainment, reward.
+  - **Synchrony:** Time-locked coupling across neural, physiological, and behavioral signals between interacting agents that supports mutual prediction and partial access to internal states. **Related Concepts:** synchrony, resonance, neural entrainment, simulation.
+  - **Neural efficiency (social sense):** A reduction in processing cost achieved when the perceiver and perceived entrain neural dynamics, aligning communication windows and lowering prediction-error propagation during interaction. **Related Concepts:** predictive processing, entrainment, reward.
 
 ---
 
@@ -908,9 +898,7 @@ Links strongly to Predictive Mind, Generative Models, Mentalizing, the ACT‑FAS
 - Dimensions (valence, sociality, competence) → structure conceptual maps.\
 - Transition probabilities + conceptual maps → enable prediction of next states/actions.\
 - Neural geometry (mPFC, STS/ATL) ↔ encodes the same dimensions → allows readout of predictions.
-
-### ACT‑FAST Taxonomy
-A compact action taxonomy outlining dimensions (e.g., Agency, Competence, Temporal features) used to scaffold action prediction across domains. Notable Figures: Thornton & Tamir. Related Concepts: Action representation; Transition Structure.
+  - **ACT‑FAST Taxonomy:** A compact action taxonomy outlining dimensions (e.g., Agency, Competence, Temporal features) used to scaffold action prediction across domains. **Notable Figures:** Thornton & Tamir. **Related Concepts:** Action representation; Transition Structure.
 
 ---
 
