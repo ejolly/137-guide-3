@@ -247,17 +247,40 @@ The capacity to **represent others’ beliefs, desires, and intentions** to expl
 ## References
 
 - Abbott, E. A. (1884). *Flatland.*
+- Augusto, L. M. (2005). Review: Symbols and Knowledge Systems. *Journal of Knowledge Structures & Systems.*
 - Bartlett, F. (1932). *Remembering: A Study in Experimental and Social Psychology.*
+- Carvalho, F., & Lampinen, A. (2025). Naturalistic computational cognitive science: Models and theories that capture the full range of natural behavior. *Preprint.*
 - Clark, A. (2013). *Whatever Next? Predictive Brains, Situated Agents, and the Future of Cognitive Science.*
-- Dennett, D. (1971). *Intentional Systems.*
+- Dennett, D. C. (1971). *Intentional Systems.*
+- Dennett, D. C. (n.d.). A Précis of The Intentional Stance. *Philosophical Review.*
+- Epley, N., & Waytz, A. (2010). Mind perception. *In S. T. Fiske (Ed.), Handbook of Social Psychology (5th ed.).*
+- Freeman, T. (2016). What is Mentalizing? An Overview. *British Journal of Psychotherapy.*
 - Gray, H. M., Gray, K., & Wegner, D. M. (2007). *Dimensions of Mind Perception.*
+- Greifeneder, R. (n.d.). Chapters 1–2. *Social Cognition: How Individuals Construct Social Reality.*
 - Heider, F., & Simmel, M. (1944). *An Experimental Study of Apparent Behavior.*
 - Hohwy, J. (2013). *The Predictive Mind.*
 - Johansson, G. (1973). *Visual Perception of Biological Motion and a Model for Its Analysis.*
+- Jolly, E., & Chang, L. (2024). The Flatland Fallacy: Over‑reliance on low‑dimensional explanations in social cognition. *Preprint.*
+- Kriegeskorte, N., & Douglas, P. (2018). Cognitive computational neuroscience. *Nature Neuroscience.*
 - Lewin, K. (1951). *Field Theory in Social Science.*
+- Lockwood, P. L., Apps, M. A. J., & Klein-Flügge, M. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences.*
 - Marr, D. (1982). *Vision.*
 - Mitchell, J. P. (2006). *Mentalizing and Marr: An Information-Processing Approach to the Study of Social Cognition.*
+- Mitchell, J. P. (2009). Social psychology as a natural kind. *Trends in Cognitive Sciences.*
+- Moskowitz, D. (2025). Introduction to social cognition and social inference. *In Social Cognition Textbook.*
+- Moskowitz, D. S. (n.d.). We Create Internal Mental Representations of External Reality. *In Social Cognition Textbook, Chapter 2.*
+- Moskowitz, G. B. (n.d.). Introduction to Social Cognition. *In Social Cognition Textbook, Chapter 1.*
+- Parkinson, C., & Wheatley, T. (2015). The repurposed social brain. *Philosophical Transactions of the Royal Society B.*
+- Pennington, D. (n.d.). History of Social Cognition. *In Social Cognition Textbook.*
+- Perez-Osorio, J., & Wykowska, A. (2020). Adopting the Intentional Stance Toward Natural and Artificial Agents. *Philosophical Psychology.*
+- Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? *Behavioral and Brain Sciences.*
+- Sievers, B., Lee, C., Haslett, W., & Wheatley, T. (2019). A multi-sensory code for emotional arousal. *Proceedings of the Royal Society B.*
+- Sievers, B., Polansky, L., Casey, M., & Wheatley, T. (2013). Music and movement share a dynamic structure that supports universal expressions of emotion. *PNAS.*
 - Tamir, D. I., & Thornton, M. A. (2023). *Predicting Other People Shapes the Social Mind.*
 - Thornton, M. A., & Tamir, D. I. (2021). *The Organization of Social Knowledge Is Tuned for Prediction.*
+- Uleman, J. S., & Kressel, L. (2013). A brief history of theory and research on impression formation. *The Oxford Handbook of Social Cognition.*
+- Wang, X., et al. (2025). Modeling Other Minds: A computational account of social cognition and its development. *Preprint.*
+- Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences.*
+- Wheatley, T., Kang, O., Parkinson, C., & Looser, C. (2012). From Mind Perception to Mental Connection: Synchrony as a Mechanism for Social Understanding. *Social and Personality Psychology Compass.*
 - Wheatley, T., Thornton, M. A., Stolk, A., & Chang, L. J. (2023). *The Emerging Science of Interacting Minds.*
 
