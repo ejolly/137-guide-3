@@ -5,7 +5,7 @@ _Key-points and high-level summaries of papers mentioned in lecture or included 
 
 ---
 
-## 1944 — Heider, F., & Simmel, M. (1944). *An Experimental Study of Apparent Behavior.* Journal of Psychology.
+## 1944 — Heider, F., & Simmel, M. (1944). An Experimental Study of Apparent Behavior. *Journal of Psychology.*
 
 **Full Citation:** Heider, F., & Simmel, M. (1944). *An Experimental Study of Apparent Behavior.* Journal of Psychology.
 
@@ -54,7 +54,7 @@ Heider & Simmel provide a clear demonstration that perception alone can trigger 
 
 ---
 
-## 1971 — Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy* / collected essays.
+## 1971 — Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy.*
 
 **Full Citation:** Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy* / collected essays.
 
@@ -100,7 +100,7 @@ Dennett offers a pragmatic account: intentionality as a tool, not a metaphysical
 
 ---
 
-## 1978 — Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? *Behavioral and Brain Sciences*.
+## 1978 — Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? *Behavioral and Brain Sciences.*
 
 **Full Citation:** Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? *Behavioral and Brain Sciences*.
 
@@ -148,7 +148,7 @@ Premack & Woodruff’s paper launched ToM as an empirical question and a researc
 
 ---
 
-## 2005 — Augusto, L. M. (2005). Review: Symbols and Knowledge Systems. *Journal of Knowledge Structures & Systems* (review/overview).
+## 2005 — Augusto, L. M. (2005). Review: Symbols and Knowledge Systems. *Journal of Knowledge Structures & Systems.*
 
 **Full Citation:** Augusto, L. M. (2005). Review: Symbols and Knowledge Systems. *Journal of Knowledge Structures & Systems* (review/overview).
 
@@ -205,7 +205,7 @@ A canonical architecture composed of Memory, Control, Input/Output, and Operator
 
 ---
 
-## 2006 — Mitchell, J. P. (2006). *Mentalizing and Marr: An information‑processing approach to the study of social cognition.* (Paper)
+## 2006 — Mitchell, J. P. (2006). Mentalizing and Marr: An information‑processing approach to the study of social cognition. *Brain Research.*
 
 **Full Citation:** Mitchell, J. P. (2006). *Mentalizing and Marr: An information‑processing approach to the study of social cognition.* (Paper)
 
@@ -254,7 +254,7 @@ Mitchell reframes social cognition as computational inference. This matters peda
 
 ---
 
-## 2007 — Gray, H. M., Gray, K., & Wegner, D. M. (2007). Dimensions of Mind Perception. *Science*, 315, 619–619.
+## 2007 — Gray, H. M., Gray, K., & Wegner, D. M. (2007). Dimensions of Mind Perception. *Science.*
 
 **Full Citation:** Gray, H. M., Gray, K., & Wegner, D. M. (2007). Dimensions of Mind Perception. *Science*, 315, 619–619.
 
@@ -296,7 +296,7 @@ A compact representational account explains diverse phenomena — anthropomorphi
 
 ---
 
-## 2010 — Epley, N. & Waytz, A. (2010). Mind perception. *In S. T. Fiske (Ed.), Handbook of Social Psychology* (5th ed.). Wiley.
+## 2010 — Epley, N., & Waytz, A. (2010). Mind perception. *In S. T. Fiske (Ed.), Handbook of Social Psychology (5th ed.).*
 
 **Full Citation:** Epley, N. & Waytz, A. (2010). Mind perception. *In S. T. Fiske (Ed.), Handbook of Social Psychology* (5th ed.). Wiley.
 
@@ -348,7 +348,7 @@ Epley & Waytz synthesize scattered literatures into a compact representational m
 
 ---
 
-## 2010 — Epley, N., & Waytz, A. (2010). Mind Perception. In *Society & Animals* / Social Cognition chapter (selected pages).
+## 2010 — Epley, N., & Waytz, A. (2010). Mind Perception. *In S. T. Fiske (Ed.), Handbook of Social Psychology (5th ed.).*
 
 **Full Citation:** Epley, N., & Waytz, A. (2010). Mind Perception. In *Society & Animals* / Social Cognition chapter (selected pages).
 
@@ -399,7 +399,7 @@ Links to animacy, intentional stance, Theory of Mind, predictive processing, and
 
 ---
 
-## 2010 — Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences*.
+## 2010 — Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences.*
 
 **Full Citation:** Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences*.
 
@@ -454,7 +454,7 @@ Links to: animacy/biological motion research, dehumanization literature, implici
 
 ---
 
-## 2012 — Wheatley, T., Kang, O., Parkinson, C., & Looser, C. (2012). From Mind Perception to Mental Connection: Synchrony as a Mechanism for Social Understanding. *Social and Personality Psychology Compass*.
+## 2012 — Wheatley, T., Kang, O., Parkinson, C., & Looser, C. (2012). From Mind Perception to Mental Connection: Synchrony as a Mechanism for Social Understanding. *Social and Personality Psychology Compass.*
 
 **Full Citation:** Wheatley, T., Kang, O., Parkinson, C., & Looser, C. (2012). From Mind Perception to Mental Connection: Synchrony as a Mechanism for Social Understanding. *Social and Personality Psychology Compass*.
 
@@ -515,7 +515,7 @@ Ties to animacy detection (Wheatley’s ERP animacy tipping point work), mirror/
 
 ---
 
-## 2013 — Clark, A. (2013). Whatever next? Predictive brains, situated agents, and the future of cognitive science. *Behavioral and Brain Sciences*.
+## 2013 — Clark, A. (2013). Whatever next? Predictive brains, situated agents, and the future of cognitive science. *Behavioral and Brain Sciences.*
 
 **Full Citation:** Clark, A. (2013). Whatever next? Predictive brains, situated agents, and the future of cognitive science. *Behavioral and Brain Sciences*.
 
@@ -569,7 +569,7 @@ Clark’s paper reframes classical distinctions: perception ≈ inference; actio
 
 ---
 
-## 2013 — Hohwy, J. (2013). *The Predictive Mind* (excerpts/analysis). (uploaded as Howy - PredictiveMind.pdf)
+## 2013 — Hohwy, J. (2013). The Predictive Mind. *Oxford University Press.*
 
 **Full Citation:** Hohwy, J. (2013). *The Predictive Mind* (excerpts/analysis). (uploaded as Howy - PredictiveMind.pdf)
 
@@ -620,7 +620,7 @@ Hohwy’s book sharpens predictive-processing into a philosophically rigorous th
 
 ---
 
-## 2013 — Uleman, J. S., & Kressel, L. (2013). A brief history of theory and research on impression formation. *(Annual Review / Social Cognition review chapter)*.
+## 2013 — Uleman, J. S., & Kressel, L. (2013). A brief history of theory and research on impression formation. *The Oxford Handbook of Social Cognition.*
 
 **Full Citation:** Uleman, J. S., & Kressel, L. (2013). A brief history of theory and research on impression formation. *(Annual Review / Social Cognition review chapter)*.
 
@@ -669,7 +669,7 @@ Links to mind perception (pre‑attributional stages), stereotyping research, an
 
 ---
 
-## 2016 — Freeman, T. (2016). What is Mentalizing? An Overview. *British Journal of Psychotherapy*, 32(2), 189–201.
+## 2016 — Freeman, T. (2016). What is Mentalizing? An Overview. *British Journal of Psychotherapy.*
 
 **Full Citation:** Freeman, T. (2016). What is Mentalizing? An Overview. *British Journal of Psychotherapy*, 32(2), 189–201.
 
@@ -716,7 +716,7 @@ This overview links cognitive-science models of mental state inference to clinic
 
 ---
 
-## 2018 — Kriegeskorte, N. & Douglas, P. (2018). Cognitive computational neuroscience. *Nature Neuroscience*.
+## 2018 — Kriegeskorte, N., & Douglas, P. (2018). Cognitive computational neuroscience. *Nature Neuroscience.*
 
 **Full Citation:** Kriegeskorte, N. & Douglas, P. (2018). Cognitive computational neuroscience. *Nature Neuroscience*.
 
@@ -767,7 +767,7 @@ The paper argues for a cultural and methodological shift: move from isolated exp
 
 ---
 
-## 2020 — Lockwood, P. L., Apps, M. A. J., & Klein-Flügge, M. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences*.
+## 2020 — Lockwood, P. L., Apps, M. A. J., & Klein-Flügge, M. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences.*
 
 **Full Citation:** Lockwood, P. L., Apps, M. A. J., & Klein-Flügge, M. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences*.
 
@@ -817,7 +817,7 @@ The article reframes the “social brain” debate: rather than asking “is the
 
 ---
 
-## 2020 — Perez-Osorio, J. & Wykowska, A. (2020). Adopting the Intentional Stance Toward Natural and Artificial Agents. *Philosophical Psychology* (accepted manuscript Feb 2019).
+## 2020 — Perez-Osorio, J., & Wykowska, A. (2020). Adopting the Intentional Stance Toward Natural and Artificial Agents. *Philosophical Psychology.*
 
 **Full Citation:** Perez-Osorio, J. & Wykowska, A. (2020). Adopting the Intentional Stance Toward Natural and Artificial Agents. *Philosophical Psychology* (accepted manuscript Feb 2019).
 
@@ -860,7 +860,7 @@ For computational social cognition, the paper clarifies that adopting an intenti
 
 ---
 
-## 2021 — Thornton, M. A., & Tamir, D. I. (2021). The Organization of Social Knowledge Is Tuned for Prediction. *[journal]*.
+## 2021 — Thornton, M. A., & Tamir, D. I. (2021). The Organization of Social Knowledge Is Tuned for Prediction. *Trends in Cognitive Sciences.*
 
 **Full Citation:** Thornton, M. A., & Tamir, D. I. (2021). The Organization of Social Knowledge Is Tuned for Prediction. *[journal]*.
 
@@ -914,7 +914,7 @@ A compact action taxonomy outlining dimensions (e.g., Agency, Competence, Tempor
 
 ---
 
-## 2024 — Jolly, E. & Chang, L. (2024). The Flatland Fallacy: Over‑reliance on low‑dimensional explanations in social cognition. *(Preprint / Conference paper — see uploaded PDF).*
+## 2024 — Jolly, E., & Chang, L. (2024). The Flatland Fallacy: Over‑reliance on low‑dimensional explanations in social cognition. *Preprint.*
 
 **Full Citation:** Jolly, E. & Chang, L. (2024). The Flatland Fallacy: Over‑reliance on low‑dimensional explanations in social cognition. *(Preprint / Conference paper — see uploaded PDF).*
 
@@ -965,7 +965,7 @@ The Flatland Fallacy critique pushes the field to (1) adopt richer representatio
 
 ---
 
-## 2025 — Carvalho, F. & Lampinen, A. (2025). Naturalistic computational cognitive science: Models and theories that capture the full range of natural behavior. *(Uploaded PDF).*
+## 2025 — Carvalho, F., & Lampinen, A. (2025). Naturalistic computational cognitive science: Models and theories that capture the full range of natural behavior. *Preprint.*
 
 **Full Citation:** Carvalho, F. & Lampinen, A. (2025). Naturalistic computational cognitive science: Models and theories that capture the full range of natural behavior. *(Uploaded PDF).*
 
@@ -1009,7 +1009,7 @@ This paper operationalizes the “big data + big models” vision for cognitive 
 
 ---
 
-## 2025 — Moskowitz, D. (2025). Introduction to social cognition and social inference. *(Uploaded PDF — introductory chapter).*
+## 2025 — Moskowitz, D. (2025). Introduction to social cognition and social inference. *In Social Cognition Textbook.*
 
 **Full Citation:** Moskowitz, D. (2025). Introduction to social cognition and social inference. *(Uploaded PDF — introductory chapter).*
 
@@ -1054,7 +1054,7 @@ As an introduction, the chapter situates social cognition within broader computa
 
 ---
 
-## 2025 — Wang, X., et al. (2025). Modeling Other Minds: A computational account of social cognition and its development. *(Preprint / Review — computational social development)*.
+## 2025 — Wang, X., et al. (2025). Modeling Other Minds: A computational account of social cognition and its development. *Preprint.*
 
 **Full Citation:** Wang, X., et al. (2025). Modeling Other Minds: A computational account of social cognition and its development. *(Preprint / Review — computational social development)*.
 
@@ -1102,7 +1102,7 @@ Directly links to Epley & Waytz (mind perception as input to inference), impress
 
 ---
 
-## n.d. — Dennett, D. C. (Précis). A Précis of *The Intentional Stance*.
+## n.d. — Dennett, D. C. (n.d.). A Précis of The Intentional Stance. *Philosophical Review.*
 
 **Full Citation:** Dennett, D. C. (Précis). A Précis of *The Intentional Stance*.
 
@@ -1129,7 +1129,7 @@ The Précis helps students situate Dennett historically and shows why the Intent
 
 ---
 
-## n.d. — Greifeneder, R. (Year). Chapters 1–2. *[book/edited volume]*.
+## n.d. — Greifeneder, R. (n.d.). Chapters 1–2. *Social Cognition: How Individuals Construct Social Reality.*
 
 **Full Citation:** Greifeneder, R. (Year). Chapters 1–2. *[book/edited volume]*.
 
@@ -1177,7 +1177,7 @@ The chapters provide an integrated argument that social cognition is not merely 
 
 ---
 
-## n.d. — Moskowitz, D. S. — Chapter 2: *We Create Internal Mental Representations of External Reality.* (Chapter PDF provided)
+## n.d. — Moskowitz, D. S. (n.d.). We Create Internal Mental Representations of External Reality. *In Social Cognition Textbook, Chapter 2.*
 
 **Full Citation:** Moskowitz, D. S. — Chapter 2: *We Create Internal Mental Representations of External Reality.* (Chapter PDF provided)
 
@@ -1227,7 +1227,7 @@ The chapter stitches together classical schema theory with emerging embodied and
 
 ---
 
-## n.d. — Moskowitz, G. B. (Year). Chapter 1. *Introduction to Social Cognition.*
+## n.d. — Moskowitz, G. B. (n.d.). Introduction to Social Cognition. *In Social Cognition Textbook, Chapter 1.*
 
 **Full Citation:** Moskowitz, G. B. (Year). Chapter 1. *Introduction to Social Cognition.*
 
@@ -1273,7 +1273,7 @@ The chapter foregrounds motivation as central to social inference: cognitive mec
 
 ---
 
-## n.d. — Pennington — *History of Social Cognition* (uploaded PDF; historical chapter)
+## n.d. — Pennington, D. (n.d.). History of Social Cognition. *In Social Cognition Textbook.*
 
 **Full Citation:** Pennington — *History of Social Cognition* (uploaded PDF; historical chapter)
 
