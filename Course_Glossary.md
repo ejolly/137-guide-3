@@ -33,6 +33,16 @@
 - Pennington, D. (n.d.). History of Social Cognition. *In Social Cognition Textbook.*
 - Perez-Osorio, J., & Wykowska, A. (2020). Adopting the Intentional Stance Toward Natural and Artificial Agents. *Philosophical Psychology.*
 - Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences.*
+- Sievers, B., Polansky, L., Casey, M., & Wheatley, T. (2013). Music and movement share a dynamic structure that supports universal expressions of emotion. *PNAS.*
+- Sievers, B., Lee, C., Haslett, W., & Wheatley, T. (2019). A multi-sensory code for emotional arousal. *Proceedings of the Royal Society B.*
+- Sievers, B., et al. (2021). Visual and auditory brain areas share a representational structure that supports emotion perception. *Current Biology.*
+- Johansson, G. (1973). Visual Perception of Biological Motion and a Model for Its Analysis. *Perception & Psychophysics.*
+
+
+### Week-02
+- Mitchell, J. P. (2009). Social psychology as a natural kind. *Trends in Cognitive Sciences.*
+- Parkinson, C., & Wheatley, T. (2015). The repurposed social brain. *Philosophical Transactions of the Royal Society B.*
+
 
 -- 
 
