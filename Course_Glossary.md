@@ -16,6 +16,21 @@
 
 *(See Lecture 09‑29: History; Lecture 10‑01 recap slides)*
 
+### Dualism
+
+**Time period:** Late 1500s–1600s\
+The view that the **mind and body are separate substances**: the body obeys physical laws and reflexes, while the mind enables free will and conscious thought.\
+**Notable Figure:** René Descartes\
+**Example:** Reflexive pinprick vs. intentional act of writing a poem.\
+**Related Concepts:** Contrasts with **Empiricism**; reframed by **Cognitivism** and **Predictive Mind** perspectives.
+
+### Empiricism
+
+**Time period:** Late 1600s–1700s\
+The idea that the **mind starts as a blank slate (tabula rasa)** and that knowledge is built from **experience and association**.\
+**Notable Figure:** John Locke\
+**Related Concepts:** Precursor to **Behaviorism** (learning through conditioning); challenged by **Cognitive Science** and **Chomsky** on innate structure.
+
 ### Behaviorism
 
 **Time period:** Early 1900s\
@@ -61,21 +76,6 @@ Perception and memory are **active constructions** from prior knowledge and inpu
 **Example:** “The dress” illusion illustrates perceptual priors.\
 **Related Concepts:** Supports **Predictive Mind**; informs **Mentalizing**.
 
-### Dualism
-
-**Time period:** Late 1500s–1600s\
-The view that the **mind and body are separate substances**: the body obeys physical laws and reflexes, while the mind enables free will and conscious thought.\
-**Notable Figure:** René Descartes\
-**Example:** Reflexive pinprick vs. intentional act of writing a poem.\
-**Related Concepts:** Contrasts with **Empiricism**; reframed by **Cognitivism** and **Predictive Mind** perspectives.
-
-### Empiricism
-
-**Time period:** Late 1600s–1700s\
-The idea that the **mind starts as a blank slate (tabula rasa)** and that knowledge is built from **experience and association**.\
-**Notable Figure:** John Locke\
-**Related Concepts:** Precursor to **Behaviorism** (learning through conditioning); challenged by **Cognitive Science** and **Chomsky** on innate structure.
-
 ### Field Theory
 
 **Time period:** 1940s\
@@ -109,7 +109,7 @@ Perceived **aliveness** or possession of mind, inferred from motion cues like **
 
 ### Attribution Theory
 
-The idea that people are **naïve scientists** explaining behavior through inferred **internal states** (beliefs, desires) or **situational causes**.\
+The idea that people are **naïve scientists** explaining behavior through **automatically** inferred **internal states** (beliefs, desires) or **situational causes**.\
 **Notable Figure:** Fritz Heider\
 **Citation:** Heider & Simmel (1944)\
 **Related Concepts:** Basis for **Theory of Mind** and **Intentional Stance**.
@@ -122,9 +122,9 @@ The perception of movement that implies **life or intention**, as in **point-lig
 
 ### Cross-Modal Dynamics
 
-Parallel expressive patterns across **movement and music** reveal a shared code for social meaning.\
+Parallel expressive patterns across **vision and audition** (animations & music) that reveal a shared code for social meaning.\
 **Example:** Fast, irregular motion or sound conveys agitation.\
-**Related Concepts:** Extends **Biological Motion**; supports **Affective Inference**.
+**Related Concepts:** Extends **Biological Motion**; cue to **Animacy**.
 
 ### Design Stance
 
@@ -149,10 +149,10 @@ The tendency to favor **oversimplified explanations** (e.g., two dimensions for 
 **Example:** Ignoring richness of cognition by reducing it to a single factor.\
 **Related Concepts:** Motivates **Computational Modeling** and **Marr’s Levels**.
 
-### Generative Model
+<!-- ### Generative Model
 
 An internal model linking **hidden mental states** (beliefs, goals) to **observable actions**.\
-**Related Concepts:** Core of the **Predictive Mind** framework.
+**Related Concepts:** Core of the **Predictive Mind** framework. -->
 
 ### Intentional Stance
 
@@ -199,6 +199,12 @@ Brains continuously **generate predictions** and update via **prediction errors*
 
 An **internal encoding** that mediates between perception and action; the modern addition to Lewin’s equation (*B = f(P, E, R)*).\
 **Related Concepts:** Central to **Cognitivism**, **Computational Models**, and **Predictive Mind**.
+
+### Symbolic System (SS)
+
+Architecture with Memory, Control, I/O, and Operators (Assign, Copy, Read/Write, Continue-IF). Implements symbolic theories of cognition.  
+**Notable Figures:** Newell & Simon.  
+**Related Concepts:** Representation, Cognitive Science
 
 ### Transition Structure
 
