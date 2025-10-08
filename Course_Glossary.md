@@ -18,9 +18,11 @@
 
 - Greifeneder, R. (n.d.). Chapters 1–2. *Social Cognition: How Individuals Construct Social Reality.*
 - Jolly, E., & Chang, L. (2024). The Flatland Fallacy: Over‑reliance on low‑dimensional explanations in social cognition. *Preprint.*
+- Lockwood, P. L., Apps, M. A. J., & Klein-Flügge, M. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences.*
 - Mitchell, J. P. (2006). *Mentalizing and Marr: An Information-Processing Approach to the Study of Social Cognition.*
 - Moskowitz, D. (2025). Introduction to social cognition and social inference. *In Social Cognition Textbook.*
 - Moskowitz, G. B. (n.d.). Introduction to Social Cognition. *In Social Cognition Textbook, Chapter 1.*
+- Pennington, D. (n.d.). History of Social Cognition. *In Social Cognition Textbook.*
 
 ### Week-01
 
@@ -29,32 +31,36 @@
 - Epley, N., & Waytz, A. (2010). Mind perception. *In S. T. Fiske (Ed.), Handbook of Social Psychology (5th ed.).*
 - Gray, H. M., Gray, K., & Wegner, D. M. (2007). *Dimensions of Mind Perception.*
 - Heider, F., & Simmel, M. (1944). *An Experimental Study of Apparent Behavior.*
-- Moskowitz, D. S. (n.d.). We Create Internal Mental Representations of External Reality. *In Social Cognition Textbook, Chapter 2.*
-- Pennington, D. (n.d.). History of Social Cognition. *In Social Cognition Textbook.*
+- Johansson, G. (1973). Visual Perception of Biological Motion and a Model for Its Analysis. *Perception & Psychophysics.*
 - Perez-Osorio, J., & Wykowska, A. (2020). Adopting the Intentional Stance Toward Natural and Artificial Agents. *Philosophical Psychology.*
 - Sievers, B., Polansky, L., Casey, M., & Wheatley, T. (2013). Music and movement share a dynamic structure that supports universal expressions of emotion. *PNAS.*
 - Sievers, B., Lee, C., Haslett, W., & Wheatley, T. (2019). A multi-sensory code for emotional arousal. *Proceedings of the Royal Society B.*
 - Sievers, B., et al. (2021). Visual and auditory brain areas share a representational structure that supports emotion perception. *Current Biology.*
-- Johansson, G. (1973). Visual Perception of Biological Motion and a Model for Its Analysis. *Perception & Psychophysics.*
 
 
 ### Week-02
-- Mitchell, J. P. (2009). Social psychology as a natural kind. *Trends in Cognitive Sciences.*
-- Parkinson, C., & Wheatley, T. (2015). The repurposed social brain. *Philosophical Transactions of the Royal Society B.*
+- Blakemore, S.-J., & Decety, J. (2001). From the perception of action to the understanding of intention. *Nature Reviews Neuroscience.*
 - Freeman, T. (2016). What is Mentalizing? An Overview. *British Journal of Psychotherapy.*
-- Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences.*
-- Haslam, N. (2006). Dehumanization: An Integrative Review. *Personality and Social Psychology Review.*
-- Pitcher, D., & Ungerleider, L. G. (2021). Evidence for a third visual pathway specialized for social perception. *Trends in Cognitive Sciences.*
-- Troje, N. F. (2012). What is biological motion? In M. D. Rutherford & V. A. Kuhlmeier (Eds.), *Social Perception: Detection and Interpretation of Animacy, Agency, and Intention.* MIT Press.
-- Saxe, R., & Wexler, A. (2005). Making sense of another mind: The role of the right temporo‑parietal junction. *Neuropsychologia.*
-- Skerry, A. E., & Saxe, R. (2014). A Common Neural Code for Perceived and Inferred Emotion. *Journal of Neuroscience.*
 - Fodor, J. A. (1992). A theory of the child's theory of mind. *Cognition.*
 - Frith, C. D., & Frith, U. (1999). Interacting Minds—A Biological Basis. *Science.*
-- Blakemore, S.-J., & Decety, J. (2001). From the perception of action to the understanding of intention. *Nature Reviews Neuroscience.*
+- Haslam, N. (2006). Dehumanization: An Integrative Review. *Personality and Social Psychology Review.*
+- Mitchell, J. P. (2009). Social psychology as a natural kind. *Trends in Cognitive Sciences.*
+- Mitchell, J. P. (2009). Inferences about mental states. *Philosophical Transactions of the Royal Society B.*
+- Parkinson, C., & Wheatley, T. (2015). The repurposed social brain. *Philosophical Transactions of the Royal Society B.*
+- Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences.*
+- Pitcher, D., & Ungerleider, L. G. (2021). Evidence for a third visual pathway specialized for social perception. *Trends in Cognitive Sciences.*
+- Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? *Behavioral and Brain Sciences.*
+- Saxe, R., & Wexler, A. (2005). Making sense of another mind: The role of the right temporo‑parietal junction. *Neuropsychologia.*
+- Skerry, A. E., & Saxe, R. (2014). A Common Neural Code for Perceived and Inferred Emotion. *Journal of Neuroscience.*
+- Troje, N. F. (2012). What is biological motion? In M. D. Rutherford & V. A. Kuhlmeier (Eds.), *Social Perception: Detection and Interpretation of Animacy, Agency, and Intention.* MIT Press.
+- Wang, S., Lilienfeld, S. O., & Rochat, P. (2015). The Uncanny Valley: Existence and Explanations. *Review of General Psychology.*
+- Wheatley, T., Kang, O., Parkinson, C., & Looser, C. (2012). From Mind Perception to Mental Connection: Synchrony as a Mechanism for Social Understanding. *Social and Personality Psychology Compass.*
 
 ### Week-03
-- Wang, X., et al. (2025). Modeling Other Minds: A computational account of social cognition and its development. *Preprint.*
 - Jara‑Ettinger, J., Gweon, H., Schulz, L. E., & Tenenbaum, J. B. (2016). The Naïve Utility Calculus: Computational Principles Underlying Commonsense Psychology. *Trends in Cognitive Sciences.*
+- Wang, X., et al. (2025). Modeling Other Minds: A computational account of social cognition and its development. *Preprint.*
+- Thornton, M. A., & Tamir, D. I. (2021). The Organization of Social Knowledge Is Tuned for Prediction. *Trends in Cognitive Sciences.*
+- Tamir, D. I., & Thornton, M. A. (2023). Predicting Other People Shapes the Social Mind. *Advances in Experimental Social Psychology.*
 
 
 -- 
@@ -382,11 +388,9 @@ Traits perceived as **distinctive to humans** (e.g., higher cognition, moral ref
 - Johansson, G. (1973). *Visual Perception of Biological Motion and a Model for Its Analysis.*
 - Kriegeskorte, N., & Douglas, P. (2018). Cognitive computational neuroscience. *Nature Neuroscience.*
 - Lewin, K. (1951). *Field Theory in Social Science.*
-- Lockwood, P. L., Apps, M. A. J., & Klein-Flügge, M. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences.*
 - Marr, D. (1982). *Vision.*
 - Mitchell, J. P. (2009). Social psychology as a natural kind. *Trends in Cognitive Sciences.*
 - Parkinson, C., & Wheatley, T. (2015). The repurposed social brain. *Philosophical Transactions of the Royal Society B.*
-- Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? *Behavioral and Brain Sciences.*
 - Sievers, B., Lee, C., Haslett, W., & Wheatley, T. (2019). A multi-sensory code for emotional arousal. *Proceedings of the Royal Society B.*
 - Sievers, B., Polansky, L., Casey, M., & Wheatley, T. (2013). Music and movement share a dynamic structure that supports universal expressions of emotion. *PNAS.*
 - Tamir, D. I., & Thornton, M. A. (2023). *Predicting Other People Shapes the Social Mind.*
