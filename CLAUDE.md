@@ -6,7 +6,7 @@ This document outlines the standardized formatting for academic paper summaries 
 
 ## Overview
 
-The `Reading_Summaries.md` file contains structured summaries of ~27+ academic papers for a social cognition course. Each paper follows a standardized format to ensure consistency and readability.
+The `Reading_Summaries.md` file contains structured summaries of academic papers for a social cognition course. Each paper follows a standardized format to ensure consistency and readability.
 
 ---
 

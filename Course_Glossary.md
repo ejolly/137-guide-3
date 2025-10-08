@@ -43,18 +43,18 @@
 - Parkinson, C., & Wheatley, T. (2015). The repurposed social brain. *Philosophical Transactions of the Royal Society B.*
 - Freeman, T. (2016). What is Mentalizing? An Overview. *British Journal of Psychotherapy.*
 - Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences.*
-- Haslam
-- Pitcher
-- Troje
-- Saxe
-- Skerry
-- Fodor
-- Frith
-- Blakemore
+- Haslam, N. (2006). Dehumanization: An Integrative Review. *Personality and Social Psychology Review.*
+- Pitcher, D., & Ungerleider, L. G. (2021). Evidence for a third visual pathway specialized for social perception. *Trends in Cognitive Sciences.*
+- Troje, N. F. (2012). What is biological motion? In M. D. Rutherford & V. A. Kuhlmeier (Eds.), *Social Perception: Detection and Interpretation of Animacy, Agency, and Intention.* MIT Press.
+- Saxe, R., & Wexler, A. (2005). Making sense of another mind: The role of the right temporo‑parietal junction. *Neuropsychologia.*
+- Skerry, A. E., & Saxe, R. (2014). A Common Neural Code for Perceived and Inferred Emotion. *Journal of Neuroscience.*
+- Fodor, J. A. (1992). A theory of the child's theory of mind. *Cognition.*
+- Frith, C. D., & Frith, U. (1999). Interacting Minds—A Biological Basis. *Science.*
+- Blakemore, S.-J., & Decety, J. (2001). From the perception of action to the understanding of intention. *Nature Reviews Neuroscience.*
 
 ### Week-03
 - Wang, X., et al. (2025). Modeling Other Minds: A computational account of social cognition and its development. *Preprint.*
-- JaraEttinger
+- Jara‑Ettinger, J., Gweon, H., Schulz, L. E., & Tenenbaum, J. B. (2016). The Naïve Utility Calculus: Computational Principles Underlying Commonsense Psychology. *Trends in Cognitive Sciences.*
 
 
 -- 
@@ -154,6 +154,12 @@ Perceived **aliveness** or possession of mind, inferred from motion cues like **
 **Example:** A triangle chasing a circle appears alive.\
 **Related Concepts:** Triggers **Intentional Stance** and **Mentalizing**.
 
+### Animalistic Dehumanization
+
+Denying **Uniquely Human (UH)** traits; implicitly or explicitly likening others to animals; associated with emotions of disgust/contempt; typically occurs in intergroup contexts.\
+**Notable Figures:** Haslam; Leyens\
+**Related Concepts:** **Moral exclusion**; **Mechanistic Dehumanization**; **Uniquely Human**.
+
 ### Attribution Theory
 
 The idea that people are **naïve scientists** explaining behavior through **automatically** inferred **internal states** (beliefs, desires) or **situational causes**.\
@@ -187,8 +193,14 @@ The perceived **capacity to feel sensations and emotions**.\
 
 ### False-Belief Task
 
-A classic **Theory of Mind** test: predicting others’ behavior based on what they believe, not reality (e.g., Sally-Anne task).\
+A classic **Theory of Mind** test: predicting others' behavior based on what they believe, not reality (e.g., Sally-Anne task).\
 **Related Concepts:** Demonstrates **Belief–Desire Reasoning** and **Metarepresentation**.
+
+### Forward Model
+
+A predictive mapping from **motor command to expected sensory consequences**; used to distinguish self-caused from external events and can be co-opted to estimate others' intentions by simulating their motor commands.\
+**Notable Figures:** Wolpert, Miall\
+**Related Concepts:** **Efference copy**; **Simulation Theory**; **Predictive Mind**.
 
 ### Flatland Fallacy
 
@@ -201,13 +213,37 @@ The tendency to favor **oversimplified explanations** (e.g., two dimensions for 
 An internal model linking **hidden mental states** (beliefs, goals) to **observable actions**.\
 **Related Concepts:** Core of the **Predictive Mind** framework. -->
 
+### H1 (Desire Heuristic)
+
+A computational heuristic that predicts action from **desires alone** when they yield a unique prediction; simpler and less costly than belief-desire reasoning.\
+**Notable Figures:** Fodor\
+**Related Concepts:** **Simple desire psychology**; **H2**; **Theory of Mind**.
+
+### H2 (Belief+Desire Heuristic)
+
+A computational heuristic that incorporates both **beliefs and desires** when H1 is underdetermined; computationally costlier but more reliable.\
+**Notable Figures:** Fodor\
+**Related Concepts:** **False-Belief Task**; **H1**; **Theory of Mind**.
+
+### Human Nature (HN)
+
+Traits seen as **core/innate to humans** (e.g., warmth, emotionality, agency, depth). Denial of HN traits leads to **mechanistic dehumanization**.\
+**Notable Figures:** Haslam\
+**Related Concepts:** **Empathy**; **Mechanistic Dehumanization**; **Agency**.
+
 ### Intentional Stance
 
 A strategy for predicting behavior by assuming **beliefs, desires, and rationality**.\
 **Notable Figure:** Daniel Dennett\
 **Related Concepts:** Complements **Design** and **Physical** stances; triggered by **Animacy**.
 
-### Marr’s Computational Level
+### Life Detector
+
+Local visual filters sensitive to **foot acceleration patterns** consistent with gravity and ballistic motion; provides fast, shape-independent cues for detecting living beings.\
+**Notable Figures:** Troje, Chang\
+**Related Concepts:** **Animacy**; **Biological Motion**.
+
+### Marr's Computational Level
 
 Focuses on **what** the system does and **why** — the goals and purpose of the process.\
 **Notable Figure:** David Marr\
@@ -219,16 +255,28 @@ Focuses on **how** the process is achieved — the **representations** and opera
 **Notable Figure:** David Marr\
 **Related Concepts:** Bridges **Computational** and **Implementational** levels.
 
-### Marr’s Implementational Level
+### Marr's Implementational Level
 
 Focuses on the **physical mechanisms** that realize computation (e.g., neural circuits, hardware).\
 **Notable Figure:** David Marr\
 **Related Concepts:** Connects theory to biology; links to **Cognitive Neuroscience**.
 
+### Mechanistic Dehumanization
+
+Denying **Human Nature (HN)** traits; representing others as objects/machines; associated with emotions of indifference; occurs interpersonally and in institutional contexts (e.g., medicine).\
+**Notable Figures:** Haslam\
+**Related Concepts:** **Objectification**; **Animalistic Dehumanization**; **Human Nature (HN)**.
+
 ### Mentalizing
 
 The act of **attributing mental states** to others — also called **Mind Perception**. Occurs automatically and supports social prediction.\
 **Related Concepts:** Precedes **Theory of Mind** as the perceptual step; driven by **Animacy**, **Agency**, and **Experience**.
+
+### Naïve Utility Calculus
+
+An intuitive generative model that represents agents as planning to **maximize expected utility** (rewards minus costs); observers infer agents' preferences, beliefs, and competence by **Bayesian inversion** of this planning model.\
+**Notable Figures:** Jara-Ettinger, Tenenbaum\
+**Related Concepts:** **Theory of Mind**; **Predictive Mind**; **Inverse planning**.
 
 ### Physical Stance
 
@@ -247,6 +295,18 @@ Brains continuously **generate predictions** and update via **prediction errors*
 An **internal encoding** that mediates between perception and action; the modern addition to Lewin’s equation (*B = f(P, E, R)*); predictive in nature\
 **Related Concepts:** Central to **Cognitivism**, **Computational Models**, and **Predictive Mind**.
 
+### Simulation Theory
+
+A theory proposing that we represent other minds by **generating similar processes in oneself**; involves motor resonance and embodied simulation.\
+**Notable Figures:** Goldman\
+**Related Concepts:** **Mirror system**; **Forward Model**; **Theory of Mind**.
+
+### Structure-from-Motion
+
+Global integration of correlated part motions to yield articulated **3D shape**; allows recovery of body configuration from **point-light displays**.\
+**Notable Figures:** Johansson, Ullman\
+**Related Concepts:** **Point-light displays**; **Biological Motion**.
+
 ### Synchrony
 
 **Time-locked coupling** across neural, physiological, and behavioral signals between interacting agents that supports **mutual prediction** and connection. Synchrony serves as both an index (marker) and mechanism (causal factor) for social bonding — aligning communication windows to reduce prediction error and creating subjective experiences of closeness.\
@@ -256,9 +316,21 @@ An **internal encoding** that mediates between perception and action; the modern
 
 ### Symbolic System (SS)
 
-Architecture with Memory, Control, I/O, and Operators (Assign, Copy, Read/Write, Continue-IF). Implements symbolic theories of cognition.  
-**Notable Figures:** Newell & Simon.  
+Architecture with Memory, Control, I/O, and Operators (Assign, Copy, Read/Write, Continue-IF). Implements symbolic theories of cognition.\
+**Notable Figures:** Newell & Simon.\
 **Related Concepts:** Representation, Cognitive Science
+
+### Theory of Mind (ToM)
+
+The capacity to **represent others' beliefs, desires, and intentions** to explain and predict behavior.\
+**Notable Figures:** Premack & Woodruff (1978)\
+**Related Concepts:** Built upon **Mentalizing** and **Generative Models**.
+
+### Third Visual Pathway
+
+A lateral visual stream projecting from early visual areas via motion-selective regions (MT/V5) into the **superior temporal sulcus (STS)**, specialized for extracting dynamic social signals (gaze, expression, body movement).\
+**Notable Figures:** Pitcher, Ungerleider\
+**Related Concepts:** **STS**; **Biological Motion**; **Animacy**.
 
 ### Transition Structure
 
@@ -266,11 +338,11 @@ Knowledge of how **mental states and actions change over time**, enabling **pred
 **Example:** Anger → Regret or Knock → Enter sequences.\
 **Related Concepts:** Evidence for **Predictive Mind**.
 
-### Theory of Mind (ToM)
+### Uniquely Human (UH)
 
-The capacity to **represent others’ beliefs, desires, and intentions** to explain and predict behavior.\
-**Notable Figures:** Premack & Woodruff (1978)\
-**Related Concepts:** Built upon **Mentalizing** and **Generative Models**.
+Traits perceived as **distinctive to humans** (e.g., higher cognition, moral refinement, language, civility). Denial of UH traits leads to **animalistic dehumanization**.\
+**Notable Figures:** Haslam; Leyens\
+**Related Concepts:** **Infra-humanization**; **Animalistic Dehumanization**.
 
 ---
 
