@@ -3,3 +3,4 @@
 * [Historical Perspectives](timeline.md)
 * [Lecture Notes](lecture-notes/index.md)
 * [Optional-Reading Summaries](optional-readings/index.md)
+* [Instructor Notes](instructor-notes.md)
