@@ -1,6 +1,6 @@
 # Optional Readings — Week 2
 
-## 2001 — Blakemore, S.-J., & Decety, J. (2001). From the perception of action to the understanding of intention. *Nature Reviews Neuroscience.*
+## Blakemore & Decety (2001). From the perception of action to the understanding of intention
 
 **Full Citation:** Blakemore, S.-J., & Decety, J. (2001). From the perception of action to the understanding of intention. *Nature Reviews Neuroscience*, 2(8), 561–574.
 
@@ -43,7 +43,100 @@ Links to Marr's levels (algorithmic: representations of motor plans; implementat
 
 ---
 
-## 2006 — Haslam, N. (2006). Dehumanization: An Integrative Review. *Personality and Social Psychology Review.*
+## Brüne & Brüne-Cohrs (2006). Theory of mind: Evolution, ontogeny, brain mechanisms and psychopathology
+
+**Full Citation:** Brüne, M., & Brüne‑Cohrs, U. (2006). Theory of mind—evolution, ontogeny, brain mechanisms and psychopathology. *Source.*
+
+**Topic Tags:** Theory of Mind, Evolution, Developmental Psychopathology, Social Neuroscience
+
+### Core Question / Problem
+How did theory of mind (ToM) evolve and develop in humans, what are its neural substrates, and how do disturbances in ToM relate to psychiatric disorders? The review asks: is ToM an evolved, partially innate capacity tuned by social environment, and how do neural implementations explain both normal and pathological variation?
+
+### Conceptual or Computational Framework
+The authors situate ToM as an evolved cognitive adaptation for social complexity. They mix evolutionary explanation (selection for social inference), ontogenetic constraints (long developmental trajectory), and neural-implementation accounts (a distributed social brain: medial prefrontal cortex, STS, ACC, inferior parietal). The framing aligns with Marr's levels: adaptive function (computational), representational/algorithmic proposals (mental state attribution, imitation, biological-motion tracking), and implementational neuroanatomy.
+
+### Methods Overview
+This is a synthetic review integrating comparative primate data, developmental studies (false‑belief tasks, infant looking-time), lesion and neuroimaging findings, and clinical studies in autism spectrum disorders, schizophrenia, and personality disorders. The review emphasizes cross-method convergence rather than original empirical data.
+
+### Key Findings
+- Phylogeny: Precursors of ToM exist in nonhuman primates (monitoring biological motion, joint attention, mimicry) but human ToM is uniquely elaborated.
+- Ontogeny: ToM appears to be scaffolded by early social interaction; infants show precursors (goal attribution), while explicit belief‑attribution develops later and depends on social input.
+- Neural mechanisms: A distributed network—medial PFC, temporo‑parietal junction (TPJ)/STS, ACC, and inferior parietal regions—supports different ToM subprocesses.
+- Psychopathology: Diverse disorders show selective ToM impairments—autism (developmental delay or impairment), schizophrenia and affective disorders (context‑dependent deficits), and certain personality disorders (atypical attribution biases).
+
+### Interpretation & Significance
+The review argues for ToM as both an evolved capacity and a developmentally plastic skill dependent on social experience. Neural specializations reflect modularized operations (e.g., agents' goals vs. beliefs), but are not strictly domain‑specific—variation across disorders suggests overlapping circuits and compensatory processes.
+
+### Computational‑Social‑Cognitive‑Scientist Hat
+From a modeling perspective: ToM could be formalized as a generative model that maps hidden mental states to observed actions, with priors shaped by social ecology. Developmental trajectories can be modeled as hierarchical Bayesian learning with limited data early in life, and psychopathology as altered priors or inference noise.
+
+### Connections
+Links to Predictive Mind (priors for social inference), Marr's levels (function → algorithm → implementation), and clinical neuropsychology. Also ties to literature on imitation and joint attention as learning mechanisms.
+
+### Key Quotes or Phrases
+- "Theory of mind comprises an innate cognitive capacity represented in a dedicated neural network…" (p.1).
+- "Psychopathology almost always involves disturbances of social reasoning."
+
+### Concept Graph
+- Social complexity → selection pressure → ToM capacity.
+  - **Medial PFC / TPJ:** inference about beliefs and traits. **Notable Figures:** Frith, Mitchell. **Related Concepts:** Default mode network; trait inference.
+  - **STS / Biological Motion:** input for animacy detection. **Definition:** motion cues that signal agency. **Related Concepts:** Animacy; Intentional stance.
+
+### Relevant Terms
+- **Existing Terms Used:** Theory of Mind; Mentalizing; Animacy; Intentional Stance; Predictive Mind; Representation. fileciteturn1file16 fileciteturn1file2
+- **New Terms to Add:**
+  - **Social Brain Network (as reviewed):** The constellation of medial PFC, TPJ/STS, ACC, and inferior parietal cortex implicated in ToM. **Definition:** neural substrate mapping from perceived behavior to inferred mental states. **Related Concepts:** Default Mode Network; Mentalizing.
+
+---
+
+## Frith & Frith (1999). Interacting minds: A biological basis
+
+**Full Citation:** Frith, C. D., & Frith, U. (1999). Interacting Minds—A Biological Basis. *Science*, 286, 1692–1695.
+
+**Topic Tags:** mentalizing, theory of mind, STS, medial prefrontal cortex, development, autism
+
+### Core Question / Problem
+What are the neural and developmental foundations of mentalizing — the ability to represent other people's mental states — and how did this capacity evolve from perceptual and action‑representation systems?
+
+### Conceptual or Computational Framework
+Frith & Frith synthesize developmental psychology, neuropsychology, single‑cell and imaging data to propose a decomposed system for social cognition: (i) superior temporal sulcus (STS) and adjacent regions for detecting biological motion and representing others' actions; (ii) lateral inferior frontal/mirror‑system regions for action representation and goal inference; (iii) medial prefrontal/anterior cingulate regions for self‑related representations and the explicit reasoning about mental states (mentalizing). They interpret mentalizing as emerging from action systems rather than ventral object recognition modules.
+
+### Methods Overview
+The review integrates:
+- Developmental paradigms (false‑belief/Sally‑Anne tasks; deception/sabotage).
+- Neuroimaging (PET/fMRI) studies asking subjects to report on self or others' mental states.
+- Single‑cell recordings in nonhuman primates (STS action‑selective cells; mirror neuron evidence in F5).
+- Clinical dissociations (autism, schizophrenia, focal lesions).
+
+### Key Findings
+- Mentalizing has an identifiable developmental trajectory: joint attention in infancy → understanding pretense by ~18 months → reliable false‑belief reasoning by ~4 years.
+- Autism shows selective deficits in early markers (joint attention, pointing, pretend play) and later in false‑belief tasks, suggesting specialized developmental disruption.
+- Imaging converges on medial prefrontal regions and temporo‑parietal junction (TPJ) for mentalizing tasks; STS regions implicated in biological motion detection are adjacent to mentalizing activations.
+- Single‑cell studies show STS neurons responsive to biological motion and to goal‑directed actions; mirror neurons in inferior frontal regions provide a putative substrate for mapping observed actions onto motor representations.
+- Schizophrenia can show overactive or maladaptive mentalizing (delusional inference), implicating disturbances in the same networks (and interactions with executive functions).
+
+### Interpretation & Significance
+Frith & Frith argue mentalizing is neither wholly domain‑general nor magically human‑unique; rather, it builds on evolutionarily older action representation systems. The review frames social cognition as layered: perceptual detection of animate agents → action/goal parsing via mirror-like systems → explicit, self‑referential inferential processing in medial prefrontal cortex.
+
+### Computational‑Social‑Cognitive‑Scientist Hat
+Model mentalizing as hierarchical inference: low‑level detectors (biological motion filters) produce hypotheses about agents; mid‑level modules compute goal/intent representations via forward/inverse models (action ↔ goal mapping); high‑level modules run counterfactual simulations (beliefs about others' beliefs) and maintain self-other distinctions. This maps comfortably onto predictive‑processing accounts where prediction error at each level drives belief updating about agents' future actions.
+
+### Connections
+Direct links to biological motion research (Troje), mirror neuron literature (Rizzolatti et al.), and predictive accounts of social cognition. Also relates to Dennett's Intentional Stance and debates about simulation vs. theory‑theory.
+
+### Key Quotes or Phrases
+- "The ability to 'mentalize' … depends on a dedicated and circumscribed brain system."
+- "Our ability to mentalize seems to have evolved largely from the dorsal action system."
+
+### Concept Graph
+- Biological motion detection (STS) → Action/goal parsing (mirror/inferior frontal) → Mentalizing (medial PFC/ACC, TPJ).
+  - **STS (biological motion):** detects animate movement; feeds goal inferences. **Notable Figures:** Oram, Perrett, Frith. **Related Concepts:** Point‑light displays; life detector.
+  - **Medial PFC:** self‑state representation and explicit mental state reasoning. **Notable Figures:** Frith & Frith. **Related Concepts:** False‑belief reasoning; executive control.
+
+### Relevant Terms
+- **Existing Terms Used:** Mentalizing, Theory of Mind, Biological Motion, STS.
+
+## Haslam (2006). Dehumanization: An integrative review
 
 **Full Citation:** Haslam, N. (2006). Dehumanization: An Integrative Review. *Personality and Social Psychology Review*, 10(3), 252–264.
 
@@ -93,7 +186,50 @@ Links to course concepts: mentalizing/intentional stance (animacy cues trigger i
 
 ---
 
-## 2021 — Pitcher, D., & Ungerleider, L. G. (2021). Evidence for a Third Visual Pathway Specialized for Social Perception. *Trends in Cognitive Sciences.*
+## Moran et al. (2014). Spontaneous mentalizing predicts the fundamental attribution error
+
+**Full Citation:** Moran, J. M., Jolly, E., & Mitchell, J. P. (2014). Spontaneous mentalizing predicts the fundamental attribution error. *Journal of Cognitive Neuroscience, 26*(3), 569–578.
+
+**Topic Tags:** Spontaneous Mentalizing, Fundamental Attribution Error, Default Mode Network, Social Neuroscience
+
+### Core Question / Problem
+Why do people tend to favor dispositional explanations (the fundamental attribution error, FAE) even when situational factors are obvious? The paper asks whether spontaneous activation of mentalizing processes and associated neural systems (default mode network) predicts dispositional attributions.
+
+### Conceptual or Computational Framework
+The paper frames FAE as a default inference strategy arising from spontaneous activation of mentalizing machinery (intentional stance). They connect dispositional inference to activity in core mentalizing regions (medial PFC, TPJ) and situational inference to limbic/temporal regions (e.g., amygdala, temporal pole).
+
+### Methods Overview
+Multi-experiment approach combining fMRI with behavioral attribution tasks. Key paradigm: participants read ambiguous scenarios and later provide dispositional vs. situational explanations while brain activity (and resting-state network architecture) is measured. Contrasts isolate brain regions predicting dispositional vs. situational attributions.
+
+### Key Findings
+- Spontaneous recruitment of core mentalizing regions (dmPFC, TPJ) during initial reading predicted later dispositional attributions.
+- These regions are part of the default mode network, whose high baseline activity may bias perceivers toward dispositional inference.
+- Individuals with reduced default network activity (e.g., autism) may show reduced FAE — supporting a mechanistic link between spontaneous mentalizing and attribution bias.
+
+### Interpretation & Significance
+The study reframes FAE not as merely a cognitive shortcut or effort‑saving heuristic but as a consequence of an adaptive, automatically engaged system for understanding others. The default network's tonic activity may create a processing bias: adopting the intentional stance is the brain's baseline approach to social input.
+
+### Computational‑Social‑Cognitive‑Scientist Hat
+Model implication: a prioritized prior favoring dispositional causes—implemented via default network baseline—requires cognitive effort to override (situational re‑weighting). Models of social inference should include tonic activation of mind‑attribution priors and a control process to integrate situational evidence.
+
+### Connections
+Bridges attribution theory, Default Mode Network research, and developmental work on autism. Directly links to the Brüne review's neural localization and Thornton's work on person representations via mental states.
+
+### Key Quotes or Phrases
+- "A lifetime of reflexively considering others' mental states… creates a default strategy for understanding other minds." (Moran et al., p.573). fileciteturn1file6
+
+### Concept Graph
+- Default Mode Network baseline activity → spontaneous mentalizing → dispositional attributions (FAE).
+  - **dmPFC / TPJ:** spontaneous trait inference. **Related Concepts:** Mentalizing; Intentional stance.
+
+### Relevant Terms
+- **Existing Terms Used:** Mentalizing; Intentional Stance; Default Mode Network (as discussed in course readings). fileciteturn1file6 fileciteturn1file2
+- **New Terms to Add:**
+  - **Tonic Mentalizing Bias:** baseline neural propensity (default network activity) to interpret actions via dispositional inferences. **Definition:** an a priori weighting toward internal-state explanations that must be modulated by evidence. **Related Concepts:** Predictive Mind; Default Mode Network.
+
+---
+
+## Pitcher & Ungerleider (2021). Evidence for a third visual pathway specialized for social perception
 
 **Full Citation:** Pitcher, D., & Ungerleider, L. G. (2021). Evidence for a third visual pathway specialized for social perception. *Trends in Cognitive Sciences*, 25(2), 100–112.
 
@@ -135,7 +271,7 @@ Connects to biological motion, animacy, and subsequent mentalizing computations 
 
 ---
 
-## 1978 — Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? *Behavioral and Brain Sciences.*
+## Premack & Woodruff (1978). Does the chimpanzee have a theory of mind?
 
 **Full Citation:** Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? *Behavioral and Brain Sciences.*
 
@@ -174,7 +310,7 @@ Premack & Woodruff's paper launched ToM as an empirical question and a research 
 
 ---
 
-## 2021 — Sievers, B., et al. (2021). Visual and auditory brain areas share a representational structure that supports emotion perception. *Current Biology.*
+## Sievers et al. (2021). Visual and auditory brain areas share a representational structure that supports emotion perception
 
 **Full Citation:** Beau Sievers, Carolyn Parkinson, Peter J. Kohler, James M. Hughes, Sergey V. Fogelson, Thalia Wheatley (2021). Visual and auditory brain areas share a representational structure that supports emotion perception. *Current Biology.*
 
@@ -231,7 +367,7 @@ Links to Sievers et al. (2013, 2019) on crossmodal structure, work on pSTS/pSTG 
 
 ---
 
-## 2021 — Thornton, M. A., & Tamir, D. I. (2021). The Organization of Social Knowledge Is Tuned for Prediction. *[journal].*
+## Thornton & Tamir (2021). The organization of social knowledge is tuned for prediction
 
 **Full Citation:** Thornton, M. A., & Tamir, D. I. (2021). The Organization of Social Knowledge Is Tuned for Prediction. *[journal]*.
 
@@ -279,7 +415,7 @@ Links strongly to Predictive Mind, Generative Models, Mentalizing, the ACT‑FAS
 
 ---
 
-## 2019 — Thornton, M. A., Weaverdyck, M. E., & Tamir, D. I. (2019). The brain represents people as the mental states they habitually experience. *Nature Communications.*
+## Thornton et al. (2019). The brain represents people as the mental states they habitually experience
 
 **Full Citation:** Thornton, M. A., Weaverdyck, M. E., & Tamir, D. I. (2019). The brain represents people as the mental states they habitually experience. *Nature Communications, 10*, 2291.
 
@@ -326,7 +462,7 @@ Links to Thornton & Tamir's broader program (mental‑state centric models), tra
 
 ---
 
-## 2025 — Vainio, L., Mo, X., & Vainio, M. (2025). Is Kiki angry and Bouba happy? Association between emotions, shapes, and sounds. *Psychological Research.*
+## Vainio et al. (2025). Is Kiki angry and Bouba happy? Association between emotions, shapes, and sounds
 
 **Full Citation:** Vainio, L., Mo, X., & Vainio, M. (2025). Is Kiki angry and Bouba happy? Association between emotions, shapes, and sounds. *Psychological Research, 89*, 124.
 
@@ -373,7 +509,7 @@ Ties to Sievers et al. (2013, 2019) on cross‑modal emotion codes, articulatory
 
 ---
 
-## 2015 — Wang, S., Lilienfeld, S. O., & Rochat, P. (2015). The Uncanny Valley: Existence and Explanations. *Review of General Psychology.*
+## Wang et al. (2015). The uncanny valley: Existence and explanations
 
 **Full Citation:** Wang, S., Lilienfeld, S. O., & Rochat, P. (2015). The Uncanny Valley: Existence and Explanations. *Review of General Psychology*, 19(4), 393–407.
 
@@ -431,7 +567,7 @@ Links to course glossary concepts: Animacy and Mentalizing (perceptual triggers)
 
 ---
 
-## 2010 — Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences.*
+## Waytz et al. (2010). Causes and consequences of mind perception
 
 **Full Citation:** Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences.*
 
@@ -475,147 +611,3 @@ Links to: animacy/biological motion research, dehumanization literature, implici
 - Mind attribution → alters moral status (patient vs. agent) → changes helping/punishing behaviors.
 
 ---
-
-## 1999 — Frith, C. D., & Frith, U. (1999). Interacting Minds — A Biological Basis. *Science.*
-
-**Full Citation:** Frith, C. D., & Frith, U. (1999). Interacting Minds—A Biological Basis. *Science*, 286, 1692–1695.
-
-**Topic Tags:** mentalizing, theory of mind, STS, medial prefrontal cortex, development, autism
-
-### Core Question / Problem
-What are the neural and developmental foundations of mentalizing — the ability to represent other people's mental states — and how did this capacity evolve from perceptual and action‑representation systems?
-
-### Conceptual or Computational Framework
-Frith & Frith synthesize developmental psychology, neuropsychology, single‑cell and imaging data to propose a decomposed system for social cognition: (i) superior temporal sulcus (STS) and adjacent regions for detecting biological motion and representing others' actions; (ii) lateral inferior frontal/mirror‑system regions for action representation and goal inference; (iii) medial prefrontal/anterior cingulate regions for self‑related representations and the explicit reasoning about mental states (mentalizing). They interpret mentalizing as emerging from action systems rather than ventral object recognition modules.
-
-### Methods Overview
-The review integrates:
-- Developmental paradigms (false‑belief/Sally‑Anne tasks; deception/sabotage).
-- Neuroimaging (PET/fMRI) studies asking subjects to report on self or others' mental states.
-- Single‑cell recordings in nonhuman primates (STS action‑selective cells; mirror neuron evidence in F5).
-- Clinical dissociations (autism, schizophrenia, focal lesions).
-
-### Key Findings
-- Mentalizing has an identifiable developmental trajectory: joint attention in infancy → understanding pretense by ~18 months → reliable false‑belief reasoning by ~4 years.
-- Autism shows selective deficits in early markers (joint attention, pointing, pretend play) and later in false‑belief tasks, suggesting specialized developmental disruption.
-- Imaging converges on medial prefrontal regions and temporo‑parietal junction (TPJ) for mentalizing tasks; STS regions implicated in biological motion detection are adjacent to mentalizing activations.
-- Single‑cell studies show STS neurons responsive to biological motion and to goal‑directed actions; mirror neurons in inferior frontal regions provide a putative substrate for mapping observed actions onto motor representations.
-- Schizophrenia can show overactive or maladaptive mentalizing (delusional inference), implicating disturbances in the same networks (and interactions with executive functions).
-
-### Interpretation & Significance
-Frith & Frith argue mentalizing is neither wholly domain‑general nor magically human‑unique; rather, it builds on evolutionarily older action representation systems. The review frames social cognition as layered: perceptual detection of animate agents → action/goal parsing via mirror-like systems → explicit, self‑referential inferential processing in medial prefrontal cortex.
-
-### Computational‑Social‑Cognitive‑Scientist Hat
-Model mentalizing as hierarchical inference: low‑level detectors (biological motion filters) produce hypotheses about agents; mid‑level modules compute goal/intent representations via forward/inverse models (action ↔ goal mapping); high‑level modules run counterfactual simulations (beliefs about others' beliefs) and maintain self-other distinctions. This maps comfortably onto predictive‑processing accounts where prediction error at each level drives belief updating about agents' future actions.
-
-### Connections
-Direct links to biological motion research (Troje), mirror neuron literature (Rizzolatti et al.), and predictive accounts of social cognition. Also relates to Dennett's Intentional Stance and debates about simulation vs. theory‑theory.
-
-### Key Quotes or Phrases
-- "The ability to 'mentalize' … depends on a dedicated and circumscribed brain system."
-- "Our ability to mentalize seems to have evolved largely from the dorsal action system."
-
-### Concept Graph
-- Biological motion detection (STS) → Action/goal parsing (mirror/inferior frontal) → Mentalizing (medial PFC/ACC, TPJ).
-  - **STS (biological motion):** detects animate movement; feeds goal inferences. **Notable Figures:** Oram, Perrett, Frith. **Related Concepts:** Point‑light displays; life detector.
-  - **Medial PFC:** self‑state representation and explicit mental state reasoning. **Notable Figures:** Frith & Frith. **Related Concepts:** False‑belief reasoning; executive control.
-
-### Relevant Terms
-- **Existing Terms Used:** Mentalizing, Theory of Mind, Biological Motion, STS.
-
----
-
-## 2014 — Moran, J., Jolly, E., & Mitchell, J. P. (2014). Spontaneous mentalizing predicts the fundamental attribution error. *Journal of Cognitive Neuroscience.*
-
-**Full Citation:** Moran, J. M., Jolly, E., & Mitchell, J. P. (2014). Spontaneous mentalizing predicts the fundamental attribution error. *Journal of Cognitive Neuroscience, 26*(3), 569–578.
-
-**Topic Tags:** Spontaneous Mentalizing, Fundamental Attribution Error, Default Mode Network, Social Neuroscience
-
-### Core Question / Problem
-Why do people tend to favor dispositional explanations (the fundamental attribution error, FAE) even when situational factors are obvious? The paper asks whether spontaneous activation of mentalizing processes and associated neural systems (default mode network) predicts dispositional attributions.
-
-### Conceptual or Computational Framework
-The paper frames FAE as a default inference strategy arising from spontaneous activation of mentalizing machinery (intentional stance). They connect dispositional inference to activity in core mentalizing regions (medial PFC, TPJ) and situational inference to limbic/temporal regions (e.g., amygdala, temporal pole).
-
-### Methods Overview
-Multi-experiment approach combining fMRI with behavioral attribution tasks. Key paradigm: participants read ambiguous scenarios and later provide dispositional vs. situational explanations while brain activity (and resting-state network architecture) is measured. Contrasts isolate brain regions predicting dispositional vs. situational attributions.
-
-### Key Findings
-- Spontaneous recruitment of core mentalizing regions (dmPFC, TPJ) during initial reading predicted later dispositional attributions.
-- These regions are part of the default mode network, whose high baseline activity may bias perceivers toward dispositional inference.
-- Individuals with reduced default network activity (e.g., autism) may show reduced FAE — supporting a mechanistic link between spontaneous mentalizing and attribution bias.
-
-### Interpretation & Significance
-The study reframes FAE not as merely a cognitive shortcut or effort‑saving heuristic but as a consequence of an adaptive, automatically engaged system for understanding others. The default network's tonic activity may create a processing bias: adopting the intentional stance is the brain's baseline approach to social input.
-
-### Computational‑Social‑Cognitive‑Scientist Hat
-Model implication: a prioritized prior favoring dispositional causes—implemented via default network baseline—requires cognitive effort to override (situational re‑weighting). Models of social inference should include tonic activation of mind‑attribution priors and a control process to integrate situational evidence.
-
-### Connections
-Bridges attribution theory, Default Mode Network research, and developmental work on autism. Directly links to the Brüne review's neural localization and Thornton's work on person representations via mental states.
-
-### Key Quotes or Phrases
-- "A lifetime of reflexively considering others' mental states… creates a default strategy for understanding other minds." (Moran et al., p.573). fileciteturn1file6
-
-### Concept Graph
-- Default Mode Network baseline activity → spontaneous mentalizing → dispositional attributions (FAE).
-  - **dmPFC / TPJ:** spontaneous trait inference. **Related Concepts:** Mentalizing; Intentional stance.
-
-### Relevant Terms
-- **Existing Terms Used:** Mentalizing; Intentional Stance; Default Mode Network (as discussed in course readings). fileciteturn1file6 fileciteturn1file2
-- **New Terms to Add:**
-  - **Tonic Mentalizing Bias:** baseline neural propensity (default network activity) to interpret actions via dispositional inferences. **Definition:** an a priori weighting toward internal-state explanations that must be modulated by evidence. **Related Concepts:** Predictive Mind; Default Mode Network.
-
----
-
-*Pedagogical note:* This paper is excellent for linking neural mechanisms to classic social-psychological phenomena and for teaching how spontaneous neural processes produce robust cognitive biases.
-
----
-
-## 2006 — Brüne, M., & Brüne‑Cohrs, U. (2006). Theory of mind — evolution, ontogeny, brain mechanisms and psychopathology. *Source.*
-
-**Full Citation:** Brüne, M., & Brüne‑Cohrs, U. (2006). Theory of mind—evolution, ontogeny, brain mechanisms and psychopathology. *Source.*
-
-**Topic Tags:** Theory of Mind, Evolution, Developmental Psychopathology, Social Neuroscience
-
-### Core Question / Problem
-How did theory of mind (ToM) evolve and develop in humans, what are its neural substrates, and how do disturbances in ToM relate to psychiatric disorders? The review asks: is ToM an evolved, partially innate capacity tuned by social environment, and how do neural implementations explain both normal and pathological variation?
-
-### Conceptual or Computational Framework
-The authors situate ToM as an evolved cognitive adaptation for social complexity. They mix evolutionary explanation (selection for social inference), ontogenetic constraints (long developmental trajectory), and neural-implementation accounts (a distributed social brain: medial prefrontal cortex, STS, ACC, inferior parietal). The framing aligns with Marr's levels: adaptive function (computational), representational/algorithmic proposals (mental state attribution, imitation, biological-motion tracking), and implementational neuroanatomy.
-
-### Methods Overview
-This is a synthetic review integrating comparative primate data, developmental studies (false‑belief tasks, infant looking-time), lesion and neuroimaging findings, and clinical studies in autism spectrum disorders, schizophrenia, and personality disorders. The review emphasizes cross-method convergence rather than original empirical data.
-
-### Key Findings
-- Phylogeny: Precursors of ToM exist in nonhuman primates (monitoring biological motion, joint attention, mimicry) but human ToM is uniquely elaborated.
-- Ontogeny: ToM appears to be scaffolded by early social interaction; infants show precursors (goal attribution), while explicit belief‑attribution develops later and depends on social input.
-- Neural mechanisms: A distributed network—medial PFC, temporo‑parietal junction (TPJ)/STS, ACC, and inferior parietal regions—supports different ToM subprocesses.
-- Psychopathology: Diverse disorders show selective ToM impairments—autism (developmental delay or impairment), schizophrenia and affective disorders (context‑dependent deficits), and certain personality disorders (atypical attribution biases).
-
-### Interpretation & Significance
-The review argues for ToM as both an evolved capacity and a developmentally plastic skill dependent on social experience. Neural specializations reflect modularized operations (e.g., agents' goals vs. beliefs), but are not strictly domain‑specific—variation across disorders suggests overlapping circuits and compensatory processes.
-
-### Computational‑Social‑Cognitive‑Scientist Hat
-From a modeling perspective: ToM could be formalized as a generative model that maps hidden mental states to observed actions, with priors shaped by social ecology. Developmental trajectories can be modeled as hierarchical Bayesian learning with limited data early in life, and psychopathology as altered priors or inference noise.
-
-### Connections
-Links to Predictive Mind (priors for social inference), Marr's levels (function → algorithm → implementation), and clinical neuropsychology. Also ties to literature on imitation and joint attention as learning mechanisms.
-
-### Key Quotes or Phrases
-- "Theory of mind comprises an innate cognitive capacity represented in a dedicated neural network…" (p.1).
-- "Psychopathology almost always involves disturbances of social reasoning."
-
-### Concept Graph
-- Social complexity → selection pressure → ToM capacity.
-  - **Medial PFC / TPJ:** inference about beliefs and traits. **Notable Figures:** Frith, Mitchell. **Related Concepts:** Default mode network; trait inference.
-  - **STS / Biological Motion:** input for animacy detection. **Definition:** motion cues that signal agency. **Related Concepts:** Animacy; Intentional stance.
-
-### Relevant Terms
-- **Existing Terms Used:** Theory of Mind; Mentalizing; Animacy; Intentional Stance; Predictive Mind; Representation. fileciteturn1file16 fileciteturn1file2
-- **New Terms to Add:**
-  - **Social Brain Network (as reviewed):** The constellation of medial PFC, TPJ/STS, ACC, and inferior parietal cortex implicated in ToM. **Definition:** neural substrate mapping from perceived behavior to inferred mental states. **Related Concepts:** Default Mode Network; Mentalizing.
-
----
-
-*Notes:* This summary aims for teaching use: emphasize experiments that reveal developmental stages (e.g., false‑belief), lesion evidence, and the translational perspective for psychopathology.

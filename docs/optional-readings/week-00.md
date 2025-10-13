@@ -2,7 +2,125 @@
 
 ---
 
-## 2024 — Jolly, E., & Chang, L. (2024). The Flatland Fallacy: Over‑reliance on low‑dimensional explanations in social cognition. *Preprint.*
+## Greifeneder (n.d.). Chapters 1-2: Social cognition: How individuals construct social reality
+
+**Full Citation:** Greifeneder, R. (n.d.). Chapters 1–2. *Social Cognition: How Individuals Construct Social Reality.*
+
+**Topic Tags:** social cognition, top‑down vs bottom‑up processing, context dependency, attention, adaptation, heuristics
+
+### Core Question / Problem
+How is social cognition distinct from general cognitive processing? Greifeneder argues social cognition is specialized for context‑sensitive, adaptive processing that supports fast, effective behavior in complex social environments.
+
+### Conceptual or Computational Framework
+The chapters frame social cognition as an adaptive information‑processing system: constrained resources force tradeoffs (speed vs accuracy), encouraging use of heuristics, top‑down priors, and socially tuned representations. Map to Marr's levels: computational (goals: adaptive social prediction and coordination), algorithmic (heuristics, schemas, attention allocation, top‑down/bottom‑up interplay), implementational (neural attention networks implicit but not specified). See course glossary on Predictive Mind and Representation for framing.
+
+### Methods Overview
+These are textbook chapters — synthetic review and didactic examples (e.g., the Wason selection task framed as social contract; gorilla inattentional blindness example). Empirical touchpoints are cited throughout (Cosmides on social‑contract improvements to reasoning; classic illusions showing context dependence).
+
+### Key Findings
+- Social context dramatically reshapes the information people use (Wason selection results; context turns hard logic into solvable problems).
+- Perception and judgment are highly context dependent and use top‑down construals to be "good enough" for social action.
+- Attention and memory are organized around socially relevant goals: we omit irrelevant detail and amplify trait‑consistent information via schemas and motivated processing.
+
+### Interpretation & Significance
+The chapters provide an integrated argument that social cognition is not merely "cognition + social stimuli" but often uses distinct adaptive procedures (heuristics, priors) that make human social performance efficient. This supports a predictive/representational view of social perception: representations and priors scaffold rapid social inferences (links to Generative Model and Predictive Mind in the course glossary).
+
+### Computational‑Social‑Cognitive‑Scientist Hat
+- Lewin: B = f(P,E), extended — add R (representations) to explain context sensitivity and goal‑directed construals.
+- Marr: Computational goal = predict social outcomes; algorithmic = heuristics and schemas; implementational = attention systems and cortical circuits (not deeply specified in these chapters).
+- Brunswik: Emphasize ecological validity — social cues are noisy, so cue‑utilization matches the ecological demands described.
+
+### Connections
+- Links to Predictive Mind, Generative Models, Representation (course glossary).
+
+### Key Quotes or Phrases
+- "Social cognition needs to be highly adaptive and sensitive to the requirements of a situation."
+
+### Concept Graph
+- Social context → activates priors (why?) → changes attention allocation → alters judgment/outcome.
+
+---
+
+## Moskowitz (2025). Introduction to social cognition and social inference
+
+**Full Citation:** Moskowitz, D. (2025). Introduction to social cognition and social inference. *Social Cognition Textbook.*
+
+**Topic Tags:** social cognition, attribution, mentalizing, predictive mind, ecological tasks
+
+### Core Question / Problem
+What are the core mechanisms by which people infer others' mental states and predict social behavior? This introductory piece frames social cognition as an interplay of perceptual cues, internal generative models, and contextual constraints.
+
+### Conceptual or Computational Framework
+The chapter frames social inference as probabilistic, generative, and structured: perceivers combine sensory evidence with priors (about agents, goals, and social norms) to infer latent mental states. Marr's levels appear implicitly: computational goals (predict others), algorithmic representations (beliefs, goals, transition models), and neural implementation (brain regions/networks for mentalizing).
+
+### Methods Overview
+Surveys common experimental paradigms: Heider & Simmel animations, false‑belief tasks, point‑light biological motion, and more naturalistic observation paradigms. Emphasizes combining behavioral measures with neuroimaging and model‑based analyses.
+
+### Key Findings / Themes
+- Mentalizing is often automatic, triggered by animacy/agency cues; attribution processes map perceived actions onto candidate mental states.
+- Representational richness (causal and temporal structure) supports fast generalization and prediction.
+- Laboratory tasks illuminate mechanisms but can miss dynamics found in richer, temporally extended social interactions.
+
+### Interpretation & Significance
+As an introduction, the chapter situates social cognition within broader computational perspectives (predictive mind, generative models) and motivates a research program that integrates formal models with ecological methods.
+
+### Computational‑Social‑Cognitive‑Scientist Hat
+- Lewin: the chapter's emphasis on person×environment echoes field theory.
+- Marr: would call for formalizing the computational goal and deriving algorithms.
+- Brunswik: would emphasize sampling of cues across contexts.
+
+### Connections
+- Directly ties to Predictive Mind, Attribution Theory, Mentalizing, and the Flatland Fallacy critique.
+
+### Key Quotes or Phrases
+- "Perception of agency and animacy is often the perceptual doorway through which more elaborate belief‑attribution is built."
+
+### Concept Graph
+- Sensory evidence + Priors → Inferred mental states → Predicted behavior
+- Animacy/agency cues → trigger automatic mentalizing
+
+---
+
+## Moskowitz (n.d.). Chapter 1: Introduction to social cognition
+
+**Full Citation:** Moskowitz, G. B. (n.d.). Chapter 1. *Introduction to Social Cognition.*
+
+**Topic Tags:** motivated reasoning, self‑esteem maintenance, epistemic needs, just‑world hypothesis, impression formation
+
+### Core Question / Problem
+How do motivational forces — particularly needs to maintain self‑esteem and a sense of control — shape basic social cognition (impression formation, attribution, memory)?
+
+### Conceptual or Computational Framework
+Moskowitz frames social cognition as a goal‑directed process where epistemic and self‑protective motives bias information encoding and causal attribution. At Marr's levels: computational = preserve self‑concept while making valid social predictions; algorithmic = biased sampling, defensive attribution, selective discounting of disconfirming evidence; implementational = cognitive strategies like selective attention and memory reconsolidation.
+
+### Methods Overview
+Chapter summarizes classic experiments (e.g., Miller 1976 feedback paradigm; Sicoli & Ross 1977 manipulated success/failure feedback) and contemporary work showing how observers discount threatening information and question source reliability when feedback is negative.
+
+### Key Findings
+- People protect self‑esteem by reinterpreting negative feedback as situational (external attribution) and positive feedback as internal (ability).
+- When observers give threatening feedback, perceivers often attack the observer's credibility rather than update their self‑view — a motivated reasoning strategy.
+- Epistemic needs shape impressions even from sparse or ambiguous input (creating meaning where objective evidence is thin).
+
+### Interpretation & Significance
+The chapter foregrounds motivation as central to social inference: cognitive mechanisms (attention, memory, attribution) are not neutral processors but are tuned by goals. This reframes "errors" in social judgment as adaptive responses to protect identity and manage uncertainty — linking to course themes of Representations and Predictive Mind (priors shaped by motivation).
+
+### Computational‑Social‑Cognitive‑Scientist Hat
+- Lewin: Motives are part of the life‑space that shape behavior (B = f(P,E,R)).
+- Marr: Computational goal includes self‑preservation; algorithmic implementations are biased sampling and selective memory.
+
+### Connections
+- Links to Attribution Theory, Mentalizing, and Predictive Mind (priors shaped by motivation).
+
+### Key Quotes or Phrases
+- "When the observer states the participant is responsible for a success, the participant judges the observer accurate; for failures, the observer is judged biased."
+
+### Concept Graph
+- Threatening feedback → motivated discounting → preserves self‑esteem → alters social judgment.
+  - **Epistemic Need:** A motivational drive for coherent, controllable explanations that encourages meaning‑making even from weak evidence. **Related Concepts:** Motivated Reasoning, Just‑World Hypothesis.
+
+---
+
+## Jolly & Chang (2024). The Flatland fallacy: over-reliance on low-dimensional explanations in social cognition
 
 **Full Citation:** Jolly, E. & Chang, L. (2024). The Flatland Fallacy: Over‑reliance on low‑dimensional explanations in social cognition. *Preprint / Conference paper.*
 
@@ -44,7 +162,7 @@ The Flatland Fallacy critique pushes the field to (1) adopt richer representatio
 
 ---
 
-## 2006 — Mitchell, J. P. (2006). Mentalizing and Marr: An information‑processing approach to the study of social cognition. *Brain Research.*
+## Mitchell (2006). Mentalizing and Marr: an information-processing approach to the study of social cognition
 
 **Full Citation:** Mitchell, J. P. (2006). Mentalizing and Marr: An information‑processing approach to the study of social cognition. *Brain Research.*
 
@@ -84,120 +202,3 @@ Mitchell reframes social cognition as computational inference. This matters peda
 
 ---
 
-## n.d. — Greifeneder, R. (n.d.). Chapters 1–2. *Social Cognition: How Individuals Construct Social Reality.*
-
-**Full Citation:** Greifeneder, R. (n.d.). Chapters 1–2. *Social Cognition: How Individuals Construct Social Reality.*
-
-**Topic Tags:** social cognition, top‑down vs bottom‑up processing, context dependency, attention, adaptation, heuristics
-
-### Core Question / Problem
-How is social cognition distinct from general cognitive processing? Greifeneder argues social cognition is specialized for context‑sensitive, adaptive processing that supports fast, effective behavior in complex social environments.
-
-### Conceptual or Computational Framework
-The chapters frame social cognition as an adaptive information‑processing system: constrained resources force tradeoffs (speed vs accuracy), encouraging use of heuristics, top‑down priors, and socially tuned representations. Map to Marr's levels: computational (goals: adaptive social prediction and coordination), algorithmic (heuristics, schemas, attention allocation, top‑down/bottom‑up interplay), implementational (neural attention networks implicit but not specified). See course glossary on Predictive Mind and Representation for framing.
-
-### Methods Overview
-These are textbook chapters — synthetic review and didactic examples (e.g., the Wason selection task framed as social contract; gorilla inattentional blindness example). Empirical touchpoints are cited throughout (Cosmides on social‑contract improvements to reasoning; classic illusions showing context dependence).
-
-### Key Findings
-- Social context dramatically reshapes the information people use (Wason selection results; context turns hard logic into solvable problems).
-- Perception and judgment are highly context dependent and use top‑down construals to be "good enough" for social action.
-- Attention and memory are organized around socially relevant goals: we omit irrelevant detail and amplify trait‑consistent information via schemas and motivated processing.
-
-### Interpretation & Significance
-The chapters provide an integrated argument that social cognition is not merely "cognition + social stimuli" but often uses distinct adaptive procedures (heuristics, priors) that make human social performance efficient. This supports a predictive/representational view of social perception: representations and priors scaffold rapid social inferences (links to Generative Model and Predictive Mind in the course glossary).
-
-### Computational‑Social‑Cognitive‑Scientist Hat
-- Lewin: B = f(P,E), extended — add R (representations) to explain context sensitivity and goal‑directed construals.
-- Marr: Computational goal = predict social outcomes; algorithmic = heuristics and schemas; implementational = attention systems and cortical circuits (not deeply specified in these chapters).
-- Brunswik: Emphasize ecological validity — social cues are noisy, so cue‑utilization matches the ecological demands described.
-
-### Connections
-- Links to Predictive Mind, Generative Models, Representation (course glossary).
-
-### Key Quotes or Phrases
-- "Social cognition needs to be highly adaptive and sensitive to the requirements of a situation."
-
-### Concept Graph
-- Social context → activates priors (why?) → changes attention allocation → alters judgment/outcome.
-
----
-
-## 2025 — Moskowitz, D. (2025). Introduction to social cognition and social inference. *Social Cognition Textbook.*
-
-**Full Citation:** Moskowitz, D. (2025). Introduction to social cognition and social inference. *Social Cognition Textbook.*
-
-**Topic Tags:** social cognition, attribution, mentalizing, predictive mind, ecological tasks
-
-### Core Question / Problem
-What are the core mechanisms by which people infer others' mental states and predict social behavior? This introductory piece frames social cognition as an interplay of perceptual cues, internal generative models, and contextual constraints.
-
-### Conceptual or Computational Framework
-The chapter frames social inference as probabilistic, generative, and structured: perceivers combine sensory evidence with priors (about agents, goals, and social norms) to infer latent mental states. Marr's levels appear implicitly: computational goals (predict others), algorithmic representations (beliefs, goals, transition models), and neural implementation (brain regions/networks for mentalizing).
-
-### Methods Overview
-Surveys common experimental paradigms: Heider & Simmel animations, false‑belief tasks, point‑light biological motion, and more naturalistic observation paradigms. Emphasizes combining behavioral measures with neuroimaging and model‑based analyses.
-
-### Key Findings / Themes
-- Mentalizing is often automatic, triggered by animacy/agency cues; attribution processes map perceived actions onto candidate mental states.
-- Representational richness (causal and temporal structure) supports fast generalization and prediction.
-- Laboratory tasks illuminate mechanisms but can miss dynamics found in richer, temporally extended social interactions.
-
-### Interpretation & Significance
-As an introduction, the chapter situates social cognition within broader computational perspectives (predictive mind, generative models) and motivates a research program that integrates formal models with ecological methods.
-
-### Computational‑Social‑Cognitive‑Scientist Hat
-- Lewin: the chapter's emphasis on person×environment echoes field theory.
-- Marr: would call for formalizing the computational goal and deriving algorithms.
-- Brunswik: would emphasize sampling of cues across contexts.
-
-### Connections
-- Directly ties to Predictive Mind, Attribution Theory, Mentalizing, and the Flatland Fallacy critique.
-
-### Key Quotes or Phrases
-- "Perception of agency and animacy is often the perceptual doorway through which more elaborate belief‑attribution is built."
-
-### Concept Graph
-- Sensory evidence + Priors → Inferred mental states → Predicted behavior
-- Animacy/agency cues → trigger automatic mentalizing
-
----
-
-## n.d. — Moskowitz, G. B. (n.d.). Chapter 1. *Introduction to Social Cognition.*
-
-**Full Citation:** Moskowitz, G. B. (n.d.). Chapter 1. *Introduction to Social Cognition.*
-
-**Topic Tags:** motivated reasoning, self‑esteem maintenance, epistemic needs, just‑world hypothesis, impression formation
-
-### Core Question / Problem
-How do motivational forces — particularly needs to maintain self‑esteem and a sense of control — shape basic social cognition (impression formation, attribution, memory)?
-
-### Conceptual or Computational Framework
-Moskowitz frames social cognition as a goal‑directed process where epistemic and self‑protective motives bias information encoding and causal attribution. At Marr's levels: computational = preserve self‑concept while making valid social predictions; algorithmic = biased sampling, defensive attribution, selective discounting of disconfirming evidence; implementational = cognitive strategies like selective attention and memory reconsolidation.
-
-### Methods Overview
-Chapter summarizes classic experiments (e.g., Miller 1976 feedback paradigm; Sicoli & Ross 1977 manipulated success/failure feedback) and contemporary work showing how observers discount threatening information and question source reliability when feedback is negative.
-
-### Key Findings
-- People protect self‑esteem by reinterpreting negative feedback as situational (external attribution) and positive feedback as internal (ability).
-- When observers give threatening feedback, perceivers often attack the observer's credibility rather than update their self‑view — a motivated reasoning strategy.
-- Epistemic needs shape impressions even from sparse or ambiguous input (creating meaning where objective evidence is thin).
-
-### Interpretation & Significance
-The chapter foregrounds motivation as central to social inference: cognitive mechanisms (attention, memory, attribution) are not neutral processors but are tuned by goals. This reframes "errors" in social judgment as adaptive responses to protect identity and manage uncertainty — linking to course themes of Representations and Predictive Mind (priors shaped by motivation).
-
-### Computational‑Social‑Cognitive‑Scientist Hat
-- Lewin: Motives are part of the life‑space that shape behavior (B = f(P,E,R)).
-- Marr: Computational goal includes self‑preservation; algorithmic implementations are biased sampling and selective memory.
-
-### Connections
-- Links to Attribution Theory, Mentalizing, and Predictive Mind (priors shaped by motivation).
-
-### Key Quotes or Phrases
-- "When the observer states the participant is responsible for a success, the participant judges the observer accurate; for failures, the observer is judged biased."
-
-### Concept Graph
-- Threatening feedback → motivated discounting → preserves self‑esteem → alters social judgment.
-  - **Epistemic Need:** A motivational drive for coherent, controllable explanations that encourages meaning‑making even from weak evidence. **Related Concepts:** Motivated Reasoning, Just‑World Hypothesis.
-
----

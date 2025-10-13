@@ -1,6 +1,6 @@
 # Additional
 
-## 2005 — Augusto, L. M. (2005). Review: Symbols and Knowledge Systems. *Journal of Knowledge Structures & Systems.*
+## Augusto (2005). Review: symbols and knowledge systems
 
 **Full Citation:** Augusto, L. M. (2005). Review: Symbols and Knowledge Systems. *Journal of Knowledge Structures & Systems* (review/overview).
 
@@ -54,7 +54,7 @@ Connects to Representations, Marr’s Levels, the Physical/Design/Intentional st
 
 
 
-## 2013 — Clark, A. (2013). Whatever next? Predictive brains, situated agents, and the future of cognitive science. *Behavioral and Brain Sciences.*
+## Clark (2013). Whatever next? predictive brains, situated agents, and the future of cognitive science
 
 **Full Citation:** Clark, A. (2013). Whatever next? Predictive brains, situated agents, and the future of cognitive science. *Behavioral and Brain Sciences*.
 
@@ -98,7 +98,7 @@ Clark’s paper reframes classical distinctions: perception ≈ inference; actio
 
 ---
 
-## 2013 — Hohwy, J. (2013). The Predictive Mind. *Oxford University Press.*
+## Hohwy (2013). The predictive mind
 
 **Full Citation:** Hohwy, J. (2013). *The Predictive Mind* (excerpts/analysis). (uploaded as Howy - PredictiveMind.pdf)
 
@@ -140,7 +140,7 @@ Hohwy’s book sharpens predictive-processing into a philosophically rigorous th
 
 ---
 
-## 2013 — Uleman, J. S., & Kressel, L. (2013). A brief history of theory and research on impression formation. *The Oxford Handbook of Social Cognition.*
+## Uleman & Kressel (2013). A brief history of theory and research on impression formation
 
 **Full Citation:** Uleman, J. S., & Kressel, L. (2013). A brief history of theory and research on impression formation. *(Annual Review / Social Cognition review chapter)*.
 
@@ -178,7 +178,7 @@ Links to mind perception (pre‑attributional stages), stereotyping research, an
 ### Concept Graph
 - Observed behaviors → trait inference (diagnostic weighting) → memory/schema updating → predicted future behavior.
 
-## 2018 — Kriegeskorte, N., & Douglas, P. (2018). Cognitive computational neuroscience. *Nature Neuroscience.*
+## Kriegeskorte & Douglas (2018). Cognitive computational neuroscience
 
 **Full Citation:** Kriegeskorte, N. & Douglas, P. (2018). Cognitive computational neuroscience. *Nature Neuroscience*.
 
@@ -220,7 +220,7 @@ The paper argues for a cultural and methodological shift: move from isolated exp
 
 ---
 
-## 2023 — Wheatley, T., Thornton, M. A., Stolk, A., & Chang, L. J. (2023). The Emerging Science of Interacting Minds. *Perspectives on Psychological Science.*
+## Wheatley et al. (2023). The emerging science of interacting minds
 
 **Full Citation:** Wheatley, T., Thornton, M. A., Stolk, A., & Chang, L. J. (2023). The emerging science of interacting minds. *Perspectives on Psychological Science: A Journal of the Association for Psychological Science.* https://doi.org/10.1177/17456916231200177  
 
@@ -264,7 +264,7 @@ Action timing ↔ partner prediction (aligned timing reduces mutual prediction e
 ---
 
 
-## 2025 — Carvalho, F., & Lampinen, A. (2025). Naturalistic computational cognitive science: Models and theories that capture the full range of natural behavior. *Preprint.*
+## Carvalho & Lampinen (2025). Naturalistic computational cognitive science: Models and theories that capture the full range of natural behavior
 
 **Full Citation:** Carvalho, F. & Lampinen, A. (2025). Naturalistic computational cognitive science: Models and theories that capture the full range of natural behavior. *(Uploaded PDF).*
 

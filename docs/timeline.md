@@ -1,4 +1,4 @@
-# I. Historical Timeline Terms
+# Historical Timeline Terms
 
 *(See Lecture 09‑29: History; Lecture 10‑01 recap slides)*
 

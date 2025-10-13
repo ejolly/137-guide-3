@@ -2,135 +2,7 @@
 
 ---
 
-## n.d. — Pennington, D. (n.d.). History of Social Cognition. *Social Cognition Textbook.*
-
-**Full Citation:** Pennington, D. (n.d.). History of Social Cognition. *Social Cognition Textbook.*
-
-**Topic Tags:** Field theory, Behaviorism, Cognitivism, Constructivism, Timeline terms
-
-### Core Question / Problem
-
-What historical schools of thought shaped the emergence of social cognition (behaviorism → Gestalt/cognitivism → computational cognitive science), and how do these lineages inform contemporary approaches?
-
-### Conceptual or Computational Framework
-
-Historical synthesis: maps intellectual lineage from empiricism & behaviorism through gestalt (Asch, Heider, Bartlett) to Marr's levels and the predictive mind. Emphasizes how representational commitments (schemas, theories) reintroduced internal structure to explain social behavior.
-
-### Methods Overview
-
-Historical narrative drawing on primary papers and classical experiments (Asch impression formation, Bartlett memory work, Heider's attributions).
-
-### Key Findings / Claims
-
-- Behaviorism sidelined mental explanations; Gestalt and cognitive pioneers reintroduced mental structure and meaning.
-- Lewin's field theory (B = f(P, E)) anticipated modern representation‑inclusive models (add R).
-- The computational turn formalized representation and algorithmic levels (Marr), enabling modern generative/predictive frameworks.
-
-### Interpretation & Significance
-
-Provides students context: why contemporary social cognition focuses on representations, algorithms, and prediction. It explains conceptual shifts and why certain methods (reaction times, narration, neuroimaging) rose to prominence.
-
-### Computational‑Social‑Cognitive‑Scientist Hat
-
-- Lewin: situates behavior as emergent from person and environment; modern accounts add explicit representation R.
-- Marr: historical narrative culminates in Marr's levels as a synthesis tool.
-- Brunswik: historical emphasis on cue validity and ecological sampling is a throughline.
-
-### Connections
-
-- Ties to all course modules: attributions, schemas, mentalizing, predictive models.
-
-### Key Quotes or Phrases
-
-- "Understanding the history clarifies why we now ask what representations do, not whether they exist."
-- "Lewin's field theory foreshadows the modern inclusion of Representations in behavior functions."
-
-### Concept Graph
-
-- Historical movements → theories of mind (schemas, attribution, computation) → modern predictive frameworks
-
----
-
-## n.d. — Moskowitz, D. S. (n.d.). We Create Internal Mental Representations of External Reality. *Social Cognition Textbook, Chapter 2.*
-
-**Full Citation:** Moskowitz, D. S. (n.d.). We Create Internal Mental Representations of External Reality. *Social Cognition Textbook, Chapter 2.*
-
-**Topic Tags:** Schemas, Prototypes & Exemplars, Embodied cognition, Mindsets
-
-### Core Question / Problem
-
-How are social knowledge and categories represented (schemas, prototypes, exemplars), and how do these representations shape perception, memory, and behavior?
-
-### Conceptual or Computational Framework
-
-The chapter presents a representational‑processing framework: representations (schemas, exemplars, prototypes, frames, scripts) mediate perception and action. It highlights interactions between bottom‑up associative learning and top‑down schema effects (priors), consistent with predictive processing accounts.
-
-### Methods Overview
-
-Survey of classic experiments (e.g., Bartlett, Markus self‑schema studies, Cohen role schema work) and more modern experimental paradigms (priming, subliminal triggers, IF→THEN relational elicitation).
-
-### Key Findings
-
-- Representations are fuzzy, probabilistic, and can be organized as prototypes or exemplars; which representation is used depends on familiarity and context.
-- Self‑schemas facilitate encoding and retrieval for self‑relevant traits (faster RTs, richer recall).
-- Embodied cognition: bodily states (temperature, posture, facial muscles) can implicitly influence social judgments (warmth, affect), often outside awareness.
-- Ideomotor/priming effects demonstrate that activated representations can trigger matching behaviors (e.g., elderly stereotype priming slows walking); but replication crises temper some strong claims.
-
-### Interpretation & Significance
-
-The chapter stitches together classical schema theory with emerging embodied and automaticity findings. Pedagogically it gives students an operational toolkit to think about how knowledge structures influence perception and action, and how mindsets and construal level moderate processing.
-
-### Computational‑Social‑Cognitive‑Scientist Hat
-
-- Lewin: schemas are part of R in B = f(P,E,R) and shape goal‑directed action.
-- Marr: computational goal = compress and infer category membership; algorithmic = exemplar matching vs prototype probability estimation.
-- Brunswik: highlights cue validity and IF→THEN relations for relational theories.
-
-### Connections
-
-- Links to Heider's animacy (schemas for agents), Mitchell's Marr framing (representations as algorithmic objects), and later lectures on predictive models.
-
-### Key Quotes or Phrases
-
-- "Schemas serve as filters that make stimuli knowable and actionable."
-- "Embodied states often trigger metaphorically linked social inferences outside awareness."
-
-### Concept Graph
-
-- Experience → Associations → Schema (prototype/exemplar) → Perception & Memory biases → Behavior
-
----
-
-## n.d. — Dennett, D. C. (n.d.). A Précis of The Intentional Stance. *Philosophical Review.*
-
-**Full Citation:** Dennett, D. C. (n.d.). A Précis of The Intentional Stance. *Philosophical Review.*
-
-**Topic Tags:** intentional stance, Searle critique, heuristic overlay, consensus in philosophy of mind
-
-### Core Question / Problem
-
-Why is the intentional stance defensible as a pragmatic, heuristic strategy given critiques (e.g., Searle's Chinese Room) that demand metaphysical grounding?
-
-### Conceptual or Computational Framework
-
-Dennett argues the stance is a "heuristic overlay" that captures a community of practices; disagreements often reflect overstatements rather than deep problems. The defense emphasizes explanatory power and empirical adequacy over metaphysical commitments.
-
-### Methods Overview
-
-Essay‑length précis with commentary on contemporary debates (Sellars, Quine, Searle, Fodor) and notes on the consensus shifting toward a moderate, pragmatic view.
-
-### Key Findings
-
-- Responds to Searle: even if biochemistry produces intentionality, that doesn't resolve the epistemic/practical reasons we adopt the stance.
-- Philosophers are converging on seeing intentional attribution as a useful heuristic rather than a metaphysical claim.
-
-### Interpretation & Significance
-
-The Précis helps students situate Dennett historically and shows why the Intentional Stance remains influential: it provides an operational toolkit for prediction and explanation across domains (AI, economics, psychology).
-
----
-
-## 1971 — Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy.*
+## Dennett (1971). Intentional systems
 
 **Full Citation:** Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy.*
 
@@ -177,7 +49,36 @@ Dennett offers a pragmatic account: intentionality as a tool, not a metaphysical
 
 ---
 
-## 2010 — Epley, N., & Waytz, A. (2010). Mind Perception. *Handbook of Social Psychology (5th ed.).*
+## Dennett (1988). A precis of the intentional stance
+
+**Full Citation:** Dennett, D. C. (n.d.). A Précis of The Intentional Stance. *Philosophical Review.*
+
+**Topic Tags:** intentional stance, Searle critique, heuristic overlay, consensus in philosophy of mind
+
+### Core Question / Problem
+
+Why is the intentional stance defensible as a pragmatic, heuristic strategy given critiques (e.g., Searle's Chinese Room) that demand metaphysical grounding?
+
+### Conceptual or Computational Framework
+
+Dennett argues the stance is a "heuristic overlay" that captures a community of practices; disagreements often reflect overstatements rather than deep problems. The defense emphasizes explanatory power and empirical adequacy over metaphysical commitments.
+
+### Methods Overview
+
+Essay‑length précis with commentary on contemporary debates (Sellars, Quine, Searle, Fodor) and notes on the consensus shifting toward a moderate, pragmatic view.
+
+### Key Findings
+
+- Responds to Searle: even if biochemistry produces intentionality, that doesn't resolve the epistemic/practical reasons we adopt the stance.
+- Philosophers are converging on seeing intentional attribution as a useful heuristic rather than a metaphysical claim.
+
+### Interpretation & Significance
+
+The Précis helps students situate Dennett historically and shows why the Intentional Stance remains influential: it provides an operational toolkit for prediction and explanation across domains (AI, economics, psychology).
+
+---
+
+## Epley & Waytz (2010). Mind perception
 
 **Full Citation:** Epley, N., & Waytz, A. (2010). Mind Perception. In S. T. Fiske (Ed.), *Handbook of Social Psychology (5th ed.).*
 
@@ -227,7 +128,7 @@ Links to animacy, intentional stance, Theory of Mind, predictive processing, and
 
 ---
 
-## 2007 — Gray, H. M., Gray, K., & Wegner, D. M. (2007). Dimensions of Mind Perception. *Science.*
+## Gray et al. (2007). Dimensions of mind perception
 
 **Full Citation:** Gray, H. M., Gray, K., & Wegner, D. M. (2007). Dimensions of Mind Perception. *Science.*
 
@@ -268,7 +169,7 @@ A compact representational account explains diverse phenomena — anthropomorphi
 
 ---
 
-## 1944 — Heider, F., & Simmel, M. (1944). An Experimental Study of Apparent Behavior. *Journal of Psychology.*
+## Heider & Simmel (1944). An experimental study of apparent behavior
 
 **Full Citation:** Heider, F., & Simmel, M. (1944). An Experimental Study of Apparent Behavior. *Journal of Psychology.*
 
@@ -317,7 +218,106 @@ Heider & Simmel provide a clear demonstration that perception alone can trigger 
 
 ---
 
-## 2020 — Perez-Osorio, J., & Wykowska, A. (2020). Adopting the Intentional Stance Toward Natural and Artificial Agents. *Philosophical Psychology.*
+## Moskowitz (n.d.). We create internal mental representations of external reality
+
+**Full Citation:** Moskowitz, D. S. (n.d.). We Create Internal Mental Representations of External Reality. *Social Cognition Textbook, Chapter 2.*
+
+**Topic Tags:** Schemas, Prototypes & Exemplars, Embodied cognition, Mindsets
+
+### Core Question / Problem
+
+How are social knowledge and categories represented (schemas, prototypes, exemplars), and how do these representations shape perception, memory, and behavior?
+
+### Conceptual or Computational Framework
+
+The chapter presents a representational‑processing framework: representations (schemas, exemplars, prototypes, frames, scripts) mediate perception and action. It highlights interactions between bottom‑up associative learning and top‑down schema effects (priors), consistent with predictive processing accounts.
+
+### Methods Overview
+
+Survey of classic experiments (e.g., Bartlett, Markus self‑schema studies, Cohen role schema work) and more modern experimental paradigms (priming, subliminal triggers, IF→THEN relational elicitation).
+
+### Key Findings
+
+- Representations are fuzzy, probabilistic, and can be organized as prototypes or exemplars; which representation is used depends on familiarity and context.
+- Self‑schemas facilitate encoding and retrieval for self‑relevant traits (faster RTs, richer recall).
+- Embodied cognition: bodily states (temperature, posture, facial muscles) can implicitly influence social judgments (warmth, affect), often outside awareness.
+- Ideomotor/priming effects demonstrate that activated representations can trigger matching behaviors (e.g., elderly stereotype priming slows walking); but replication crises temper some strong claims.
+
+### Interpretation & Significance
+
+The chapter stitches together classical schema theory with emerging embodied and automaticity findings. Pedagogically it gives students an operational toolkit to think about how knowledge structures influence perception and action, and how mindsets and construal level moderate processing.
+
+### Computational‑Social‑Cognitive‑Scientist Hat
+
+- Lewin: schemas are part of R in B = f(P,E,R) and shape goal‑directed action.
+- Marr: computational goal = compress and infer category membership; algorithmic = exemplar matching vs prototype probability estimation.
+- Brunswik: highlights cue validity and IF→THEN relations for relational theories.
+
+### Connections
+
+- Links to Heider's animacy (schemas for agents), Mitchell's Marr framing (representations as algorithmic objects), and later lectures on predictive models.
+
+### Key Quotes or Phrases
+
+- "Schemas serve as filters that make stimuli knowable and actionable."
+- "Embodied states often trigger metaphorically linked social inferences outside awareness."
+
+### Concept Graph
+
+- Experience → Associations → Schema (prototype/exemplar) → Perception & Memory biases → Behavior
+
+---
+
+## Pennington (n.d.). History of social cognition
+
+**Full Citation:** Pennington, D. (n.d.). History of Social Cognition. *Social Cognition Textbook.*
+
+**Topic Tags:** Field theory, Behaviorism, Cognitivism, Constructivism, Timeline terms
+
+### Core Question / Problem
+
+What historical schools of thought shaped the emergence of social cognition (behaviorism → Gestalt/cognitivism → computational cognitive science), and how do these lineages inform contemporary approaches?
+
+### Conceptual or Computational Framework
+
+Historical synthesis: maps intellectual lineage from empiricism & behaviorism through gestalt (Asch, Heider, Bartlett) to Marr's levels and the predictive mind. Emphasizes how representational commitments (schemas, theories) reintroduced internal structure to explain social behavior.
+
+### Methods Overview
+
+Historical narrative drawing on primary papers and classical experiments (Asch impression formation, Bartlett memory work, Heider's attributions).
+
+### Key Findings / Claims
+
+- Behaviorism sidelined mental explanations; Gestalt and cognitive pioneers reintroduced mental structure and meaning.
+- Lewin's field theory (B = f(P, E)) anticipated modern representation‑inclusive models (add R).
+- The computational turn formalized representation and algorithmic levels (Marr), enabling modern generative/predictive frameworks.
+
+### Interpretation & Significance
+
+Provides students context: why contemporary social cognition focuses on representations, algorithms, and prediction. It explains conceptual shifts and why certain methods (reaction times, narration, neuroimaging) rose to prominence.
+
+### Computational‑Social‑Cognitive‑Scientist Hat
+
+- Lewin: situates behavior as emergent from person and environment; modern accounts add explicit representation R.
+- Marr: historical narrative culminates in Marr's levels as a synthesis tool.
+- Brunswik: historical emphasis on cue validity and ecological sampling is a throughline.
+
+### Connections
+
+- Ties to all course modules: attributions, schemas, mentalizing, predictive models.
+
+### Key Quotes or Phrases
+
+- "Understanding the history clarifies why we now ask what representations do, not whether they exist."
+- "Lewin's field theory foreshadows the modern inclusion of Representations in behavior functions."
+
+### Concept Graph
+
+- Historical movements → theories of mind (schemas, attribution, computation) → modern predictive frameworks
+
+---
+
+## Perez-Osorio & Wykowska (2020). Adopting the intentional stance toward natural and artificial agents
 
 **Full Citation:** Perez-Osorio, J., & Wykowska, A. (2020). Adopting the Intentional Stance Toward Natural and Artificial Agents. *Philosophical Psychology.*
 

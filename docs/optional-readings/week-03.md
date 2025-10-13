@@ -1,6 +1,6 @@
 # Optional Readings — Week 3
 
-## 2012 — Bruneau, E., & Saxe, R. (2012). The power of being heard: The benefits of 'perspective-giving' in the context of intergroup conflict. *Journal of Social and Personality Psychology Compass.*
+## Bruneau & Saxe (2012). The power of being heard: The benefits of 'perspective-giving' in the context of intergroup conflict
 
 **Full Citation:** Bruneau, E. G., & Saxe, R. (2012). The power of being heard: The benefits of 'perspective-giving' in the context of intergroup conflict. *Journal of Social and Personality Psychology Compass.*
 
@@ -56,7 +56,7 @@ Connects to literature on contact theory, narrative psychology, and recent compu
 
 ---
 
-## 2007 — Buckner, R.L., & Carroll, D.C. (2007). Self-projection and the brain. *Trends in Cognitive Sciences.*
+## Buckner & Carroll (2007). Self-projection and the brain
 
 **Full Citation:** Buckner, R. L., & Carroll, D. C. (2007). Self-projection and the brain. *Trends in Cognitive Sciences*, 11(2), 49–57.
 
@@ -115,7 +115,7 @@ From a computational perspective, the paper suggests a hybrid architecture: (1) 
 
 ---
 
-## 2004 — Camerer, C. F., Ho, T.-H., & Chong, J.-K. (2004). A Cognitive Hierarchy Model of Games. *The Quarterly Journal of Economics.*
+## Camerer et al. (2004). A cognitive hierarchy model of games
 
 **Full Citation:** Camerer, C. F., Ho, T.-H., & Chong, J.-K. (2004). A Cognitive Hierarchy Model of Games. *The Quarterly Journal of Economics*, 119(3), 861–898.
 
@@ -167,7 +167,7 @@ A parsimonious instantiation of CH that assumes f(k) follows a Poisson(τ). The 
 
 ---
 
-## 2016 — Jara‑Ettinger, J., Gweon, H., Schulz, L. E., & Tenenbaum, J. B. (2016). The Naïve Utility Calculus: Computational Principles Underlying Commonsense Psychology. *Trends in Cognitive Sciences.*
+## Jara-Ettinger et al. (2016). The naive utility calculus: Computational principles underlying commonsense psychology
 
 **Full Citation:** Jara‑Ettinger, J., Gweon, H., Schulz, L. E., & Tenenbaum, J. B. (2016). The Naïve Utility Calculus: Computational Principles Underlying Commonsense Psychology. *Trends in Cognitive Sciences*, 20(8), 589–604. DOI: 10.1016/j.tics.2016.05.011.
 
@@ -214,7 +214,7 @@ Connects to simulation/forward‑model ideas (both use generative models), predi
 
 ---
 
-## 2020 — Lockwood, P. L., Apps, M. A. J., & Klein-Flügge, M. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences.*
+## Lockwood et al. (2020). Is there a 'social' brain? implementations and algorithms
 
 **Full Citation:** Lockwood, P. L., Apps, M. A. J., & Klein-Flügge, M. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences.*
 
@@ -264,7 +264,7 @@ The article reframes the "social brain" debate: rather than asking "is there a s
 
 ---
 
-## 1995 — Nagel, R. (1995). Unraveling in Guessing Games: An experimental study. *Journal of Economic Behavior & Organization.*
+## Nagel (1995). Unraveling in guessing games: An experimental study
 
 **Full Citation:** Nagel, R. (1995). Unraveling in guessing games: An experimental study. *Journal of Economic Behavior & Organization.*
 
@@ -314,7 +314,7 @@ Ties to bounded rationality (Herbert Simon), mentalizing (depth of representing 
 
 ---
 
-## 2014 — Skerry, A. E., & Saxe, R. (2014). A Common Neural Code for Perceived and Inferred Emotion. *Journal of Neuroscience.*
+## Skerry & Saxe (2014). A common neural code for perceived and inferred emotion
 
 **Full Citation:** Skerry, A. E., & Saxe, R. (2014). A Common Neural Code for Perceived and Inferred Emotion. *Journal of Neuroscience*, 34(48), 15997–16008.
 
@@ -359,7 +359,7 @@ Links to Mitchell (2009) on representational abstraction and to clinical questio
 
 ---
 
-## 2025 — Wang, X., et al. (2025). Modeling Other Minds: A computational account of social cognition and its development. *Preprint.*
+## Wang et al. (2025). Modeling other minds: A computational account of social cognition and its development
 
 **Full Citation:** Wang, X., et al. (2025). Modeling Other Minds: A computational account of social cognition and its development. *(Preprint / Review — computational social development).*
 
@@ -408,7 +408,7 @@ Directly links to Epley & Waytz (mind perception as input to inference), impress
 
 ---
 
-## 2011 — Waytz, A., & Mitchell, J. P. (2011). Two Mechanisms for Simulating Other Minds: Dissociations Between Mirroring and Self-Projection. *Current Directions in Psychological Science.*
+## Waytz & Mitchell (2011). Two mechanisms for simulating other minds: Dissociations between mirroring and self-projection
 
 **Full Citation:** Waytz, A., & Mitchell, J. P. (2011). Two mechanisms for simulating other minds: Dissociations between mirroring and self-projection. *Current Directions in Psychological Science*, 20(3), 197–200.
 
@@ -460,7 +460,7 @@ Links to Predictive Mind (cue weighting and prediction error), Intentional Stanc
 
 ---
 
-## 2012 — Wheatley, T., Kang, O., Parkinson, C., & Looser, C. (2012). From Mind Perception to Mental Connection: Synchrony as a Mechanism for Social Understanding. *Social and Personality Psychology Compass.*
+## Wheatley et al. (2012). From mind perception to mental connection: Synchrony as a mechanism for social understanding
 
 **Full Citation:** Wheatley, T., Kang, O., Parkinson, C., & Looser, C. (2012). From Mind Perception to Mental Connection: Synchrony as a Mechanism for Social Understanding. *Social and Personality Psychology Compass.*
 
