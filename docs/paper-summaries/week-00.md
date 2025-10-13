@@ -1,4 +1,4 @@
-# Optional Readings — Introduction
+# Paper Summaries - Introduction
 
 ---
 

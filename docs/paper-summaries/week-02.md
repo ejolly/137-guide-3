@@ -1,4 +1,4 @@
-# Optional Readings — Week 2
+# Paper Summaries - Week 02
 
 ## Blakemore, S.-J., & Decety, J. (2001). From the perception of action to the understanding of intention. *Nature Reviews Neuroscience*, *2*(8), 561-567.
 

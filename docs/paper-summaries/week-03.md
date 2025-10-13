@@ -1,4 +1,4 @@
-# Optional Readings — Week 3
+# Paper Summaries - Week 03
 
 ## Bruneau, E. G., & Saxe, R. (2012). The power of being heard: The benefits of 'perspective-giving' in the context of intergroup conflict. *Journal of Experimental Social Psychology*, *48*(4), 855-866.
 

@@ -1,4 +1,4 @@
-# Optional Readings — Week 1
+# Paper Summaries - Week 01
 
 ---
 
