@@ -1,6 +1,8 @@
 # Course Glossary
 
-*Built from the lecture slide decks. For each entry you’ll find a plain-language definition, alternate ways to think about it, where it appeared on the slides, brief examples (when relevant), related concepts, and notable figures.*
+*Built from the lecture slide decks. For each entry you'll find a plain-language definition, alternate ways to think about it, where it appeared on the slides, brief examples (when relevant), related concepts, and notable figures.*
+
+[A](#act-fast-taxonomy) | [B](#behaviorism) | [C](#causal-inference) | [D](#dimensions-of-mind-perception) | [E](#empiricism) | [F](#food) | G | H | [I](#implicit-theories) | J | K | [L](#levels-of-explanation) | [M](#mechanistic-dehumanization) | N | O | [P](#physical-symbol-system-hypothesis) | Q | [R](#rationality-mind-space-axis) | [S](#satisficing) | [T](#theory-of-mind-three-strategies-algorithms) | [U](#uncanny-valley) | [V](#valence) | W | X | Y | Z
 
 ---
 
@@ -53,25 +55,31 @@
 - **Related**: [Valence](##valence), [Circumplex Model of Affect](##circumplex-model-of-affect)
 
 ## Attribution Theory (Naive Psychology)
-- **Definition**: We go beyond perception to generate *explanations* for behavior—distinguishing internal (person) vs. external (situation) causes.  
-- **Other ways to think about it**: Everyday “mini-theories” about why people do what they do.  
-- **Lecture & slide**: 10-03-animacy, slide 33 (recap); 10-08-tom, slide 42 (Heider; Jones & Davis). 
-- **Related**: [Correspondent Inference Theory](##correspondent-inference-theory), [Covariation Model](##covariation-model), [Implicit Theories](##implicit-theories), [Theory of Mind (ToM)](##theory-of-mind-tom)  
+- **Definition**: We go beyond perception to generate *explanations* for behavior—distinguishing internal (person) vs. external (situation) causes.
+- **Other ways to think about it**: Everyday "mini-theories" about why people do what they do.
+- **Lecture & slide**: 10-03-animacy, slide 33 (recap); 10-08-tom, slide 42 (Heider; Jones & Davis).
+- **Related**: [Correspondent Inference Theory](##correspondent-inference-theory), [Covariation Model](##covariation-model), [Implicit Theories](##implicit-theories), [Theory of Mind (ToM)](##theory-of-mind-tom)
 - **Notable figure(s)**: Fritz Heider; Edward Jones & Keith Davis.
 
-## Biological Motion
-- **Definition**: Motion patterns that suggest *causes beyond simple physics* (e.g., chasing, goal-directed movement); classic evidence for [animacy](##animacy).  
-- **Other ways to think about it**: Movement that “feels alive.”  
-- **Lecture & slide**: 10-03-animacy, slides 20–22, 23–26, 30–31. 
-- **Example(s)**: Johansson point-light walkers; dots that seem to “chase” each other; shared motion–music patterns (Sievers et al., 2021). 
-- **Related**: [Animacy](##animacy), [Mentalizing](##mentalizing), [Intentional Stance](##intentional-stance)
-
 ## Bounded Rationality
-- **Definition**: Humans reason with *limited resources*; we “satisfice” rather than optimize.  
-- **Other ways to think about it**: “Good enough” decision-making under constraints.  
-- **Lecture & slide**: 09-29-history, slide 29. 
+- **Definition**: Humans reason with *limited resources*; we "satisfice" rather than optimize.
+- **Other ways to think about it**: "Good enough" decision-making under constraints.
+- **Lecture & slide**: 09-29-history, slide 29.
 - **Related**: [Satisficing](##satisficing), [Cognitive Misers](##cognitive-misers)
 - **Notable figure(s)**: Herbert Simon.
+
+## Behaviorism
+- **Definition**: A program emphasizing *conditioning* and observable behavior; often treated the mind as a "black box."
+- **Other ways to think about it**: Predict and control behavior via rewards/punishments.
+- **Lecture & slide**: 09-29-history, slides 12–17.
+- **Related**: [Empiricism](##empiricism), [Cognitive Psychology](##cognitive-psychology)
+
+## Biological Motion
+- **Definition**: Motion patterns that suggest *causes beyond simple physics* (e.g., chasing, goal-directed movement); classic evidence for [animacy](##animacy).
+- **Other ways to think about it**: Movement that "feels alive."
+- **Lecture & slide**: 10-03-animacy, slides 20–22, 23–26, 30–31.
+- **Example(s)**: Johansson point-light walkers; dots that seem to "chase" each other; shared motion–music patterns (Sievers et al., 2021).
+- **Related**: [Animacy](##animacy), [Mentalizing](##mentalizing), [Intentional Stance](##intentional-stance)
 
 ## Causal Inference
 - **Definition**: The general ability to reason *backwards from observations to causes*—foundational for pretense/decoupling and representing others’ beliefs.  
@@ -149,11 +157,17 @@
 - **Related**: [Animalistic Dehumanization](##animalistic-dehumanization), [Mechanistic Dehumanization](##mechanistic-dehumanization), [Uncanny Valley](##uncanny-valley)
 
 ## Dualism
-- **Definition**: The view that *mind and body are separate* substances with different properties.  
-- **Other ways to think about it**: “Two kinds of stuff”—physical body vs. mental soul.  
+- **Definition**: The view that *mind and body are separate* substances with different properties.
+- **Other ways to think about it**: "Two kinds of stuff"—physical body vs. mental soul.
 - **Lecture & slide**: 09-29-history, slide 8; timeline reintroduced 10-01, slides 11–15.
-- **Related**: [Empiricism](##empiricism), [Cognitive Psychology](##cognitive-psychology)  
+- **Related**: [Empiricism](##empiricism), [Cognitive Psychology](##cognitive-psychology)
 - **Notable figure(s)**: René Descartes.
+
+## Dimensions of Mind Perception
+- **Definition**: A two-dimensional framework—**Agency** (can act/think) and **Experience** (can feel)—that people use to perceive minds.
+- **Other ways to think about it**: "Can do/think" × "can feel."
+- **Lecture & slide**: 10-01-mind-perception, slides 29–31. Explained further in discussion.
+- **Related**: [Agency](##agency), [Experience](##experience)
 
 ## Empiricism
 - **Definition**: Knowledge arises from *sensory experience*; the mind starts as a “blank slate” (tabula rasa).  
@@ -181,16 +195,16 @@
 - **Related**: [Circumplex Model of Affect](##circumplex-model-of-affect), [Predictive Mind](##predictive-mind)
 
 ## Food
-- **Definition**: ACT-FAST axis marking actions involving *eating, preparing, or obtaining* food.  
-- **Other ways to think about it**: “Food-relatedness” of actions.  
+- **Definition**: ACT-FAST axis marking actions involving *eating, preparing, or obtaining* food.
+- **Other ways to think about it**: "Food-relatedness" of actions.
 - **Lecture & slide**: 10-10-tom2, slides 34–36.
 - **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy)
 
-## Heider–Simmel Display (1944)
-- **Definition**: A classic short film of moving shapes that elicits rich *mental state attributions* (stories) from viewers.  
-- **Other ways to think about it**: Proof-of-concept that we *irresistibly* see minds in simple movement.  
-- **Lecture & slide**: 10-01-mind-perception, slides 19–21.
-- **Related**: [Intentional Stance](##intentional-stance), [Biological Motion](##biological-motion)
+## Foundations of Mind Perception (Predict-then-Explain)
+- **Definition**: The course theme that we *predict* and then *explain* minds, leveraging conceptual geometry in both action and mental-state spaces.
+- **Other ways to think about it**: "Use what you know about how states/actions flow to infer what comes next."
+- **Lecture & slide**: 10-10-tom2, slides 31–39 (organizing social knowledge for prediction).
+- **Related**: [Predictive Mind](##predictive-mind), [ACT-FAST Taxonomy](##act-fast-taxonomy)
 
 ## Implicit Theories
 - **Definition**: Fast, learned *rules/schemas* about the social world that we use to explain and *predict* others’ minds and behaviors.  
@@ -288,10 +302,16 @@
 - **Notable figure(s)**: David Premack & Guy Woodruff.
 
 ## Tradition
-- **Definition**: ACT-FAST axis indexing *customs, rituals, and culturally inherited* practices.  
-- **Other ways to think about it**: “Old, established ways of doing things.”  
+- **Definition**: ACT-FAST axis indexing *customs, rituals, and culturally inherited* practices.
+- **Other ways to think about it**: "Old, established ways of doing things."
 - **Lecture & slide**: 10-10-tom2, slides 34–36.
 - **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy), [Spiritualism](##spiritualism)
+
+## Theory-of-Mind: Three Strategies (Algorithms)
+- **Definition**: Three broad strategies for arriving at mental-state hypotheses: **Implicit Theories**, **Causal Inference**, **Simulation**.
+- **Other ways to think about it**: Three "recipes" minds use to read other minds.
+- **Lecture & slide**: 10-10-tom2, slide 57.
+- **Related**: [Implicit Theories](##implicit-theories), [Causal Inference](##causal-inference), [Simulation](##simulation-tom-strategy)
 
 ## Turing Test
 - **Definition**: A behavioral criterion for whether a machine appears to *have a mind*: if a perceiver can’t tell it’s not human.  
@@ -312,32 +332,8 @@
 - **Related**: [Arousal](##arousal), [Circumplex Model of Affect](##circumplex-model-of-affect)
 
 ## Violation-of-Expectation (VOE) Paradigm
-- **Definition**: A *nonverbal* method for probing what infants/animals “know”: they *look longer* when an event violates expectations—implying latent beliefs.  
-- **Other ways to think about it**: “Surprise = longer looking,” a window into preverbal knowledge.  
+- **Definition**: A *nonverbal* method for probing what infants/animals "know": they *look longer* when an event violates expectations—implying latent beliefs.
+- **Other ways to think about it**: "Surprise = longer looking," a window into preverbal knowledge.
 - **Lecture & slide**: 10-10-tom2, slides 46–47 (and following developmental timeline).
 - **Related**: [Causal Inference](##causal-inference), [False Belief](##false-belief)
-
-## Behaviorism
-- **Definition**: A program emphasizing *conditioning* and observable behavior; often treated the mind as a “black box.”  
-- **Other ways to think about it**: Predict and control behavior via rewards/punishments.  
-- **Lecture & slide**: 09-29-history, slides 12–17.
-- **Related**: [Empiricism](##empiricism), [Cognitive Psychology](##cognitive-psychology)
-
-## Dimensions of Mind Perception
-- **Definition**: A two-dimensional framework—**Agency** (can act/think) and **Experience** (can feel)—that people use to perceive minds.  
-- **Other ways to think about it**: “Can do/think” × “can feel.”  
-- **Lecture & slide**: 10-01-mind-perception, slides 29–31. Explained further in discussion.
-- **Related**: [Agency](##agency), [Experience](##experience)
-
-## Foundations of Mind Perception (Predict-then-Explain)
-- **Definition**: The course theme that we *predict* and then *explain* minds, leveraging conceptual geometry in both action and mental-state spaces.  
-- **Other ways to think about it**: “Use what you know about how states/actions flow to infer what comes next.”  
-- **Lecture & slide**: 10-10-tom2, slides 31–39 (organizing social knowledge for prediction).
-- **Related**: [Predictive Mind](##predictive-mind), [ACT-FAST Taxonomy](##act-fast-taxonomy)
-
-## Theory-of-Mind: Three Strategies (Algorithms)
-- **Definition**: Three broad strategies for arriving at mental-state hypotheses: **Implicit Theories**, **Causal Inference**, **Simulation**.  
-- **Other ways to think about it**: Three “recipes” minds use to read other minds.  
-- **Lecture & slide**: 10-10-tom2, slide 57.
-- **Related**: [Implicit Theories](##implicit-theories), [Causal Inference](##causal-inference), [Simulation](##simulation-tom-strategy)
 
