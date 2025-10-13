@@ -1,117 +1,382 @@
 # CLAUDE.md
 
-The `docs/index.md` file contains the full list of papers htstructured summaries of academic papers for a social cognition course. Each paper follows a standardized format to ensure consistency and readability.
+This project contains a Docsify-based documentation site for a social cognition course, including structured summaries of academic papers.
 
 ---
 
-## Standardized Format Specification
+## Docsify Site Structure
 
-### 1. H2 Title Line
+The documentation site lives in the `docs/` directory:
 
-**Format:** `## YEAR — Author(s). (YEAR). Title. *Journal/Source.*`
+```
+docs/
+├── index.html              # Main HTML file with docsify configuration
+├── index.md                # Homepage content
+├── _sidebar.md             # Navigation sidebar
+├── _navbar.md              # Top navigation bar (if used)
+├── .nojekyll              # Prevents GitHub Pages from processing with Jekyll
+├── glossary.md            # Course glossary
+├── timeline.md            # Course timeline
+└── optional-readings/     # Directory for weekly reading summaries
+    ├── week-00.md
+    ├── week-01.md
+    ├── week-02.md
+    └── week-03.md
+```
 
-**Rules:**
-- Use em-dash (—) after the first year, not hyphen (-)
-- Italicize journal/source name with `*asterisks*`
-- Title text is NOT italicized
-- Year appears twice: once at start, once in parentheses after author(s)
-- For undated entries: `## n.d. — Author. (n.d.). Title. *Source.*`
-- Period goes INSIDE the closing asterisk: `*Source.*`
-- Keep author names concise (primary author + et al. if multiple, or list 2-3 authors max)
+### Key Files
 
-**Examples:**
-```markdown
-## 1944 — Heider, F., & Simmel, M. (1944). An Experimental Study of Apparent Behavior. *Journal of Psychology.*
+- **index.html**: Contains all docsify configuration and loads the docsify library
+- **index.md**: Homepage content (serves as README.md equivalent)
+- **_sidebar.md**: Defines navigation structure in the left sidebar
+- **.nojekyll**: Required for GitHub Pages deployment to skip Jekyll processing
 
-## 2007 — Gray, H. M., Gray, K., & Wegner, D. M. (2007). Dimensions of Mind Perception. *Science.*
+---
 
-## n.d. — Dennett, D. C. (n.d.). A Précis of The Intentional Stance. *Philosophical Review.*
+## Docsify Configuration Reference
+
+Configuration is set in `docs/index.html` within the `window.$docsify` object:
+
+### Current Configuration
+
+```javascript
+window.$docsify = {
+  name: 'PSYC137 Social Cognition',
+  repo: '',
+  homepage: 'index.md',
+  loadNavbar: true,
+  loadSidebar: true,
+  subMaxLevel: 3
+}
+```
+
+### Essential Configuration Options
+
+#### Site Identity
+```javascript
+name: 'Site Name',              // Displayed in sidebar header
+logo: '/_media/icon.svg',       // Logo in sidebar (requires name to be set)
+repo: 'username/repo',          // GitHub repo link (shows corner ribbon)
+nameLink: '/',                  // URL when clicking site name
+```
+
+#### Navigation & Structure
+```javascript
+homepage: 'index.md',           // Which file serves as homepage
+loadSidebar: true,              // Enable custom sidebar from _sidebar.md
+loadNavbar: true,               // Enable custom navbar from _navbar.md
+hideSidebar: false,             // Completely hide sidebar
+mergeNavbar: true,              // Merge navbar into sidebar on small screens
+```
+
+#### Table of Contents
+```javascript
+subMaxLevel: 3,                 // Show h1-h3 in sidebar TOC (0 = no TOC)
+maxLevel: 4,                    // Max heading level for parsing
+autoHeader: true,               // Auto-add h1 from sidebar if page lacks one
+```
+
+#### Routing & Aliases
+```javascript
+basePath: '/path/',             // Base path for all requests
+alias: {                        // Route aliases (supports regex)
+  '/.*/_sidebar.md': '/_sidebar.md',
+  '/zh-cn/changelog': '/changelog'
+},
+routerMode: 'history',          // 'hash' (default) or 'history' mode
+```
+
+#### Features & Behavior
+```javascript
+auto2top: true,                 // Scroll to top on route change
+executeScript: true,            // Execute scripts in markdown
+coverpage: true,                // Enable cover page from _coverpage.md
+notFoundPage: true,             // Enable custom 404 page
+externalLinkTarget: '_blank',   // Target for external links
+externalLinkRel: 'noopener',    // Rel attribute for external links
+```
+
+#### Search Plugin
+```javascript
+search: {
+  paths: 'auto',                        // Auto-detect paths or specify array
+  placeholder: 'Search',                 // Placeholder text
+  noData: 'No Results!',                // No results message
+  depth: 6,                             // Search heading depth
+  maxAge: 86400000,                     // Cache expiration (1 day)
+  hideOtherSidebarContent: false,       // Hide other sidebar content when searching
+  namespace: 'website-1',               // Namespace for avoiding index collisions
+  pathNamespaces: ['/zh-cn', '/ru-ru'], // Path-based namespaces for multi-language
+}
+```
+
+#### Markdown Customization
+```javascript
+markdown: {
+  smartypants: true,            // Use smart quotes
+  renderer: {                   // Custom renderer functions
+    code(code, lang) {
+      // Custom code block rendering
+      return customRender(code, lang);
+    }
+  }
+}
+```
+
+#### Theme Customization
+```javascript
+themeColor: '#3F51B5',          // Primary theme color
 ```
 
 ---
 
-### 2. Full Citation
+## Common Docsify Tasks
 
-**Format:** `**Full Citation:** Author(s). (YEAR). Title. *Journal/Source.*`
+### Adding a New Page
 
-**Rules:**
-- Bold label `**Full Citation:**` followed by citation on same line
-- This can include full details (volume, issue, pages) that don't appear in H2
-- Maintain standard academic citation format
+1. Create markdown file in `docs/` (e.g., `docs/new-page.md`)
+2. Update `docs/_sidebar.md` to include link:
+   ```markdown
+   * [New Page](new-page.md)
+   ```
 
-**Example:**
+### Updating Sidebar Navigation
+
+Edit `docs/_sidebar.md`:
+
 ```markdown
-**Full Citation:** Heider, F., & Simmel, M. (1944). *An Experimental Study of Apparent Behavior.* Journal of Psychology.
+* [Home](/)
+* [Section 1](section1.md)
+  * [Subsection 1.1](section1/sub1.md)
+  * [Subsection 1.2](section1/sub2.md)
+* [Section 2](section2.md)
+```
+
+**Nested sidebar structure:**
+- Use indentation to create subsections
+- Use section headers (without links) to organize:
+  ```markdown
+  * Section Header
+    * [Page 1](page1.md)
+    * [Page 2](page2.md)
+  ```
+
+### Custom Page Titles
+
+Add custom title (for `<title>` tag) in sidebar link:
+
+```markdown
+* [Link Text](file.md "Custom Page Title")
+```
+
+### Enabling Plugins
+
+Plugins are added via `<script>` tags in `index.html` after the main docsify script:
+
+```html
+<!-- Docsify core -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+<!-- Search plugin -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+
+<!-- Other plugins -->
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
 ```
 
 ---
 
-### 3. Topic Tags
+## Recommended Plugins & Features
 
-**Format:** `**Topic Tags:** tag1, tag2, tag3`
+### Search Plugin (Essential)
 
-**Rules:**
-- Bold label `**Topic Tags:**` followed by tags on same line
-- Tags are comma-separated (no bullets, no heading)
-- Maintain original tag content
+**Add to `docs/index.html`:**
 
-**Example:**
+```html
+<!-- In <head> or before closing </body> -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+```
+
+**Configure in `window.$docsify`:**
+
+```javascript
+window.$docsify = {
+  search: {
+    paths: 'auto',
+    placeholder: 'Search',
+    noData: 'No Results!',
+    depth: 6,
+  }
+}
+```
+
+### Dark Mode Toggle
+
+**Option 1: docsify-themeable (Recommended)**
+
+```html
+<!-- Replace theme CSS -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+
+<!-- Add dark theme -->
+<link rel="stylesheet" media="(prefers-color-scheme: dark)" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+
+<!-- Plugin -->
+<script src="//cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+```
+
+**Option 2: docsify-darklight-theme**
+
+```html
+<!-- Themes -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css">
+
+<!-- Plugin -->
+<script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+```
+
+**Configure:**
+
+```javascript
+window.$docsify = {
+  darklightTheme: {
+    defaultTheme: 'light',
+    dark: {
+      background: '#1c2022',
+      highlightColor: '#e96900',
+    },
+    light: {
+      background: 'white',
+      highlightColor: '#42b983',
+    }
+  }
+}
+```
+
+### Cross-Linking & Auto-Glossary
+
+**Built-in Cross-Linking:**
+- Use standard markdown links: `[text](path/to/file.md)`
+- Relative paths work within `docs/`
+- Link to specific headings: `[text](file.md#heading-id)`
+
+**Glossary Plugin (docsify-glossary):**
+
+```html
+<script src="//unpkg.com/docsify-glossary/dist/docsify-glossary.min.js"></script>
+```
+
+**Configure:**
+
+```javascript
+window.$docsify = {
+  glossary: {
+    '/': '/glossary.md',        // Path to glossary file
+  }
+}
+```
+
+**In glossary.md:**
+
 ```markdown
-**Topic Tags:** Attribution theory, Animacy, Intentional stance
+## Term Name
+
+Definition of the term.
+
+## Another Term
+
+Another definition.
+```
+
+**Usage in content:**
+- Use `[term](?glossary=term-name)` to auto-link to glossary
+- Or just maintain manual links: `[Theory of Mind](glossary.md#theory-of-mind)`
+
+### Other Useful Plugins
+
+**Copy Code Button:**
+```html
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+```
+
+**Pagination (Previous/Next):**
+```html
+<script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+```
+
+**Tabs:**
+```html
+<script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+```
+
+**Zoom Images:**
+```html
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
 ```
 
 ---
 
-### 4. Section Headers
+## Development & Deployment
 
-**Format:** All section headers use `###` (h3)
+### Local Development
 
-**Standard sections (in order):**
-1. `### Core Question / Problem`
-2. `### Conceptual or Computational Framework`
-3. `### Methods Overview`
-4. `### Key Findings` (or Key Findings / Claims / Proposals)
-5. `### Interpretation & Significance`
-6. `### Computational‑Social‑Cognitive‑Scientist Hat`
-7. `### Teaching Hooks`
-8. `### Pedagogical Lens`
-9. `### Connections`
-10. `### Key Quotes or Phrases`
-11. `### Concept Graph`
+**Option 1: docsify-cli (Recommended)**
+```bash
+# Install globally
+npm i docsify-cli -g
 
-**Rules:**
-- ALL section headers must be h3 (`###`), never h5 (`#####`)
-- Not all papers have all sections
-- Some papers may have additional unique sections
+# Serve locally
+docsify serve docs
+
+# Access at http://localhost:3000
+```
+
+**Option 2: Simple Python server**
+```bash
+cd docs
+python -m http.server 3000
+```
+
+**Option 3: VS Code Live Server**
+- Install "Live Server" extension
+- Right-click `docs/index.html` → "Open with Live Server"
+
+### Deployment
+
+**GitHub Pages:**
+1. Push `docs/` to repository
+2. Go to Settings → Pages
+3. Select branch and `/docs` folder
+4. Site will be at `https://username.github.io/repo/`
+
+**Netlify/Vercel:**
+- Set build directory to `docs`
+- No build command needed (static site)
 
 ---
 
-### 5. Concept Graph with Nested Definitions
+## Working with This Project
 
-Some papers include glossary-style definitions. These should be nested bullet lists under the `### Concept Graph` section.
+### Key Workflows
 
-**Format:**
-```markdown
-### Concept Graph
-- Main concept relationships here
-- More relationships here
-  - **Term Name:** Definition text. **Notable Figures:** X. **Related Concepts:** Y, Z.
-  - **Another Term:** Definition text. **Notable Figures:** A. **Related Concepts:** B, C.
+When updating the course site:
+
+1. **Adding weekly readings**: Create/update files in `docs/optional-readings/`
+2. **Updating navigation**: Edit `docs/_sidebar.md`
+3. **Homepage changes**: Edit `docs/index.md`
+4. **Glossary updates**: Edit `docs/glossary.md`
+5. **Timeline updates**: Edit `docs/timeline.md`
+
+### Testing Changes
+
+Always test locally before deploying:
+```bash
+docsify serve docs
 ```
 
-**Rules:**
-- Definitions are nested with 2-space indentation
-- Term names are bold
-- Use bold labels: `**Notable Figures:**`, `**Related Concepts:**`, `**Definition:**`
-- NO standalone h3 definition sections after the Concept Graph
+### Configuration Changes
 
-**Example:**
-```markdown
-### Concept Graph
-- Symbolic tokens + Operators → compositional reasoning.
-- IPL / GPS implementations → historic demonstrations of symbolic adequacy.
-  - **Newell & Simon Test:** A set of practical criteria for evaluating whether a theory of cognition can adequately express and operate on the symbolic structures it posits. **Notable Figures:** A. Newell, H. A. Simon. **Related Concepts:** Physical Symbol System; Representation.
-```
+All config changes go in `docs/index.html` within the `window.$docsify` object. Changes take effect immediately (refresh browser).
 
 ---
 
@@ -161,5 +426,3 @@ For each formatting change:
 - **Verification catches errors**: Second pair of eyes prevents mistakes
 - **Incremental commits**: Easier to review and rollback if needed
 - **Clear communication**: User always knows what's happening
-
-
