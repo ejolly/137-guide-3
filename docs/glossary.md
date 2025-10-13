@@ -2,56 +2,62 @@
 
 *Built from the lecture slide decks. For each entry you'll find a plain-language definition, alternate ways to think about it, where it appeared on the slides, brief examples (when relevant), related concepts, and notable figures.*
 
-[A](#act-fast-taxonomy) | [B](#behaviorism) | [C](#causal-inference) | [D](#dimensions-of-mind-perception) | [E](#empiricism) | [F](#food) | G | H | [I](#implicit-theories) | J | K | [L](#levels-of-explanation) | [M](#mechanistic-dehumanization) | N | O | [P](#physical-symbol-system-hypothesis) | Q | [R](#rationality-mind-space-axis) | [S](#satisficing) | [T](#theory-of-mind-three-strategies-algorithms) | [U](#uncanny-valley) | [V](#valence) | W | X | Y | Z
+[A](#act-fast-taxonomy) | [B](#beautycontest--keynesian-game) | [C](#causal-inference) | [D](#dehumanization) | [E](#empiricism) | [F](#false-belief) | G | H | [I](#implicit-theories) | J | K | [L](#levels-of-explanation) | [M](#mechanistic-dehumanization) | N | O | [P](#perspective-giving) | Q | [R](#rationality-mind-space-axis) | [S](#satisficing) | [T](#theory-of-mind-tom) | [U](#uncanny-valley) | [V](#valence) | W | X | Y | Z
 
 ---
 
 ## ACT-FAST Taxonomy
-- **Definition**: A 6-axis taxonomy for organizing *actions* in semantic space: **A**bstractness, **C**reation, **T**radition, **F**ood, **A**nimacy, and **S**piritualism. It is used to predict how actions relate and transition over time.  
-- **Other ways to think about it**: A coordinate system for behaviors—each action has a “position” along these six dimensions.  
-- **Lecture & slide**: 10-10-tom2, slides 34–36. 
-- **Example(s)**: “Cooking” scores high on Food and Creation; “Meditating” loads on Spiritualism and Abstractness.  
-- **Related**: [Abstractness](##abstractness), [Animacy (ACT-FAST axis)](##animacy-act-fast-axis), [Rationality](##rationality), [Valence](##valence)  
+- **Definition**: A 6-axis taxonomy for organizing *actions* in semantic space: **A**bstractness, **C**reation, **T**radition, **F**ood, **A**nimacy, and **S**piritualism. It is used to predict how actions relate and transition over time.
+- **Other ways to think about it**: A coordinate system for behaviors—each action has a "position" along these six dimensions.
+- **Lecture & slide**: 10-10-tom2, slides 34–36.
+- **Example(s)**: "Cooking" scores high on Food and Creation; "Meditating" loads on Spiritualism and Abstractness.
+- **Related**: [Abstractness](##abstractness), [Animacy (ACT-FAST axis)](##animacy-act-fast-axis), [Rationality](##rationality), [Valence](##valence)
 - **Notable figure(s)**: Diana Tamir, Mark Thornton (Tamir et al., 2021).
 
 ## Abstractness
-- **Definition**: One ACT-FAST axis indexing how *concrete vs. abstract* an action is (e.g., “socializing” is more abstract than “riding a bicycle”).  
-- **Other ways to think about it**: General vs. specific behaviors.  
-- **Lecture & slide**: 10-10-tom2, slides 34–36. 
+- **Definition**: One ACT-FAST axis indexing how *concrete vs. abstract* an action is (e.g., "socializing" is more abstract than "riding a bicycle").
+- **Other ways to think about it**: General vs. specific behaviors.
+- **Lecture & slide**: 10-10-tom2, slides 34–36.
 - **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy), [Creation](##creation), [Tradition](##tradition)
 
 ## Agency
-- **Definition**: A core **dimension of mind perception** referring to the capacity to *act, plan, think, remember, and exert self-control*.  
-- **Other ways to think about it**: The “can do / can think” part of a mind.  
-- **Lecture & slide**: 10-01-mind-perception, slides 29–31.  Also discussed in lecture context.   
-- **Related**: [Experience](##experience), [Theory of Mind (ToM)](##theory-of-mind-tom), [Intentional Stance](##intentional-stance), [Animacy](##animacy)  
+- **Definition**: A core **dimension of mind perception** referring to the capacity to *act, plan, think, remember, and exert self-control*.
+- **Other ways to think about it**: The "can do / can think" part of a mind.
+- **Lecture & slide**: 10-01-mind-perception, slides 29–31.  Also discussed in lecture context.
+- **Related**: [Experience](##experience), [Theory of Mind (ToM)](##theory-of-mind-tom), [Intentional Stance](##intentional-stance), [Animacy](##animacy)
 - **Notable figure(s)**: Kurt Gray (Gray et al., 2007).
 
 ## Animacy
-- **Definition**: An *internal signal/schema*—a “life-detector”—tracking whether something is a **mental agent** capable of *thinking* and/or *feeling*.  
-- **Other ways to think about it**: Your brain’s running estimate that “there’s a mind here.”  
-- **Lecture & slide**: 10-03-animacy, slide 13. 
-- **Example(s)**: Heider–Simmel film (shapes seem to have intentions); point-light “biological motion” displays that look alive. 
-- **Related**: [Mentalizing](##mentalizing), [Biological Motion](##biological-motion), [Uncanny Valley](##uncanny-valley), [Dehumanization](##dehumanization), [Agency](##agency), [Experience](##experience)  
+- **Definition**: An *internal signal/schema*—a "life-detector"—tracking whether something is a **mental agent** capable of *thinking* and/or *feeling*.
+- **Other ways to think about it**: Your brain's running estimate that "there's a mind here."
+- **Lecture & slide**: 10-03-animacy, slide 13.
+- **Example(s)**: Heider–Simmel film (shapes seem to have intentions); point-light "biological motion" displays that look alive.
+- **Related**: [Mentalizing](##mentalizing), [Biological Motion](##biological-motion), [Uncanny Valley](##uncanny-valley), [Dehumanization](##dehumanization), [Agency](##agency), [Experience](##experience)
 - **Notable figure(s)**: Aristotle; Fritz Heider & Marianne Simmel.
 
 ## Animacy (ACT-FAST axis)
-- **Definition**: In the ACT-FAST taxonomy, an *action* axis capturing whether actions are directed toward or involve animate beings.  
-- **Other ways to think about it**: “Is this action about interacting with living agents?”  
-- **Lecture & slide**: 10-10-tom2, slides 34–36. 
+- **Definition**: In the ACT-FAST taxonomy, an *action* axis capturing whether actions are directed toward or involve animate beings.
+- **Other ways to think about it**: "Is this action about interacting with living agents?"
+- **Lecture & slide**: 10-10-tom2, slides 34–36.
 - **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy), [Animacy](##animacy)
 
 ## Animalistic Dehumanization
-- **Definition**: Denying *uniquely human* traits to a target (e.g., civility, refinement), likening them to animals.  
-- **Other ways to think about it**: Treating someone as less-than-human by stripping distinctively human qualities.  
-- **Lecture & slide**: 10-08-tom, slide 30. 
-- **Related**: [Dehumanization](##dehumanization), [Mechanistic Dehumanization](##mechanistic-dehumanization), [Mentalizing](##mentalizing)  
+- **Definition**: Denying *uniquely human* traits to a target (e.g., civility, refinement), likening them to animals.
+- **Other ways to think about it**: Treating someone as less-than-human by stripping distinctively human qualities.
+- **Lecture & slide**: 10-08-tom, slide 30.
+- **Related**: [Dehumanization](##dehumanization), [Mechanistic Dehumanization](##mechanistic-dehumanization), [Mentalizing](##mentalizing)
 - **Notable figure(s)**: Nick Haslam.
 
+## Anticipatory Coordination
+- **Definition**: Coupling across distinct times where partners adjust current behavior based on predictions of each other's upcoming states (e.g., dancing).
+- **Other ways to think about it**: Predict‑ahead alignment.
+- **Lecture & slide**: 10-13-simulation, slides 28–29.
+- **Related**: [Mutual Adaptation](##mutual-adaptation), [Synchrony](##synchrony)
+
 ## Arousal
-- **Definition**: In the Circumplex Model of Affect, a dimension indexing *activation* (high vs. low).  
-- **Other ways to think about it**: Energized vs. calm feelings.  
-- **Lecture & slide**: 10-01-mind-perception, slide 33. 
+- **Definition**: In the Circumplex Model of Affect, a dimension indexing *activation* (high vs. low).
+- **Other ways to think about it**: Energized vs. calm feelings.
+- **Lecture & slide**: 10-01-mind-perception, slide 33.
 - **Related**: [Valence](##valence), [Circumplex Model of Affect](##circumplex-model-of-affect)
 
 ## Attribution Theory (Naive Psychology)
@@ -61,12 +67,11 @@
 - **Related**: [Correspondent Inference Theory](##correspondent-inference-theory), [Covariation Model](##covariation-model), [Implicit Theories](##implicit-theories), [Theory of Mind (ToM)](##theory-of-mind-tom)
 - **Notable figure(s)**: Fritz Heider; Edward Jones & Keith Davis.
 
-## Bounded Rationality
-- **Definition**: Humans reason with *limited resources*; we "satisfice" rather than optimize.
-- **Other ways to think about it**: "Good enough" decision-making under constraints.
-- **Lecture & slide**: 09-29-history, slide 29.
-- **Related**: [Satisficing](##satisficing), [Cognitive Misers](##cognitive-misers)
-- **Notable figure(s)**: Herbert Simon.
+## Beauty‑Contest / Keynesian Game
+- **Definition**: A diagnostic guessing game in which players choose a number typically aiming at a fraction (e.g., 2/3) of the group average; used to reveal limited iterative reasoning.
+- **Other ways to think about it**: 'Guess 2/3 of the average' task.
+- **Lecture & slide**: Optional readings (Nagel, 1995).
+- **Related**: [Cognitive Hierarchy Theory (CHT)](##cognitive-hierarchy-theory-cht); Level‑k models; [Bounded Rationality](##bounded-rationality)
 
 ## Behaviorism
 - **Definition**: A program emphasizing *conditioning* and observable behavior; often treated the mind as a "black box."
@@ -81,80 +86,106 @@
 - **Example(s)**: Johansson point-light walkers; dots that seem to "chase" each other; shared motion–music patterns (Sievers et al., 2021).
 - **Related**: [Animacy](##animacy), [Mentalizing](##mentalizing), [Intentional Stance](##intentional-stance)
 
+## Bounded Rationality
+- **Definition**: Humans reason with *limited resources*; we "satisfice" rather than optimize.
+- **Other ways to think about it**: "Good enough" decision-making under constraints.
+- **Lecture & slide**: 09-29-history, slide 29.
+- **Related**: [Satisficing](##satisficing), [Cognitive Misers](##cognitive-misers)
+- **Notable figure(s)**: Herbert Simon.
+
 ## Causal Inference
-- **Definition**: The general ability to reason *backwards from observations to causes*—foundational for pretense/decoupling and representing others’ beliefs.  
-- **Other ways to think about it**: Figuring out “what must be true behind the scenes” to explain what you see.  
+- **Definition**: The general ability to reason *backwards from observations to causes*—foundational for pretense/decoupling and representing others' beliefs.
+- **Other ways to think about it**: Figuring out "what must be true behind the scenes" to explain what you see.
 - **Lecture & slide**: 10-10-tom2, slide 57 (and adjacent). Discussed in class when introducing recursive belief reasoning.
-- **Example(s)**: Inferring that a dropped glass broke because it hit the floor; in ToM tasks, inferring another’s *false belief* from their actions.  
+- **Example(s)**: Inferring that a dropped glass broke because it hit the floor; in ToM tasks, inferring another's *false belief* from their actions.
 - **Related**: [False Belief](##false-belief), [Pretense / Decoupling](##pretense--decoupling), [Theory of Mind (ToM)](##theory-of-mind-tom)
 
 ## Circumplex Model of Affect
-- **Definition**: A 2D “feeling space” defined by **Valence** (positive–negative) and **Arousal** (activated–deactivated).  
-- **Other ways to think about it**: A map of emotions you can plot any feeling onto.  
+- **Definition**: A 2D "feeling space" defined by **Valence** (positive–negative) and **Arousal** (activated–deactivated).
+- **Other ways to think about it**: A map of emotions you can plot any feeling onto.
 - **Lecture & slide**: 10-01-mind-perception, slide 33.
 - **Related**: [Valence](##valence), [Arousal](##arousal)
 
 ## Cognitive Dissonance
-- **Definition**: Psychological discomfort when *beliefs, attitudes, or actions* contradict one another; motivates change.  
-- **Other ways to think about it**: “Mental itch” that pushes you to reconcile inconsistencies.  
+- **Definition**: Psychological discomfort when *beliefs, attitudes, or actions* contradict one another; motivates change.
+- **Other ways to think about it**: "Mental itch" that pushes you to reconcile inconsistencies.
 - **Lecture & slide**: 09-29-history, slide 25.
-- **Related**: [Constructivism](##constructivism), [Predictive Mind](##predictive-mind)  
+- **Related**: [Constructivism](##constructivism), [Predictive Mind](##predictive-mind)
 - **Notable figure(s)**: Leon Festinger.
 
+## Cognitive Hierarchy Theory (CHT)
+- **Definition**: A model of boundedly rational strategic reasoning in which players come in discrete levels (k=0,1,2,…) and each k‑level best‑responds to a distribution of lower‑level types (0..k−1).
+- **Other ways to think about it**: Finite‑depth recursive reasoning.
+- **Lecture & slide**: 10-13-simulation, slides 17–18; optional readings (Camerer, Ho, & Chong, 2004).
+- **Related**: Level‑k models; [Bounded Rationality](##bounded-rationality); Recursive reasoning
+- **Notable figure(s)**: Colin Camerer; Teck‑Ho; Juin‑Kuan Chong.
+
 ## Cognitive Misers
-- **Definition**: The idea that people conserve cognitive effort, using efficient shortcuts (heuristics).  
-- **Other ways to think about it**: We’re frugal thinkers by default.  
+- **Definition**: The idea that people conserve cognitive effort, using efficient shortcuts (heuristics).
+- **Other ways to think about it**: We're frugal thinkers by default.
 - **Lecture & slide**: 09-29-history, slide 29.
 - **Related**: [Bounded Rationality](##bounded-rationality), [Satisficing](##satisficing)
 
 ## Cognitive Psychology
-- **Definition**: The study of mental representations and processes that mediate between stimulus and response.  
-- **Other ways to think about it**: Psychology that opens the “black box” of the mind.  
+- **Definition**: The study of mental representations and processes that mediate between stimulus and response.
+- **Other ways to think about it**: Psychology that opens the "black box" of the mind.
 - **Lecture & slide**: 10-01-mind-perception, slides 11–15 (historical timeline).
 - **Related**: [Cognitive Science](##cognitive-science), [Constructivism](##constructivism)
 
 ## Cognitive Science
-- **Definition**: Interdisciplinary science of the mind (psychology, AI, neuroscience, linguistics, philosophy).  
-- **Other ways to think about it**: A coalition of fields to understand thinking.  
+- **Definition**: Interdisciplinary science of the mind (psychology, AI, neuroscience, linguistics, philosophy).
+- **Other ways to think about it**: A coalition of fields to understand thinking.
 - **Lecture & slide**: 09-29-history, slides 27–31.
 - **Related**: [Computational Cognitive Science](##computational-cognitive-science), [Physical Symbol System Hypothesis](##physical-symbol-system-hypothesis)
 
+## Complementarity
+- **Definition**: Coupling across distinct internal states in which partners take on differing but coordinated roles (e.g., conversation turn‑taking, teamwork).
+- **Other ways to think about it**: Role‑based coordination.
+- **Lecture & slide**: 10-13-simulation, slides 29–31.
+- **Related**: [Mutual Adaptation](##mutual-adaptation)
+
 ## Computational Cognitive Science
-- **Definition**: The view that *cognition = computation over representations*, used to model and predict behavior.  
-- **Other ways to think about it**: Using algorithms to explain how minds work.  
+- **Definition**: The view that *cognition = computation over representations*, used to model and predict behavior.
+- **Other ways to think about it**: Using algorithms to explain how minds work.
 - **Lecture & slide**: 10-01-mind-perception, slides 14–15.
 - **Related**: [Predictive Mind](##predictive-mind), [Levels of Explanation](##levels-of-explanation)
 
 ## Constructivism
-- **Definition**: We build reality using *internal representations* and schemas—perception is not passive.  
-- **Other ways to think about it**: The “mind assembles” what we experience.  
+- **Definition**: We build reality using *internal representations* and schemas—perception is not passive.
+- **Other ways to think about it**: The "mind assembles" what we experience.
 - **Lecture & slide**: 10-01-mind-perception, slide 13.
 - **Related**: [Cognitive Psychology](##cognitive-psychology), [Predictive Mind](##predictive-mind)
 
 ## Correspondent Inference Theory
-- **Definition**: We infer intentions from behavior by asking whether the actor *could have done otherwise* and whether the act was freely chosen.  
-- **Other ways to think about it**: If a behavior stands out and seems unconstrained, we’ll attribute it to internal motives.  
+- **Definition**: We infer intentions from behavior by asking whether the actor *could have done otherwise* and whether the act was freely chosen.
+- **Other ways to think about it**: If a behavior stands out and seems unconstrained, we'll attribute it to internal motives.
 - **Lecture & slide**: 10-08-tom, slide 42.
 - **Related**: [Attribution Theory](##attribution-theory-naive-psychology), [Covariation Model](##covariation-model), [Implicit Theories](##implicit-theories)
 
 ## Covariation Model
-- **Definition**: We assign causes by tracking **Consistency** (across times/contexts), **Distinctiveness** (across targets), and **Consensus** (across people).  
-- **Other ways to think about it**: “CCD” triad—how stable, specific, and widely shared is the behavior?  
+- **Definition**: We assign causes by tracking **Consistency** (across times/contexts), **Distinctiveness** (across targets), and **Consensus** (across people).
+- **Other ways to think about it**: "CCD" triad—how stable, specific, and widely shared is the behavior?
 - **Lecture & slide**: 10-08-tom, slide 43.
-- **Related**: [Attribution Theory](##attribution-theory-naive-psychology), [Implicit Theories](##implicit-theories)  
+- **Related**: [Attribution Theory](##attribution-theory-naive-psychology), [Implicit Theories](##implicit-theories)
 - **Notable figure(s)**: Harold Kelley.
 
 ## Creation
-- **Definition**: ACT-FAST axis indexing actions that *make or produce* things.  
-- **Other ways to think about it**: “Making” vs. “using.”  
+- **Definition**: ACT-FAST axis indexing actions that *make or produce* things.
+- **Other ways to think about it**: "Making" vs. "using."
 - **Lecture & slide**: 10-10-tom2, slides 34–36.
 - **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy), [Abstractness](##abstractness)
 
 ## Dehumanization
-- **Definition**: The *denial of mental states* (or human essence) to agents who deserve them; inverse of [mentalizing](##mentalizing).  
-- **Other ways to think about it**: Treating a person as “less than a person.”  
+- **Definition**: The *denial of mental states* (or human essence) to agents who deserve them; inverse of [mentalizing](##mentalizing).
+- **Other ways to think about it**: Treating a person as "less than a person."
 - **Lecture & slide**: 10-08-tom, slide 29–31.
 - **Related**: [Animalistic Dehumanization](##animalistic-dehumanization), [Mechanistic Dehumanization](##mechanistic-dehumanization), [Uncanny Valley](##uncanny-valley)
+
+## Dimensions of Mind Perception
+- **Definition**: A two-dimensional framework—**Agency** (can act/think) and **Experience** (can feel)—that people use to perceive minds.
+- **Other ways to think about it**: "Can do/think" × "can feel."
+- **Lecture & slide**: 10-01-mind-perception, slides 29–31. Explained further in discussion.
+- **Related**: [Agency](##agency), [Experience](##experience)
 
 ## Dualism
 - **Definition**: The view that *mind and body are separate* substances with different properties.
@@ -163,34 +194,28 @@
 - **Related**: [Empiricism](##empiricism), [Cognitive Psychology](##cognitive-psychology)
 - **Notable figure(s)**: René Descartes.
 
-## Dimensions of Mind Perception
-- **Definition**: A two-dimensional framework—**Agency** (can act/think) and **Experience** (can feel)—that people use to perceive minds.
-- **Other ways to think about it**: "Can do/think" × "can feel."
-- **Lecture & slide**: 10-01-mind-perception, slides 29–31. Explained further in discussion.
-- **Related**: [Agency](##agency), [Experience](##experience)
-
 ## Empiricism
-- **Definition**: Knowledge arises from *sensory experience*; the mind starts as a “blank slate” (tabula rasa).  
-- **Other ways to think about it**: Learn by observing the world.  
+- **Definition**: Knowledge arises from *sensory experience*; the mind starts as a "blank slate" (tabula rasa).
+- **Other ways to think about it**: Learn by observing the world.
 - **Lecture & slide**: 09-29-history, slide 10; timeline also in 10-01, slides 11–15.
-- **Related**: [Behaviorism](##behaviorism), [Constructivism](##constructivism)  
+- **Related**: [Behaviorism](##behaviorism), [Constructivism](##constructivism)
 - **Notable figure(s)**: John Locke.
 
 ## Experience
-- **Definition**: The **mind-perception** dimension indexing capacity to *feel* (e.g., hunger, fear, pain, pleasure).  
-- **Other ways to think about it**: The “can feel” part of a mind.  
+- **Definition**: The **mind-perception** dimension indexing capacity to *feel* (e.g., hunger, fear, pain, pleasure).
+- **Other ways to think about it**: The "can feel" part of a mind.
 - **Lecture & slide**: 10-01-mind-perception, slides 29–31. Explained in lecture.
 - **Related**: [Agency](##agency), [Dimensions of Mind Perception](##dimensions-of-mind-perception)
 
 ## False Belief
-- **Definition**: A situation where an agent holds a belief that is *not* aligned with reality; a classic test of [theory of mind](##theory-of-mind-tom).  
-- **Other ways to think about it**: Predicting what *another* will do based on what *they think*, not what *you know*.  
-- **Lecture & slide**: 10-10-tom2 (section “What about false beliefs?”), ~slides 48–52. Discussed with ape-looking-time tasks in class.
+- **Definition**: A situation where an agent holds a belief that is *not* aligned with reality; a classic test of [theory of mind](##theory-of-mind-tom).
+- **Other ways to think about it**: Predicting what *another* will do based on what *they think*, not what *you know*.
+- **Lecture & slide**: 10-10-tom2 (section "What about false beliefs?"), ~slides 48–52. Discussed with ape-looking-time tasks in class.
 - **Related**: [Causal Inference](##causal-inference), [Pretense / Decoupling](##pretense--decoupling)
 
 ## Feeling Transitions
-- **Definition**: Empirical regularities describing how *emotions* tend to transition from one state to another over time.  
-- **Other ways to think about it**: The “paths” emotions take through affective space.  
+- **Definition**: Empirical regularities describing how *emotions* tend to transition from one state to another over time.
+- **Other ways to think about it**: The "paths" emotions take through affective space.
 - **Lecture & slide**: 10-01-mind-perception, post–slide 33 (Thornton & Tamir, 2016).
 - **Related**: [Circumplex Model of Affect](##circumplex-model-of-affect), [Predictive Mind](##predictive-mind)
 
@@ -207,105 +232,144 @@
 - **Related**: [Predictive Mind](##predictive-mind), [ACT-FAST Taxonomy](##act-fast-taxonomy)
 
 ## Implicit Theories
-- **Definition**: Fast, learned *rules/schemas* about the social world that we use to explain and *predict* others’ minds and behaviors.  
-- **Other ways to think about it**: Your “default” social algorithms.  
+- **Definition**: Fast, learned *rules/schemas* about the social world that we use to explain and *predict* others' minds and behaviors.
+- **Other ways to think about it**: Your "default" social algorithms.
 - **Lecture & slide**: 10-08-tom, slides 39–43; modern predictive view, slide 45. Extended in lecture.
 - **Related**: [Attribution Theory](##attribution-theory-naive-psychology), [Covariation Model](##covariation-model), [Theory of Mind (ToM)](##theory-of-mind-tom)
 
 ## Information-Processing System (Mind as)
-- **Definition**: The mind viewed as a system that *processes inputs* to produce outputs via internal representations.  
-- **Other ways to think about it**: The “software” running on brain “hardware.”  
+- **Definition**: The mind viewed as a system that *processes inputs* to produce outputs via internal representations.
+- **Other ways to think about it**: The "software" running on brain "hardware."
 - **Lecture & slide**: 10-01-mind-perception, slide 12.
 - **Related**: [Computational Cognitive Science](##computational-cognitive-science), [Levels of Explanation](##levels-of-explanation)
 
 ## Intentional Stance
-- **Definition**: A strategy of treating a system *as if* it has beliefs, desires, and rationality—useful for predicting behavior.  
-- **Other ways to think about it**: “Assume a mind and see what follows.”  
+- **Definition**: A strategy of treating a system *as if* it has beliefs, desires, and rationality—useful for predicting behavior.
+- **Other ways to think about it**: "Assume a mind and see what follows."
 - **Lecture & slide**: 10-01-mind-perception, slide 22.
 - **Related**: [Mentalizing](##mentalizing), [Theory of Mind (ToM)](##theory-of-mind-tom), [Animacy](##animacy)
 
 ## Levels of Explanation
-- **Definition**: Different levels at which we can explain a system (e.g., *computational/functional*, *algorithmic/representational*, *implementational*).  
-- **Other ways to think about it**: “Why?” vs. “How/what representations?” vs. “In what hardware?”  
+- **Definition**: Different levels at which we can explain a system (e.g., *computational/functional*, *algorithmic/representational*, *implementational*).
+- **Other ways to think about it**: "Why?" vs. "How/what representations?" vs. "In what hardware?"
 - **Lecture & slide**: 09-29-history, slides 37–39.
-- **Related**: [Computational Cognitive Science](##computational-cognitive-science), [Information-Processing System (Mind as)](##information-processing-system-mind-as)  
+- **Related**: [Computational Cognitive Science](##computational-cognitive-science), [Information-Processing System (Mind as)](##information-processing-system-mind-as)
 - **Notable figure(s)**: David Marr.
 
 ## Mechanistic Dehumanization
-- **Definition**: Denying *human nature* (e.g., warmth, emotionality) by treating targets as *objects or machines*.  
-- **Other ways to think about it**: “Cold” objectification—seeing people as tools.  
+- **Definition**: Denying *human nature* (e.g., warmth, emotionality) by treating targets as *objects or machines*.
+- **Other ways to think about it**: "Cold" objectification—seeing people as tools.
 - **Lecture & slide**: 10-08-tom, slide 31.
 - **Related**: [Dehumanization](##dehumanization), [Animalistic Dehumanization](##animalistic-dehumanization)
 
 ## Mentalizing
-- **Definition**: The *automatic attribution of mental states* to explain/predict behavior; perception and attribution are linked.  
-- **Other ways to think about it**: Spotting a mind and inferring its contents.  
+- **Definition**: The *automatic attribution of mental states* to explain/predict behavior; perception and attribution are linked.
+- **Other ways to think about it**: Spotting a mind and inferring its contents.
 - **Lecture & slide**: 10-03-animacy, slides 7–9, 16–19; 10-01-mind-perception (ToM intro).
 - **Related**: [Animacy](##animacy), [Intentional Stance](##intentional-stance), [Theory of Mind (ToM)](##theory-of-mind-tom)
 
+## Mirroring (Embodied Simulation)
+- **Definition**: Automatic activation of an observer's motor and affective representations when perceiving another agent's actions or states; a near‑immediate vicarious resonance.
+- **Other ways to think about it**: Resonance; motor/affective contagion.
+- **Lecture & slide**: 10-13-simulation, slides 22–23.
+- **Related**: [Simulation (ToM Strategy)](##simulation-tom-strategy), [Synchrony](##synchrony), Mirror system, [Affective Empathy](##empathy)
+- **Notable figure(s)**: Giacomo Rizzolatti; Adam Waytz & Jason Mitchell.
+
+## Mutual Adaptation
+- **Definition**: Dynamic coupling between interacting agents whereby each predicts and adjusts to the other's behavior to coordinate effectively.
+- **Other ways to think about it**: Interactive alignment; real‑time coordination dynamics.
+- **Lecture & slide**: 10-13-simulation, slides 30–31.
+- **Related**: [Synchrony](##synchrony), [Anticipatory Coordination](##anticipatory-coordination), [Complementarity](##complementarity), [Predictive Mind](##predictive-mind)
+
+## Perspective‑Giving
+- **Definition**: An interaction format in which a speaker shares their own experiences or constraints to update another's beliefs; especially impactful for lower‑power groups.
+- **Other ways to think about it**: Being heard; evidence provision in dialog.
+- **Lecture & slide**: Optional readings (Bruneau & Saxe, 2012).
+- **Related**: [Perspective‑Taking](##perspective‑taking)
+
+## Perspective‑Taking
+- **Definition**: An interaction format in which a listener actively summarizes/encodes another's perspective, signaling acknowledgment and reducing defensive inference (especially for higher‑power groups).
+- **Other ways to think about it**: Active summarization of the other's view.
+- **Lecture & slide**: Optional readings (Bruneau & Saxe, 2012).
+- **Related**: [Perspective‑Giving](##perspective‑giving); Mentalizing; Attribution
+
 ## Physical Symbol System Hypothesis
-- **Definition**: The claim that a *physical symbol system* has the necessary and sufficient means for **intelligent action**.  
-- **Other ways to think about it**: Intelligence can arise from symbol manipulation.  
+- **Definition**: The claim that a *physical symbol system* has the necessary and sufficient means for **intelligent action**.
+- **Other ways to think about it**: Intelligence can arise from symbol manipulation.
 - **Lecture & slide**: 09-29-history, slides 35–36.
-- **Related**: [Cognitive Science](##cognitive-science), [Computational Cognitive Science](##computational-cognitive-science)  
+- **Related**: [Cognitive Science](##cognitive-science), [Computational Cognitive Science](##computational-cognitive-science)
 - **Notable figure(s)**: Allen Newell & Herbert Simon.
 
 ## Predictive Mind
-- **Definition**: The mind constantly *predicts* sensory inputs and compares them to reality; representations are shaped by prediction errors and support action, simulation, and mindreading.  
-- **Other ways to think about it**: “Brains as prediction engines.”  
+- **Definition**: The mind constantly *predicts* sensory inputs and compares them to reality; representations are shaped by prediction errors and support action, simulation, and mindreading.
+- **Other ways to think about it**: "Brains as prediction engines."
 - **Lecture & slide**: 10-01-mind-perception, slide 16; overview also shown in 09-29-history, slide 41.
 - **Related**: [Constructivism](##constructivism), [Feeling Transitions](##feeling-transitions), [Theory of Mind (ToM)](##theory-of-mind-tom)
 
 ## Pretense / Decoupling
-- **Definition**: The ability to *represent the world differently* from what is currently observed—decoupling one’s mental representation from perception (a foundation for ToM).  
-- **Other ways to think about it**: “Imagination mode”: temporarily suspend reality to consider alternatives.  
-- **Lecture & slide**: 10-10-tom2, “Pretending = Decoupling from the World” (Leslie, 1987), around slides 52–56.
-- **Related**: [Causal Inference](##causal-inference), [False Belief](##false-belief), [Theory of Mind (ToM)](##theory-of-mind-tom)  
+- **Definition**: The ability to *represent the world differently* from what is currently observed—decoupling one's mental representation from perception (a foundation for ToM).
+- **Other ways to think about it**: "Imagination mode": temporarily suspend reality to consider alternatives.
+- **Lecture & slide**: 10-10-tom2, "Pretending = Decoupling from the World" (Leslie, 1987), around slides 52–56.
+- **Related**: [Causal Inference](##causal-inference), [False Belief](##false-belief), [Theory of Mind (ToM)](##theory-of-mind-tom)
 - **Notable figure(s)**: Alan Leslie.
 
+## Prospection (Episodic Future Thinking)
+- **Definition**: Constructing detailed, self‑referenced simulations of plausible future events guided by episodic memory; used for planning and social inference.
+- **Other ways to think about it**: Future‑oriented mental time travel.
+- **Lecture & slide**: Optional readings (Buckner & Carroll, 2007).
+- **Related**: [Self‑Projection (Internal Simulation)](##self‑projection-internal-simulation); [Predictive Mind](##predictive-mind)
+
 ## Rationality (Mind-Space Axis)
-- **Definition**: One of the three **axes of mental state space** indicating how *uniquely human* or *rational/cognitive* a mental state is perceived to be.  
-- **Other ways to think about it**: “How much is this state about thinking vs. feeling?”  
+- **Definition**: One of the three **axes of mental state space** indicating how *uniquely human* or *rational/cognitive* a mental state is perceived to be.
+- **Other ways to think about it**: "How much is this state about thinking vs. feeling?"
 - **Lecture & slide**: 10-10-tom2, slide 33.
 - **Related**: [Valence](##valence), [Social Impact](##social-impact), [Dimensions of Mind Perception](##dimensions-of-mind-perception)
 
 ## Satisficing
-- **Definition**: Choosing an option that is *good enough*, rather than optimal, given limits on time/knowledge.  
-- **Other ways to think about it**: “Stop searching once it clears the bar.”  
+- **Definition**: Choosing an option that is *good enough*, rather than optimal, given limits on time/knowledge.
+- **Other ways to think about it**: "Stop searching once it clears the bar."
 - **Lecture & slide**: 09-29-history, slide 29.
-- **Related**: [Bounded Rationality](##bounded-rationality), [Cognitive Misers](##cognitive-misers)  
+- **Related**: [Bounded Rationality](##bounded-rationality), [Cognitive Misers](##cognitive-misers)
 - **Notable figure(s)**: Herbert Simon.
 
+## Self‑Projection (Internal Simulation)
+- **Definition**: Using autobiographical memory to construct imagined perspectives (past, future, counterfactual) and to 'step into another's shoes.'
+- **Other ways to think about it**: Mental time travel; counterfactual simulation.
+- **Lecture & slide**: 10-13-simulation, slides 24–27.
+- **Related**: [Simulation (ToM Strategy)](##simulation-tom-strategy), [Prospection](##prospection-episodic-future-thinking), [Episodic Memory](##episodic-memory)
+- **Notable figure(s)**: Randy Buckner & Daniel Carroll; Adam Waytz & Jason Mitchell.
+
 ## Simulation (ToM Strategy)
-- **Definition**: Using *one’s own mind* as a model to *simulate* another’s mental states to predict their behavior.  
-- **Other ways to think about it**: “Run it on your brain to see what they might do.”  
-- **Lecture & slide**: 10-10-tom2, “ToM: 3 broad strategies,” slide 57.
+- **Definition**: Using *one's own mind* as a model to *simulate* another's mental states to predict their behavior.
+- **Other ways to think about it**: "Run it on your brain to see what they might do."
+- **Lecture & slide**: 10-10-tom2, "ToM: 3 broad strategies," slide 57.
 - **Related**: [Implicit Theories](##implicit-theories), [Causal Inference](##causal-inference), [Theory of Mind (ToM)](##theory-of-mind-tom)
 
 ## Social Impact (Mind-Space Axis)
-- **Definition**: An axis of mental state space indicating how *socially impactful* a state is (e.g., envy vs. fatigue).  
-- **Other ways to think about it**: “How much does this state inherently involve other people?”  
+- **Definition**: An axis of mental state space indicating how *socially impactful* a state is (e.g., envy vs. fatigue).
+- **Other ways to think about it**: "How much does this state inherently involve other people?"
 - **Lecture & slide**: 10-10-tom2, slide 33.
 - **Related**: [Valence](##valence), [Rationality](##rationality)
 
 ## Spiritualism
-- **Definition**: ACT-FAST axis marking actions with *spiritual or religious* content.  
-- **Other ways to think about it**: Actions about transcendence or ritual meaning.  
+- **Definition**: ACT-FAST axis marking actions with *spiritual or religious* content.
+- **Other ways to think about it**: Actions about transcendence or ritual meaning.
 - **Lecture & slide**: 10-10-tom2, slides 34–36.
 - **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy), [Tradition](##tradition)
 
-## Theory of Mind (ToM)
-- **Definition**: The capacity to *represent others’ beliefs, desires, and intentions* to explain and predict their behavior—*a theory* because such states are unobservable yet predict actions.  
-- **Other ways to think about it**: “Reasoning about what’s in someone else’s head.”  
-- **Lecture & slide**: 10-08-tom (Premack & Woodruff quote; ToM definition), slides ~35–38; 10-01 ToM intro; 10-10-tom2 extends. 
-- **Related**: [Implicit Theories](##implicit-theories), [Causal Inference](##causal-inference), [Simulation](##simulation-tom-strategy), [False Belief](##false-belief), [Mentalizing](##mentalizing)  
-- **Notable figure(s)**: David Premack & Guy Woodruff.
+## Synchrony
+- **Definition**: Coupling in time and internal state between partners (e.g., tapping together, imitation/mimicry) that supports mutual prediction and bonding.
+- **Other ways to think about it**: Temporal entrainment; time‑locked coupling.
+- **Lecture & slide**: 10-13-simulation, slides 27–31.
+- **Related**: [Mutual Adaptation](##mutual-adaptation), [Mirroring (Embodied Simulation)](##mirroring-embodied-simulation)
+- **Notable figure(s)**: Talia Wheatley.
 
-## Tradition
-- **Definition**: ACT-FAST axis indexing *customs, rituals, and culturally inherited* practices.
-- **Other ways to think about it**: "Old, established ways of doing things."
-- **Lecture & slide**: 10-10-tom2, slides 34–36.
-- **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy), [Spiritualism](##spiritualism)
+## Theory of Mind (ToM)
+- **Definition**: The capacity to *represent others' beliefs, desires, and intentions* to explain and predict their behavior—*a theory* because such states are unobservable yet predict actions.
+- **Other ways to think about it**: "Reasoning about what's in someone else's head."
+- **Lecture & slide**: 10-08-tom (Premack & Woodruff quote; ToM definition), slides ~35–38; 10-01 ToM intro; 10-10-tom2 extends.
+- **Related**: [Implicit Theories](##implicit-theories), [Causal Inference](##causal-inference), [Simulation](##simulation-tom-strategy), [False Belief](##false-belief), [Mentalizing](##mentalizing)
+- **Notable figure(s)**: David Premack & Guy Woodruff.
 
 ## Theory-of-Mind: Three Strategies (Algorithms)
 - **Definition**: Three broad strategies for arriving at mental-state hypotheses: **Implicit Theories**, **Causal Inference**, **Simulation**.
@@ -313,21 +377,27 @@
 - **Lecture & slide**: 10-10-tom2, slide 57.
 - **Related**: [Implicit Theories](##implicit-theories), [Causal Inference](##causal-inference), [Simulation](##simulation-tom-strategy)
 
+## Tradition
+- **Definition**: ACT-FAST axis indexing *customs, rituals, and culturally inherited* practices.
+- **Other ways to think about it**: "Old, established ways of doing things."
+- **Lecture & slide**: 10-10-tom2, slides 34–36.
+- **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy), [Spiritualism](##spiritualism)
+
 ## Turing Test
-- **Definition**: A behavioral criterion for whether a machine appears to *have a mind*: if a perceiver can’t tell it’s not human.  
-- **Other ways to think about it**: “If it’s indistinguishable from a person in conversation, treat it as minded.”  
-- **Lecture & slide**: 10-01-mind-perception, slide 27 (“What kinds of things have a mind?”).
+- **Definition**: A behavioral criterion for whether a machine appears to *have a mind*: if a perceiver can't tell it's not human.
+- **Other ways to think about it**: "If it's indistinguishable from a person in conversation, treat it as minded."
+- **Lecture & slide**: 10-01-mind-perception, slide 27 ("What kinds of things have a mind?").
 - **Related**: [Intentional Stance](##intentional-stance), [Predictive Mind](##predictive-mind)
 
 ## Uncanny Valley
-- **Definition**: A *negative sensation* when something is *almost* human but *not quite*—your [animacy](##animacy) detector receives conflicting cues.  
-- **Other ways to think about it**: “Creepy-almost-human” effect.  
+- **Definition**: A *negative sensation* when something is *almost* human but *not quite*—your [animacy](##animacy) detector receives conflicting cues.
+- **Other ways to think about it**: "Creepy-almost-human" effect.
 - **Lecture & slide**: 10-08-tom, slides 26–28. Also elaborated in class: features (shape, motion, contingency) can conflict.
 - **Related**: [Animacy](##animacy), [Dehumanization](##dehumanization)
 
 ## Valence
-- **Definition**: In affect, how *positive vs. negative* a state feels.  
-- **Other ways to think about it**: Pleasantness of a feeling.  
+- **Definition**: In affect, how *positive vs. negative* a state feels.
+- **Other ways to think about it**: Pleasantness of a feeling.
 - **Lecture & slide**: 10-01-mind-perception, slide 33; appears again as mental-state axis (10-10-tom2, slide 33).
 - **Related**: [Arousal](##arousal), [Circumplex Model of Affect](##circumplex-model-of-affect)
 
@@ -336,73 +406,3 @@
 - **Other ways to think about it**: "Surprise = longer looking," a window into preverbal knowledge.
 - **Lecture & slide**: 10-10-tom2, slides 46–47 (and following developmental timeline).
 - **Related**: [Causal Inference](##causal-inference), [False Belief](##false-belief)
-
-## Mirroring (Embodied Simulation)
-- **Definition**: Automatic activation of an observer’s motor and affective representations when perceiving another agent’s actions or states; a near‑immediate vicarious resonance.  
-- **Other ways to think about it**: Resonance; motor/affective contagion.  
-- **Lecture & slide**: 10-13-simulation, slides 22–23.
-- **Related**: [Simulation (ToM Strategy)](##simulation-tom-strategy), [Synchrony](##synchrony), Mirror system, [Affective Empathy](##empathy)
-- **Notable figure(s)**: Giacomo Rizzolatti; Adam Waytz & Jason Mitchell.
-
-## Self‑Projection (Internal Simulation)
-- **Definition**: Using autobiographical memory to construct imagined perspectives (past, future, counterfactual) and to ‘step into another’s shoes.’  
-- **Other ways to think about it**: Mental time travel; counterfactual simulation.  
-- **Lecture & slide**: 10-13-simulation, slides 24–27.
-- **Related**: [Simulation (ToM Strategy)](##simulation-tom-strategy), [Prospection](##prospection-episodic-future-thinking), [Episodic Memory](##episodic-memory)
-- **Notable figure(s)**: Randy Buckner & Daniel Carroll; Adam Waytz & Jason Mitchell.
-
-## Mutual Adaptation
-- **Definition**: Dynamic coupling between interacting agents whereby each predicts and adjusts to the other’s behavior to coordinate effectively.  
-- **Other ways to think about it**: Interactive alignment; real‑time coordination dynamics.  
-- **Lecture & slide**: 10-13-simulation, slides 30–31.
-- **Related**: [Synchrony](##synchrony), [Anticipatory Coordination](##anticipatory-coordination), [Complementarity](##complementarity), [Predictive Mind](##predictive-mind)
-
-## Synchrony
-- **Definition**: Coupling in time and internal state between partners (e.g., tapping together, imitation/mimicry) that supports mutual prediction and bonding.  
-- **Other ways to think about it**: Temporal entrainment; time‑locked coupling.  
-- **Lecture & slide**: 10-13-simulation, slides 27–31.
-- **Related**: [Mutual Adaptation](##mutual-adaptation), [Mirroring (Embodied Simulation)](##mirroring-embodied-simulation)
-- **Notable figure(s)**: Talia Wheatley.
-
-## Anticipatory Coordination
-- **Definition**: Coupling across distinct times where partners adjust current behavior based on predictions of each other’s upcoming states (e.g., dancing).  
-- **Other ways to think about it**: Predict‑ahead alignment.  
-- **Lecture & slide**: 10-13-simulation, slides 28–29.
-- **Related**: [Mutual Adaptation](##mutual-adaptation), [Synchrony](##synchrony)
-
-## Complementarity
-- **Definition**: Coupling across distinct internal states in which partners take on differing but coordinated roles (e.g., conversation turn‑taking, teamwork).  
-- **Other ways to think about it**: Role‑based coordination.  
-- **Lecture & slide**: 10-13-simulation, slides 29–31.
-- **Related**: [Mutual Adaptation](##mutual-adaptation)
-
-## Cognitive Hierarchy Theory (CHT)
-- **Definition**: A model of boundedly rational strategic reasoning in which players come in discrete levels (k=0,1,2,…) and each k‑level best‑responds to a distribution of lower‑level types (0..k−1).  
-- **Other ways to think about it**: Finite‑depth recursive reasoning.  
-- **Lecture & slide**: 10-13-simulation, slides 17–18; optional readings (Camerer, Ho, & Chong, 2004).
-- **Related**: Level‑k models; [Bounded Rationality](##bounded-rationality); Recursive reasoning
-- **Notable figure(s)**: Colin Camerer; Teck‑Ho; Juin‑Kuan Chong.
-
-## Beauty‑Contest / Keynesian Game
-- **Definition**: A diagnostic guessing game in which players choose a number typically aiming at a fraction (e.g., 2/3) of the group average; used to reveal limited iterative reasoning.  
-- **Other ways to think about it**: ‘Guess 2/3 of the average’ task.  
-- **Lecture & slide**: Optional readings (Nagel, 1995).
-- **Related**: [Cognitive Hierarchy (CH)](##cognitive-hierarchy-ch); Level‑k models; [Bounded Rationality](##bounded-rationality)
-
-## Prospection (Episodic Future Thinking)
-- **Definition**: Constructing detailed, self‑referenced simulations of plausible future events guided by episodic memory; used for planning and social inference.  
-- **Other ways to think about it**: Future‑oriented mental time travel.  
-- **Lecture & slide**: Optional readings (Buckner & Carroll, 2007).
-- **Related**: [Self‑Projection (Internal Simulation)](##self‑projection-internal-simulation); [Predictive Mind](##predictive-mind)
-
-## Perspective‑Giving
-- **Definition**: An interaction format in which a speaker shares their own experiences or constraints to update another’s beliefs; especially impactful for lower‑power groups.  
-- **Other ways to think about it**: Being heard; evidence provision in dialog.  
-- **Lecture & slide**: Optional readings (Bruneau & Saxe, 2012).
-- **Related**: [Perspective‑Taking](##perspective‑taking)
-
-## Perspective‑Taking
-- **Definition**: An interaction format in which a listener actively summarizes/encodes another’s perspective, signaling acknowledgment and reducing defensive inference (especially for higher‑power groups).  
-- **Other ways to think about it**: Active summarization of the other’s view.  
-- **Lecture & slide**: Optional readings (Bruneau & Saxe, 2012).
-- **Related**: [Perspective‑Giving](##perspective‑giving); Mentalizing; Attribution

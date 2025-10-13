@@ -8,4 +8,4 @@
   3. 10-03 (Animacy)
   4. 10-08 (Theory-of-Mind I)
   5. 10-10 (Theory-of-Mind II)
-  6. 10-10 (Theory-of-Mind III)
+  6. 10-13 (Theory-of-Mind III)
