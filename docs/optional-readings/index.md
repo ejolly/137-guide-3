@@ -1,10 +1,16 @@
-## [Introduction](optional-readings/week-00.md)
+# Optional Reading Summaries
+
+*Click any paper name below to jump to the summary or use the sidebar menu*  
+
+---
+
+**Introduction**  
 - [Greifeneder, R., Bless, H., & Fiedler, K. (2017). *Social cognition: How individuals construct social reality* (Chapters 1 & 2). Psychology Press.](optional-readings/week-00.md#greifeneder-r-bless-h-amp-fiedler-k-2017-social-cognition-how-individuals-construct-social-reality-chapters-1-amp-2-psychology-press)
 - [Jolly, E., & Chang, L. J. (2019). The Flatland Fallacy: Moving beyond low-dimensional thinking. *Topics in Cognitive Science*, *11*(2), 433-454.](optional-readings/week-00.md#jolly-e-amp-chang-l-j-2019-the-flatland-fallacy-moving-beyond-low-dimensional-thinking-topics-in-cognitive-science-112-433-454) [[DOI]](https://doi.org/10.1111/tops.12404)
 - [Mitchell, J. P. (2006). Mentalizing and Marr: An information processing approach to the study of social cognition. *Brain Research*, *1079*(1), 66-75.](optional-readings/week-00.md#mitchell-j-p-2006-mentalizing-and-marr-an-information-processing-approach-to-the-study-of-social-cognition-brain-research-10791-66-75) [[DOI]](https://doi.org/10.1016/j.brainres.2005.12.113)
 - [Moskowitz, G. B. (2005). *Social cognition: Understanding self and others* (Introduction & Chapter 1). Guilford Press.](optional-readings/week-00.md#moskowitz-g-b-2005-social-cognition-understanding-self-and-others-introduction-amp-chapter-1-guilford-press)
 
-## [Week 1](optional-readings/week-01.md)
+**Week 01**  
 - [Dennett, D. C. (1971). Intentional systems. *The Journal of Philosophy*, *68*(4), 87-106.](optional-readings/week-01.md#dennett-d-c-1971-intentional-systems-the-journal-of-philosophy-684-87-106) [[DOI]](https://doi.org/10.2307/2025382)
 - [Dennett, D. C. (1988). Précis of The Intentional Stance. *Behavioral and Brain Sciences*, *11*(3), 495-505.](optional-readings/week-01.md#dennett-d-c-1988-précis-of-the-intentional-stance-behavioral-and-brain-sciences-113-495-505) [[DOI]](https://doi.org/10.1017/S0140525X00058611)
 - [Epley, N., & Waytz, A. (2010). Mind perception. In S. T. Fiske, D. T. Gilbert, & G. Lindzey (Eds.), *Handbook of social psychology* (5th ed., Vol. 1, pp. 498-541). Wiley.](optional-readings/week-01.md#epley-n-amp-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-amp-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley) [[DOI]](https://doi.org/10.1002/9780470561119.socpsy001014)
@@ -14,7 +20,7 @@
 - [Pennington, D. C. (2000). *Social cognition* (History Chapter). Routledge.](optional-readings/week-01.md#pennington-d-c-2000-social-cognition-history-chapter-routledge)
 - [Pérez-Osorio, J., & Wykowska, A. (2020). Adopting the intentional stance toward natural and artificial agents. *Philosophical Psychology*, *33*(3), 369-395.](optional-readings/week-01.md#pérez-osorio-j-amp-wykowska-a-2020-adopting-the-intentional-stance-toward-natural-and-artificial-agents-philosophical-psychology-333-369-395) [[DOI]](https://doi.org/10.1080/09515089.2019.1688778)
 
-## [Week 2](optional-readings/week-02.md)
+**Week 02**  
 - [Blakemore, S.-J., & Decety, J. (2001). From the perception of action to the understanding of intention. *Nature Reviews Neuroscience*, *2*(8), 561-567.](optional-readings/week-02.md#blakemore-s-j-amp-decety-j-2001-from-the-perception-of-action-to-the-understanding-of-intention-nature-reviews-neuroscience-28-561-567) [[DOI]](https://doi.org/10.1038/35086023)
 - [Brüne, M., & Brüne-Cohrs, U. (2006). Theory of mind—evolution, ontogeny, brain mechanisms and psychopathology. *Neuroscience & Biobehavioral Reviews*, *30*(4), 437-455.](optional-readings/week-02.md#brüne-m-amp-brüne-cohrs-u-2006-theory-of-mindevolution-ontogeny-brain-mechanisms-and-psychopathology-neuroscience-amp-biobehavioral-reviews-304-437-455) [[DOI]](https://doi.org/10.1016/j.neubiorev.2005.08.001)
 - [Frith, C. D., & Frith, U. (2006). How we predict what other people are going to do. *Brain Research*, *1079*(1), 36-46.](optional-readings/week-02.md#frith-c-d-amp-frith-u-2006-how-we-predict-what-other-people-are-going-to-do-brain-research-10791-36-46) [[DOI]](https://doi.org/10.1016/j.brainres.2005.12.126)
@@ -29,7 +35,7 @@
 - [Wang, S., Lilienfeld, S. O., & Rochat, P. (2015). The uncanny valley: Existence and explanations. *Review of General Psychology*, *19*(4), 393-407.](optional-readings/week-02.md#wang-s-lilienfeld-s-o-amp-rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407) [[DOI]](https://doi.org/10.1037/gpr0000056)
 - [Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences*, *14*(8), 383-388.](optional-readings/week-02.md#waytz-a-gray-k-epley-n-amp-wegner-d-m-2010-causes-and-consequences-of-mind-perception-trends-in-cognitive-sciences-148-383-388) [[DOI]](https://doi.org/10.1016/j.tics.2010.05.006)
 
-## [Week 3](optional-readings/week-03.md)
+**Week 03**  
 - [Bruneau, E. G., & Saxe, R. (2012). The power of being heard: The benefits of 'perspective-giving' in the context of intergroup conflict. *Journal of Experimental Social Psychology*, *48*(4), 855-866.](optional-readings/week-03.md#bruneau-e-g-amp-saxe-r-2012-the-power-of-being-heard-the-benefits-of-perspective-giving-in-the-context-of-intergroup-conflict-journal-of-experimental-social-psychology-484-855-866) [[DOI]](https://doi.org/10.1016/j.jesp.2012.02.017)
 - [Buckner, R. L., & Carroll, D. C. (2007). Self-projection and the brain. *Trends in Cognitive Sciences*, *11*(2), 49-57.](optional-readings/week-03.md#buckner-r-l-amp-carroll-d-c-2007-self-projection-and-the-brain-trends-in-cognitive-sciences-112-49-57) [[DOI]](https://doi.org/10.1016/j.tics.2006.11.004)
 - [Camerer, C. F., Ho, T.-H., & Chong, J.-K. (2004). A cognitive hierarchy model of games. *The Quarterly Journal of Economics*, *119*(3), 861-898.](optional-readings/week-03.md#camerer-c-f-ho-t-h-amp-chong-j-k-2004-a-cognitive-hierarchy-model-of-games-the-quarterly-journal-of-economics-1193-861-898) [[DOI]](https://doi.org/10.1162/0033553041502225)

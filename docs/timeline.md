@@ -1,4 +1,4 @@
-# Historical Timeline Terms
+# Historical Perspectives (approx. chronological)
 
 *(See Lecture 09‑29: History; Lecture 10‑01 recap slides)*
 
@@ -25,6 +25,14 @@ A movement emphasizing **observable behavior and conditioning**, rejecting intro
 **Example:** The "Little Albert" experiment showed conditioned fear responses.\
 **Related Concepts:** Preceded the **Cognitive Revolution** and **Constructivism**.
 
+## Kurt Lewin's Field Theory
+
+**Time period:** 1940s\
+Behavior is a **function of the person and environment** (*B = f(P, E)*); Lewin's equation; grand-truism\
+**Notable Figure:** Kurt Lewin\
+**Key Idea:** Behavior arises from dynamic forces within a person’s "life space."\
+**Related Concepts:** Foundation for **Attribution Theory** and **Representations (R)**.
+
 ## Cognitivism
 
 **Time period:** 1930s–1950s→1960s\
@@ -47,13 +55,6 @@ An interdisciplinary field treating the **mind as an information-processing syst
 **Notable Figures:** Turing, Simon, Chomsky\
 **Related Concepts:** Precursor to **Computational Cognitive Science** and **Intentional Stance**.
 
-## Computational Cognitive Science
-
-**Time period:** 1970s–1980s\
-Explains cognition in terms of **representations and algorithms**. Introduced **Marr’s Levels of Analysis**.\
-**Notable Figures:** David Marr, Allen Newell, Herbert Simon\
-**Related Concepts:** Foundation for **Predictive Models** and **Generative Models**.
-
 ## Constructivism
 
 **Time period:** 1960s–1970s\
@@ -62,13 +63,12 @@ Perception and memory are **active constructions** from prior knowledge and inpu
 **Example:** “The dress” illusion illustrates perceptual priors.\
 **Related Concepts:** Supports **Predictive Mind**; informs **Mentalizing**.
 
-## Field Theory
+## Computational Cognitive Science
 
-**Time period:** 1940s\
-Behavior is a **function of the person and environment** (*B = f(P, E)*); Lewin's equation; grand-truism\
-**Notable Figure:** Kurt Lewin\
-**Key Idea:** Behavior arises from dynamic forces within a person’s "life space."\
-**Related Concepts:** Foundation for **Attribution Theory** and **Representations (R)**.
+**Time period:** 1970s–1980s\
+Explains cognition in terms of **representations and algorithms**. Introduced **Marr’s Levels of Analysis**.\
+**Notable Figures:** David Marr, Allen Newell, Herbert Simon\
+**Related Concepts:** Foundation for **Predictive Models** and **Generative Models**.
 
 ## Predictive Mind
 

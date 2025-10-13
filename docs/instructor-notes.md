@@ -1,5 +1,5 @@
 
-# PSYC 137 — Instructor Lecture Notes (Exam 1 Coverage: 09‑29 → 10‑13)
+# Part 1 Teaching Notes
 
 ---
 
