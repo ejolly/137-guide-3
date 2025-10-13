@@ -9,3 +9,4 @@
   * [Week 02](optional-readings/week-02.md)
   * [Week 03](optional-readings/week-03.md)
 * [Instructor Notes](instructor-notes.md)
+* [Question Bank](question-bank-with-answers.md)

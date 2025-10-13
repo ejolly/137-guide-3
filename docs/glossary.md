@@ -86,6 +86,7 @@
 - **Definition**: Motion patterns that suggest *causes beyond simple physics* (e.g., chasing, goal-directed movement); classic evidence for [animacy](##animacy).
 - **Other ways to think about it**: Movement that "feels alive."
 - **Lecture & slide**: 10-03-animacy, slides 20–22, 23–26, 30–31.
+- **Paper mentions:** [Week 02](optional-readings/week-02.md#blakemore-s-j-decety-j-2001-from-the-perception-of-action-to-the-understanding-of-intention-nature-reviews-neuroscience-28-561-567), [Week 02](optional-readings/week-02.md#frith-c-d-frith-u-2006-how-we-predict-what-other-people-are-going-to-do-brain-research-10791-36-46), [Week 02](optional-readings/week-02.md#pitcher-d-ungerleider-l-g-2021-evidence-for-a-third-visual-pathway-specialized-for-social-perception-trends-in-cognitive-sciences-252-100-110), [Week 02](optional-readings/week-02.md#brüne-m-brüne-cohrs-u-2006-theory-of-mindevolution-ontogeny-brain-mechanisms-and-psychopathology-neuroscience-biobehavioral-reviews-304-437-455)
 - **Example(s)**: Johansson point-light walkers; dots that seem to "chase" each other; shared motion–music patterns (Sievers et al., 2021).
 - **Related**: [Animacy](##animacy), [Mentalizing](##mentalizing), [Intentional Stance](##intentional-stance)
 
@@ -283,6 +284,7 @@
 - **Definition**: Automatic activation of an observer's motor and affective representations when perceiving another agent's actions or states; a near‑immediate vicarious resonance.
 - **Other ways to think about it**: Resonance; motor/affective contagion.
 - **Lecture & slide**: 10-13-simulation, slides 22–23.
+- **Paper mentions:** [Week 03](optional-readings/week-03.md#waytz-a-amp-mitchell-j-p-2011-two-mechanisms-for-simulating-other-minds-dissociations-between-mirroring-and-self-projection-current-directions-in-psychological-science-203-197-200), [Week 03](optional-readings/week-03.md#wheatley-t-kang-o-parkinson-c-amp-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606), [Week 02](optional-readings/week-02.md#frith-c-d-amp-frith-u-2006-how-we-predict-what-other-people-are-going-to-do-brain-research-10791-36-46), [Week 02](optional-readings/week-02.md#blakemore-s-j-amp-decety-j-2001-from-the-perception-of-action-to-the-understanding-of-intention-nature-reviews-neuroscience-28-561-567)
 - **Related**: [Simulation (ToM Strategy)](##simulation-tom-strategy), [Synchrony](##synchrony), Mirror system, [Affective Empathy](##empathy)
 - **Notable figure(s)**: Giacomo Rizzolatti; Adam Waytz & Jason Mitchell.
 
@@ -290,6 +292,7 @@
 - **Definition**: Dynamic coupling between interacting agents whereby each predicts and adjusts to the other's behavior to coordinate effectively.
 - **Other ways to think about it**: Interactive alignment; real‑time coordination dynamics.
 - **Lecture & slide**: 10-13-simulation, slides 30–31.
+- **Paper mentions:** [Additional](optional-readings/additional.md#wheatley-et-al-2023-the-emerging-science-of-interacting-minds), [Week 03](optional-readings/week-03.md#wheatley-t-kang-o-parkinson-c-amp-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606)
 - **Related**: [Synchrony](##synchrony), [Anticipatory Coordination](##anticipatory-coordination), [Complementarity](##complementarity), [Predictive Mind](##predictive-mind)
 
 ## Perspective‑Giving
@@ -348,6 +351,7 @@
 - **Definition**: Using autobiographical memory to construct imagined perspectives (past, future, counterfactual) and to 'step into another's shoes.'
 - **Other ways to think about it**: Mental time travel; counterfactual simulation.
 - **Lecture & slide**: 10-13-simulation, slides 24–27.
+- **Paper mentions:** [Week 03](optional-readings/week-03.md#buckner-r-l-amp-carroll-d-c-2007-self-projection-and-the-brain-trends-in-cognitive-sciences-112-49-57), [Week 03](optional-readings/week-03.md#waytz-a-amp-mitchell-j-p-2011-two-mechanisms-for-simulating-other-minds-dissociations-between-mirroring-and-self-projection-current-directions-in-psychological-science-203-197-200)
 - **Related**: [Simulation (ToM Strategy)](##simulation-tom-strategy), [Prospection](##prospection-episodic-future-thinking), [Episodic Memory](##episodic-memory)
 - **Notable figure(s)**: Randy Buckner & Daniel Carroll; Adam Waytz & Jason Mitchell.
 
@@ -355,6 +359,7 @@
 - **Definition**: Using *one's own mind* as a model to *simulate* another's mental states to predict their behavior.
 - **Other ways to think about it**: "Run it on your brain to see what they might do."
 - **Lecture & slide**: 10-10-tom2, "ToM: 3 broad strategies," slide 57.
+- **Paper mentions:** [Week 03](optional-readings/week-03.md#waytz-a-amp-mitchell-j-p-2011-two-mechanisms-for-simulating-other-minds-dissociations-between-mirroring-and-self-projection-current-directions-in-psychological-science-203-197-200), [Week 03](optional-readings/week-03.md#buckner-r-l-amp-carroll-d-c-2007-self-projection-and-the-brain-trends-in-cognitive-sciences-112-49-57), [Week 02](optional-readings/week-02.md#blakemore-s-j-amp-decety-j-2001-from-the-perception-of-action-to-the-understanding-of-intention-nature-reviews-neuroscience-28-561-567)
 - **Related**: [Implicit Theories](##implicit-theories), [Causal Inference](##causal-inference), [Theory of Mind (ToM)](##theory-of-mind-tom)
 
 ## Social Impact (Mind-Space Axis)
@@ -373,6 +378,7 @@
 - **Definition**: Coupling in time and internal state between partners (e.g., tapping together, imitation/mimicry) that supports mutual prediction and bonding.
 - **Other ways to think about it**: Temporal entrainment; time‑locked coupling.
 - **Lecture & slide**: 10-13-simulation, slides 27–31.
+- **Paper mentions:** [Week 03](optional-readings/week-03.md#wheatley-t-kang-o-parkinson-c-amp-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606), [Additional](optional-readings/additional.md#wheatley-et-al-2023-the-emerging-science-of-interacting-minds)
 - **Related**: [Mutual Adaptation](##mutual-adaptation), [Mirroring (Embodied Simulation)](##mirroring-embodied-simulation)
 - **Notable figure(s)**: Talia Wheatley.
 
@@ -406,6 +412,7 @@
 - **Definition**: A *negative sensation* when something is *almost* human but *not quite*—your [animacy](##animacy) detector receives conflicting cues.
 - **Other ways to think about it**: "Creepy-almost-human" effect.
 - **Lecture & slide**: 10-08-tom, slides 26–28. Also elaborated in class: features (shape, motion, contingency) can conflict.
+- **Paper mentions:** [Week 02](optional-readings/week-02.md#wang-s-lilienfeld-s-o-amp-rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407)
 - **Related**: [Animacy](##animacy), [Dehumanization](##dehumanization)
 
 ## Valence
