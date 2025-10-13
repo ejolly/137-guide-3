@@ -1,4 +1,5 @@
 * [Home](/)
 * [Term Glossary](glossary.md)
 * [Historical Perspectives](timeline.md)
+* [Lecture Notes](lecture-notes/index.md)
 * [Optional-Reading Summaries](optional-readings/index.md)

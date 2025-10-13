@@ -337,3 +337,72 @@
 - **Lecture & slide**: 10-10-tom2, slides 46–47 (and following developmental timeline).
 - **Related**: [Causal Inference](##causal-inference), [False Belief](##false-belief)
 
+## Mirroring (Embodied Simulation)
+- **Definition**: Automatic activation of an observer’s motor and affective representations when perceiving another agent’s actions or states; a near‑immediate vicarious resonance.  
+- **Other ways to think about it**: Resonance; motor/affective contagion.  
+- **Lecture & slide**: 10-13-simulation, slides 22–23.
+- **Related**: [Simulation (ToM Strategy)](##simulation-tom-strategy), [Synchrony](##synchrony), Mirror system, [Affective Empathy](##empathy)
+- **Notable figure(s)**: Giacomo Rizzolatti; Adam Waytz & Jason Mitchell.
+
+## Self‑Projection (Internal Simulation)
+- **Definition**: Using autobiographical memory to construct imagined perspectives (past, future, counterfactual) and to ‘step into another’s shoes.’  
+- **Other ways to think about it**: Mental time travel; counterfactual simulation.  
+- **Lecture & slide**: 10-13-simulation, slides 24–27.
+- **Related**: [Simulation (ToM Strategy)](##simulation-tom-strategy), [Prospection](##prospection-episodic-future-thinking), [Episodic Memory](##episodic-memory)
+- **Notable figure(s)**: Randy Buckner & Daniel Carroll; Adam Waytz & Jason Mitchell.
+
+## Mutual Adaptation
+- **Definition**: Dynamic coupling between interacting agents whereby each predicts and adjusts to the other’s behavior to coordinate effectively.  
+- **Other ways to think about it**: Interactive alignment; real‑time coordination dynamics.  
+- **Lecture & slide**: 10-13-simulation, slides 30–31.
+- **Related**: [Synchrony](##synchrony), [Anticipatory Coordination](##anticipatory-coordination), [Complementarity](##complementarity), [Predictive Mind](##predictive-mind)
+
+## Synchrony
+- **Definition**: Coupling in time and internal state between partners (e.g., tapping together, imitation/mimicry) that supports mutual prediction and bonding.  
+- **Other ways to think about it**: Temporal entrainment; time‑locked coupling.  
+- **Lecture & slide**: 10-13-simulation, slides 27–31.
+- **Related**: [Mutual Adaptation](##mutual-adaptation), [Mirroring (Embodied Simulation)](##mirroring-embodied-simulation)
+- **Notable figure(s)**: Talia Wheatley.
+
+## Anticipatory Coordination
+- **Definition**: Coupling across distinct times where partners adjust current behavior based on predictions of each other’s upcoming states (e.g., dancing).  
+- **Other ways to think about it**: Predict‑ahead alignment.  
+- **Lecture & slide**: 10-13-simulation, slides 28–29.
+- **Related**: [Mutual Adaptation](##mutual-adaptation), [Synchrony](##synchrony)
+
+## Complementarity
+- **Definition**: Coupling across distinct internal states in which partners take on differing but coordinated roles (e.g., conversation turn‑taking, teamwork).  
+- **Other ways to think about it**: Role‑based coordination.  
+- **Lecture & slide**: 10-13-simulation, slides 29–31.
+- **Related**: [Mutual Adaptation](##mutual-adaptation)
+
+## Cognitive Hierarchy Theory (CHT)
+- **Definition**: A model of boundedly rational strategic reasoning in which players come in discrete levels (k=0,1,2,…) and each k‑level best‑responds to a distribution of lower‑level types (0..k−1).  
+- **Other ways to think about it**: Finite‑depth recursive reasoning.  
+- **Lecture & slide**: 10-13-simulation, slides 17–18; optional readings (Camerer, Ho, & Chong, 2004).
+- **Related**: Level‑k models; [Bounded Rationality](##bounded-rationality); Recursive reasoning
+- **Notable figure(s)**: Colin Camerer; Teck‑Ho; Juin‑Kuan Chong.
+
+## Beauty‑Contest / Keynesian Game
+- **Definition**: A diagnostic guessing game in which players choose a number typically aiming at a fraction (e.g., 2/3) of the group average; used to reveal limited iterative reasoning.  
+- **Other ways to think about it**: ‘Guess 2/3 of the average’ task.  
+- **Lecture & slide**: Optional readings (Nagel, 1995).
+- **Related**: [Cognitive Hierarchy (CH)](##cognitive-hierarchy-ch); Level‑k models; [Bounded Rationality](##bounded-rationality)
+
+## Prospection (Episodic Future Thinking)
+- **Definition**: Constructing detailed, self‑referenced simulations of plausible future events guided by episodic memory; used for planning and social inference.  
+- **Other ways to think about it**: Future‑oriented mental time travel.  
+- **Lecture & slide**: Optional readings (Buckner & Carroll, 2007).
+- **Related**: [Self‑Projection (Internal Simulation)](##self‑projection-internal-simulation); [Predictive Mind](##predictive-mind)
+
+## Perspective‑Giving
+- **Definition**: An interaction format in which a speaker shares their own experiences or constraints to update another’s beliefs; especially impactful for lower‑power groups.  
+- **Other ways to think about it**: Being heard; evidence provision in dialog.  
+- **Lecture & slide**: Optional readings (Bruneau & Saxe, 2012).
+- **Related**: [Perspective‑Taking](##perspective‑taking)
+
+## Perspective‑Taking
+- **Definition**: An interaction format in which a listener actively summarizes/encodes another’s perspective, signaling acknowledgment and reducing defensive inference (especially for higher‑power groups).  
+- **Other ways to think about it**: Active summarization of the other’s view.  
+- **Lecture & slide**: Optional readings (Bruneau & Saxe, 2012).
+- **Related**: [Perspective‑Giving](##perspective‑giving); Mentalizing; Attribution
