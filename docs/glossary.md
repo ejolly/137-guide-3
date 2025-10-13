@@ -24,6 +24,7 @@
 - **Definition**: A core **dimension of mind perception** referring to the capacity to *act, plan, think, remember, and exert self-control*.
 - **Other ways to think about it**: The "can do / can think" part of a mind.
 - **Lecture & slide**: 10-01-mind-perception, slides 29–31.  Also discussed in lecture context.
+- **Paper mentions:** [Week 01](optional-readings/week-01.md#epley-n-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 01](optional-readings/week-01.md#gray-h-m-gray-k-wegner-d-m-2007-dimensions-of-mind-perception-science-3155812-619), [Week 02](optional-readings/week-02.md#waytz-a-gray-k-epley-n-wegner-d-m-2010-causes-and-consequences-of-mind-perception-trends-in-cognitive-sciences-148-383-388)
 - **Related**: [Experience](##experience), [Theory of Mind (ToM)](##theory-of-mind-tom), [Intentional Stance](##intentional-stance), [Animacy](##animacy)
 - **Notable figure(s)**: Kurt Gray (Gray et al., 2007).
 
@@ -31,6 +32,7 @@
 - **Definition**: An *internal signal/schema*—a "life-detector"—tracking whether something is a **mental agent** capable of *thinking* and/or *feeling*.
 - **Other ways to think about it**: Your brain's running estimate that "there's a mind here."
 - **Lecture & slide**: 10-03-animacy, slide 13.
+- **Paper mentions:** [Week 00](optional-readings/week-00.md#moskowitz-g-b-2005-social-cognition-understanding-self-and-others-introduction-chapter-1-guilford-press-1), [Week 01](optional-readings/week-01.md#epley-n-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 01](optional-readings/week-01.md#heider-f-simmel-m-1944-an-experimental-study-of-apparent-behavior-the-american-journal-of-psychology-572-243-259), [Week 02](optional-readings/week-02.md#blakemore-s-j-decety-j-2001-from-the-perception-of-action-to-the-understanding-of-intention-nature-reviews-neuroscience-28-561-567), [Week 02](optional-readings/week-02.md#wang-s-lilienfeld-s-o-rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407), [Week 03](optional-readings/week-03.md#wheatley-t-kang-o-parkinson-c-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606)
 - **Example(s)**: Heider–Simmel film (shapes seem to have intentions); point-light "biological motion" displays that look alive.
 - **Related**: [Mentalizing](##mentalizing), [Biological Motion](##biological-motion), [Uncanny Valley](##uncanny-valley), [Dehumanization](##dehumanization), [Agency](##agency), [Experience](##experience)
 - **Notable figure(s)**: Aristotle; Fritz Heider & Marianne Simmel.
@@ -45,6 +47,7 @@
 - **Definition**: Denying *uniquely human* traits to a target (e.g., civility, refinement), likening them to animals.
 - **Other ways to think about it**: Treating someone as less-than-human by stripping distinctively human qualities.
 - **Lecture & slide**: 10-08-tom, slide 30.
+- **Paper mentions:** [Week 02](optional-readings/week-02.md#haslam-n-2006-dehumanization-an-integrative-review-personality-and-social-psychology-review-103-252-264)
 - **Related**: [Dehumanization](##dehumanization), [Mechanistic Dehumanization](##mechanistic-dehumanization), [Mentalizing](##mentalizing)
 - **Notable figure(s)**: Nick Haslam.
 
@@ -180,12 +183,14 @@
 - **Definition**: The *denial of mental states* (or human essence) to agents who deserve them; inverse of [mentalizing](##mentalizing).
 - **Other ways to think about it**: Treating a person as "less than a person."
 - **Lecture & slide**: 10-08-tom, slide 29–31.
+- **Paper mentions:** [Week 01](optional-readings/week-01.md#epley-n-amp-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-amp-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 02](optional-readings/week-02.md#haslam-n-2006-dehumanization-an-integrative-review-personality-and-social-psychology-review-103-252-264), [Week 02](optional-readings/week-02.md#wang-s-lilienfeld-s-o-amp-rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407), [Week 02](optional-readings/week-02.md#waytz-a-gray-k-epley-n-amp-wegner-d-m-2010-causes-and-consequences-of-mind-perception-trends-in-cognitive-sciences-148-383-388)
 - **Related**: [Animalistic Dehumanization](##animalistic-dehumanization), [Mechanistic Dehumanization](##mechanistic-dehumanization), [Uncanny Valley](##uncanny-valley)
 
 ## Dimensions of Mind Perception
 - **Definition**: A two-dimensional framework—**Agency** (can act/think) and **Experience** (can feel)—that people use to perceive minds.
 - **Other ways to think about it**: "Can do/think" × "can feel."
 - **Lecture & slide**: 10-01-mind-perception, slides 29–31. Explained further in discussion.
+- **Paper mentions:** [Week 01](optional-readings/week-01.md#gray-h-m-gray-k-amp-wegner-d-m-2007-dimensions-of-mind-perception-science-3155812-619), [Week 01](optional-readings/week-01.md#epley-n-amp-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-amp-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 02](optional-readings/week-02.md#waytz-a-gray-k-epley-n-amp-wegner-d-m-2010-causes-and-consequences-of-mind-perception-trends-in-cognitive-sciences)
 - **Related**: [Agency](##agency), [Experience](##experience)
 
 ## Dualism
@@ -206,6 +211,7 @@
 - **Definition**: The **mind-perception** dimension indexing capacity to *feel* (e.g., hunger, fear, pain, pleasure).
 - **Other ways to think about it**: The "can feel" part of a mind.
 - **Lecture & slide**: 10-01-mind-perception, slides 29–31. Explained in lecture.
+- **Paper mentions:** [Week 01](optional-readings/week-01.md#epley-n-amp-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-amp-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 01](optional-readings/week-01.md#gray-h-m-gray-k-amp-wegner-d-m-2007-dimensions-of-mind-perception-science-3155812-619), [Week 02](optional-readings/week-02.md#waytz-a-gray-k-epley-n-amp-wegner-d-m-2010-causes-and-consequences-of-mind-perception-trends-in-cognitive-sciences-148-383-388)
 - **Related**: [Agency](##agency), [Dimensions of Mind Perception](##dimensions-of-mind-perception)
 
 ## False Belief
@@ -263,6 +269,7 @@
 - **Definition**: Denying *human nature* (e.g., warmth, emotionality) by treating targets as *objects or machines*.
 - **Other ways to think about it**: "Cold" objectification—seeing people as tools.
 - **Lecture & slide**: 10-08-tom, slide 31.
+- **Paper mentions:** [Week 02](optional-readings/week-02.md#haslam-n-2006-dehumanization-an-integrative-review-personality-and-social-psychology-review-103-252-264)
 - **Related**: [Dehumanization](##dehumanization), [Animalistic Dehumanization](##animalistic-dehumanization)
 
 ## Mentalizing
