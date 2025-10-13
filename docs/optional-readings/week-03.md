@@ -1,6 +1,6 @@
 # Optional Readings — Week 3
 
-## Bruneau & Saxe (2012). The power of being heard: The benefits of 'perspective-giving' in the context of intergroup conflict
+## Bruneau, E. G., & Saxe, R. (2012). The power of being heard: The benefits of 'perspective-giving' in the context of intergroup conflict. *Journal of Experimental Social Psychology*, *48*(4), 855-866.
 
 **Full Citation:** Bruneau, E. G., & Saxe, R. (2012). The power of being heard: The benefits of 'perspective-giving' in the context of intergroup conflict. *Journal of Social and Personality Psychology Compass.*
 
@@ -56,7 +56,7 @@ Connects to literature on contact theory, narrative psychology, and recent compu
 
 ---
 
-## Buckner & Carroll (2007). Self-projection and the brain
+## Buckner, R. L., & Carroll, D. C. (2007). Self-projection and the brain. *Trends in Cognitive Sciences*, *11*(2), 49-57.
 
 **Full Citation:** Buckner, R. L., & Carroll, D. C. (2007). Self-projection and the brain. *Trends in Cognitive Sciences*, 11(2), 49–57.
 
@@ -115,7 +115,7 @@ From a computational perspective, the paper suggests a hybrid architecture: (1) 
 
 ---
 
-## Camerer et al. (2004). A cognitive hierarchy model of games
+## Camerer, C. F., Ho, T.-H., & Chong, J.-K. (2004). A cognitive hierarchy model of games. *The Quarterly Journal of Economics*, *119*(3), 861-898.
 
 **Full Citation:** Camerer, C. F., Ho, T.-H., & Chong, J.-K. (2004). A Cognitive Hierarchy Model of Games. *The Quarterly Journal of Economics*, 119(3), 861–898.
 
@@ -167,7 +167,7 @@ A parsimonious instantiation of CH that assumes f(k) follows a Poisson(τ). The 
 
 ---
 
-## Jara-Ettinger et al. (2016). The naive utility calculus: Computational principles underlying commonsense psychology
+## Jara-Ettinger, J., Gweon, H., Schulz, L. E., & Tenenbaum, J. B. (2016). The naïve utility calculus: Computational principles underlying commonsense psychology. *Trends in Cognitive Sciences*, *20*(8), 589-604.
 
 **Full Citation:** Jara‑Ettinger, J., Gweon, H., Schulz, L. E., & Tenenbaum, J. B. (2016). The Naïve Utility Calculus: Computational Principles Underlying Commonsense Psychology. *Trends in Cognitive Sciences*, 20(8), 589–604. DOI: 10.1016/j.tics.2016.05.011.
 
@@ -214,7 +214,7 @@ Connects to simulation/forward‑model ideas (both use generative models), predi
 
 ---
 
-## Lockwood et al. (2020). Is there a 'social' brain? implementations and algorithms
+## Lockwood, P. L., Apps, M. A. J., & Chang, S. W. C. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences*, *24*(10), 802-813.
 
 **Full Citation:** Lockwood, P. L., Apps, M. A. J., & Klein-Flügge, M. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences.*
 
@@ -264,7 +264,7 @@ The article reframes the "social brain" debate: rather than asking "is there a s
 
 ---
 
-## Nagel (1995). Unraveling in guessing games: An experimental study
+## Nagel, R. (1995). Unraveling in guessing games: An experimental study. *The American Economic Review*, *85*(5), 1313-1326.
 
 **Full Citation:** Nagel, R. (1995). Unraveling in guessing games: An experimental study. *Journal of Economic Behavior & Organization.*
 
@@ -314,7 +314,7 @@ Ties to bounded rationality (Herbert Simon), mentalizing (depth of representing 
 
 ---
 
-## Skerry & Saxe (2014). A common neural code for perceived and inferred emotion
+## Skerry, A. E., & Saxe, R. (2014). A common neural code for perceived and inferred emotion. *Journal of Neuroscience*, *34*(48), 15997-16008.
 
 **Full Citation:** Skerry, A. E., & Saxe, R. (2014). A Common Neural Code for Perceived and Inferred Emotion. *Journal of Neuroscience*, 34(48), 15997–16008.
 
@@ -408,7 +408,7 @@ Directly links to Epley & Waytz (mind perception as input to inference), impress
 
 ---
 
-## Waytz & Mitchell (2011). Two mechanisms for simulating other minds: Dissociations between mirroring and self-projection
+## Waytz, A., & Mitchell, J. P. (2011). Two mechanisms for simulating other minds: Dissociations between mirroring and self-projection. *Current Directions in Psychological Science*, *20*(3), 197-200.
 
 **Full Citation:** Waytz, A., & Mitchell, J. P. (2011). Two mechanisms for simulating other minds: Dissociations between mirroring and self-projection. *Current Directions in Psychological Science*, 20(3), 197–200.
 
@@ -460,7 +460,7 @@ Links to Predictive Mind (cue weighting and prediction error), Intentional Stanc
 
 ---
 
-## Wheatley et al. (2012). From mind perception to mental connection: Synchrony as a mechanism for social understanding
+## Wheatley, T., Kang, O., Parkinson, C., & Looser, C. E. (2012). From mind perception to mental connection: Synchrony as a mechanism for social understanding. *Social and Personality Psychology Compass*, *6*(8), 589-606.
 
 **Full Citation:** Wheatley, T., Kang, O., Parkinson, C., & Looser, C. (2012). From Mind Perception to Mental Connection: Synchrony as a Mechanism for Social Understanding. *Social and Personality Psychology Compass.*
 

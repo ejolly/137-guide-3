@@ -2,7 +2,7 @@
 
 ---
 
-## Greifeneder (n.d.). Chapters 1-2: Social cognition: How individuals construct social reality
+## Greifeneder, R., Bless, H., & Fiedler, K. (2017). *Social cognition: How individuals construct social reality* (Chapters 1 & 2). Psychology Press.
 
 **Full Citation:** Greifeneder, R. (n.d.). Chapters 1–2. *Social Cognition: How Individuals Construct Social Reality.*
 
@@ -41,7 +41,7 @@ The chapters provide an integrated argument that social cognition is not merely 
 
 ---
 
-## Moskowitz (2025). Introduction to social cognition and social inference
+## Moskowitz, G. B. (2005). *Social cognition: Understanding self and others* (Introduction & Chapter 1). Guilford Press.
 
 **Full Citation:** Moskowitz, D. (2025). Introduction to social cognition and social inference. *Social Cognition Textbook.*
 
@@ -81,7 +81,7 @@ As an introduction, the chapter situates social cognition within broader computa
 
 ---
 
-## Moskowitz (n.d.). Chapter 1: Introduction to social cognition
+## Moskowitz, G. B. (2005). *Social cognition: Understanding self and others* (Introduction & Chapter 1). Guilford Press.
 
 **Full Citation:** Moskowitz, G. B. (n.d.). Chapter 1. *Introduction to Social Cognition.*
 
@@ -120,7 +120,7 @@ The chapter foregrounds motivation as central to social inference: cognitive mec
 
 ---
 
-## Jolly & Chang (2024). The Flatland fallacy: over-reliance on low-dimensional explanations in social cognition
+## Jolly, E., & Chang, L. J. (2019). The Flatland Fallacy: Moving beyond low-dimensional thinking. *Topics in Cognitive Science*, *11*(2), 433-454.
 
 **Full Citation:** Jolly, E. & Chang, L. (2024). The Flatland Fallacy: Over‑reliance on low‑dimensional explanations in social cognition. *Preprint / Conference paper.*
 
@@ -162,7 +162,7 @@ The Flatland Fallacy critique pushes the field to (1) adopt richer representatio
 
 ---
 
-## Mitchell (2006). Mentalizing and Marr: an information-processing approach to the study of social cognition
+## Mitchell, J. P. (2006). Mentalizing and Marr: An information processing approach to the study of social cognition. *Brain Research*, *1079*(1), 66-75.
 
 **Full Citation:** Mitchell, J. P. (2006). Mentalizing and Marr: An information‑processing approach to the study of social cognition. *Brain Research.*
 

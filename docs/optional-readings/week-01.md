@@ -2,7 +2,7 @@
 
 ---
 
-## Dennett (1971). Intentional systems
+## Dennett, D. C. (1971). Intentional systems. *The Journal of Philosophy*, *68*(4), 87-106.
 
 **Full Citation:** Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy.*
 
@@ -49,7 +49,7 @@ Dennett offers a pragmatic account: intentionality as a tool, not a metaphysical
 
 ---
 
-## Dennett (1988). A precis of the intentional stance
+## Dennett, D. C. (1988). Précis of The Intentional Stance. *Behavioral and Brain Sciences*, *11*(3), 495-505.
 
 **Full Citation:** Dennett, D. C. (n.d.). A Précis of The Intentional Stance. *Philosophical Review.*
 
@@ -78,7 +78,7 @@ The Précis helps students situate Dennett historically and shows why the Intent
 
 ---
 
-## Epley & Waytz (2010). Mind perception
+## Epley, N., & Waytz, A. (2010). Mind perception. In S. T. Fiske, D. T. Gilbert, & G. Lindzey (Eds.), *Handbook of social psychology* (5th ed., Vol. 1, pp. 498-541). Wiley.
 
 **Full Citation:** Epley, N., & Waytz, A. (2010). Mind Perception. In S. T. Fiske (Ed.), *Handbook of Social Psychology (5th ed.).*
 
@@ -128,7 +128,7 @@ Links to animacy, intentional stance, Theory of Mind, predictive processing, and
 
 ---
 
-## Gray et al. (2007). Dimensions of mind perception
+## Gray, H. M., Gray, K., & Wegner, D. M. (2007). Dimensions of mind perception. *Science*, *315*(5812), 619.
 
 **Full Citation:** Gray, H. M., Gray, K., & Wegner, D. M. (2007). Dimensions of Mind Perception. *Science.*
 
@@ -169,7 +169,7 @@ A compact representational account explains diverse phenomena — anthropomorphi
 
 ---
 
-## Heider & Simmel (1944). An experimental study of apparent behavior
+## Heider, F., & Simmel, M. (1944). An experimental study of apparent behavior. *The American Journal of Psychology*, *57*(2), 243-259.
 
 **Full Citation:** Heider, F., & Simmel, M. (1944). An Experimental Study of Apparent Behavior. *Journal of Psychology.*
 
@@ -218,7 +218,7 @@ Heider & Simmel provide a clear demonstration that perception alone can trigger 
 
 ---
 
-## Moskowitz (n.d.). We create internal mental representations of external reality
+## Moskowitz, G. B. (2005). *Social cognition: Understanding self and others* (Chapter 2). Guilford Press.
 
 **Full Citation:** Moskowitz, D. S. (n.d.). We Create Internal Mental Representations of External Reality. *Social Cognition Textbook, Chapter 2.*
 
@@ -268,7 +268,7 @@ The chapter stitches together classical schema theory with emerging embodied and
 
 ---
 
-## Pennington (n.d.). History of social cognition
+## Pennington, D. C. (2000). *Social cognition* (History Chapter). Routledge.
 
 **Full Citation:** Pennington, D. (n.d.). History of Social Cognition. *Social Cognition Textbook.*
 
@@ -317,7 +317,7 @@ Provides students context: why contemporary social cognition focuses on represen
 
 ---
 
-## Perez-Osorio & Wykowska (2020). Adopting the intentional stance toward natural and artificial agents
+## Pérez-Osorio, J., & Wykowska, A. (2020). Adopting the intentional stance toward natural and artificial agents. *Philosophical Psychology*, *33*(3), 369-395.
 
 **Full Citation:** Perez-Osorio, J., & Wykowska, A. (2020). Adopting the Intentional Stance Toward Natural and Artificial Agents. *Philosophical Psychology.*
 

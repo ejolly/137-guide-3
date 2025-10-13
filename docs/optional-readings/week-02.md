@@ -1,6 +1,6 @@
 # Optional Readings — Week 2
 
-## Blakemore & Decety (2001). From the perception of action to the understanding of intention
+## Blakemore, S.-J., & Decety, J. (2001). From the perception of action to the understanding of intention. *Nature Reviews Neuroscience*, *2*(8), 561-567.
 
 **Full Citation:** Blakemore, S.-J., & Decety, J. (2001). From the perception of action to the understanding of intention. *Nature Reviews Neuroscience*, 2(8), 561–574.
 
@@ -43,7 +43,7 @@ Links to Marr's levels (algorithmic: representations of motor plans; implementat
 
 ---
 
-## Brüne & Brüne-Cohrs (2006). Theory of mind: Evolution, ontogeny, brain mechanisms and psychopathology
+## Brüne, M., & Brüne-Cohrs, U. (2006). Theory of mind—evolution, ontogeny, brain mechanisms and psychopathology. *Neuroscience & Biobehavioral Reviews*, *30*(4), 437-455.
 
 **Full Citation:** Brüne, M., & Brüne‑Cohrs, U. (2006). Theory of mind—evolution, ontogeny, brain mechanisms and psychopathology. *Source.*
 
@@ -89,9 +89,9 @@ Links to Predictive Mind (priors for social inference), Marr's levels (function 
 
 ---
 
-## Frith & Frith (1999). Interacting minds: A biological basis
+## Frith, C. D., & Frith, U. (2006). How we predict what other people are going to do. *Brain Research*, *1079*(1), 36-46.
 
-**Full Citation:** Frith, C. D., & Frith, U. (1999). Interacting Minds—A Biological Basis. *Science*, 286, 1692–1695.
+**Full Citation:** Frith, C. D., & Frith, U. (2006). How we predict what other people are going to do. *Brain Research*, *1079*(1), 36-46. 
 
 **Topic Tags:** mentalizing, theory of mind, STS, medial prefrontal cortex, development, autism
 
@@ -136,7 +136,7 @@ Direct links to biological motion research (Troje), mirror neuron literature (Ri
 ### Relevant Terms
 - **Existing Terms Used:** Mentalizing, Theory of Mind, Biological Motion, STS.
 
-## Haslam (2006). Dehumanization: An integrative review
+## Haslam, N. (2006). Dehumanization: An integrative review. *Personality and Social Psychology Review*, *10*(3), 252-264.
 
 **Full Citation:** Haslam, N. (2006). Dehumanization: An Integrative Review. *Personality and Social Psychology Review*, 10(3), 252–264.
 
@@ -186,7 +186,7 @@ Links to course concepts: mentalizing/intentional stance (animacy cues trigger i
 
 ---
 
-## Moran et al. (2014). Spontaneous mentalizing predicts the fundamental attribution error
+## Moran, J. M., Jolly, E., & Mitchell, J. P. (2014). Spontaneous mentalizing predicts the fundamental attribution error. *Journal of Cognitive Neuroscience*, *26*(3), 569-576.
 
 **Full Citation:** Moran, J. M., Jolly, E., & Mitchell, J. P. (2014). Spontaneous mentalizing predicts the fundamental attribution error. *Journal of Cognitive Neuroscience, 26*(3), 569–578.
 
@@ -229,7 +229,7 @@ Bridges attribution theory, Default Mode Network research, and developmental wor
 
 ---
 
-## Pitcher & Ungerleider (2021). Evidence for a third visual pathway specialized for social perception
+## Pitcher, D., & Ungerleider, L. G. (2021). Evidence for a third visual pathway specialized for social perception. *Trends in Cognitive Sciences*, *25*(2), 100-110.
 
 **Full Citation:** Pitcher, D., & Ungerleider, L. G. (2021). Evidence for a third visual pathway specialized for social perception. *Trends in Cognitive Sciences*, 25(2), 100–112.
 
@@ -271,7 +271,7 @@ Connects to biological motion, animacy, and subsequent mentalizing computations 
 
 ---
 
-## Premack & Woodruff (1978). Does the chimpanzee have a theory of mind?
+## Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? *Behavioral and Brain Sciences*, *1*(4), 515-526.
 
 **Full Citation:** Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? *Behavioral and Brain Sciences.*
 
@@ -310,7 +310,7 @@ Premack & Woodruff's paper launched ToM as an empirical question and a research 
 
 ---
 
-## Sievers et al. (2021). Visual and auditory brain areas share a representational structure that supports emotion perception
+## Sievers, B., Parkinson, C., Kohler, P. J., Hughes, J. M., Fogelson, S. V., & Wheatley, T. (2021). Visual and auditory brain areas share a representational structure that supports emotion perception. *Current Biology*, *31*(23), 5192-5203.e4.
 
 **Full Citation:** Beau Sievers, Carolyn Parkinson, Peter J. Kohler, James M. Hughes, Sergey V. Fogelson, Thalia Wheatley (2021). Visual and auditory brain areas share a representational structure that supports emotion perception. *Current Biology.*
 
@@ -367,7 +367,7 @@ Links to Sievers et al. (2013, 2019) on crossmodal structure, work on pSTS/pSTG 
 
 ---
 
-## Thornton & Tamir (2021). The organization of social knowledge is tuned for prediction
+## Thornton, M. A., & Tamir, D. I. (2021). The organization of social knowledge is tuned for prediction. In M. Gilead & K. N. Ochsner (Eds.), *The neural basis of mentalizing* (pp. 283-298). Springer.
 
 **Full Citation:** Thornton, M. A., & Tamir, D. I. (2021). The Organization of Social Knowledge Is Tuned for Prediction. *[journal]*.
 
@@ -415,7 +415,7 @@ Links strongly to Predictive Mind, Generative Models, Mentalizing, the ACT‑FAS
 
 ---
 
-## Thornton et al. (2019). The brain represents people as the mental states they habitually experience
+## Thornton, M. A., Weaverdyck, M. E., & Tamir, D. I. (2019). The brain represents people as the mental states they habitually experience. *Nature Communications*, *10*(1), 2291.
 
 **Full Citation:** Thornton, M. A., Weaverdyck, M. E., & Tamir, D. I. (2019). The brain represents people as the mental states they habitually experience. *Nature Communications, 10*, 2291.
 
@@ -462,7 +462,7 @@ Links to Thornton & Tamir's broader program (mental‑state centric models), tra
 
 ---
 
-## Vainio et al. (2025). Is Kiki angry and Bouba happy? Association between emotions, shapes, and sounds
+## Vainio, L., Mo, X., & Vainio, M. (2025). Is Kiki angry and Bouba happy? Association between emotions, shapes, and sounds. *Psychological Research*, *89*, 124.
 
 **Full Citation:** Vainio, L., Mo, X., & Vainio, M. (2025). Is Kiki angry and Bouba happy? Association between emotions, shapes, and sounds. *Psychological Research, 89*, 124.
 
@@ -509,7 +509,7 @@ Ties to Sievers et al. (2013, 2019) on cross‑modal emotion codes, articulatory
 
 ---
 
-## Wang et al. (2015). The uncanny valley: Existence and explanations
+## Wang, S., Lilienfeld, S. O., & Rochat, P. (2015). The uncanny valley: Existence and explanations. *Review of General Psychology*, *19*(4), 393-407.
 
 **Full Citation:** Wang, S., Lilienfeld, S. O., & Rochat, P. (2015). The Uncanny Valley: Existence and Explanations. *Review of General Psychology*, 19(4), 393–407.
 
@@ -567,7 +567,7 @@ Links to course glossary concepts: Animacy and Mentalizing (perceptual triggers)
 
 ---
 
-## Waytz et al. (2010). Causes and consequences of mind perception
+## Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences*, *14*(8), 383-388.
 
 **Full Citation:** Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences.*
 

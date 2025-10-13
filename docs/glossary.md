@@ -317,10 +317,6 @@
 - **Lecture & slide**: 10-10-tom2, slides 46–47 (and following developmental timeline).
 - **Related**: [Causal Inference](##causal-inference), [False Belief](##false-belief)
 
----
-
-# Historical Foundations & Meta-Concepts
-
 ## Behaviorism
 - **Definition**: A program emphasizing *conditioning* and observable behavior; often treated the mind as a “black box.”  
 - **Other ways to think about it**: Predict and control behavior via rewards/punishments.  
