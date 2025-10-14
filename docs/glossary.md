@@ -76,6 +76,7 @@
 - **Definition**: A diagnostic guessing game in which players choose a number typically aiming at a fraction (e.g., 2/3) of the group average; used to reveal limited iterative reasoning.
 - **Other ways to think about it**: 'Guess 2/3 of the average' task.
 - **Lecture & slide**: Optional readings (Nagel, 1995).
+- **Paper mentions:** [Week 03](paper-summaries/week-03.md#camerer-c-f-ho-t-h-chong-j-k-2004-a-cognitive-hierarchy-model-of-games-the-quarterly-journal-of-economics-1193-861-898), [Week 03](paper-summaries/week-03.md#nagel-r-1995-unraveling-in-guessing-games-an-experimental-study-the-american-economic-review-855-1313-1326)
 - **Related**: [Cognitive Hierarchy Theory (CHT)](##cognitive-hierarchy-theory-cht); Level‑k models; [Bounded Rationality](##bounded-rationality)
 
 ## Behaviorism
@@ -310,12 +311,14 @@
 - **Definition**: An interaction format in which a speaker shares their own experiences or constraints to update another's beliefs; especially impactful for lower‑power groups.
 - **Other ways to think about it**: Being heard; evidence provision in dialog.
 - **Lecture & slide**: Optional readings (Bruneau & Saxe, 2012).
+- **Paper mentions:** [Week 03](paper-summaries/week-03.md#bruneau-e-g-amp-saxe-r-2012-the-power-of-being-heard-the-benefits-of-perspective-giving-in-the-context-of-intergroup-conflict-journal-of-experimental-social-psychology-484-855-866)
 - **Related**: [Perspective‑Taking](##perspective‑taking)
 
 ## Perspective‑Taking
 - **Definition**: An interaction format in which a listener actively summarizes/encodes another's perspective, signaling acknowledgment and reducing defensive inference (especially for higher‑power groups).
 - **Other ways to think about it**: Active summarization of the other's view.
 - **Lecture & slide**: Optional readings (Bruneau & Saxe, 2012).
+- **Paper mentions:** [Week 03](paper-summaries/week-03.md#bruneau-e-g-amp-saxe-r-2012-the-power-of-being-heard-the-benefits-of-perspective-giving-in-the-context-of-intergroup-conflict-journal-of-experimental-social-psychology-484-855-866), [Week 03](paper-summaries/week-03.md#wheatley-t-kang-o-parkinson-c-amp-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606)
 - **Related**: [Perspective‑Giving](##perspective‑giving); Mentalizing; Attribution
 
 ## Physical Symbol System Hypothesis
@@ -345,6 +348,7 @@
 - **Definition**: Constructing detailed, self‑referenced simulations of plausible future events guided by episodic memory; used for planning and social inference.
 - **Other ways to think about it**: Future‑oriented mental time travel.
 - **Lecture & slide**: Optional readings (Buckner & Carroll, 2007).
+- **Paper mentions:** [Week 03](paper-summaries/week-03.md#buckner-r-l-amp-carroll-d-c-2007-self-projection-and-the-brain-trends-in-cognitive-sciences-112-49-57)
 - **Related**: [Self‑Projection (Internal Simulation)](##self‑projection-internal-simulation); [Predictive Mind](##predictive-mind)
 
 ## Rationality (Mind-Space Axis)
@@ -442,4 +446,5 @@
 - **Definition**: A *nonverbal* method for probing what infants/animals "know": they *look longer* when an event violates expectations—implying latent beliefs.
 - **Other ways to think about it**: "Surprise = longer looking," a window into preverbal knowledge.
 - **Lecture & slide**: 10-10-tom2, slides 46–47 (and following developmental timeline).
+- **Paper mentions:** [Week 02](paper-summaries/week-02.md#brüne-m-amp-brüne-cohrs-u-2006-theory-of-mindevolution-ontogeny-brain-mechanisms-and-psychopathology-neuroscience-amp-biobehavioral-reviews-304-437-455), [Week 02](paper-summaries/week-02.md#premack-d-amp-woodruff-g-1978-does-the-chimpanzee-have-a-theory-of-mind-behavioral-and-brain-sciences-14-515-526)
 - **Related**: [Causal Inference](##causal-inference), [False Belief](##false-belief)

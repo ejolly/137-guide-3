@@ -1,8 +1,8 @@
 # Challenge 1 Study Guide
 
-This site contains several additional resources to help you prepare for Challenge 1.  
-You **do not** need to memorize the whole thing - treat it as a helpful *reference.*  
-Aim to be generally familiar with these ideas and you'll be fine - we're not trying to trick you!
+This site contains several additional resources to help you prepare for Challenge 1. You should treat this as a *supplemental resource* to lecture slides, attendance & podcasts. Aim to be generally familiar with these ideas and you'll be fine - we're not trying to trick you!
+
+!> These resources are **not comprehensive** and should serve as a general starting point and/or refresher. Make sure to refer to the actual lectures for details that might be missing here!
 
 ?> Full lecture slides, podcasts, paper PDFs, & videos are available on [Canvas](https://canvas.ucsd.edu/courses/70082).
 

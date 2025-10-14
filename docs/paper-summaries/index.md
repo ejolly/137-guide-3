@@ -1,6 +1,6 @@
 # Paper Summaries
 
-> **Note:** Starred papers (starting with \* ) appeared in lecture(s) i.e. included a figure, quote, experiment, movie, etc. You don't need to re-read the papers - reviewing the slides and summaries should be sufficient. The other included references are summaries of optional readings for each week.
+Starred papers (starting with \* ) appeared in lecture(s) i.e. included a figure, quote, experiment, movie, etc. You don't need to re-read the papers - reviewing the slides and summaries should be sufficient. The other included references are summaries of optional readings for each week.
 
 ?> Click any link to jump to that paper's summary notes
 
