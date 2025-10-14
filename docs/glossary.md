@@ -1,6 +1,6 @@
 # Course Glossary
 
-[A](#act-fast-taxonomy) | [B](#beautycontest--keynesian-game) | [C](#causal-inference) | [D](#dehumanization) | [E](#empiricism) | [F](#false-belief) | G | H | [I](#implicit-theories) | J | K | [L](#levels-of-explanation) | [M](#mechanistic-dehumanization) | N | O | [P](#perspective-giving) | Q | [R](#rationality-mind-space-axis) | [S](#satisficing) | [T](#theory-of-mind-tom) | [U](#uncanny-valley) | [V](#valence) | W | X | Y | Z
+[A](#act-fast-taxonomy) | [B](#beautycontest--keynesian-game) | [C](#causal-inference) | [D](#dehumanization) | [E](#empiricism) | [F](#false-belief) | [G](#goal-directed-movement) | H | [I](#implicit-theories) | J | K | [L](#levels-of-explanation) | [M](#mechanistic-dehumanization) | N | O | [P](#perspective-giving) | Q | [R](#rationality-mind-space-axis) | [S](#satisficing) | [T](#theory-of-mind-tom) | [U](#uncanny-valley) | [V](#valence) | W | X | Y | Z
 
 ---
 
@@ -163,6 +163,13 @@
 - **Paper mentions:** [Week 00](paper-summaries/week-00.md#greifeneder-r-bless-h-fiedler-k-2017-social-cognition-how-individuals-construct-social-reality-chapters-1-2-psychology-press)
 - **Related**: [Cognitive Psychology](glossary?id=cognitive-psychology), [Predictive Mind](glossary?id=predictive-mind)
 
+## Contingent Movement
+- **Definition**: Motion patterns showing *interdependence between objects*, such as chasing, fleeing, or coordinated interaction; evidence for [animacy](glossary?id=animacy).
+- **Other ways to think about it**: Movement that reveals "this thing is responding to that thing."
+- **Lecture & slide**: 10-08-tom (three animacy cues).
+- **Example(s)**: One shape "chasing" another; coordinated movements between objects; interactive displays.
+- **Related**: [Animacy](glossary?id=animacy), [Biological Motion](glossary?id=biological-motion), [Mentalizing](glossary?id=mentalizing), [Intentional Stance](glossary?id=intentional-stance)
+
 ## Correspondent Inference Theory
 - **Definition**: We infer intentions from behavior by asking whether the actor *could have done otherwise* and whether the act was freely chosen.
 - **Other ways to think about it**: If a behavior stands out and seems unconstrained, we'll attribute it to internal motives.
@@ -231,6 +238,13 @@
 - **Lecture & slide**: 10-10-tom2, slides 31–39 (organizing social knowledge for prediction).
 - **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a--tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction), [Week 02](paper-summaries/week-02.md#frith-c-d--frith-u-2006-how-we-predict-what-other-people-are-going-to-do), [Week 02](paper-summaries/week-02.md#thornton-m-a-weaverdyck-m-e--tamir-d-i-2019-the-brain-represents-people-as-the-mental-states-they-habitually-experience), [Week 03](paper-summaries/week-03.md#wang-et-al-2025-modeling-other-minds-a-computational-account-of-social-cognition-and-its-development)
 - **Related**: [Predictive Mind](glossary?id=predictive-mind), [ACT-FAST Taxonomy](glossary?id=act-fast-taxonomy)
+
+## Goal-Directed Movement
+- **Definition**: Motion patterns showing *rationality and efficiency*, such as taking the shortest path or behaving purposively toward a goal; evidence for [animacy](glossary?id=animacy).
+- **Other ways to think about it**: Movement that looks "intentional" or "smart."
+- **Lecture & slide**: 10-08-tom (three animacy cues).
+- **Example(s)**: Taking efficient paths; obstacle avoidance; purposive approach/avoidance behaviors.
+- **Related**: [Animacy](glossary?id=animacy), [Biological Motion](glossary?id=biological-motion), [Mentalizing](glossary?id=mentalizing), [Intentional Stance](glossary?id=intentional-stance)
 
 ## Implicit Theories
 - **Definition**: Fast, learned *rules/schemas* about the social world that we use to explain and *predict* others' minds and behaviors.
