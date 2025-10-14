@@ -1,5 +1,7 @@
 # Part 1 - Lecture Notes
 
+?> Click any link to jump to that lecture's notes
+
 **Week 1**  
 - [Mon 09-29 History](lecture-notes/week-01.md#mon-0929-history)
 - [Wed 10-01 Mind Perception](lecture-notes/week-01.md#wed-1001-mind-perception)

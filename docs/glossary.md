@@ -61,6 +61,7 @@
 - **Definition**: In the Circumplex Model of Affect, a dimension indexing *activation* (high vs. low).
 - **Other ways to think about it**: Energized vs. calm feelings.
 - **Lecture & slide**: 10-01-mind-perception, slide 33.
+- **Paper mentions:** [Week 02](paper-summaries/week-02.md#vainio-l-mo-x--vainio-m-2025-is-kiki-angry-and-bouba-happy-association-between-emotions-shapes-and-sounds-psychological-research-89-124)
 - **Related**: [Valence](##valence), [Circumplex Model of Affect](##circumplex-model-of-affect)
 
 ## Attribution Theory (Naive Psychology)
@@ -238,6 +239,7 @@
 - **Definition**: The course theme that we *predict* and then *explain* minds, leveraging conceptual geometry in both action and mental-state spaces.
 - **Other ways to think about it**: "Use what you know about how states/actions flow to infer what comes next."
 - **Lecture & slide**: 10-10-tom2, slides 31–39 (organizing social knowledge for prediction).
+- **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a--tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction), [Week 02](paper-summaries/week-02.md#frith-c-d--frith-u-2006-how-we-predict-what-other-people-are-going-to-do), [Week 02](paper-summaries/week-02.md#thornton-m-a-weaverdyck-m-e--tamir-d-i-2019-the-brain-represents-people-as-the-mental-states-they-habitually-experience), [Week 03](paper-summaries/week-03.md#wang-et-al-2025-modeling-other-minds-a-computational-account-of-social-cognition-and-its-development)
 - **Related**: [Predictive Mind](##predictive-mind), [ACT-FAST Taxonomy](##act-fast-taxonomy)
 
 ## Implicit Theories
@@ -318,6 +320,7 @@
 - **Definition**: The mind constantly *predicts* sensory inputs and compares them to reality; representations are shaped by prediction errors and support action, simulation, and mindreading.
 - **Other ways to think about it**: "Brains as prediction engines."
 - **Lecture & slide**: 10-01-mind-perception, slide 16; overview also shown in 09-29-history, slide 41.
+- **Paper mentions:** [Additional](paper-summaries/additional.md#clark-2013-whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science), [Additional](paper-summaries/additional.md#hohwy-2013-the-predictive-mind), [Week 00](paper-summaries/week-00.md#greifeneder-r-bless-h-fiedler-k-2017-social-cognition-how-individuals-construct-social-reality-chapters-1-2-psychology-press), [Week 00](paper-summaries/week-00.md#moskowitz-g-b-2005-social-cognition-understanding-self-and-others-introduction-chapter-1-guilford-press), [Week 00](paper-summaries/week-00.md#mitchell-j-p-2006-mentalizing-and-marr-an-information-processing-approach-to-the-study-of-social-cognition-brain-research-10791-66-75), [Week 01](paper-summaries/week-01.md#epley-n-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 02](paper-summaries/week-02.md#thornton-m-a-tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction-in-m-gilead-k-n-ochsner-eds-the-neural-basis-of-mentalizing-pp-283-298-springer), [Week 02](paper-summaries/week-02.md#thornton-m-a-weaverdyck-m-e-tamir-d-i-2019-the-brain-represents-people-as-the-mental-states-they-habitually-experience-nature-communications-101-2291), [Week 02](paper-summaries/week-02.md#wang-s-lilienfeld-s-o-rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407), [Week 03](paper-summaries/week-03.md#buckner-r-l-carroll-d-c-2007-self-projection-and-the-brain-trends-in-cognitive-sciences-112-49-57), [Week 03](paper-summaries/week-03.md#waytz-a-mitchell-j-p-2011-two-mechanisms-for-simulating-other-minds-dissociations-between-mirroring-and-self-projection-current-directions-in-psychological-science-203-197-200), [Week 03](paper-summaries/week-03.md#wheatley-t-kang-o-parkinson-c-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606)
 - **Related**: [Constructivism](##constructivism), [Feeling Transitions](##feeling-transitions), [Theory of Mind (ToM)](##theory-of-mind-tom)
 
 ## Pretense / Decoupling
@@ -338,6 +341,7 @@
 - **Definition**: One of the three **axes of mental state space** indicating how *uniquely human* or *rational/cognitive* a mental state is perceived to be.
 - **Other ways to think about it**: "How much is this state about thinking vs. feeling?"
 - **Lecture & slide**: 10-10-tom2, slide 33.
+- **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a-amp-tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction-in-m-gilead-amp-k-n-ochsner-eds-the-neural-basis-of-mentalizing-pp-283-298-springer)
 - **Related**: [Valence](##valence), [Social Impact](##social-impact), [Dimensions of Mind Perception](##dimensions-of-mind-perception)
 
 ## Satisficing
@@ -366,6 +370,7 @@
 - **Definition**: An axis of mental state space indicating how *socially impactful* a state is (e.g., envy vs. fatigue).
 - **Other ways to think about it**: "How much does this state inherently involve other people?"
 - **Lecture & slide**: 10-10-tom2, slide 33.
+- **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a-tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction)
 - **Related**: [Valence](##valence), [Rationality](##rationality)
 
 ## Spiritualism
@@ -420,6 +425,7 @@
 - **Definition**: In affect, how *positive vs. negative* a state feels.
 - **Other ways to think about it**: Pleasantness of a feeling.
 - **Lecture & slide**: 10-01-mind-perception, slide 33; appears again as mental-state axis (10-10-tom2, slide 33).
+- **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a--tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction-in-m-gilead--k-n-ochsner-eds-the-neural-basis-of-mentalizing-pp-283-298-springer), [Week 02](paper-summaries/week-02.md#vainio-l-mo-x--vainio-m-2025-is-kiki-angry-and-bouba-happy-association-between-emotions-shapes-and-sounds-psychological-research-89-124), [Week 02](paper-summaries/week-02.md#wang-s-lilienfeld-s-o--rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407)
 - **Related**: [Arousal](##arousal), [Circumplex Model of Affect](##circumplex-model-of-affect)
 
 ## Violation-of-Expectation (VOE) Paradigm

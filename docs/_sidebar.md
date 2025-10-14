@@ -1,5 +1,4 @@
-* [Home](/)
-* [Historical Perspectives](timeline.md)
+* [Overview](/)
 * [Lecture Notes](lecture-notes/index.md)
   * [Week 01](lecture-notes/week-01.md)
   * [Week 02](lecture-notes/week-02.md)
@@ -9,5 +8,6 @@
   * [Week 01](paper-summaries/week-01.md)
   * [Week 02](paper-summaries/week-02.md)
   * [Week 03](paper-summaries/week-03.md)
-<!-- * [Question Bank](question-bank-with-answers.md) -->
+* [Historical Perspectives](timeline.md)
 * [Terminology Glossary](glossary.md)
+<!-- * [Question Bank](question-bank-with-answers.md) -->
