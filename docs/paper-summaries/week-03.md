@@ -46,10 +46,6 @@ Predictive‑mind framing: perspective‑giving reduces model mismatch (predicti
 - Perspective‑taking → accurate summarization reduces defensive inference.
   - **Perspective-taking:** Listener summarizes partner's statement; signals acknowledgment. **Related Concepts:** Mentalizing; Attribution.
 
-### Key Quotes or Phrases
-
-- "The critical role of being heard."
-
 ---
 
 ## Buckner, R. L., & Carroll, D. C. (2007). Self-projection and the brain. *Trends in Cognitive Sciences*, *11*(2), 49-57.
@@ -87,11 +83,6 @@ From a computational perspective, the paper suggests a hybrid architecture: (1) 
 - Self‑projection ← (built on) autobiographical memory (MTL hippocampus). **Notable Figures:** Buckner & Carroll. **Related Concepts:** Episodic memory; Prospection; Simulation; Default Mode.
   - **Frontopolar / Medial PFC:** Regulation of perspective shifts; retrieval mode; executive constraint. **Related Concepts:** Control, subgoal processing, autonoetic awareness.
   - **Medial parietal / retrosplenial / IPL:** Contextual/spatial mapping; overlap with retrieval activations and ToM tasks. **Related Concepts:** Navigation; spatial anchoring.
-
-### Key Quotes or Phrases
-- "Self‑projection" as a family of abilities. (p. 49) fileciteturn0file0
-- "Perhaps we remember the past to envision the future." (Conclusions)
-- Default mode overlap: spontaneous simulation when not otherwise engaged.
 
 ---
 
@@ -143,10 +134,6 @@ Viewed from computational cognitive science, CH is a compact algorithmic-level m
   - **Poisson‑CH:** A Poisson prior f(k)=e^{−τ}τ^{k}/k! over types compresses heterogeneity into one parameter τ. **Definition:** τ is mean (and variance) of thinking steps. **Notable Figures:** Camerer et al. **Related Concepts:** parametric priors; cognitive cost models.
   - **Beauty‑Contest / Keynesian Game:** Diagnostic task (guess p×mean) that reveals depth of iterative thinking. **Related Concepts:** dominance‑solvable games; experimental diagnostics.
 
-### Key Quotes or Phrases
-- "An average of 1.5 steps fits data from many games."
-- CH provides a behavioral refinement: it "weakens" mutual consistency but keeps best-response for k≥1.
-
 ---
 
 ## Lockwood, P. L., Apps, M. A. J., & Chang, S. W. C. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences*, *24*(10), 802-813.
@@ -180,18 +167,12 @@ The article reframes the "social brain" debate: rather than asking "is there a s
 
 - Lewin: evolutionary/ontogenetic forces could bias implementations; Lockwood et al. encourage testing whether such biases are algorithmic or implementational.
 - Marr: paper is explicitly Marr-oriented — advocates holding computational/algorithmic/implementational levels distinct in experiments.
-- Brunswik: comparative and ecological validity concerns — test across species and ecological contexts.
 
 ### Connections
 - Connects to theory-of-mind debates (Premack & Woodruff) and predictive frameworks (how predictive models might implement social algorithms).
 - Algorithm (ToM) → neural implementation candidate (ACCg) → behavioral social predictions
 - Comparative tests → evaluate innateness vs learning
 - Continuous vs categorical social/non-social distinction → shapes experimental expectations
-
-### Key Quotes or Phrases
-
-- "Are there algorithms that are socially specific? The strongest evidence suggests theory of mind processing."
-- "Hold one level constant while examining the impact on another level."
 
 ---
 
@@ -235,9 +216,6 @@ Nagel's study operationalized iterated reasoning and demonstrated that human str
   - **Keynesian Beauty Contest:** A game where players guess 2/3 of the group average; equilibrium at 0 but humans show bounded unraveling.
   - **Level‑k model:** Agents assume others are at level k−1 and best‑respond.
 
-### Key Quotes or Phrases
-- "Most subjects behave as if they perform only a few steps of iterative reasoning."
-
 ---
 
 ## Wang et al. (2025). Modeling other minds: A computational account of social cognition and its development
@@ -272,15 +250,10 @@ Wang et al. offer a formal framework linking developmental data to mechanistic m
 
 - Lewin: Models specify how person/environment/history interact to produce behavior via learned representations.
 - Marr: Clear mapping across levels; the paper's strength is explicit algorithmic proposals (approximate inference) tied to computational goals.
-- Brunswik: The paper operationalizes cue validity and sampling — how children learn which cues are informative.
 
 ### Connections
 - Directly links to Epley & Waytz (mind perception as input to inference), impression formation (how priors shape trait learning), and broader predictive processing debates.
 - Priors + observed actions → inverse inference (approximate) → latent mental state estimates → updated generative model → improved prediction.
-
-### Key Quotes or Phrases
-- "Generative models map latent mental states to observable actions; learning them is the heart of social cognition."
-- "Transition structure — how mental states evolve — is central for predicting others."
 
 ---
 
@@ -318,10 +291,6 @@ Waytz & Mitchell formalize a pluralistic view of social cognition. Rather than a
   - **Mirroring:** Definition: rapid, stimulus‑driven resonance mapping observed actions/states onto one's own sensorimotor/affective circuits. **Notable Figures:** Rizzolatti. **Related Concepts:** Mirror system; Affective empathy.
   - **Self‑projection:** Definition: offline generative simulation using episodic/semantic memory to imagine oneself in another's situation. **Notable Figures:** Buckner & Carroll. **Related Concepts:** Default network; Mental time travel; Cognitive empathy.
 
-### Key Quotes or Phrases
-- "Mirroring involves a vicarious response in which a perceiver experiences the same current mental state as that of another person."
-- "Self‑projection involves imagining oneself in the same situation as another person… and assuming the other would think and feel the same way."
-
 ---
 
 ## Wheatley, T., Kang, O., Parkinson, C., & Looser, C. E. (2012). From mind perception to mental connection: Synchrony as a mechanism for social understanding. *Social and Personality Psychology Compass*, *6*(8), 589-606.
@@ -357,14 +326,9 @@ This review provides a mechanistic bridge between basic perceptual cues for mind
 
 - Lewin: Would note that synchrony changes the person–environment field: shared temporal structure reduces interpersonal 'distance' in the life space, enabling collective action.
 - Marr: Would press for formal models of how oscillatory phase alignment alters representational quality and error signals; the review sketches testable algorithmic predictions (e.g., entrainment increases mutual information between agents).
-- Brunswik: Would ask how reliable synchrony cues are as ecological indicators of kinship or similarity; Wheatley's kinship signaling hypothesis echoes Brunswik's emphasis on cue validity.
 
 ### Connections
 - Ties to animacy detection (Wheatley's ERP animacy tipping point work), mirror/resonance systems, oxytocin-trust literature, and predictive-processing frameworks (entrainment as phase-alignment to reduce prediction error).
 - Mind detection (face/voice/motion) → simulation (resonance, contagion) → behavioral synchrony (anticipation) → neural entrainment → reward & bonding.
   - **Synchrony:** Time-locked coupling across neural, physiological, and behavioral signals between interacting agents that supports mutual prediction and partial access to internal states. **Related Concepts:** resonance, neural entrainment, simulation.
   - **Neural efficiency (social sense):** A reduction in processing cost achieved when the perceiver and perceived entrain neural dynamics, aligning communication windows and lowering prediction-error propagation during interaction. **Related Concepts:** predictive processing, entrainment, reward.
-
-### Key Quotes or Phrases
-- "Synchrony may serve as an adaptive marker of genetic similarity; we synchronize most with similar others."
-- "Neural synchrony reduces processing load and blurs self-other boundaries, producing pleasurable mental connection."

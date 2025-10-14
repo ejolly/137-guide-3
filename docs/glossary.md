@@ -9,15 +9,16 @@
 - **Other ways to think about it**: A coordinate system for behaviors—each action has a "position" along these six dimensions.
 - **Lecture & slide**: 10-10-tom2, slides 34–36.
 - **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a-amp-tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction-in-m-gilead-amp-k-n-ochsner-eds-the-neural-basis-of-mentalizing-pp-283-298-springer)
+- **The six dimensions**:
+  - **Abstractness**: How *concrete vs. abstract* an action is (e.g., "socializing" is more abstract than "riding a bicycle"). General vs. specific behaviors.
+  - **Creation**: Actions that *make or produce* things. "Making" vs. "using."
+  - **Tradition**: Actions involving *customs, rituals, and culturally inherited* practices. "Old, established ways of doing things."
+  - **Food**: Actions involving *eating, preparing, or obtaining* food. "Food-relatedness" of actions.
+  - **Animacy**: Whether actions are directed toward or involve animate beings. "Is this action about interacting with living agents?"
+  - **Spiritualism**: Actions with *spiritual or religious* content. Actions about transcendence or ritual meaning.
 - **Example(s)**: "Cooking" scores high on Food and Creation; "Meditating" loads on Spiritualism and Abstractness.
-- **Related**: [Abstractness](##abstractness), [Animacy (ACT-FAST axis)](##animacy-act-fast-axis), [Rationality](##rationality), [Valence](##valence)
+- **Related**: [Rationality](##rationality), [Valence](##valence), [Foundations of Mind Perception](##foundations-of-mind-perception-predict-then-explain)
 - **Notable figure(s)**: Diana Tamir, Mark Thornton (Tamir et al., 2021).
-
-## Abstractness
-- **Definition**: One ACT-FAST axis indexing how *concrete vs. abstract* an action is (e.g., "socializing" is more abstract than "riding a bicycle").
-- **Other ways to think about it**: General vs. specific behaviors.
-- **Lecture & slide**: 10-10-tom2, slides 34–36.
-- **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy), [Creation](##creation), [Tradition](##tradition)
 
 ## Agency
 - **Definition**: A core **dimension of mind perception** referring to the capacity to *act, plan, think, remember, and exert self-control*.
@@ -176,12 +177,6 @@
 - **Related**: [Attribution Theory](##attribution-theory-naive-psychology), [Implicit Theories](##implicit-theories)
 - **Notable figure(s)**: Harold Kelley.
 
-## Creation
-- **Definition**: ACT-FAST axis indexing actions that *make or produce* things.
-- **Other ways to think about it**: "Making" vs. "using."
-- **Lecture & slide**: 10-10-tom2, slides 34–36.
-- **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy), [Abstractness](##abstractness)
-
 ## Dehumanization
 - **Definition**: The *denial of mental states* (or human essence) to agents who deserve them; inverse of [mentalizing](##mentalizing).
 - **Other ways to think about it**: Treating a person as "less than a person."
@@ -230,12 +225,6 @@
 - **Other ways to think about it**: The "paths" emotions take through affective space.
 - **Lecture & slide**: 10-01-mind-perception, post–slide 33 (Thornton & Tamir, 2016).
 - **Related**: [Circumplex Model of Affect](##circumplex-model-of-affect), [Predictive Mind](##predictive-mind)
-
-## Food
-- **Definition**: ACT-FAST axis marking actions involving *eating, preparing, or obtaining* food.
-- **Other ways to think about it**: "Food-relatedness" of actions.
-- **Lecture & slide**: 10-10-tom2, slides 34–36.
-- **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy)
 
 ## Foundations of Mind Perception (Predict-then-Explain)
 - **Definition**: The course theme that we *predict* and then *explain* minds, leveraging conceptual geometry in both action and mental-state spaces.
@@ -381,13 +370,6 @@
 - **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a-tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction)
 - **Related**: [Valence](##valence), [Rationality](##rationality)
 
-## Spiritualism
-- **Definition**: ACT-FAST axis marking actions with *spiritual or religious* content.
-- **Other ways to think about it**: Actions about transcendence or ritual meaning.
-- **Lecture & slide**: 10-10-tom2, slides 34–36.
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a-amp-tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction-in-m-gilead-amp-k-n-ochsner-eds-the-neural-basis-of-mentalizing-pp-283-298-springer)
-- **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy), [Tradition](##tradition)
-
 ## Synchrony
 - **Definition**: Coupling in time and internal state between partners (e.g., tapping together, imitation/mimicry) that supports mutual prediction and bonding.
 - **Other ways to think about it**: Temporal entrainment; time‑locked coupling.
@@ -409,12 +391,6 @@
 - **Other ways to think about it**: Three "recipes" minds use to read other minds.
 - **Lecture & slide**: 10-10-tom2, slide 57.
 - **Related**: [Implicit Theories](##implicit-theories), [Causal Inference](##causal-inference), [Simulation](##simulation-tom-strategy)
-
-## Tradition
-- **Definition**: ACT-FAST axis indexing *customs, rituals, and culturally inherited* practices.
-- **Other ways to think about it**: "Old, established ways of doing things."
-- **Lecture & slide**: 10-10-tom2, slides 34–36.
-- **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy), [Spiritualism](##spiritualism)
 
 ## Turing Test
 - **Definition**: A behavioral criterion for whether a machine appears to *have a mind*: if a perceiver can't tell it's not human.

@@ -39,10 +39,6 @@ Dennett offers a pragmatic account: intentionality as a tool, not a metaphysical
 - Directly connects to Intentional Stance, Design Stance, Mentalizing, and Generative Models in the glossary.
 - System complexity → choice of stance (physical/design/intentional) → prediction accuracy.
 
-### Key Quotes or Phrases
-
-- "The concept of an Intentional system is a relatively uncluttered and unmetaphysical notion."
-
 ---
 
 ## Dennett, D. C. (1988). Précis of The Intentional Stance. *Behavioral and Brain Sciences*, *11*(3), 495-505.
@@ -107,16 +103,10 @@ Epley & Waytz show that mind perception is not a binary cognitive act but a grad
 
 - Lewin: Mind perception supplies the "R" (representation) that mediates how person and environment produce behavior.
 - Marr: Algorithmic level — the two‑dimensional mind map is the representation; computational level — goal is accurate social prediction & moral evaluation.
-- Brunswik: Emphasizes cue validity and ecological sampling — which cues reliably indicate agency or experience across contexts.
 
 ### Connections
 - Links to animacy, intentional stance, Theory of Mind, predictive processing, and dehumanization literature. Useful precursor reading before Wang et al. (2025).
 - Perceptual cues → (animacy detection) → Mind presence estimate → Map onto (Agency, Experience) → Guides prediction & moral judgment.
-
-### Key Quotes or Phrases
-
-- "Mind perception is a pre‑attributional process: first do we see a mind, then what is that mind like?"
-- "Perceiving mindful agency is tied to causal responsibility; perceiving experience is tied to moral worth."
 
 ---
 
@@ -150,10 +140,6 @@ A compact representational account explains diverse phenomena — anthropomorphi
 ### Connections
 - Strongly connected to Epley & Waytz, Waytz et al., and course glossary terms like agency/experience and moral typecasting.
 - Target features → (map to) Agency/Experience → (drive) moral judgments.
-
-### Key Quotes or Phrases
-
-- "Mind perception is organized along dimensions of experience and agency."
 
 ---
 
@@ -189,16 +175,10 @@ Heider & Simmel provide a clear demonstration that perception alone can trigger 
 
 - Lewin: B = f(P, E, R) — This shows how perceptual input P (motion) combined with prior Representations (R: schemas about agents) shapes behavior (attribution).
 - Marr: Computational goal = infer hidden agents/goals; algorithmic = mapping motion features → intentional explanation; implementational = unspecified.
-- Brunswik: Emphasizes ecological validity — motion cues are probabilistic signals of agency and the perceiver uses ecological sampling (available cues) to infer hidden causes.
 
 ### Connections
 - Links to animacy literature, biological motion (Johansson), and predictive‑processing accounts where small prediction errors about self‑propelled motion trigger agent hypotheses.
 - Motion cues (self‑propulsion, contingency) → Animacy detection → Intentional stance → Mentalizing (goal/trait attributions)
-
-### Key Quotes or Phrases
-
-- "Observers impose intentions and social roles on moving shapes."
-- "Motion alone is sufficient to elicit richly structured social narratives."
 
 ---
 
@@ -235,16 +215,10 @@ The chapter stitches together classical schema theory with emerging embodied and
 
 - Lewin: schemas are part of R in B = f(P,E,R) and shape goal‑directed action.
 - Marr: computational goal = compress and infer category membership; algorithmic = exemplar matching vs prototype probability estimation.
-- Brunswik: highlights cue validity and IF→THEN relations for relational theories.
 
 ### Connections
 - Links to Heider's animacy (schemas for agents), Mitchell's Marr framing (representations as algorithmic objects), and later lectures on predictive models.
 - Experience → Associations → Schema (prototype/exemplar) → Perception & Memory biases → Behavior
-
-### Key Quotes or Phrases
-
-- "Schemas serve as filters that make stimuli knowable and actionable."
-- "Embodied states often trigger metaphorically linked social inferences outside awareness."
 
 ---
 
@@ -280,16 +254,10 @@ Provides students context: why contemporary social cognition focuses on represen
 
 - Lewin: situates behavior as emergent from person and environment; modern accounts add explicit representation R.
 - Marr: historical narrative culminates in Marr's levels as a synthesis tool.
-- Brunswik: historical emphasis on cue validity and ecological sampling is a throughline.
 
 ### Connections
 - Ties to all course modules: attributions, schemas, mentalizing, predictive models.
 - Historical movements → theories of mind (schemas, attribution, computation) → modern predictive frameworks
-
-### Key Quotes or Phrases
-
-- "Understanding the history clarifies why we now ask what representations do, not whether they exist."
-- "Lewin's field theory foreshadows the modern inclusion of Representations in behavior functions."
 
 ---
 
@@ -324,7 +292,3 @@ For computational social cognition, the paper clarifies that adopting an intenti
 ### Connections
 - Links to Epley & Waytz, Gray et al., and course glossary entries on the intentional stance and animacy.
 - Robot cues (contingency, appearance) → (increase) Intentional stance adoption → (increase) Social attunement/perceived mind.
-
-### Key Quotes or Phrases
-
-- "Adopting the intentional stance is a pragmatic predictive strategy that facilitates social attunement."

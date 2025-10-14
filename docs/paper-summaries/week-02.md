@@ -33,9 +33,6 @@ Formalizing the claims: the observer's generative model contains motor plans p(p
   - **Forward model:** A predictive mapping from motor command to expected sensory consequences. **Notable Figures:** Wolpert, Miall. **Related Concepts:** Efference copy; Motor prediction.
   - **Simulation theory:** Represent other minds by generating similar processes in oneself. **Notable Figures:** Goldman. **Related Concepts:** Mirror system; Imitation.
 
-### Key Quotes or Phrases
-- "The brain is a powerful simulating machine, designed to detect biological motion in order to extract intentions."
-
 ---
 
 ## Brüne, M., & Brüne-Cohrs, U. (2006). Theory of mind—evolution, ontogeny, brain mechanisms and psychopathology. *Neuroscience & Biobehavioral Reviews*, *30*(4), 437-455.
@@ -70,10 +67,6 @@ From a modeling perspective: ToM could be formalized as a generative model that 
 - Social complexity → selection pressure → ToM capacity.
   - **Medial PFC / TPJ:** inference about beliefs and traits. **Notable Figures:** Frith, Mitchell. **Related Concepts:** Default mode network; trait inference.
   - **STS / Biological Motion:** input for animacy detection. **Definition:** motion cues that signal agency. **Related Concepts:** Animacy; Intentional stance.
-
-### Key Quotes or Phrases
-- "Theory of mind comprises an innate cognitive capacity represented in a dedicated neural network…" (p.1).
-- "Psychopathology almost always involves disturbances of social reasoning."
 
 ---
 
@@ -112,10 +105,6 @@ Model mentalizing as hierarchical inference: low‑level detectors (biological m
 ### Connections
 - Direct links to biological motion research (Troje), mirror neuron literature (Rizzolatti et al.), and predictive accounts of social cognition. Also relates to Dennett's Intentional Stance and debates about simulation vs. theory‑theory.
 - Biological motion detection (STS) → Action/goal parsing (mirror/inferior frontal) → Mentalizing (medial PFC/ACC, TPJ).
-
-### Key Quotes or Phrases
-- "The ability to 'mentalize' … depends on a dedicated and circumscribed brain system."
-- "Our ability to mentalize seems to have evolved largely from the dorsal action system."
 
 ---
 
@@ -158,10 +147,6 @@ Suggested operational tests: GNAT for implicit associations, trait‑rating batt
 - **Animalistic Dehumanization:** Denial of UH → likening to animals; associated with disgust/contempt; prototypically intergroup. **Related Concepts:** Infra‑humanization, moral exclusion.
 - **Mechanistic Dehumanization:** Denial of HN → likening to objects/machines; associated with indifference; occurs interpersonally and in institutional contexts. **Related Concepts:** Objectification, depersonalization.
 
-### Key Quotes or Phrases
-- "Two forms of dehumanization: the denial of uniquely human attributes and the denial of human nature." (p.252)
-- "Animalistic dehumanization evokes disgust; mechanistic dehumanization evokes indifference." (pp.7–8)
-
 ---
 
 ## Moran, J. M., Jolly, E., & Mitchell, J. P. (2014). Spontaneous mentalizing predicts the fundamental attribution error. *Journal of Cognitive Neuroscience*, *26*(3), 569-576.
@@ -194,9 +179,6 @@ Model implication: a prioritized prior favoring dispositional causes—implement
 - Bridges attribution theory, Default Mode Network research, and developmental work on autism. Directly links to the Brüne review's neural localization and Thornton's work on person representations via mental states.
 - Default Mode Network baseline activity → spontaneous mentalizing → dispositional attributions (FAE).
   - **dmPFC / TPJ:** spontaneous trait inference. **Related Concepts:** Mentalizing; Intentional stance.
-
-### Key Quotes or Phrases
-- "A lifetime of reflexively considering others' mental states… creates a default strategy for understanding other minds." (Moran et al., p.573). fileciteturn1file6
 
 ---
 
@@ -260,15 +242,11 @@ Premack & Woodruff's paper launched ToM as an empirical question and a research 
 ### Computational–Social–Cognitive–Scientist Hat
 - Lewin: behavior depends on person and environment; Premack's tasks manipulated informational environments to reveal internal representations.
 - Marr: computational goal = predict other's behavior; algorithmic question = what representations/operations support this? Implementational = neural substrates across species.
-- Brunswik: stresses ecological validity — animal tests must respect natural communicative contexts (senders/receivers).
 
 ### Connections
 - Directly ties to the course glossary's ToM entry (Premack & Woodruff 1978) and subsequent human infant literature.
 - Observed behavior + context → inferred knowledge state → predictive behavior (sender/receiver strategy)
 - Controlled manipulations → distinguish mentalizing vs behavior-reading
-
-### Key Quotes or Phrases
-- "The test is quite simple." (description of sender/receiver setup) — a good lecture vignette.
 
 ---
 
@@ -303,19 +281,14 @@ Analysis: searchlight RSA compared neural representational dissimilarity matrice
 The brain appears to construct a cross‑modal representational geometry that maps changes in stimulus features to changes in perceived emotion. This geometry lives both in modality‑specific sensory cortices (putting music and movement in common metric space) and, in some participants, in posterior superior temporal cortex as a supramodal node. Mechanistically, sensory areas code both elemental features and feature conjunctions that are informative about emotion; together these representations may enable rapid, "direct" perception of social signals and reduce reliance on slow inferential processing.
 
 ### Computational‑Social‑Cognitive‑Scientist Hat
-- **Kurt Lewin**: He'd view this as formalizing how the person/environment relationship is encoded — representations (R) transform environmental dynamics into behavior‑relevant coordinates (B = f(P,E,R)).
-- **David Marr**: Satisfied — the paper maps the *computational* goal (recover emotion across senses), proposes an *algorithmic* geometry (RDMs, feature-conjunctions), and localizes *implementational* substrates (lingual gyrus, STG/pSTG).
-- **Egon Brunswik**: Would appreciate the ecological‑validity emphasis — using naturalistic, probabilistic feature mixtures and exploiting environmental covariation (conjunctive cues) to support perception.
+- Lewin: He'd view this as formalizing how the person/environment relationship is encoded — representations (R) transform environmental dynamics into behavior‑relevant coordinates (B = f(P,E,R)).
+- Marr: Satisfied — the paper maps the *computational* goal (recover emotion across senses), proposes an *algorithmic* geometry (RDMs, feature-conjunctions), and localizes *implementational* substrates (lingual gyrus, STG/pSTG).
 
 ### Connections
 - Links to Sievers et al. (2013, 2019) on crossmodal structure, work on pSTS/pSTG in action and emotion understanding, and to predictive processing accounts where priors tune sensory representations.
 - Stimulus features (speed, jitter, consonance, size, up/down) → sensory representational geometry (because distance in feature space maps to neural pattern distance).
 - Sensory representational geometry → emotion judgments (because configural combinations align with perceived emotions).
 - pSTG (supramodal) ↔ sensory cortices (facilitates crossmodal comparison and integration).
-
-### Key Quotes or Phrases
-- "Auditory and visual cortex represent emotional music and movement in comparable terms."
-- "Sensory brain regions represent conjunctions of task‑relevant features, reducing the need for downstream inferential processing."
 
 ---
 
@@ -343,19 +316,14 @@ Across several empirical tests (behavioural norms, neural decoding, and represen
 The paper argues that the mind organizes social knowledge primarily for *prediction* rather than mere description. This reframes classical person perception (traits vs. states) and theory‑of‑mind research: rather than separate modules for trait inference and state reasoning, overlapping low‑dimensional maps and transition structures let observers reuse the same code to anticipate future states and actions. For social‑cognitive researchers and computational cognitive scientists, this supplies a mechanistic account of how generative models for other minds might be represented and learned.
 
 ### Computational‑Social‑Cognitive‑Scientist Hat
-- Kurt Lewin: Would appreciate recasting behavior as driven by internal representations (R) interacting with person and environment—these maps operationalize R.
-- David Marr: The paper is explicit about Marr's levels—clear computational goal (predict others), algorithmic representation (dimensions + transition matrix), and testable implementational predictions (neural geometry).
-- Egon Brunswik: The emphasis on transition probabilities is Brunswikian—perceivers exploit probabilistic ecological regularities to make inferences under uncertainty.
+- Lewin: Would appreciate recasting behavior as driven by internal representations (R) interacting with person and environment—these maps operationalize R.
+- Marr: The paper is explicit about Marr's levels—clear computational goal (predict others), algorithmic representation (dimensions + transition matrix), and testable implementational predictions (neural geometry).
 
 ### Connections
 - Links strongly to Predictive Mind, Generative Models, Mentalizing, the ACT‑FAST taxonomy, and prior Thornton/Tamir work on the 3D mind model (rationality, social impact, valence).
 - Dimensions (valence, sociality, competence) → structure conceptual maps.
 - Transition probabilities + conceptual maps → enable prediction of next states/actions.
 - Neural geometry (mPFC, STS/ATL) ↔ encodes the same dimensions → allows readout of predictions.
-
-### Key Quotes or Phrases
-- "Social knowledge is organized to support prediction: dimensions and transition structure make the future statistically tractable."
-- "The same low‑dimensional code underlies trait and state representations, enabling efficient forecasting of other people."
 
 ---
 
@@ -389,9 +357,6 @@ The summed state account implies a generative representational codec: estimating
 - Links to Thornton & Tamir's broader program (mental‑state centric models), trait psychology (Whole‑Trait theory), and neural pattern‑based approaches to social cognition. Also relates to predictive processing: person models provide priors that shape state prediction.
 - Person representation = Σ frequency(state) × state pattern.
 - **Summed State Hypothesis:** compositionally builds person encodings from state representations. **Notable Figures:** Tamir, Thornton. **Related Concepts:** Representation; Predictive Mind.
-
-### Key Quotes or Phrases
-- "People are represented as the sums of the mental states they experience." fileciteturn1file8
 
 ---
 
@@ -429,9 +394,6 @@ Modeling implication: multiple feature spaces (visual curvature, acoustic spectr
 - Ties to Sievers et al. (2013, 2019) on cross‑modal emotion codes, articulatory theories (Ramachandran & Hubbard), and literature on sound symbolism and language evolution.
 - Angular shape ↔ high arousal / anger; Round shape ↔ low arousal / happiness.
   - **Shape‑Emotion Correspondence:** perceptual mapping between curvature and affective valence/arousal. 
-
-### Key Quotes or Phrases
-- "The kiki‑bouba effect… can be partially based on emotional mediation processes." fileciteturn1file11
 
 ---
 
@@ -479,11 +441,6 @@ From a Marr‑inspired perspective: at the computational level the problem is to
   - **Dehumanization hypothesis:** When scrutiny reveals mechanistic/nonhuman cues, observers deny human nature/uniqueness, producing negative affect and 'uncanniness.' **Notable Figures:** Wang, Lilienfeld, Rochat (2015). **Related Concepts:** Animacy, Mind Perception, Infrahumanization.
   - **Violated Expectation:** Mismatch between appearance and motion/voice. **Related Concepts:** Predictive Mind; Prediction Error.
 
-### Key Quotes or Phrases
-- "The uncanny valley hypothesis is ultimately an engineering problem..." (paper's framing).
-- "We propose a Dehumanization hypothesis." (central proposal).
-
-
 ---
 
 ## Waytz, A., Gray, K., Epley, N., & Wegner, D. M. (2010). Causes and consequences of mind perception. *Trends in Cognitive Sciences*, *14*(8), 383-388.
@@ -511,18 +468,11 @@ This is a theory-driven review integrating experiments across paradigms: morphin
 This paper reframes **mentalizing** not only as state inference (ToM) but as a graded perception system with clear antecedents and moral consequences. It connects basic perceptual triggers to higher-order social outcomes (e.g., punishment, empathy, moral typecasting). For the course's computational lens, mind perception is an adaptive inference system that trades off accuracy and efficiency: fast detectors flag candidate minds, but higher-level reasoning (and social motives) determine commitment.
 
 ### Computational-Social-Cognitive-Scientist Hat
-**What would Kurt Lewin think?** Lewin's *B = f(P,E)* maps nicely: perceiver motives (P) and target features (E) jointly determine mind-attribution (B). He'd appreciate the field-theoretic, interactionist framing.
-
-**What would David Marr think?** Marr would ask for explicit algorithms and representations: what are the decision rules for moving from low-level face/ motion signals to high-level mind-ascription? The two-stage detector+filter is a good start at Marr's algorithmic level.
-
-**What would Egon Brunswik think?** Brunswik would emphasize ecological validity: which environmental cues are reliable indicators of mind and how do perceivers weight noisy cues (lens model)? The paper's cue-competition results fit a Brunswikian perspective.
+- Lewin: Lewin's *B = f(P,E)* maps nicely: perceiver motives (P) and target features (E) jointly determine mind-attribution (B). He'd appreciate the field-theoretic, interactionist framing.
+- Marr: would ask for explicit algorithms and representations: what are the decision rules for moving from low-level face/ motion signals to high-level mind-ascription? The two-stage detector+filter is a good start at Marr's algorithmic level.
 
 ### Connections
 - Links to: animacy/biological motion research, dehumanization literature, implicit bias (mPFC differences), and predictive-processing views (the role of expectancy/prediction in tagging minds).
 - Perceiver motives (loneliness, lack of control) → increase mind attribution because they satisfy needs for connection/effectance.
 - Target cues (human likeness, unpredictability) → increase mind attribution because they signal agency/experience.
 - Mind attribution → alters moral status (patient vs. agent) → changes helping/punishing behaviors.
-
-### Key Quotes or Phrases
-- "People think about other minds in terms of two distinct dimensions: experience and agency."
-- "Attributing mind confers moral rights; denying mind licenses harm."
