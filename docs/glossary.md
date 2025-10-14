@@ -81,6 +81,7 @@
 - **Definition**: A program emphasizing *conditioning* and observable behavior; often treated the mind as a "black box."
 - **Other ways to think about it**: Predict and control behavior via rewards/punishments.
 - **Lecture & slide**: 09-29-history, slides 12–17.
+- **Paper mentions:** [Week 01](paper-summaries/week-01.md#dennett-d-c-1971-intentional-systems-the-journal-of-philosophy-684-87-106), [Week 01](paper-summaries/week-01.md#pennington-d-c-2000-social-cognition-history-chapter-routledge)
 - **Related**: [Empiricism](##empiricism), [Cognitive Psychology](##cognitive-psychology)
 
 ## Biological Motion
@@ -142,6 +143,7 @@
 - **Definition**: Interdisciplinary science of the mind (psychology, AI, neuroscience, linguistics, philosophy).
 - **Other ways to think about it**: A coalition of fields to understand thinking.
 - **Lecture & slide**: 09-29-history, slides 27–31.
+- **Paper mentions:** [Additional](paper-summaries/additional.md#augusto-2005-review-symbols-and-knowledge-systems), [Additional](paper-summaries/additional.md#clark-2013-whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science), [Additional](paper-summaries/additional.md#kriegeskorte-amp-douglas-2018-cognitive-computational-neuroscience), [Additional](paper-summaries/additional.md#wheatley-et-al-2023-the-emerging-science-of-interacting-minds), [Additional](paper-summaries/additional.md#carvalho-amp-lampinen-2025-naturalistic-computational-cognitive-science-models-and-theories-that-capture-the-full-range-of-natural-behavior), [Week 03](paper-summaries/week-03.md#camerer-c-f-ho-t-h-amp-chong-j-k-2004-a-cognitive-hierarchy-model-of-games-the-quarterly-journal-of-economics-1193-861-898)
 - **Related**: [Computational Cognitive Science](##computational-cognitive-science), [Physical Symbol System Hypothesis](##physical-symbol-system-hypothesis)
 
 ## Complementarity
@@ -154,12 +156,14 @@
 - **Definition**: The view that *cognition = computation over representations*, used to model and predict behavior.
 - **Other ways to think about it**: Using algorithms to explain how minds work.
 - **Lecture & slide**: 10-01-mind-perception, slides 14–15.
+- **Paper mentions:** [Additional](paper-summaries/additional.md#augusto-2005-review-symbols-and-knowledge-systems), [Additional](paper-summaries/additional.md#clark-2013-whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science), [Additional](paper-summaries/additional.md#hohwy-2013-the-predictive-mind), [Additional](paper-summaries/additional.md#uleman-kressel-2013-a-brief-history-of-theory-and-research-on-impression-formation), [Additional](paper-summaries/additional.md#kriegeskorte-douglas-2018-cognitive-computational-neuroscience), [Additional](paper-summaries/additional.md#wheatley-et-al-2023-the-emerging-science-of-interacting-minds), [Additional](paper-summaries/additional.md#carvalho-lampinen-2025-naturalistic-computational-cognitive-science-models-and-theories-that-capture-the-full-range-of-natural-behavior), [Week 01](paper-summaries/week-01.md#gray-h-m-gray-k-wegner-d-m-2007-dimensions-of-mind-perception), [Week 03](paper-summaries/week-03.md#bruneau-e-g-saxe-r-2012-the-power-of-being-heard-the-benefits-of-perspective-giving-in-the-context-of-intergroup-conflict), [Week 03](paper-summaries/week-03.md#buckner-r-l-carroll-d-c-2007-self-projection-and-the-brain), [Week 03](paper-summaries/week-03.md#camerer-c-f-ho-t-h-chong-j-k-2004-a-cognitive-hierarchy-model-of-games), [Week 03](paper-summaries/week-03.md#lockwood-p-l-apps-m-a-j-chang-s-w-c-2020-is-there-a-social-brain-implementations-and-algorithms), [Week 03](paper-summaries/week-03.md#nagel-r-1995-unraveling-in-guessing-games-an-experimental-study), [Week 03](paper-summaries/week-03.md#wang-et-al-2025-modeling-other-minds-a-computational-account-of-social-cognition-and-its-development)
 - **Related**: [Predictive Mind](##predictive-mind), [Levels of Explanation](##levels-of-explanation)
 
 ## Constructivism
 - **Definition**: We build reality using *internal representations* and schemas—perception is not passive.
 - **Other ways to think about it**: The "mind assembles" what we experience.
 - **Lecture & slide**: 10-01-mind-perception, slide 13.
+- **Paper mentions:** [Week 00](paper-summaries/week-00.md#greifeneder-r-bless-h-fiedler-k-2017-social-cognition-how-individuals-construct-social-reality-chapters-1-2-psychology-press)
 - **Related**: [Cognitive Psychology](##cognitive-psychology), [Predictive Mind](##predictive-mind)
 
 ## Correspondent Inference Theory
@@ -252,6 +256,7 @@
 - **Definition**: The mind viewed as a system that *processes inputs* to produce outputs via internal representations.
 - **Other ways to think about it**: The "software" running on brain "hardware."
 - **Lecture & slide**: 10-01-mind-perception, slide 12.
+- **Paper mentions:** [Week 00](paper-summaries/week-00.md#greifeneder-r-bless-h-amp-fiedler-k-2017-social-cognition-how-individuals-construct-social-reality-chapters-1-amp-2-psychology-press), [Week 00](paper-summaries/week-00.md#mitchell-j-p-2006-mentalizing-and-marr-an-information-processing-approach-to-the-study-of-social-cognition-brain-research-10791-66-75), [Additional](paper-summaries/additional.md#augusto-2005-review-symbols-and-knowledge-systems)
 - **Related**: [Computational Cognitive Science](##computational-cognitive-science), [Levels of Explanation](##levels-of-explanation)
 
 ## Intentional Stance
@@ -265,6 +270,7 @@
 - **Definition**: Different levels at which we can explain a system (e.g., *computational/functional*, *algorithmic/representational*, *implementational*).
 - **Other ways to think about it**: "Why?" vs. "How/what representations?" vs. "In what hardware?"
 - **Lecture & slide**: 09-29-history, slides 37–39.
+- **Paper mentions:** [Week 00](paper-summaries/week-00.md#mitchell-j-p-2006-mentalizing-and-marr-an-information-processing-approach-to-the-study-of-social-cognition-brain-research), [Week 02](paper-summaries/week-02.md#thornton-m-a-tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction), [Week 03](paper-summaries/week-03.md#bruneau-e-g-saxe-r-2012-the-power-of-being-heard-the-benefits-of-perspective-giving-in-the-context-of-intergroup-conflict-journal-of-experimental-social-psychology-484-855-866), [Week 03](paper-summaries/week-03.md#buckner-r-l-carroll-d-c-2007-self-projection-and-the-brain-trends-in-cognitive-sciences-112-49-57), [Week 03](paper-summaries/week-03.md#camerer-c-f-ho-t-h-chong-j-k-2004-a-cognitive-hierarchy-model-of-games-the-quarterly-journal-of-economics-1193-861-898), [Week 03](paper-summaries/week-03.md#lockwood-p-l-apps-m-a-j-chang-s-w-c-2020-is-there-a-social-brain-implementations-and-algorithms-trends-in-cognitive-sciences-2410-802-813), [Additional](paper-summaries/additional.md#augusto-2005-review-symbols-and-knowledge-systems), [Additional](paper-summaries/additional.md#clark-2013-whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science), [Additional](paper-summaries/additional.md#hohwy-2013-the-predictive-mind), [Additional](paper-summaries/additional.md#kriegeskorte-douglas-2018-cognitive-computational-neuroscience), [Additional](paper-summaries/additional.md#wheatley-et-al-2023-the-emerging-science-of-interacting-minds), [Additional](paper-summaries/additional.md#carvalho-lampinen-2025-naturalistic-computational-cognitive-science-models-and-theories-that-capture-the-full-range-of-natural-behavior)
 - **Related**: [Computational Cognitive Science](##computational-cognitive-science), [Information-Processing System (Mind as)](##information-processing-system-mind-as)
 - **Notable figure(s)**: David Marr.
 
@@ -313,6 +319,7 @@
 - **Definition**: The claim that a *physical symbol system* has the necessary and sufficient means for **intelligent action**.
 - **Other ways to think about it**: Intelligence can arise from symbol manipulation.
 - **Lecture & slide**: 09-29-history, slides 35–36.
+- **Paper mentions:** [Additional](paper-summaries/additional.md#augusto-2005-review-symbols-and-knowledge-systems)
 - **Related**: [Cognitive Science](##cognitive-science), [Computational Cognitive Science](##computational-cognitive-science)
 - **Notable figure(s)**: Allen Newell & Herbert Simon.
 
