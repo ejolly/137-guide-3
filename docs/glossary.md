@@ -68,6 +68,7 @@
 - **Definition**: We go beyond perception to generate *explanations* for behavior—distinguishing internal (person) vs. external (situation) causes.
 - **Other ways to think about it**: Everyday "mini-theories" about why people do what they do.
 - **Lecture & slide**: 10-03-animacy, slide 33 (recap); 10-08-tom, slide 42 (Heider; Jones & Davis).
+- **Paper mentions:** [Week 01](paper-summaries/week-01.md#heider-f-amp-simmel-m-1944-an-experimental-study-of-apparent-behavior-the-american-journal-of-psychology-572-243-259), [Week 02](paper-summaries/week-02.md#moran-j-m-jolly-e-amp-mitchell-j-p-2014-spontaneous-mentalizing-predicts-the-fundamental-attribution-error-journal-of-cognitive-neuroscience-263-569-576)
 - **Related**: [Correspondent Inference Theory](##correspondent-inference-theory), [Covariation Model](##covariation-model), [Implicit Theories](##implicit-theories), [Theory of Mind (ToM)](##theory-of-mind-tom)
 - **Notable figure(s)**: Fritz Heider; Edward Jones & Keith Davis.
 
@@ -96,6 +97,7 @@
 - **Definition**: Humans reason with *limited resources*; we "satisfice" rather than optimize.
 - **Other ways to think about it**: "Good enough" decision-making under constraints.
 - **Lecture & slide**: 09-29-history, slide 29.
+- **Paper mentions:** [Week 03](paper-summaries/week-03.md#camerer-c-f-ho-t-h-chong-j-k-2004-a-cognitive-hierarchy-model-of-games-the-quarterly-journal-of-economics-1193-861-898), [Week 03](paper-summaries/week-03.md#nagel-r-1995-unraveling-in-guessing-games-an-experimental-study-the-american-economic-review-855-1313-1326)
 - **Related**: [Satisficing](##satisficing), [Cognitive Misers](##cognitive-misers)
 - **Notable figure(s)**: Herbert Simon.
 
@@ -124,6 +126,7 @@
 - **Definition**: A model of boundedly rational strategic reasoning in which players come in discrete levels (k=0,1,2,…) and each k‑level best‑responds to a distribution of lower‑level types (0..k−1).
 - **Other ways to think about it**: Finite‑depth recursive reasoning.
 - **Lecture & slide**: 10-13-simulation, slides 17–18; optional readings (Camerer, Ho, & Chong, 2004).
+- **Paper mentions:** [Week 03](paper-summaries/week-03.md#camerer-c-f-ho-t-h-amp-chong-j-k-2004-a-cognitive-hierarchy-model-of-games-the-quarterly-journal-of-economics-1193-861-898), [Week 03](paper-summaries/week-03.md#nagel-r-1995-unraveling-in-guessing-games-an-experimental-study-the-american-economic-review-855-1313-1326)
 - **Related**: Level‑k models; [Bounded Rationality](##bounded-rationality); Recursive reasoning
 - **Notable figure(s)**: Colin Camerer; Teck‑Ho; Juin‑Kuan Chong.
 
