@@ -57,14 +57,6 @@ Two patients are in a coma: Patient A shows reflexive movement but no signs of p
 - **C.** Low in Agency and Experience for both A and B.
 - **D.** Low in Agency, high in Experience for A; high in Agency, low in Experience for B.
 
-<!-- ### 4. 
-In the Gray et al. (2007) study on the dimensions of mind perception, what two capacities did people use to judge whether something has a mind?
-
-- **A.** Memory and learning.
-- **B.** **Agency (capacity to plan/act) and Experience (capacity to feel).**
-- **C.** Intelligence and creativity.
-- **D.** Perception and attention. -->
-
 ### 8. 
 Which design tweak would *most* increase adoption of the intentional stance toward a service robot?
 
@@ -73,33 +65,13 @@ Which design tweak would *most* increase adoption of the intentional stance towa
 - **C.** Removing all facial features to avoid pareidolia.
 - **D.** Making its motions perfectly rigid and speed-invariant.
 
-<!-- ### 6. 
-According to the lecture, the Turing test proposes that a computer has a mind if...
-
-- **A.** **It can pass a test where a human judge cannot distinguish it from a human based on conversation.**
-- **B.** It achieves human-level performance on vision tasks.
-- **C.** It exhibits consciousness according to EEG readings.
-- **D.** It has the same hardware as the human brain. -->
-
-<!-- ### 7. 
-*Module:* Mind Perception
-
-What is the definition of “mentalizing" as presented in the lecture?
-
-- **A.** **The process of attributing mental states to oneself and others to interpret and predict behavior.**
-- **B.** The study of brain waves during social interactions.
-- **C.** The ability to memorize social information.
-- **D.** The practice of avoiding making assumptions about others. -->
-
 ### 9.
-*Module:* Mind Perception
-
 Johnny was on the playground and Larry hit him in the head with a tennis ball. Johnny assumed it was an accident and didn’t get mad, but then it happened again and Johnny got angry because he assumed it was intentional.  What best explains the difference in Johnny’s reactions?
 
-- **A** A difference in perception attribution
-- **B** **A difference in mental state attribution**
-- **C** A difference in animacy attribution 
-- **D** A difference in consequent attribution
+- **A.** A difference in perception attribution
+- **B.** **A difference in mental state attribution**
+- **C.** A difference in animacy attribution 
+- **D.** A difference in consequent attribution
 
 ### 10. 
 How is “animacy" described from the computational perspective of social cognition?
@@ -185,10 +157,10 @@ Which scenario illustrates *mechanistic* (vs animalistic) dehumanization as defi
 ### 20.
 In the chimpanzee eye-tracking study we class in lecture, IF the researchers had observed that the chimpanzees first looked where the item was moved behind the target’s back when the target returned, it would be evidence that ____.
 
-- **A** Chimpanzees have theory of mind
-- **B** **Chimpanzees fail this theory of mind task**
-- **C** Chimpanzees have the cognitive abilities of a 5-yr old human
-- **D** Chimpanzees do not attribute animacy but do mentalize
+- **A.** Chimpanzees have theory of mind
+- **B.** **Chimpanzees fail this theory of mind task**
+- **C.** Chimpanzees have the cognitive abilities of a 5-yr old human
+- **D.** Chimpanzees do not attribute animacy but do mentalize
 
 ### 21. 
 The concept of ‘Theory of Mind' suggests that we understand other people's mental states by:
@@ -222,9 +194,7 @@ The lecture suggests that our social knowledge is organized for prediction. What
 - **C.** We avoid making predictions about others due to uncertainty.
 - **D.** We only rely on explicit rules to forecast behavior.
 
-### 25 
-*Module:* Simulation
-
+### 25.
 You watch a friend twist their ankle and cringe in response. Which best matches the likely dominant mechanism at work?
 
 - **A.** **Ankle twist → mirroring / sensorimotor-affective circuits**

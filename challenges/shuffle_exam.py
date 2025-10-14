@@ -6,28 +6,39 @@ Shuffles both question order and answer choice order while preserving correctnes
 Usage:
     python3 shuffle_exam.py <challenge_directory> [options]
     python3 shuffle_exam.py challenges/challenge_01/ --exam-date "Fri Oct-17-25"
+    python3 shuffle_exam.py challenges/challenge_01/ --exam-date "Fri Oct-17-25" --skip-render
 
 Output:
-    Student versions (classroom-ready):
-      - challenge-XX-vA.md (clean, with instructions & bonus)
-      - challenge-XX-vB.md (shuffled, clean, with instructions & bonus)
-      - challenge-XX-vC.md (shuffled, clean, with instructions & bonus)
-      - challenge-XX-vD.md (shuffled, clean, with instructions & bonus)
+    Markdown files (9 total):
+      Student versions (classroom-ready):
+        - challenge-XX-vA.md (clean, with instructions & bonus)
+        - challenge-XX-vB.md (shuffled, clean, with instructions & bonus)
+        - challenge-XX-vC.md (shuffled, clean, with instructions & bonus)
+        - challenge-XX-vD.md (shuffled, clean, with instructions & bonus)
 
-    Answer keys (for grading):
-      - challenge-XX-vA-with-key.md (original order, marked answers)
-      - challenge-XX-vB-with-key.md (shuffled, marked answers)
-      - challenge-XX-vC-with-key.md (shuffled, marked answers)
-      - challenge-XX-vD-with-key.md (shuffled, marked answers)
+      Answer keys (for grading):
+        - challenge-XX-vA-with-key.md (original order, marked answers)
+        - challenge-XX-vB-with-key.md (shuffled, marked answers)
+        - challenge-XX-vC-with-key.md (shuffled, marked answers)
+        - challenge-XX-vD-with-key.md (shuffled, marked answers)
 
-    Grading reference:
-      - exam-map.md (answer key and cross-reference)
+      Grading reference:
+        - exam-map.md (answer key and cross-reference)
+
+    Rendered artifacts in output/ (18 total - unless --skip-render):
+      - PDF versions of all 9 markdown files (via pandoc + typst)
+      - DOCX versions of all 9 markdown files (via pandoc)
+
+Format normalization:
+    - Input: Accepts both `- **A.**` and `- **A**` bullet formats
+    - Output: Normalizes to `**(A)** text` format (no bullets, with trailing spaces)
 """
 
 import re
 import random
 import sys
 import argparse
+import subprocess
 from pathlib import Path
 
 
@@ -128,6 +139,7 @@ def parse_question_bank(content, validator=None):
                     clean_text = text.replace('**', '')
                     choices.append({
                         'original_letter': letter,
+                        'normalized_letter': f'({letter})',  # Store normalized format
                         'text': clean_text,
                         'is_correct': is_correct
                     })
@@ -175,12 +187,12 @@ def shuffle_and_write_version(questions, version_letter, output_path, challenge_
         output_lines.append(q['question_text'])
         output_lines.append("")
 
-        # Write choices with new letters (using period for consistency)
+        # Write choices with normalized format: **(A)** text  (with trailing spaces)
         for new_letter, choice in zip(['A', 'B', 'C', 'D'], shuffled_choices):
             if choice['is_correct']:
-                output_lines.append(f"- **{new_letter}.** **{choice['text']}**")
+                output_lines.append(f"**({new_letter})** **{choice['text']}**  ")
             else:
-                output_lines.append(f"- **{new_letter}.** {choice['text']}")
+                output_lines.append(f"**({new_letter})** {choice['text']}  ")
 
         output_lines.append("")
 
@@ -201,12 +213,12 @@ def write_version_a(questions, output_path, challenge_name):
         output_lines.append(q['question_text'])
         output_lines.append("")
 
-        # Write choices in original order
+        # Write choices in normalized format: **(A)** text  (with trailing spaces)
         for letter, choice in zip(['A', 'B', 'C', 'D'], q['choices']):
             if choice['is_correct']:
-                output_lines.append(f"- **{letter}.** **{choice['text']}**")
+                output_lines.append(f"**({letter})** **{choice['text']}**  ")
             else:
-                output_lines.append(f"- **{letter}.** {choice['text']}")
+                output_lines.append(f"**({letter})** {choice['text']}  ")
         output_lines.append("")
 
     with open(output_path, 'w') as f:
@@ -278,6 +290,149 @@ def create_exam_map(version_a_qs, version_b_qs, version_c_qs, version_d_qs, outp
         f.write('\n'.join(lines))
 
 
+def render_artifacts(challenge_dir, challenge_num):
+    """
+    Render PDF and DOCX versions of all exam files using pandoc.
+
+    Creates output/ subdirectory with:
+    - 4 student PDFs + 4 student DOCX
+    - 4 key PDFs + 4 key DOCX
+    - 1 map PDF + 1 map DOCX
+
+    Total: 18 artifact files
+
+    Continues on errors and reports failures at the end.
+    """
+    # Create output directory
+    output_dir = challenge_dir / "output"
+    output_dir.mkdir(exist_ok=True)
+
+    # Track successes and failures
+    successes = []
+    failures = []
+
+    # List of all files to render
+    files_to_render = []
+
+    # Add student versions
+    for version in ['A', 'B', 'C', 'D']:
+        files_to_render.append(challenge_dir / f"challenge-{challenge_num}-v{version}.md")
+
+    # Add answer keys
+    for version in ['A', 'B', 'C', 'D']:
+        files_to_render.append(challenge_dir / f"challenge-{challenge_num}-v{version}-with-key.md")
+
+    # Add exam map
+    files_to_render.append(challenge_dir / "exam-map.md")
+
+    # Render each file to both PDF and DOCX
+    for md_file in files_to_render:
+        if not md_file.exists():
+            failures.append({
+                'file': md_file.name,
+                'format': 'N/A',
+                'error': f"Source file not found: {md_file}"
+            })
+            continue
+
+        # Render PDF
+        pdf_file = output_dir / f"{md_file.stem}.pdf"
+        try:
+            result = subprocess.run(
+                ['pandoc', str(md_file), '-o', str(pdf_file), '-t', 'typst'],
+                capture_output=True,
+                text=True,
+                timeout=30
+            )
+            if result.returncode == 0:
+                successes.append(pdf_file.name)
+            else:
+                failures.append({
+                    'file': md_file.name,
+                    'format': 'PDF',
+                    'error': result.stderr.strip() or 'Unknown error'
+                })
+        except subprocess.TimeoutExpired:
+            failures.append({
+                'file': md_file.name,
+                'format': 'PDF',
+                'error': 'Timeout after 30 seconds'
+            })
+        except FileNotFoundError:
+            failures.append({
+                'file': md_file.name,
+                'format': 'PDF',
+                'error': 'pandoc not found - check installation'
+            })
+        except Exception as e:
+            failures.append({
+                'file': md_file.name,
+                'format': 'PDF',
+                'error': str(e)
+            })
+
+        # Render DOCX
+        docx_file = output_dir / f"{md_file.stem}.docx"
+        try:
+            result = subprocess.run(
+                ['pandoc', str(md_file), '-o', str(docx_file)],
+                capture_output=True,
+                text=True,
+                timeout=30
+            )
+            if result.returncode == 0:
+                successes.append(docx_file.name)
+            else:
+                failures.append({
+                    'file': md_file.name,
+                    'format': 'DOCX',
+                    'error': result.stderr.strip() or 'Unknown error'
+                })
+        except subprocess.TimeoutExpired:
+            failures.append({
+                'file': md_file.name,
+                'format': 'DOCX',
+                'error': 'Timeout after 30 seconds'
+            })
+        except FileNotFoundError:
+            failures.append({
+                'file': md_file.name,
+                'format': 'DOCX',
+                'error': 'pandoc not found - check installation'
+            })
+        except Exception as e:
+            failures.append({
+                'file': md_file.name,
+                'format': 'DOCX',
+                'error': str(e)
+            })
+
+    # Print summary
+    total_expected = len(files_to_render) * 2  # Each file -> PDF + DOCX
+    success_count = len(successes)
+    failure_count = len(failures)
+
+    print(f"\n📦 Rendering artifacts to {output_dir}/")
+
+    if failure_count == 0:
+        print(f"✅ Successfully rendered {success_count}/{total_expected} artifacts")
+    else:
+        print(f"⚠️  Rendered {success_count}/{total_expected} artifacts ({failure_count} failures)")
+        print(f"\nFailed renders:")
+        for fail in failures:
+            print(f"  - {fail['file']} ({fail['format']}): {fail['error']}")
+
+        print(f"\n💡 Possible fixes:")
+        print(f"  - Check pandoc is installed: pandoc --version")
+        print(f"  - For PDF errors: Check typst backend is available (pandoc 3.0+)")
+        print(f"  - For DOCX errors: Check file has valid markdown")
+        print(f"  - Try rendering manually:")
+        print(f"      pandoc {files_to_render[0].name} -o output.pdf -t typst")
+        print(f"      pandoc {files_to_render[0].name} -o output.docx")
+
+    return success_count, failure_count
+
+
 def extract_challenge_name(challenge_dir):
     """Extract challenge name from directory path."""
     # e.g., "challenges/challenge_01/" -> "Challenge 01"
@@ -339,11 +494,11 @@ def parse_bonus_question(bonus_file):
         stripped = line.strip()
         if stripped.startswith('- **'):
             in_choices = True
-            # Parse choice and add period for consistency
+            # Parse choice and normalize to (A)/(B)/(C)/(D) format with trailing spaces
             match = re.match(r'- \*\*([A-D])\.?\*\* (.+)', line)
             if match:
                 letter, text = match.groups()
-                choices.append(f"- **{letter}.** {text}")
+                choices.append(f"**({letter})** {text}  ")
         elif not in_choices and stripped:
             question_lines.append(line)
 
@@ -411,10 +566,10 @@ def transform_to_student_version(version_file, challenge_name, exam_date,
     content = '\n'.join(lines)
 
     # Step 3: Remove bold answer markers
-    # Pattern: - **A.** **text** -> - **A.** text
+    # Pattern: **(A)** **text**   -> **(A)** text
     content = re.sub(
-        r'(- \*\*[A-D]\.?\*\* )\*\*(.+?)\*\*$',
-        r'\1\2',
+        r'(\*\*\([A-D]\)\*\* )\*\*(.+?)\*\*  $',
+        r'\1\2  ',
         content,
         flags=re.MULTILINE
     )
@@ -474,6 +629,12 @@ Examples:
         type=int,
         default=2,
         help='Points for bonus question (default: 2)'
+    )
+
+    parser.add_argument(
+        '--skip-render',
+        action='store_true',
+        help='Skip PDF/DOCX rendering (default: False)'
     )
 
     return parser.parse_args()
@@ -595,6 +756,13 @@ def main():
     )
     print(f"  ✅ {exam_map_path.name}")
 
+    # ===== STEP 5: Render artifacts (PDF + DOCX) =====
+    if not args.skip_render:
+        render_success, render_failure = render_artifacts(challenge_dir, challenge_num)
+    else:
+        print("\n⏭️  Skipping artifact rendering (--skip-render flag set)")
+        render_success, render_failure = 0, 0
+
     # ===== SUMMARY =====
     total_base_points = question_count * args.question_points
     total_points = total_base_points + (args.bonus_points if has_bonus else 0)
@@ -616,6 +784,14 @@ def main():
         print(f"    ✅ challenge-{challenge_num}-v{v}-with-key.md")
     print(f"\n  Grading Reference:")
     print(f"    ✅ exam-map.md")
+
+    if not args.skip_render:
+        print(f"\n  Rendered Artifacts (output/):")
+        if render_failure == 0:
+            print(f"    ✅ {render_success} PDFs and DOCX files")
+        else:
+            print(f"    ⚠️  {render_success} files rendered, {render_failure} failed")
+
     print(f"\nOutput directory: {challenge_dir}")
     print(f"Random seeds: A=none, B=1, C=2, D=3")
     print("\n✅ All exam versions generated successfully!")

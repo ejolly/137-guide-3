@@ -2,6 +2,8 @@
 
 This document provides step-by-step instructions for generating classroom-ready exam versions from a question bank.
 
+**Working Directory:** All commands in this document assume you're running from the repository root. If you're in the `challenges/` directory, adjust paths accordingly (e.g., `python3 shuffle_exam.py challenge_01/` instead of `python3 challenges/shuffle_exam.py challenges/challenge_01/`).
+
 ---
 
 ## Overview
@@ -23,8 +25,9 @@ The exam generation system creates **two types of files** for each of 4 exam ver
 - 4 student versions: `challenge-XX-vA.md` through `vD.md`
 - 4 answer keys: `challenge-XX-vA-with-key.md` through `vD-with-key.md`
 - 1 grading reference: `exam-map.md`
+- 18 rendered artifacts: 9 PDFs + 9 DOCX files in `output/` subdirectory
 
-**Total: 9 files**
+**Total: 27 files** (9 markdown + 18 rendered artifacts)
 
 **Reproducibility:** Uses fixed random seeds (0, 1, 2, 3) to ensure identical output on repeated runs.
 
@@ -51,11 +54,32 @@ challenges/
 │   ├── challenge-01-vC-with-key.md       # OUTPUT: Answer key C
 │   ├── challenge-01-vD-with-key.md       # OUTPUT: Answer key D
 │   │
-│   └── exam-map.md                       # OUTPUT: Grading reference
+│   ├── exam-map.md                       # OUTPUT: Grading reference
+│   │
+│   └── output/                           # OUTPUT: Rendered artifacts
+│       ├── challenge-01-vA.pdf
+│       ├── challenge-01-vA.docx
+│       ├── challenge-01-vB.pdf
+│       ├── challenge-01-vB.docx
+│       ├── challenge-01-vC.pdf
+│       ├── challenge-01-vC.docx
+│       ├── challenge-01-vD.pdf
+│       ├── challenge-01-vD.docx
+│       ├── challenge-01-vA-with-key.pdf
+│       ├── challenge-01-vA-with-key.docx
+│       ├── challenge-01-vB-with-key.pdf
+│       ├── challenge-01-vB-with-key.docx
+│       ├── challenge-01-vC-with-key.pdf
+│       ├── challenge-01-vC-with-key.docx
+│       ├── challenge-01-vD-with-key.pdf
+│       ├── challenge-01-vD-with-key.docx
+│       ├── exam-map.pdf
+│       └── exam-map.docx
 │
 ├── challenge_02/
 │   ├── question-bank-with-answers.md
 │   ├── bonus-question.md
+│   ├── output/
 │   └── ...
 ```
 
@@ -99,7 +123,8 @@ Another question?
 
 **Format requirements:**
 - Header: `### N.` where N is question number (1, 2, 3...)
-- Choices: `- **A.** text` or `- **A** text` (period optional)
+- Choices: `- **A.** text` or `- **A** text` (period optional in input)
+  - **Note:** The pipeline automatically normalizes all choices to `**(A)** text  ` format (no bullets, parentheses around letter, 2 trailing spaces)
 - Correct answer: Wrap text in bold `**like this**`
 - Exactly **4 choices** per question (A, B, C, D)
 - Exactly **1 correct answer** per question
@@ -129,7 +154,7 @@ Did you use the course provided NotebookLM (AI assistance)?
 
 ### 4. Run the Script
 
-**Basic usage** (will prompt for exam date):
+**Basic usage** (will prompt for exam date, with rendering):
 
 ```bash
 python3 challenges/shuffle_exam.py challenges/challenge_01/
@@ -139,6 +164,12 @@ python3 challenges/shuffle_exam.py challenges/challenge_01/
 
 ```bash
 python3 challenges/shuffle_exam.py challenges/challenge_01/ --exam-date "Fri Oct-18-25"
+```
+
+**Skip rendering** (faster for iterating on content):
+
+```bash
+python3 challenges/shuffle_exam.py challenges/challenge_01/ --exam-date "Fri Oct-18-25" --skip-render
 ```
 
 **With custom point values:**
@@ -154,19 +185,21 @@ python3 challenges/shuffle_exam.py challenges/challenge_01/ \
 - `--exam-date`: Date in format "Day Mon-DD-YY" (e.g., "Fri Oct-18-25")
 - `--question-points`: Points per question (default: 2)
 - `--bonus-points`: Points for bonus question (default: 2)
+- `--skip-render`: Skip PDF and DOCX rendering (useful for fast iteration)
 
 **The script will:**
 1. Validate the question bank format
-2. Parse all questions
+2. Parse all questions and normalize answer format to `**(A)** text  `
 3. Generate 4 versions with marked answers
 4. Create answer key copies (`-with-key.md`)
 5. Transform to student versions (clean, with header/instructions/bonus)
 6. Create exam map
-7. Print detailed summary
+7. Render all 9 markdown files to PDF and DOCX (unless `--skip-render`)
+8. Print detailed summary
 
 ### 5. Verify Output
 
-Check that 9 files were created:
+**Check markdown files (9 files):**
 
 ```bash
 ls -lh challenges/challenge_01/challenge-01-v*.md challenges/challenge_01/exam-map.md
@@ -183,6 +216,34 @@ challenge-01-vC-with-key.md     (answer key)
 challenge-01-vD.md              (student version)
 challenge-01-vD-with-key.md     (answer key)
 exam-map.md                     (grading reference)
+```
+
+**Check rendered artifacts (18 files in output/):**
+
+```bash
+ls -lh challenges/challenge_01/output/
+```
+
+Expected output:
+```
+challenge-01-vA.pdf
+challenge-01-vA.docx
+challenge-01-vA-with-key.pdf
+challenge-01-vA-with-key.docx
+challenge-01-vB.pdf
+challenge-01-vB.docx
+challenge-01-vB-with-key.pdf
+challenge-01-vB-with-key.docx
+challenge-01-vC.pdf
+challenge-01-vC.docx
+challenge-01-vC-with-key.pdf
+challenge-01-vC-with-key.docx
+challenge-01-vD.pdf
+challenge-01-vD.docx
+challenge-01-vD-with-key.pdf
+challenge-01-vD-with-key.docx
+exam-map.pdf
+exam-map.docx
 ```
 
 ---
@@ -216,9 +277,17 @@ After generation, verify:
 ### ✅ File Counts
 
 ```bash
-# Count all version files (should be 8: 4 student + 4 keys)
+# Count markdown version files (should be 8: 4 student + 4 keys)
 ls challenges/challenge_01/challenge-01-v*.md | wc -l
 # Should output: 8
+
+# Count PDF files (should be 9)
+ls challenges/challenge_01/output/*.pdf | wc -l
+# Should output: 9
+
+# Count DOCX files (should be 9)
+ls challenges/challenge_01/output/*.docx | wc -l
+# Should output: 9
 ```
 
 ### ✅ Question Counts (all versions should match)
@@ -230,18 +299,26 @@ for v in A B C D; do
 done
 ```
 
+### ✅ Answer Format Normalized
+
+```bash
+# Check that choices use new format: **(A)** text (not bullets)
+grep "^\*\*([A-D])\*\*" challenges/challenge_01/challenge-01-vA.md | head -3
+# Should show format like: **(A)** First choice
+```
+
 ### ✅ Student Versions Have NO Bold Answers
 
 ```bash
 # Should return nothing (empty)
-grep "^\- \*\*[A-D]\.\*\* \*\*" challenges/challenge_01/challenge-01-vA.md
+grep "^\*\*([A-D])\*\* \*\*" challenges/challenge_01/challenge-01-vA.md
 ```
 
 ### ✅ Answer Keys HAVE Bold Answers
 
 ```bash
 # Should return count equal to question count
-grep -c "^\- \*\*[A-D]\.\*\* \*\*" challenges/challenge_01/challenge-01-vA-with-key.md
+grep -c "^\*\*([A-D])\*\* \*\*" challenges/challenge_01/challenge-01-vA-with-key.md
 ```
 
 ### ✅ Student Versions Have New Header
@@ -312,10 +389,10 @@ You will have the full lecture time to answer all 26 multiple choice questions. 
 ### 1.
 What is Theory of Mind?
 
-- **A.** First choice
-- **B.** Second choice
-- **C.** Third choice
-- **D.** Fourth choice
+**(A)** First choice
+**(B)** Second choice
+**(C)** Third choice
+**(D)** Fourth choice
 ```
 
 **Bonus:** Appended at end (if `bonus-question.md` exists)
@@ -326,10 +403,10 @@ What is Theory of Mind?
 
 Did you use NotebookLM?
 
-- **A.** I didn't use it at all
-- **B.** I tried it once or twice
-- **C.** I used it to help prepare
-- **D.** I used it consistently
+**(A)** I didn't use it at all
+**(B)** I tried it once or twice
+**(C)** I used it to help prepare
+**(D)** I used it consistently
 ```
 
 **Use cases:**
@@ -351,10 +428,10 @@ Did you use NotebookLM?
 ### 1.
 What is Theory of Mind?
 
-- **A.** First choice
-- **B.** **Correct answer (bold indicates this is right)**
-- **C.** Third choice
-- **D.** Fourth choice
+**(A)** First choice
+**(B)** **Correct answer (bold indicates this is right)**
+**(C)** Third choice
+**(D)** Fourth choice
 ```
 
 **NO Bonus Question** (bonus doesn't need grading - free points)
@@ -399,6 +476,33 @@ Shows where each Version A question appears in other versions:
 - Find questions across versions
 - Debug grading discrepancies
 
+### Rendered Artifacts (`output/*.pdf` and `output/*.docx`)
+
+**Purpose:** Distribution-ready formats for all markdown files
+
+**Contents:**
+- 9 PDF files (4 student + 4 keys + 1 map)
+- 9 DOCX files (4 student + 4 keys + 1 map)
+
+**Generated using:** Pandoc with typst backend for PDFs, standard backend for DOCX
+
+**Format characteristics:**
+- PDFs: Clean, professional formatting suitable for printing
+- DOCX: Editable Word documents for last-minute changes
+
+**Use cases:**
+- **PDFs for students:** Print directly for in-class exams
+- **PDFs for Canvas:** Upload as exam files (students can't edit)
+- **DOCX for editing:** Make last-minute corrections or adjustments
+- **DOCX for accessibility:** Convert to other formats if needed
+- **Answer key PDFs:** Distribute to TAs for grading reference
+
+**Notes:**
+- Rendering requires pandoc to be installed
+- Use `--skip-render` flag to skip this step during content iteration
+- If rendering fails, markdown files are still usable
+- PDFs use typst backend for better formatting (fallback to default if unavailable)
+
 ---
 
 ## Version Differences
@@ -437,10 +541,10 @@ The script uses **fixed random seeds** for deterministic output:
 
 ### Changing Seeds
 
-If you need different shuffles, edit `shuffle_exam.py` lines 532-562:
+If you need different shuffles, edit `shuffle_exam.py` around lines 693-725 (search for `random.seed`):
 
 ```python
-random.seed(1)  # Change to random.seed(100)
+random.seed(1)  # Change to random.seed(100) for different shuffling
 version_b_qs = shuffle_and_write_version(...)
 
 random.seed(2)  # Change to random.seed(200)
@@ -450,11 +554,7 @@ random.seed(3)  # Change to random.seed(300)
 version_d_qs = shuffle_and_write_version(...)
 ```
 
-Or use dynamic seeds for truly random shuffles:
-```python
-import time
-random.seed(int(time.time()))
-```
+**Note:** Changing seeds will produce different shuffles, breaking reproducibility. Only change if you need completely new versions.
 
 ---
 
@@ -537,7 +637,7 @@ grep -c "^### [0-9]" challenge-01-vA.md
 ### Student versions still have bold answers
 
 ```bash
-grep "^\- \*\*[A-D]\.\*\* \*\*" challenges/challenge_01/challenge-01-vA.md
+grep "^\*\*([A-D])\*\* \*\*" challenges/challenge_01/challenge-01-vA.md
 # Should be empty, but shows matches
 ```
 
@@ -557,6 +657,50 @@ grep "Bonus Question" challenges/challenge_01/challenge-01-vA.md
 1. Check `bonus-question.md` exists in challenge directory
 2. Verify bonus file has correct format (4 choices A-D)
 3. Re-run the script
+
+### Rendering fails with pandoc errors
+
+```
+⚠️  Rendering failed: [Errno 2] No such file or directory: 'pandoc'
+```
+
+**Common causes and solutions:**
+
+1. **Pandoc not installed:**
+   ```bash
+   # macOS
+   brew install pandoc
+
+   # Linux (Ubuntu/Debian)
+   sudo apt-get install pandoc
+
+   # Linux (Fedora)
+   sudo dnf install pandoc
+   ```
+
+2. **Typst backend unavailable:**
+   - Script will automatically fall back to default PDF rendering
+   - For best results, ensure pandoc version >= 3.0
+
+3. **Invalid markdown in generated files:**
+   - Check markdown files manually
+   - Look for malformed formatting
+   - Re-run with `--skip-render` to isolate the issue
+
+4. **Permission errors:**
+   ```bash
+   # Ensure output directory is writable
+   chmod -R u+w challenges/challenge_01/output/
+   ```
+
+5. **Skip rendering temporarily:**
+   ```bash
+   # Use --skip-render to bypass rendering issues
+   python3 challenges/shuffle_exam.py challenges/challenge_01/ \
+     --exam-date "Fri Oct-18-25" --skip-render
+   ```
+
+**Note:** Markdown files are always generated first, so rendering failures won't prevent you from having usable exam files.
 
 ---
 
@@ -619,36 +763,55 @@ git commit -m "Add Challenge 01 exam versions for Oct-18-25"
 - ✅ `challenge-01-vA.md` through `vD.md` (student versions)
 - ✅ `challenge-01-vA-with-key.md` through `vD-with-key.md` (answer keys)
 - ✅ `exam-map.md` (grading reference)
-- ❌ Don't commit: old `question-bank-version-*.md` files (deprecated format)
+- ❌ Don't commit: Rendered artifacts (`*.pdf`, `*.docx`) - automatically gitignored and regenerated from markdown
 
 ---
 
 ## Quick Reference
 
-### Generate exams with date
+### Generate exams with date (with rendering)
 
 ```bash
 python3 challenges/shuffle_exam.py challenges/challenge_01/ --exam-date "Fri Oct-18-25"
 ```
 
+### Generate exams without rendering (faster iteration)
+
+```bash
+python3 challenges/shuffle_exam.py challenges/challenge_01/ --exam-date "Fri Oct-18-25" --skip-render
+```
+
 ### Verify all file types created
 
 ```bash
-# Should be 8 version files + 1 exam map = 9 files
+# Markdown files: Should be 8 version files + 1 exam map = 9 files
 ls challenges/challenge_01/challenge-01-v*.md challenges/challenge_01/exam-map.md | wc -l
+
+# PDF files: Should be 9
+ls challenges/challenge_01/output/*.pdf | wc -l
+
+# DOCX files: Should be 9
+ls challenges/challenge_01/output/*.docx | wc -l
+```
+
+### Check answer format is normalized
+
+```bash
+grep "^\*\*([A-D])\*\*" challenges/challenge_01/challenge-01-vA.md | head -3
+# Should show: **(A)** text format (not bullets)
 ```
 
 ### Check student version has NO bold answers
 
 ```bash
-grep "^\- \*\*[A-D]\.\*\* \*\*" challenges/challenge_01/challenge-01-vA.md
+grep "^\*\*([A-D])\*\* \*\*" challenges/challenge_01/challenge-01-vA.md
 # Should return: nothing (empty)
 ```
 
 ### Check answer key HAS bold answers
 
 ```bash
-grep -c "^\- \*\*[A-D]\.\*\* \*\*" challenges/challenge_01/challenge-01-vA-with-key.md
+grep -c "^\*\*([A-D])\*\* \*\*" challenges/challenge_01/challenge-01-vA-with-key.md
 # Should return: 26 (or your question count)
 ```
 
@@ -679,12 +842,15 @@ git diff challenges/challenge_01/
 1. Create `challenges/challenge_XX/question-bank-with-answers.md`
 2. Create `challenges/challenge_XX/bonus-question.md` (optional)
 3. Run: `python3 challenges/shuffle_exam.py challenges/challenge_XX/ --exam-date "Fri Oct-18-25"`
-4. Verify 9 files created (4 student + 4 keys + 1 map)
-5. Print student versions for classroom
-6. Use answer keys and exam-map.md for grading
+4. Verify 27 files created:
+   - 9 markdown files (4 student + 4 keys + 1 map)
+   - 18 rendered artifacts (9 PDFs + 9 DOCX in `output/`)
+5. Print or upload student version PDFs for classroom
+6. Use answer key PDFs and exam-map.pdf for grading
 
 **Key features:**
 - ✅ Automatic validation (4 choices, 1 correct answer)
+- ✅ Answer format normalization (`**(A)** text  ` with 2 trailing spaces)
 - ✅ Reproducible output (fixed seeds)
 - ✅ Works with any number of questions
 - ✅ Student-ready format (clean, with instructions)
@@ -692,6 +858,9 @@ git diff challenges/challenge_01/
 - ✅ Bonus question support
 - ✅ Configurable point values
 - ✅ Cross-reference for TAs
+- ✅ PDF rendering for distribution
+- ✅ DOCX rendering for editing
+- ✅ Graceful failure handling (markdown always generated)
 - ✅ Clear error messages
 
-**Remember:** Student versions are clean and classroom-ready. Answer key versions have bold markers for grading.
+**Remember:** Student versions are clean and classroom-ready. Answer key versions have bold markers for grading. PDFs are ready for printing or Canvas upload.
