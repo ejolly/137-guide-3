@@ -8,8 +8,8 @@
 - [Fri 10-03 Animacy](lecture-notes/week-01#fri-1003-animacy)
 
 **Week 2**  
-- [Wed 10-08 Animacy II & Theory-of-Mind I](lecture-notes/wed-1008-animacy-ii-implicit-theory-of-mind)
-- [Fri 10-10 Theory-of-Mind I & II](lecture-notes/fri-1010-tom-ii-causal-inference)
+- [Wed 10-08 Animacy II & Theory-of-Mind I](lecture-notes/week-02.md#wed-1008-animacy-ii-implicit-theory-of-mind)
+- [Fri 10-10 Theory-of-Mind I & II](lecture-notes/week-02.md#fri-1010-tom-ii-causal-inference)
 
 **Week 3**  
-- [Mon 10-13 Theory-of-Mind II & III](lecture-notes/mon-1013-tom-iii-simulation)
+- [Mon 10-13 Theory-of-Mind II & III](lecture-notes/week-03.md#mon-1013-tom-iii-simulation)

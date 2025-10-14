@@ -47,3 +47,9 @@
   - **Computational (what/why)**: **Detect other minds** to know **how to act** in a social world.
   - **Algorithmic (how/what’s represented)**: **Look for animacy**; **attribute mental states** using **implicit knowledge**, **causal reasoning**, and **simulation**; **minds as action↔mental‑state transitions** (predictive organization).
   - **Implementational (constraints)**: **Cross‑modal animacy cues**; **common system** for remembering/imagining/navigating/simulating; **bounded rationality** (finite recursion).
+
+### Highlights
+- **Two mechanisms**: **Mirroring/embodied simulation** (fast resonance) vs **Projection/self‑projection** (offline, imagination‑based) (slides ~22–27). 
+- **Social coupling**: **Synchrony**, **Anticipatory coordination**, **Complementarity** as consequences of prediction‑through‑simulation (slides 28–29). 
+- **Strategic ToM**: **Beauty‑Contest** and **Cognitive Hierarchy** introduce *finite recursion* and population heterogeneity in k‑levels (class exercise + Week 03 readings). 
+- **Grand synthesis** (Marr‑framed): *Computational*—detect & predict minds; *Algorithmic*—animacy, attribution, simulation; *Implementational*—cross‑modal social vision & DMN; **bounded depth** of recursion (≤~4–5). 

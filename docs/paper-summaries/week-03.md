@@ -136,7 +136,7 @@ Viewed from computational cognitive science, CH is a compact algorithmic-level m
 
 ---
 
-## Lockwood, P. L., Apps, M. A. J., & Chang, S. W. C. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences*, *24*(10), 802-813.
+## Lockwood, P. L., Apps, M. A. J., & Klein-Flugge, M. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences*, *24*(10), 802-813.
 
 **Full Citation:** Lockwood, P. L., Apps, M. A. J., & Klein-Flügge, M. (2020). Is there a 'social' brain? Implementations and algorithms. *Trends in Cognitive Sciences.*
 

@@ -12,6 +12,7 @@
 
 ### Lecture Notes
 
+
 - **A Walk Through History: How we got to “social cognition”**
   - **Dualism → Empiricism → Behaviorism → Cognitivism → Cognitive Science → Constructivism → Computational Cognitive Science → Predictive Mind** 
     - **Dualism (Descartes)**: mind/soul distinct from body; body obeys natural laws and supports reflexes; complex conscious behavior and free will treated as uniquely human, not directly observable. (Sets up the later split between *visible* behavior vs *invisible* mind.)
@@ -29,6 +30,13 @@
 - **Foundations of Mind Perception (preview)**
   - Introduces the central tension of the course: the **visible** (percepts, behavior) vs the **invisible** (unobserved internal states), and the information‑processing machinery we use to **infer** the latter from the former. (Foreshadows mentalizing, animacy, ToM.)
 
+
+### Highlights
+- **Arc of the field**: Dualism → Empiricism/Behaviorism → Cognitivism/Constructivism → Computational Cog Sci → Predictive Mind (slides 11–16). Key idea: **representations** mediate perception & action.
+- **Bounded rationality & satisficing** (Simon): We aim for “good enough” under constraints (slide 29). Related: Cognitive misers.
+- **Marr’s levels**: keep computational (“what/why”) and algorithmic (“how/representations”) distinct from implementational (“hardware”); use them to design better studies. (Recalled repeatedly later.)
+- **Physical Symbol System Hypothesis** (Newell & Simon): symbolic processing can yield intelligence—historical bridge into computational social cognition. (Slides 35–36; aligns with glossary.)
+- **Predictive Mind**: brains generate predictions and compare to input; representations support **action** and **simulation**, including reading other minds (slide 16).
 
 ---
 
@@ -56,6 +64,12 @@
 - **Social‑cognitive problem statement (framed for later units)**
   - Our job is to **predict** other agents from **incomplete/noisy** percepts by **inferring** their **latent** mental states (beliefs, desires, goals) and then **anticipating** behavior. This is the visible → invisible mapping that drives the course structure (Animacy → Theory of Mind strategies).
 
+### Highlights
+- **Heider–Simmel**: motion alone triggers narratives & **Intentional Stance** adoption—proof that mind attribution is automatic (slides 19–23).
+- **Two‑D Mind Space**: **Agency** (“can act/think”) × **Experience** (“can feel”); dissociable and predictive of moral judgments (slides 29–31).
+- **Affect geometry**: **Valence** × **Arousal** and **feeling transitions**—sets up later work on predicting state dynamics (slide 33 and following).
+- **Take‑home**: We **predict then explain** minds: perceptual cues → mind presence → placement in mind‑space → moral/judgment outcomes. 
+
 ---
 
 ## Fri-10‑03 Animacy
@@ -70,7 +84,6 @@
 - Sets up **Lecture 4**: additional cues (**rationality/efficiency**, **contingency/interaction**), **Kiki–Bouba**, and **a third perceptual pathway** specialized for **Is it animate?**
 
 ### Lecture Notes
-
 - **Intentional Stance & Heider–Simmel as the doorway to mind perception**
   - **Intentional stance**: the **propensity to treat a system as if it has intentions** (beliefs, desires, goals) because that’s the **simplest way to predict** its behavior. The classic **Heider & Simmel (1944)** animation shows how irresistibly we go beyond pixels to **attribute inner states** and **generate explanations** (“big triangle bullies, small triangle escapes…”).
   - **Mentalizing** (definition used repeatedly in class): the **automatic attribution of mental states**—you supply the **best‑explaining** desire/goal/belief for what you see; perception ↔ attribution are tightly coupled.
@@ -89,3 +102,8 @@
   - **Sounds ↔ shapes ↔ motion** can carry a *shared* expressive structure (e.g., **sharp** sounds feel more “spiky/Kiki,” **soft** sounds feel more “round/Bouba”)—a foundation for **cross‑modal** animacy/emotion mapping.
   - **Bo Sievers et al.**: participants **compose** short melodies/animations for target emotions; **fMRI** shows **common structure** across modalities—brains **pull out** cross‑modal dynamics (soft↔hard, slow↔fast) when perceiving “aliveness”/emotion.
 - **(Preview) Third visual pathway claim**: beyond “what/where,” a pathway **specialized for animacy** (looking for biological motion, contingency, agency cues) — used to justify why animacy feels so **automatic**.
+
+### Highlights
+- **Core cues** (cross‑modal): **Biological motion**, **Goal‑directed efficiency**, and **Contingency**—each pushes animacy estimates up. (Revisited again 10‑08.) 
+- **From animacy to ToM**: once a target is “alive,” we begin **mentalizing**—link to attribution models later.
+- **Third visual pathway** proposal (pSTS‑centered) for social perception. (Reading summarized Week 02.)

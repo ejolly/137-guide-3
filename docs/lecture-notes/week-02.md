@@ -33,6 +33,12 @@
   - **Causal Inference** (reason backward from observation to hidden causes).
   - **Simulation** (use one’s own mind/body to model another).
 
+### Highlights
+- **Attribution toolkit**: Heider’s person–situation split; **Correspondent Inference** (choice/uniqueness) and **Kelley’s Covariation** (CCD triad) operationalize causal inference about people.
+- **Implicit theories**: fast, learned rules for social prediction (slides 39–45); maps to the Predictive Mind framing.
+- **Dehumanization family**: **Animalistic** (deny UH) vs **Mechanistic** (deny HN) routes help explain uncanny responses and moral exclusion patterns. (Connect to Week 02 readings.)
+- **Mechanistic link to FAE**: Spontaneous mentalizing (DMN) biases dispositional explanations—students should connect this to classic FAE.
+
 ---
 
 ## Fri-10‑10 ToM II Causal Inference
@@ -76,3 +82,10 @@
   - **Causal inference (formalized next):** the **general ability to reason backwards** from observations to causes (“Why am I seeing this?” “What did I expect to see?”).
 - **In‑class game (announced at end of 10‑10 slides)**
   - “**2/3 of the average**” guessing contest (rules posted): submit one number; aim for 2/3 of class average; no talk/calculators; candy prize next time. (Results revealed in 10‑13.)
+
+### Highlights
+- **VOE paradigm**: looking‑time surprises imply expectations/beliefs; foundation for preverbal ToM claims (slides 46–47).
+- **Pretense/Decoupling** (Leslie, 1987): representing “as if” enables considering beliefs that diverge from reality → stepping stone to **false belief** (slides ~52–56).
+- **Causal inference → beliefs**: “Why am I seeing this?”; reasoning back to unobservables underwrites belief attribution (slide 57 and context).
+- **Recursive reasoning**: capacity limited to ≈4–5 nested levels in practice (slide “Recursive Reasoning”).
+- **Concept geometry for prediction**: **ACT‑FAST** taxonomy (action space) + **3D Mind Model** (e.g., **Rationality**, **Social Impact**, **Valence**)—used to *predict next states/actions* (slides 34–39).

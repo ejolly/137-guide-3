@@ -10,8 +10,8 @@ This site contains several additional resources to help you prepare for Challeng
 
 There are few ways you might find it helpful to review this material:
 
-- Start with [historical perspectives](timeline.md) then go through [lecture notes](lecture-notes/index.md) reviewing any [glossary terms](glossary.md) and/or [papers](optional-readings/index.md) for more context
-- Start with the [glossary](glossary.md) and treat it like wikipedia. Jump around to different [papers](optional-readings/index.md) and [lecture notes](lecture-notes/index.md) for more context
+- Start with [historical perspectives](timeline.md) then go through [lecture notes](lecture-notes/index.md) reviewing any [glossary terms](glossary.md) and/or [papers](paper-summaries/index.md) for more context
+- Start with the [glossary](glossary.md) and treat it like wikipedia. Jump around to different [papers](paper-summaries/index.md) and [lecture notes](lecture-notes/index.md) for more context
 - Or just use whatever study methods work for you and use the *search box* to find anything in the guide you're looking for
 
 ## AI study help (optional)

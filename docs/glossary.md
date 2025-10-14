@@ -1,6 +1,6 @@
 # Course Glossary
 
-[A](#act-fast-taxonomy) | [B](#beautycontest--keynesian-game) | [C](#causal-inference) | [D](#dehumanization) | [E](#empiricism) | [F](#false-belief) | [G](#goal-directed-movement) | H | [I](#implicit-theories) | J | K | [L](#levels-of-explanation) | [M](#mechanistic-dehumanization) | N | O | [P](#perspective-giving) | Q | [R](#rationality-mind-space-axis) | [S](#satisficing) | [T](#theory-of-mind-tom) | [U](#uncanny-valley) | [V](#valence) | W | X | Y | Z
+[A](#act-fast-taxonomy) | [B](#beautycontest--keynesian-game) | [C](#causal-inference) | [D](#dehumanization) | [E](#empiricism) | [F](#false-belief) | [G](#goal-directed-movement) | H | [I](#implicit-theories) | J | K | [L](#levels-of-explanation) | [M](#mechanistic-dehumanization) | N | O | [P](#perspective-giving) | Q | [R](#recursive-reasoning) | [S](#satisficing) | [T](#theory-of-mind-tom) | [U](#uncanny-valley) | [V](#valence) | W | X | Y | Z
 
 ---
 
@@ -43,6 +43,13 @@
 - **Paper mentions:** [Week 02](paper-summaries/week-02.md#haslam-n-2006-dehumanization-an-integrative-review-personality-and-social-psychology-review-103-252-264)
 - **Related**: [Dehumanization](glossary?id=dehumanization), [Mechanistic Dehumanization](glossary?id=mechanistic-dehumanization), [Mentalizing](glossary?id=mentalizing)
 - **Notable figure(s)**: Nick Haslam.
+
+## Anthropomorphism
+- **Definition**: Attributing human minds or humanlike properties to nonhuman entities (animals, gadgets, robots, shapes).
+- **Other ways to think about it**: A coarse, fast “perceptual Turing test.”
+- **Lecture & slide**: 10-01 Mind Perception (Heider–Simmel → adopting the Intentional Stance), slides 19–23. :contentReference[oaicite:1]{index=1}
+- **Paper mentions**: Waytz, Gray, Epley, & Wegner (2010) review antecedents & consequences of mind perception, including anthropomorphism; see Week 02. :contentReference[oaicite:2]{index=2}
+- **Related**: [Animacy](glossary?id=animacy); [Intentional Stance](glossary?id=intentional-stance); [Uncanny Valley](glossary?id=uncanny-valley)
 
 ## Anticipatory Coordination
 - **Definition**: Coupling across distinct times where partners adjust current behavior based on predictions of each other's upcoming states (e.g., dancing).
@@ -190,6 +197,13 @@
 - **Paper mentions:** [Week 01](paper-summaries/week-01.md#epley-n-amp-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-amp-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 02](paper-summaries/week-02.md#haslam-n-2006-dehumanization-an-integrative-review-personality-and-social-psychology-review-103-252-264), [Week 02](paper-summaries/week-02.md#wang-s-lilienfeld-s-o-amp-rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407), [Week 02](paper-summaries/week-02.md#waytz-a-gray-k-epley-n-amp-wegner-d-m-2010-causes-and-consequences-of-mind-perception-trends-in-cognitive-sciences-148-383-388)
 - **Related**: [Animalistic Dehumanization](glossary?id=animalistic-dehumanization), [Mechanistic Dehumanization](glossary?id=mechanistic-dehumanization), [Uncanny Valley](glossary?id=uncanny-valley)
 
+## Default Mode Network (DMN)
+- **Definition**: A large-scale network (mPFC, PCC/precuneus, lateral parietal regions) active at rest and during internally oriented cognition (e.g., remembering, imagining, mentalizing).
+- **Other ways to think about it**: “Baseline mind-wandering” network that also supports thinking about minds.
+- **Lecture & slide**: Links to ToM and self-projection/simulation across 10‑10 and 10‑13; used to explain dispositional bias. :contentReference[oaicite:5]{index=5}
+- **Paper mentions**: Moran, Jolly, & Mitchell (2014) connect stronger spontaneous DMN engagement to stronger dispositional attributions (FAE). See Week 02. :contentReference[oaicite:6]{index=6}
+- **Related**: [Simulation (ToM Strategy)](glossary?id=simulation-tom-strategy); [Projection (Internal Simulation)](glossary?id=projection-internal-simulation); [Fundamental Attribution Error (FAE)]
+
 ## Dimensions of Mind Perception
 - **Definition**: A two-dimensional framework—**Agency** (can act/think) and **Experience** (can feel)—that people use to perceive minds.
 - **Other ways to think about it**: "Can do/think" × "can feel."
@@ -239,6 +253,13 @@
 - **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a--tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction), [Week 02](paper-summaries/week-02.md#frith-c-d--frith-u-2006-how-we-predict-what-other-people-are-going-to-do), [Week 02](paper-summaries/week-02.md#thornton-m-a-weaverdyck-m-e--tamir-d-i-2019-the-brain-represents-people-as-the-mental-states-they-habitually-experience), [Week 03](paper-summaries/week-03.md#wang-et-al-2025-modeling-other-minds-a-computational-account-of-social-cognition-and-its-development)
 - **Related**: [Predictive Mind](glossary?id=predictive-mind), [ACT-FAST Taxonomy](glossary?id=act-fast-taxonomy)
 
+## Fundamental Attribution Error (FAE)
+- **Definition**: The tendency to overweight internal/person causes and underweight situational causes when explaining others’ behavior.
+- **Other ways to think about it**: Disposition-first default; situation as an afterthought.
+- **Lecture & slide**: 10-08 ToM I (attribution foundations), and discussed alongside mentalizing → dispositional bias.
+- **Paper mentions**: Moran, Jolly, & Mitchell (2014) show that spontaneous mentalizing (DMN engagement) predicts stronger dispositional attributions (i.e., FAE). See Week 02 summary. 
+- **Related**: [Attribution Theory](glossary?id=attribution-theory-naive-psychology); [Correspondent Inference Theory](glossary?id=correspondent-inference-theory); [Covariation Model](glossary?id=covariation-model); [Default Mode Network] (add entry below)
+
 ## Goal-Directed Movement
 - **Definition**: Motion patterns showing *rationality and efficiency*, such as taking the shortest path or behaving purposively toward a goal; evidence for [animacy](glossary?id=animacy).
 - **Other ways to think about it**: Movement that looks "intentional" or "smart."
@@ -258,6 +279,13 @@
 - **Lecture & slide**: 10-01-mind-perception, slide 12.
 - **Paper mentions:** [Week 00](paper-summaries/week-00.md#greifeneder-r-bless-h-amp-fiedler-k-2017-social-cognition-how-individuals-construct-social-reality-chapters-1-amp-2-psychology-press), [Week 00](paper-summaries/week-00.md#mitchell-j-p-2006-mentalizing-and-marr-an-information-processing-approach-to-the-study-of-social-cognition-brain-research-10791-66-75), [Additional](paper-summaries/additional.md#augusto-2005-review-symbols-and-knowledge-systems)
 - **Related**: [Computational Cognitive Science](glossary?id=computational-cognitive-science), [Levels of Explanation](glossary?id=levels-of-explanation)
+
+## Infrahumanization
+- **Definition**: Attributing fewer “secondary” (uniquely human) emotions to outgroups than to ingroups.
+- **Other ways to think about it**: Seeing outgroups as “less fully human” in their inner lives.
+- **Lecture & slide**: 10-08 ToM I (dehumanization family), with HN/UH distinctions used across Week 02. :contentReference[oaicite:3]{index=3}
+- **Paper mentions**: Haslam (2006) review; Week 02 outlines UH vs HN and links to dehumanization phenomena. :contentReference[oaicite:4]{index=4}
+- **Related**: [Dehumanization](glossary?id=dehumanization); [Animalistic Dehumanization](glossary?id=animalistic-dehumanization); [Mechanistic Dehumanization](glossary?id=mechanistic-dehumanization)
 
 ## Intentional Stance
 - **Definition**: A strategy of treating a system *as if* it has beliefs, desires, and rationality—useful for predicting behavior.
@@ -384,6 +412,12 @@
 - **Related**: [Mutual Adaptation](glossary?id=mutual-adaptation), [Mirroring (Embodied Simulation)](glossary?id=mirroring-embodied-simulation)
 - **Notable figure(s)**: Talia Wheatley.
 
+## Recursive Reasoning
+- **Definition**: Thinking about what others think (k‑levels deep): “I think, they think, I think…”
+- **Other ways to think about it**: Higher‑order ToM; iterated belief reasoning.
+- **Lecture & slide**: 10‑10 ToM II, recursion limit ≈ 4–5 levels discussed. :contentReference[oaicite:8]{index=8}
+- **Related**: [Cognitive Hierarchy Theory (CHT)](glossary?id=cognitive-hierarchy-theory-cht); [Beauty‑Contest / Keynesian Game](glossary?id=beauty‑contest--keynesian-game); [False Belief](glossary?id=false-belief)
+
 ## Theory of Mind (ToM)
 - **Definition**: The capacity to *represent others' beliefs, desires, and intentions* to explain and predict their behavior—*a theory* because such states are unobservable yet predict actions.
 - **Other ways to think about it**: "Reasoning about what's in someone else's head."
@@ -397,6 +431,12 @@
 - **Other ways to think about it**: Three "recipes" minds use to read other minds.
 - **Lecture & slide**: 10-10-tom2, slide 57.
 - **Related**: [Implicit Theories](glossary?id=implicit-theories), [Causal Inference](glossary?id=causal-inference), [Simulation](glossary?id=simulation-tom-strategy)
+
+## Third Visual Pathway (Social Perception)
+- **Definition**: Proposed visual stream specialized for dynamic social information (pSTS-centered), complementing ventral “what” and dorsal “where/how.”
+- **Other ways to think about it**: A motion‑ and interaction‑tuned route for social vision.
+- **Paper mentions**: Pitcher & Ungerleider (2021); summarized in Week 02. :contentReference[oaicite:7]{index=7}
+- **Related**: [Biological Motion](glossary?id=biological-motion); [Animacy](glossary?id=animacy)
 
 ## Turing Test
 - **Definition**: A behavioral criterion for whether a machine appears to *have a mind*: if a perceiver can't tell it's not human.

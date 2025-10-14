@@ -13,11 +13,16 @@ docs/
 ├── index.html              # Main HTML file with docsify configuration
 ├── index.md                # Homepage content
 ├── _sidebar.md             # Navigation sidebar
-├── _navbar.md              # Top navigation bar (if used)
-├── .nojekyll              # Prevents GitHub Pages from processing with Jekyll
-├── glossary.md            # Course glossary
-├── timeline.md            # Course timeline
-└── optional-readings/     # Directory for weekly reading summaries
+├── glossary.md             # Course glossary
+├── timeline.md             # Course timeline
+├── lecture-notes/          # Directory for weekly lecture notes
+│   ├── index.md
+│   ├── week-01.md
+│   ├── week-02.md
+│   └── week-03.md
+└── paper-summaries/        # Directory for paper summaries
+    ├── index.md
+    ├── additional.md       # Non-weekly papers
     ├── week-00.md
     ├── week-01.md
     ├── week-02.md
@@ -29,7 +34,8 @@ docs/
 - **index.html**: Contains all docsify configuration and loads the docsify library
 - **index.md**: Homepage content (serves as README.md equivalent)
 - **_sidebar.md**: Defines navigation structure in the left sidebar
-- **.nojekyll**: Required for GitHub Pages deployment to skip Jekyll processing
+- **lecture-notes/**: Weekly lecture notes organized by week with an index page
+- **paper-summaries/**: Academic paper summaries organized by week with an index page and additional.md for non-weekly papers
 
 ---
 
@@ -46,9 +52,34 @@ window.$docsify = {
   homepage: 'index.md',
   loadNavbar: true,
   loadSidebar: true,
-  subMaxLevel: 3
+  subMaxLevel: 2,
+  auto2top: true,
+
+  // Search configuration
+  search: {
+    paths: 'auto',
+    placeholder: 'Search',
+    noData: 'No Results!',
+    depth: 8,
+    maxAge: 3600000, // 1 hour cache
+  },
+
+  // Dark/Light theme configuration
+  darklightTheme: {
+    defaultTheme: 'light',
+    dark: {
+      background: '#1c2022',
+      highlightColor: '#e96900',
+    },
+    light: {
+      background: 'white',
+      highlightColor: '#42b983',
+    }
+  }
 }
 ```
+
+**Note:** `loadNavbar: true` is set but no `_navbar.md` file currently exists (reserved for future use).
 
 ### Essential Configuration Options
 
@@ -144,22 +175,25 @@ themeColor: '#3F51B5',          // Primary theme color
 
 Edit `docs/_sidebar.md`:
 
+**Current structure:**
 ```markdown
-* [Home](/)
-* [Section 1](section1.md)
-  * [Subsection 1.1](section1/sub1.md)
-  * [Subsection 1.2](section1/sub2.md)
-* [Section 2](section2.md)
+* [Overview](/)
+* [Lecture Notes](lecture-notes/index.md)
+  * [Week 01](lecture-notes/week-01.md)
+  * [Week 02](lecture-notes/week-02.md)
+  * [Week 03](lecture-notes/week-03.md)
+* [Paper Summaries](paper-summaries/index.md)
+  * [Intro](paper-summaries/week-00.md)
+  * [Week 01](paper-summaries/week-01.md)
+  * [Week 02](paper-summaries/week-02.md)
+  * [Week 03](paper-summaries/week-03.md)
+* [Historical Perspectives](timeline.md)
+* [Terminology Glossary](glossary.md)
 ```
 
 **Nested sidebar structure:**
 - Use indentation to create subsections
-- Use section headers (without links) to organize:
-  ```markdown
-  * Section Header
-    * [Page 1](page1.md)
-    * [Page 2](page2.md)
-  ```
+- Each main section can have an index page followed by weekly entries
 
 ### Custom Page Titles
 
@@ -183,6 +217,39 @@ Plugins are added via `<script>` tags in `index.html` after the main docsify scr
 <!-- Other plugins -->
 <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
 ```
+
+### Currently Enabled Plugins
+
+The site currently has these plugins active:
+
+1. **docsify-themeable** - CSS-based theme system with automatic dark mode based on system preferences
+   ```html
+   <link rel="stylesheet" media="(prefers-color-scheme: light)"
+         href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+   <link rel="stylesheet" media="(prefers-color-scheme: dark)"
+         href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+   ```
+
+2. **Search Plugin** - Full-text search configured with depth 8
+   ```html
+   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+   ```
+
+3. **Dark/Light Theme Toggle** - Manual theme switcher
+   ```html
+   <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+   ```
+
+4. **Copy Code** - Adds copy button to code blocks
+   ```html
+   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+   ```
+
+5. **Zoom Images** - Click to zoom images
+   ```html
+   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+   ```
 
 ---
 
@@ -349,6 +416,8 @@ python -m http.server 3000
 3. Select branch and `/docs` folder
 4. Site will be at `https://username.github.io/repo/`
 
+**Note:** `.nojekyll` file is not currently present but may be needed for GitHub Pages to skip Jekyll processing if deployment issues arise.
+
 **Netlify/Vercel:**
 - Set build directory to `docs`
 - No build command needed (static site)
@@ -361,11 +430,12 @@ python -m http.server 3000
 
 When updating the course site:
 
-1. **Adding weekly readings**: Create/update files in `docs/optional-readings/`
-2. **Updating navigation**: Edit `docs/_sidebar.md`
-3. **Homepage changes**: Edit `docs/index.md`
-4. **Glossary updates**: Edit `docs/glossary.md`
-5. **Timeline updates**: Edit `docs/timeline.md`
+1. **Adding lecture notes**: Create/update files in `docs/lecture-notes/` (e.g., `week-04.md`)
+2. **Adding paper summaries**: Create/update files in `docs/paper-summaries/` (weekly: `week-XX.md`, non-weekly: `additional.md`)
+3. **Updating navigation**: Edit `docs/_sidebar.md` to add new weeks
+4. **Homepage changes**: Edit `docs/index.md`
+5. **Glossary updates**: Edit `docs/glossary.md`
+6. **Timeline updates**: Edit `docs/timeline.md`
 
 ### Testing Changes
 
