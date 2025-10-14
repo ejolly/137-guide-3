@@ -214,6 +214,7 @@
 - **Definition**: Knowledge arises from *sensory experience*; the mind starts as a "blank slate" (tabula rasa).
 - **Other ways to think about it**: Learn by observing the world.
 - **Lecture & slide**: 09-29-history, slide 10; timeline also in 10-01, slides 11–15.
+- **Paper mentions:** [Week 01](paper-summaries/week-01.md#pennington-d-c-2000-social-cognition-history-chapter-routledge)
 - **Related**: [Behaviorism](##behaviorism), [Constructivism](##constructivism)
 - **Notable figure(s)**: John Locke.
 
@@ -426,6 +427,7 @@
 - **Definition**: A behavioral criterion for whether a machine appears to *have a mind*: if a perceiver can't tell it's not human.
 - **Other ways to think about it**: "If it's indistinguishable from a person in conversation, treat it as minded."
 - **Lecture & slide**: 10-01-mind-perception, slide 27 ("What kinds of things have a mind?").
+- **Paper mentions:** [Additional](paper-summaries/additional.md#augusto-2005-review-symbols-and-knowledge-systems), [Week 03](paper-summaries/week-03.md#wheatley-t-kang-o-parkinson-c-amp-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606), [Week 02](paper-summaries/week-02.md#waytz-a-gray-k-epley-n-amp-wegner-d-m-2010-causes-and-consequences-of-mind-perception-trends-in-cognitive-sciences-148-383-388)
 - **Related**: [Intentional Stance](##intentional-stance), [Predictive Mind](##predictive-mind)
 
 ## Uncanny Valley
