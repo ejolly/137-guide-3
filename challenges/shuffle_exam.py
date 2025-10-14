@@ -4,20 +4,30 @@ Generate shuffled exam versions from the original question bank.
 Shuffles both question order and answer choice order while preserving correctness.
 
 Usage:
-    python3 shuffle_exam.py <challenge_directory>
-    python3 shuffle_exam.py challenges/challenge_01/
+    python3 shuffle_exam.py <challenge_directory> [options]
+    python3 shuffle_exam.py challenges/challenge_01/ --exam-date "Fri Oct-17-25"
 
 Output:
-    - challenge-XX-vA.md (original order)
-    - challenge-XX-vB.md (shuffled)
-    - challenge-XX-vC.md (shuffled)
-    - challenge-XX-vD.md (shuffled)
-    - exam-map.md (answer key and cross-reference)
+    Student versions (classroom-ready):
+      - challenge-XX-vA.md (clean, with instructions & bonus)
+      - challenge-XX-vB.md (shuffled, clean, with instructions & bonus)
+      - challenge-XX-vC.md (shuffled, clean, with instructions & bonus)
+      - challenge-XX-vD.md (shuffled, clean, with instructions & bonus)
+
+    Answer keys (for grading):
+      - challenge-XX-vA-with-key.md (original order, marked answers)
+      - challenge-XX-vB-with-key.md (shuffled, marked answers)
+      - challenge-XX-vC-with-key.md (shuffled, marked answers)
+      - challenge-XX-vD-with-key.md (shuffled, marked answers)
+
+    Grading reference:
+      - exam-map.md (answer key and cross-reference)
 """
 
 import re
 import random
 import sys
+import argparse
 from pathlib import Path
 
 
@@ -147,7 +157,7 @@ def parse_question_bank(content, validator=None):
 
 
 def shuffle_and_write_version(questions, version_letter, output_path, challenge_name):
-    """Create a shuffled version of the exam."""
+    """Create a shuffled version of the exam with marked answers."""
     # Shuffle question order
     shuffled_questions = questions.copy()
     random.shuffle(shuffled_questions)
@@ -182,7 +192,7 @@ def shuffle_and_write_version(questions, version_letter, output_path, challenge_
 
 
 def write_version_a(questions, output_path, challenge_name):
-    """Write Version A without shuffling (original order)."""
+    """Write Version A without shuffling (original order) with marked answers."""
     total_questions = len(questions)
     output_lines = [f"# {challenge_name} Question Bank Version A - {total_questions} total\n"]
 
@@ -279,12 +289,200 @@ def extract_challenge_name(challenge_dir):
     return "Challenge"
 
 
+def get_exam_date(date_arg):
+    """Get exam date from args or prompt user."""
+    if date_arg:
+        # Validate format: "Day Mon-DD-YY"
+        if re.match(r'^[A-Z][a-z]{2} [A-Z][a-z]{2}-\d{2}-\d{2}$', date_arg):
+            return date_arg
+        else:
+            print(f"❌ Invalid date format: {date_arg}")
+            print("Expected format: 'Fri Oct-17-25' (Day Mon-DD-YY)")
+            sys.exit(1)
+
+    # Prompt user
+    print("\n📅 Exam date required for student versions.")
+    print("Format: Day Mon-DD-YY (e.g., 'Fri Oct-17-25')")
+    date_input = input("Enter exam date: ").strip()
+
+    # Validate
+    if re.match(r'^[A-Z][a-z]{2} [A-Z][a-z]{2}-\d{2}-\d{2}$', date_input):
+        return date_input
+    else:
+        print("❌ Invalid format. Please restart and use correct format.")
+        sys.exit(1)
+
+
+def create_answer_key_copy(version_file, output_path):
+    """Create a copy of the version file as the answer key."""
+    with open(version_file, 'r') as f:
+        content = f.read()
+
+    with open(output_path, 'w') as f:
+        f.write(content)
+
+
+def parse_bonus_question(bonus_file):
+    """Parse bonus question from markdown file."""
+    with open(bonus_file, 'r') as f:
+        content = f.read()
+
+    # Remove header if present
+    content = re.sub(r'^###\s+Bonus\s*\n', '', content.strip())
+
+    lines = content.split('\n')
+    question_lines = []
+    choices = []
+    in_choices = False
+
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith('- **'):
+            in_choices = True
+            # Parse choice and add period for consistency
+            match = re.match(r'- \*\*([A-D])\.?\*\* (.+)', line)
+            if match:
+                letter, text = match.groups()
+                choices.append(f"- **{letter}.** {text}")
+        elif not in_choices and stripped:
+            question_lines.append(line)
+
+    question_text = '\n'.join(question_lines).strip()
+    return question_text, choices
+
+
+def create_student_header(challenge_name, exam_date):
+    """Create student-friendly header."""
+    # Extract challenge number
+    challenge_num = re.search(r'\d+', challenge_name).group()
+
+    return f"# Challenge {challenge_num} - {exam_date}"
+
+
+def create_instructions_block(question_count, points_per_q):
+    """Create instructions block for students."""
+    return f"""
+**Instructions:**
+
+You will have the full lecture time to answer all {question_count} multiple choice questions. Each question is worth {points_per_q} points. Think carefully about what each question asks and what each answer claims - we're not trying to trick you! Good luck!
+
+---
+"""
+
+
+def create_bonus_section(bonus_file, bonus_points):
+    """Parse and format bonus question for student version."""
+    question_text, choices = parse_bonus_question(bonus_file)
+
+    section = f"""### Bonus Question
+
+**No right answer - Free {bonus_points} points!**
+
+{question_text}
+
+"""
+
+    for choice in choices:
+        section += choice + "\n"
+
+    return section.strip()
+
+
+def transform_to_student_version(version_file, challenge_name, exam_date,
+                                 question_count, question_points,
+                                 bonus_points, bonus_file):
+    """Transform answer key version to student-ready version."""
+
+    # Read current content
+    with open(version_file, 'r') as f:
+        content = f.read()
+
+    # Step 1: Replace header with student-friendly header
+    new_header = create_student_header(challenge_name, exam_date)
+
+    # Replace old header (first line)
+    lines = content.split('\n')
+    lines[0] = new_header
+
+    # Step 2: Add instructions block after header
+    instructions = create_instructions_block(question_count, question_points)
+    # Insert after header and before first empty line
+    lines.insert(1, instructions)
+    content = '\n'.join(lines)
+
+    # Step 3: Remove bold answer markers
+    # Pattern: - **A.** **text** -> - **A.** text
+    content = re.sub(
+        r'(- \*\*[A-D]\.?\*\* )\*\*(.+?)\*\*$',
+        r'\1\2',
+        content,
+        flags=re.MULTILINE
+    )
+
+    # Step 4: Append bonus question if exists
+    if bonus_file.exists():
+        bonus_content = create_bonus_section(bonus_file, bonus_points)
+        content += "\n\n" + bonus_content
+
+    # Write back
+    with open(version_file, 'w') as f:
+        f.write(content)
+
+
+def parse_arguments():
+    """Parse command line arguments."""
+    parser = argparse.ArgumentParser(
+        description='Generate shuffled exam versions from question bank',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Interactive date prompt
+  python3 shuffle_exam.py challenges/challenge_01/
+
+  # Specify exam date
+  python3 shuffle_exam.py challenges/challenge_01/ --exam-date "Fri Oct-17-25"
+
+  # Custom point values
+  python3 shuffle_exam.py challenges/challenge_01/ \\
+    --exam-date "Fri Oct-17-25" \\
+    --question-points 3 \\
+    --bonus-points 5
+        """
+    )
+
+    parser.add_argument(
+        'challenge_dir',
+        nargs='?',
+        default='challenges/challenge_01',
+        help='Challenge directory path (default: challenges/challenge_01)'
+    )
+
+    parser.add_argument(
+        '--exam-date',
+        help='Exam date in format "Day Mon-DD-YY" (e.g., "Fri Oct-17-25")'
+    )
+
+    parser.add_argument(
+        '--question-points',
+        type=int,
+        default=2,
+        help='Points per question (default: 2)'
+    )
+
+    parser.add_argument(
+        '--bonus-points',
+        type=int,
+        default=2,
+        help='Points for bonus question (default: 2)'
+    )
+
+    return parser.parse_args()
+
+
 def main():
     # Parse command line arguments
-    if len(sys.argv) > 1:
-        challenge_dir = Path(sys.argv[1])
-    else:
-        challenge_dir = Path("challenges/challenge_01")
+    args = parse_arguments()
+    challenge_dir = Path(args.challenge_dir)
 
     # Validate directory exists
     if not challenge_dir.exists():
@@ -300,7 +498,11 @@ def main():
         sys.exit(1)
 
     print(f"📁 Processing: {challenge_dir}")
-    print(f"📄 Input file: {input_file.name}\n")
+    print(f"📄 Input file: {input_file.name}")
+
+    # Get exam date
+    exam_date = get_exam_date(args.exam_date)
+    print(f"📅 Exam date: {exam_date}\n")
 
     # Extract challenge name and number for file naming
     challenge_name = extract_challenge_name(challenge_dir)
@@ -319,16 +521,23 @@ def main():
         print("\n❌ Validation failed. Please fix errors before generating exam versions.")
         sys.exit(1)
 
-    print(f"✅ Parsed {len(questions)} valid questions\n")
+    question_count = len(questions)
+    print(f"✅ Parsed {question_count} valid questions\n")
+
+    # Check for bonus question
+    bonus_file = challenge_dir / "bonus-question.md"
+    has_bonus = bonus_file.exists()
 
     # Set base random seed for reproducibility
     random.seed(0)
+
+    # ===== STEP 1: Generate initial versions with marked answers =====
+    print("📝 Generating initial versions with marked answers...")
 
     # Version A is the original (no shuffling) - keep original order
     version_a_qs = questions.copy()
     output_a = challenge_dir / f"challenge-{challenge_num}-vA.md"
     write_version_a(version_a_qs, output_a, challenge_name)
-    print(f"✅ Created: {output_a.name} (original order)")
 
     # Generate other versions with different random seeds
     random.seed(1)
@@ -337,7 +546,6 @@ def main():
         challenge_dir / f"challenge-{challenge_num}-vB.md",
         challenge_name
     )
-    print(f"✅ Created: challenge-{challenge_num}-vB.md (shuffled)")
 
     random.seed(2)
     version_c_qs = shuffle_and_write_version(
@@ -345,7 +553,6 @@ def main():
         challenge_dir / f"challenge-{challenge_num}-vC.md",
         challenge_name
     )
-    print(f"✅ Created: challenge-{challenge_num}-vC.md (shuffled)")
 
     random.seed(3)
     version_d_qs = shuffle_and_write_version(
@@ -353,25 +560,64 @@ def main():
         challenge_dir / f"challenge-{challenge_num}-vD.md",
         challenge_name
     )
-    print(f"✅ Created: challenge-{challenge_num}-vD.md (shuffled)")
 
-    # Create exam map
+    # ===== STEP 2: Create answer key copies =====
+    print("🔑 Creating answer key copies...")
+
+    for version_letter in ['A', 'B', 'C', 'D']:
+        version_file = challenge_dir / f"challenge-{challenge_num}-v{version_letter}.md"
+        key_file = challenge_dir / f"challenge-{challenge_num}-v{version_letter}-with-key.md"
+        create_answer_key_copy(version_file, key_file)
+        print(f"  ✅ {key_file.name}")
+
+    # ===== STEP 3: Transform student versions =====
+    print("\n📋 Transforming to student-ready versions...")
+
+    for version_letter in ['A', 'B', 'C', 'D']:
+        version_file = challenge_dir / f"challenge-{challenge_num}-v{version_letter}.md"
+        transform_to_student_version(
+            version_file,
+            challenge_name,
+            exam_date,
+            question_count,
+            args.question_points,
+            args.bonus_points,
+            bonus_file
+        )
+        print(f"  ✅ {version_file.name}")
+
+    # ===== STEP 4: Create exam map =====
+    print("\n🗺️  Creating exam map...")
     exam_map_path = challenge_dir / "exam-map.md"
     create_exam_map(
         version_a_qs, version_b_qs, version_c_qs, version_d_qs,
         exam_map_path, challenge_name
     )
-    print(f"✅ Created: {exam_map_path.name} (answer key & cross-reference)\n")
+    print(f"  ✅ {exam_map_path.name}")
 
-    # Print summary
-    print("=" * 60)
+    # ===== SUMMARY =====
+    total_base_points = question_count * args.question_points
+    total_points = total_base_points + (args.bonus_points if has_bonus else 0)
+
+    print("\n" + "=" * 60)
     print("📊 SUMMARY")
     print("=" * 60)
     print(f"Challenge: {challenge_name}")
-    print(f"Questions: {len(questions)}")
-    print(f"Versions: 4 (A=original, B/C/D=shuffled)")
-    print(f"Output directory: {challenge_dir}")
-    print(f"\nRandom seeds used: A=none, B=1, C=2, D=3")
+    print(f"Exam Date: {exam_date}")
+    print(f"Questions: {question_count} ({args.question_points} points each = {total_base_points} points)")
+    print(f"Bonus: {'Yes' if has_bonus else 'No'} ({args.bonus_points} points)" if has_bonus else "Bonus: No")
+    print(f"Total Possible: {total_points} points")
+    print(f"\nFiles Generated:")
+    print(f"  Student Versions (classroom-ready):")
+    for v in ['A', 'B', 'C', 'D']:
+        print(f"    ✅ challenge-{challenge_num}-v{v}.md")
+    print(f"\n  Answer Keys (for grading):")
+    for v in ['A', 'B', 'C', 'D']:
+        print(f"    ✅ challenge-{challenge_num}-v{v}-with-key.md")
+    print(f"\n  Grading Reference:")
+    print(f"    ✅ exam-map.md")
+    print(f"\nOutput directory: {challenge_dir}")
+    print(f"Random seeds: A=none, B=1, C=2, D=3")
     print("\n✅ All exam versions generated successfully!")
 
 

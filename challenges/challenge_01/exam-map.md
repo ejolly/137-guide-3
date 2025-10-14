@@ -1,5 +1,7 @@
 # Challenge 01 - Exam Version Answer Key & Question Map
 
+This document helps TAs grade different exam versions.
+
 ---
 
 ## Version A Answer Key
