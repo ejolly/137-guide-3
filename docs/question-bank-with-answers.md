@@ -1,6 +1,5 @@
 # Challenge 1 Question Bank 26 total
 
-## Foundations (4)
 ### 1. 
 What key idea did John Locke introduce with Empiricism?
 
@@ -34,8 +33,7 @@ What was the critical shift in perspective from Behaviorism to Cognitivism?
 - **C.** **From treating behavior as purely stimulus-response to modeling the mind as an information-processing system with internal representations.**
 - **D.** From emphasizing memory and attention to ignoring them altogether.
 
-## Mind Perception (5)
-### 1. 
+### 5. 
 What is the main takeaway from the Heider & Simmel (1944) study involving animated shapes?
 
 - **A.** **People interpret abstract motion as social and intentional, attributing goals and traits to simple shapes.**
@@ -43,7 +41,7 @@ What is the main takeaway from the Heider & Simmel (1944) study involving animat
 - **C.** Intentional attributions require detailed facial features.
 - **D.** Social judgments are impossible without language.
 
-### 2. 
+### 6. 
 Daniel Dennett's concept of the "Intentional Stance" is best described as:
 
 - **A.** A method for reducing neural activity in laboratory settings.
@@ -51,7 +49,7 @@ Daniel Dennett's concept of the "Intentional Stance" is best described as:
 - **C.** A stance that denies the reality of mental states.
 - **D.** A theory that focuses on the physical properties of the brain.
 
-### 3. 
+### 7. 
 Two patients are in a coma: Patient A shows reflexive movement but no signs of pain; Patient B shows signs of pain but cannot act. According to Gray et al. (2007), which pairing best matches how perceivers would place them in mind space?
 
 - **A.** **A high in Agency, low in Experience for A; low in Agency, high in Experience for B.**
@@ -67,7 +65,7 @@ In the Gray et al. (2007) study on the dimensions of mind perception, what two c
 - **C.** Intelligence and creativity.
 - **D.** Perception and attention. -->
 
-### 4. 
+### 8. 
 Which design tweak would *most* increase adoption of the intentional stance toward a service robot?
 
 - **A.** **Adding contingent eye-gaze and turn-taking behavior during conversation.**
@@ -93,7 +91,7 @@ What is the definition of “mentalizing" as presented in the lecture?
 - **C.** The ability to memorize social information.
 - **D.** The practice of avoiding making assumptions about others. -->
 
-### 5.
+### 9.
 *Module:* Mind Perception
 
 Johnny was on the playground and Larry hit him in the head with a tennis ball. Johnny assumed it was an accident and didn’t get mad, but then it happened again and Johnny got angry because he assumed it was intentional.  What best explains the difference in Johnny’s reactions?
@@ -103,8 +101,7 @@ Johnny was on the playground and Larry hit him in the head with a tennis ball. J
 - **C** A difference in animacy attribution 
 - **D** A difference in consequent attribution
 
-## Animacy (5)
-### 1. 
+### 10. 
 How is “animacy" described from the computational perspective of social cognition?
 
 - **A.** A label applied after we identify a face.
@@ -112,7 +109,7 @@ How is “animacy" described from the computational perspective of social cognit
 - **C.** A purely linguistic construction with no perceptual basis.
 - **D.** An emotion that arises whenever we see movement.
 
-### 2. 
+### 11. 
 What does it mean for biological motion to be "cross-modal" or “modality-independent"?
 
 - **A.** It can be perceived only through vision.
@@ -120,7 +117,7 @@ What does it mean for biological motion to be "cross-modal" or “modality-indep
 - **C.** It requires language to interpret.
 - **D.** It is unaffected by context or goals.
 
-### 3. 
+### 12. 
 Which of the following is NOT one of the three main perceptual cues for animacy discussed in the lecture?
 
 - **A.** Biological motion.
@@ -128,7 +125,7 @@ Which of the following is NOT one of the three main perceptual cues for animacy 
 - **C.** Contingency/Interaction.
 - **D.** **Color similarity.**
 
-### 4. 
+### 13. 
 The lecture proposes a third neural pathway for perception, in addition to the traditional ‘what’ and ‘where’ pathways. What is the specialized function of this proposed third pathway?
 
 - **A.** To track the speed and trajectory of a moving object.
@@ -136,7 +133,7 @@ The lecture proposes a third neural pathway for perception, in addition to the t
 - **C.** To recognize and process human faces.
 - **D.** **To extract dynamic social cues like gaze, expression, and biological motion.**
 
-### 5.
+### 14.
 A robot makes eye contact with you but has jerky lip movements when speaking. The weird feeling you get is known as `_______` and is caused by `_______`.
 
 - **A.** **uncanny valley; a close, but imperfect display of biological motion**
@@ -144,9 +141,8 @@ A robot makes eye contact with you but has jerky lip movements when speaking. Th
 - **C.** Stroop; focusing on one facila feature and not the whole face while iteracting
 - **D.** violation-of-expectation; expecting something to behave in a certain way
 
-## Attribution & ToM (6)
 
-### 1. 
+### 15. 
 The research by Premack & Woodruff defines Theory of Mind as a ‘theory’ primarily because the mental states it deals with are what?
 
 - **A.** Observable directly under certain conditions.
@@ -154,7 +150,7 @@ The research by Premack & Woodruff defines Theory of Mind as a ‘theory’ prim
 - **C.** **Hidden/unobservable causes that must be inferred to predict behavior.**
 - **D.** Irrelevant to understanding actions.
 
-### 2. 
+### 16. 
 According to Kelley's (1973) Covariation Model, if you are trying to understand why a friend laughs at a particular comedian, what does the ‘consensus’ factor refer to?
 
 - **A.** How often your friend laughs in general.
@@ -162,7 +158,7 @@ According to Kelley's (1973) Covariation Model, if you are trying to understand 
 - **C.** Whether your friend laughs at other comedians.
 - **D.** Whether your friend was in a good mood that day.
 
-### 3. 
+### 17. 
 Moran, Jolly & Mitchell (2014) link the Fundamental Attribution Error (FAE) to which mechanism?
 
 - **A.** **Spontaneous activity in mentalizing (default network) regions biases perceivers toward dispositional explanations.**
@@ -170,7 +166,7 @@ Moran, Jolly & Mitchell (2014) link the Fundamental Attribution Error (FAE) to w
 - **C.** Perceptual load in the ventral stream masks situational cues.
 - **D.** Language processing demands crowd out causal reasoning.
 
-### 4. 
+### 18. 
 During lecture we discussed the "inverse of mentalizing", where one denies mental states to another being. What is this concept called?
 
 - **A.** Anthropomorphism.
@@ -178,7 +174,7 @@ During lecture we discussed the "inverse of mentalizing", where one denies menta
 - **C.** Synchronization.
 - **D.** Simulation.
 
-### 5.
+### 19.
 Which scenario illustrates *mechanistic* (vs animalistic) dehumanization as defined by Haslam?
 
 - **A.** **A hospital policy treats patients as case numbers, assuming they lack warmth or inner experience.**
@@ -186,7 +182,7 @@ Which scenario illustrates *mechanistic* (vs animalistic) dehumanization as defi
 - **C.** A coach praises a player’s grit and discipline.
 - **D.** A teacher attributes a student’s failure to lack of effort.
 
-### 6.
+### 20.
 In the chimpanzee eye-tracking study we class in lecture, IF the researchers had observed that the chimpanzees first looked where the item was moved behind the target’s back when the target returned, it would be evidence that ____.
 
 - **A** Chimpanzees have theory of mind
@@ -194,8 +190,7 @@ In the chimpanzee eye-tracking study we class in lecture, IF the researchers had
 - **C** Chimpanzees have the cognitive abilities of a 5-yr old human
 - **D** Chimpanzees do not attribute animacy but do mentalize
 
-## Causal Inference (3)
-### 1. 
+### 21. 
 The concept of ‘Theory of Mind' suggests that we understand other people's mental states by:
 
 - **A.** Directly observing their thoughts.
@@ -203,7 +198,7 @@ The concept of ‘Theory of Mind' suggests that we understand other people's men
 - **C.** Ignoring their subjective experiences.
 - **D.** Using only physiological data.
 
-### 2. 
+### 22. 
 In Leslie’s pretense/decoupling account, which behavior shows the foundational capacity needed for later false-belief reasoning?
 
 - **A.** **Treating a banana as a telephone during pretend play.**
@@ -211,7 +206,7 @@ In Leslie’s pretense/decoupling account, which behavior shows the foundational
 - **C.** Looking longer at an object after it disappears behind a screen.
 - **D.** Pointing to the location where an object actually is.
 
-### 3. 
+### 23. 
 The violation-of-expectation (VOE) paradigm in infant research relies on the assumption that:
 
 - **A.** **Longer looking times indicate surprise due to violated expectations.**
@@ -219,8 +214,7 @@ The violation-of-expectation (VOE) paradigm in infant research relies on the ass
 - **C.** Shorter looking always indicates stronger learning.
 - **D.** Infants cannot represent hidden causes.
 
-## Simulation (2)
-### 1. 
+### 24. 
 The lecture suggests that our social knowledge is organized for prediction. What does this mean in practice?
 
 - **A.** We memorize isolated facts about people without considering patterns.
@@ -228,7 +222,7 @@ The lecture suggests that our social knowledge is organized for prediction. What
 - **C.** We avoid making predictions about others due to uncertainty.
 - **D.** We only rely on explicit rules to forecast behavior.
 
-### 2. 
+### 25 
 *Module:* Simulation
 
 You watch a friend twist their ankle and cringe in response. Which best matches the likely dominant mechanism at work?
@@ -238,8 +232,7 @@ You watch a friend twist their ankle and cringe in response. Which best matches 
 - **C.** Ankle twist → uncanny valley / discomfort response
 - **D.** Ankle twist → mentalizing / attribution
 
-## Game Theory (1)
-### 1. 
+### 26. 
 In iterative 'I think you think...' reasoning, adult humans typically top out at about:
 
 - **A.** One level of recursion.
@@ -247,10 +240,3 @@ In iterative 'I think you think...' reasoning, adult humans typically top out at
 - **C.** Ten or more levels, limited only by time.
 - **D.** Two levels only in economic games.
 
-## Bonus (1)
-Did you use the course provided NotebookLM (AI assistance) to help prepare for this challenge?
-
-- **A** I didn't use it at all
-- **B** I tried it once or twice, but didn't find it helpful
-- **C** I used to help prepare for this challenge
-- **D** I used it consistently throughout the course
