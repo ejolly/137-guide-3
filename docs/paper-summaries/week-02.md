@@ -411,7 +411,7 @@ Links strongly to Predictive Mind, Generative Models, Mentalizing, the ACT‑FAS
 **Existing Terms Used:** Predictive Mind; Generative Model; Representation; Transition Structure; Mentalizing; Marr's Levels.
 
 **New Terms to Add:**
-- **ACT‑FAST Taxonomy:** A compact action taxonomy outlining dimensions (e.g., Agency, Competence, Temporal features) used to scaffold action prediction across domains. **Notable Figures:** Thornton & Tamir. **Related Concepts:** Action representation; Transition Structure.
+- **ACT-FAST Taxonomy:** A 6-dimensional action taxonomy for organizing actions in semantic space. The six dimensions are **A**bstract/social, **C**reation, **T**radition, **F**ood, **A**nimacy, and **S**piritualism (adding "Taxonomy" gives the acronym "ACT-FAST"). Used to scaffold action prediction and understand how actions relate and transition over time. **Notable Figures:** Thornton & Tamir. **Related Concepts:** Action representation; Transition Structure; Social prediction.
 
 ---
 

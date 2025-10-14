@@ -9,5 +9,5 @@
   * [Week 01](paper-summaries/week-01.md)
   * [Week 02](paper-summaries/week-02.md)
   * [Week 03](paper-summaries/week-03.md)
-* [Question Bank](question-bank-with-answers.md)
+<!-- * [Question Bank](question-bank-with-answers.md) -->
 * [Terminology Glossary](glossary.md)
