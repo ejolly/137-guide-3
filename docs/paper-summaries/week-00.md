@@ -32,12 +32,10 @@ The chapters provide an integrated argument that social cognition is not merely 
 
 ### Connections
 - Links to Predictive Mind, Generative Models, Representation (course glossary).
+- Social context → activates priors (why?) → changes attention allocation → alters judgment/outcome.
 
 ### Key Quotes or Phrases
 - "Social cognition needs to be highly adaptive and sensitive to the requirements of a situation."
-
-### Concept Graph
-- Social context → activates priors (why?) → changes attention allocation → alters judgment/outcome.
 
 ---
 
@@ -71,13 +69,11 @@ As an introduction, the chapter situates social cognition within broader computa
 
 ### Connections
 - Directly ties to Predictive Mind, Attribution Theory, Mentalizing, and the Flatland Fallacy critique.
+- Sensory evidence + Priors → Inferred mental states → Predicted behavior
+- Animacy/agency cues → trigger automatic mentalizing
 
 ### Key Quotes or Phrases
 - "Perception of agency and animacy is often the perceptual doorway through which more elaborate belief‑attribution is built."
-
-### Concept Graph
-- Sensory evidence + Priors → Inferred mental states → Predicted behavior
-- Animacy/agency cues → trigger automatic mentalizing
 
 ---
 
@@ -110,13 +106,11 @@ The chapter foregrounds motivation as central to social inference: cognitive mec
 
 ### Connections
 - Links to Attribution Theory, Mentalizing, and Predictive Mind (priors shaped by motivation).
+- Threatening feedback → motivated discounting → preserves self‑esteem → alters social judgment.
+  - **Epistemic Need:** A motivational drive for coherent, controllable explanations that encourages meaning‑making even from weak evidence. **Related Concepts:** Motivated Reasoning, Just‑World Hypothesis.
 
 ### Key Quotes or Phrases
 - "When the observer states the participant is responsible for a success, the participant judges the observer accurate; for failures, the observer is judged biased."
-
-### Concept Graph
-- Threatening feedback → motivated discounting → preserves self‑esteem → alters social judgment.
-  - **Epistemic Need:** A motivational drive for coherent, controllable explanations that encourages meaning‑making even from weak evidence. **Related Concepts:** Motivated Reasoning, Just‑World Hypothesis.
 
 ---
 
@@ -151,14 +145,12 @@ The Flatland Fallacy critique pushes the field to (1) adopt richer representatio
 
 ### Connections
 - Ties to Predictive Mind, Generative Models, Transition Structure, and representational analyses.
+- Rich representations → better generalization because they capture causal & compositional structure.
+- Transition structure → predictive accuracy → behavioral adaptation.
 
 ### Key Quotes or Phrases
 - "Reducing social cognition to a few axes risks throwing away the very structure that enables prediction."
 - "Naturalistic tasks reveal the transition structure that low‑dimensional summaries obscure."
-
-### Concept Graph
-- Rich representations → better generalization because they capture causal & compositional structure.
-- Transition structure → predictive accuracy → behavioral adaptation.
 
 ---
 
@@ -192,13 +184,8 @@ Mitchell reframes social cognition as computational inference. This matters peda
 
 ### Connections
 - Links explicitly to predictive processing, generative models, and neuroimaging work on mPFC/TPJ.
+- Observations → Algorithm (representation: generative model) → Inferred beliefs/desires → Predicted action
 
 ### Key Quotes or Phrases
 - "Applying Marr clarifies what questions social neuroscientists should ask: what is being computed, how, and by what machinery?"
 - "Mentalizing is best viewed as an inference problem about hidden causes."
-
-### Concept Graph
-- Observations → Algorithm (representation: generative model) → Inferred beliefs/desires → Predicted action
-
----
-

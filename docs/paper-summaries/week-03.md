@@ -40,19 +40,15 @@ Map to Marr's levels:
 Predictive‑mind framing: perspective‑giving reduces model mismatch (prediction error) for listeners who had stronger negative priors.
 
 ### Connections
-
-Connects to literature on contact theory, narrative psychology, and recent computational accounts of social inference (belief updating, predictive processing). Also relevant to synchronization and trust-building mechanisms.
-
-### Key Quotes or Phrases
-
-- "The critical role of being heard."
-
-### Concept Graph
-
+- Connects to literature on contact theory, narrative psychology, and recent computational accounts of social inference (belief updating, predictive processing). Also relevant to synchronization and trust-building mechanisms.
 - Perspective‑giving → supplies informative signals about constraints & motives.
   - **Perspective-giving:** Participant expresses difficulties/constraints; this increases observer's evidence for situational explanations. **Notable Figures:** Bruneau & Saxe. **Related Concepts:** Attitude updating; Power asymmetry.
 - Perspective‑taking → accurate summarization reduces defensive inference.
   - **Perspective-taking:** Listener summarizes partner's statement; signals acknowledgment. **Related Concepts:** Mentalizing; Attribution.
+
+### Key Quotes or Phrases
+
+- "The critical role of being heard."
 
 ---
 
@@ -88,16 +84,14 @@ From a computational perspective, the paper suggests a hybrid architecture: (1) 
 - Links strongly to Predictive Mind: memory as prior; simulation as prediction. (See Course glossary: Predictive Mind, Representation.) fileciteturn0file1
 - Situates Theory of Mind within a memory‑based simulation framework — complements intentional‑stance accounts by specifying neural substrates.
 - Relates to default‑mode research: spontaneous thought as opportunistic self‑projection.
+- Self‑projection ← (built on) autobiographical memory (MTL hippocampus). **Notable Figures:** Buckner & Carroll. **Related Concepts:** Episodic memory; Prospection; Simulation; Default Mode.
+  - **Frontopolar / Medial PFC:** Regulation of perspective shifts; retrieval mode; executive constraint. **Related Concepts:** Control, subgoal processing, autonoetic awareness.
+  - **Medial parietal / retrosplenial / IPL:** Contextual/spatial mapping; overlap with retrieval activations and ToM tasks. **Related Concepts:** Navigation; spatial anchoring.
 
 ### Key Quotes or Phrases
 - "Self‑projection" as a family of abilities. (p. 49) fileciteturn0file0
 - "Perhaps we remember the past to envision the future." (Conclusions)
 - Default mode overlap: spontaneous simulation when not otherwise engaged.
-
-### Concept Graph
-- Self‑projection ← (built on) autobiographical memory (MTL hippocampus). **Notable Figures:** Buckner & Carroll. **Related Concepts:** Episodic memory; Prospection; Simulation; Default Mode.
-  - **Frontopolar / Medial PFC:** Regulation of perspective shifts; retrieval mode; executive constraint. **Related Concepts:** Control, subgoal processing, autonoetic awareness.
-  - **Medial parietal / retrosplenial / IPL:** Contextual/spatial mapping; overlap with retrieval activations and ToM tasks. **Related Concepts:** Navigation; spatial anchoring.
 
 ---
 
@@ -143,27 +137,15 @@ The paper reframes disequilibrium not as noise but as structured heterogeneity o
 Viewed from computational cognitive science, CH is a compact algorithmic-level model of social recursive reasoning: it specifies representations (distributions over opponent types), transformations (best-response mapping), and a simple parametric prior (Poisson τ) over computational depth. This bridges Marr's levels: the computational-level goal (predict others under bounded cognition) is implemented by an algorithmic recursion and instantiated in behavioral patterns (entry monotonicity; beauty-contest averages).
 
 ### Connections
-Links to bounded rationality, level‑k models, predictive-processing themes (agents form predictions about others' actions), and cognitive-cost accounts of reasoning depth (Gabaix & Laibson style cost–benefit).
-
-### Key Quotes or Phrases
-- "An average of 1.5 steps fits data from many games."
-- CH provides a behavioral refinement: it "weakens" mutual consistency but keeps best-response for k≥1.
-
-### Concept Graph
+- Links to bounded rationality, level‑k models, predictive-processing themes (agents form predictions about others' actions), and cognitive-cost accounts of reasoning depth (Gabaix & Laibson style cost–benefit).
 - Limited recursive reasoning → population mixture of k‑types → aggregate choice distributions.
   - **Cognitive Hierarchy (CH):** Players are categorized by k steps of iterated best-response; k‑step players best-respond to types 0..k−1. **Notable Figures:** Camerer, Ho, Chong. **Related Concepts:** level‑k, bounded rationality, iterated deletion.
   - **Poisson‑CH:** A Poisson prior f(k)=e^{−τ}τ^{k}/k! over types compresses heterogeneity into one parameter τ. **Definition:** τ is mean (and variance) of thinking steps. **Notable Figures:** Camerer et al. **Related Concepts:** parametric priors; cognitive cost models.
   - **Beauty‑Contest / Keynesian Game:** Diagnostic task (guess p×mean) that reveals depth of iterative thinking. **Related Concepts:** dominance‑solvable games; experimental diagnostics.
 
-### Relevant Terms
-**Existing Terms Used:** Marr's Computational Level; Marr's Algorithmic Level; Representation.
-
-**New Terms to Add:**
-### Cognitive Hierarchy (CH)
-A theory positing discrete levels of iterative strategic reasoning (0,1,2…). Lower‑level players randomize; k‑step players best‑respond to a normalized mixture of types 0..k−1. **Notable Figures:** C. Camerer, T.-H. Ho, J.-K. Chong. **Related Concepts:** level‑k, bounded rationality, iterative deletion.
-
-### Poisson‑CH
-A parsimonious instantiation of CH that assumes f(k) follows a Poisson(τ). The single parameter τ captures the mean depth of reasoning in a population; empirically τ≈1–2 in many labs. **Notable Figures:** Camerer et al. **Related Concepts:** parametric priors, cognitive cost models.
+### Key Quotes or Phrases
+- "An average of 1.5 steps fits data from many games."
+- CH provides a behavioral refinement: it "weakens" mutual consistency but keeps best-response for k≥1.
 
 ---
 
@@ -201,19 +183,15 @@ The article reframes the "social brain" debate: rather than asking "is there a s
 - Brunswik: comparative and ecological validity concerns — test across species and ecological contexts.
 
 ### Connections
-
 - Connects to theory-of-mind debates (Premack & Woodruff) and predictive frameworks (how predictive models might implement social algorithms).
+- Algorithm (ToM) → neural implementation candidate (ACCg) → behavioral social predictions
+- Comparative tests → evaluate innateness vs learning
+- Continuous vs categorical social/non-social distinction → shapes experimental expectations
 
 ### Key Quotes or Phrases
 
 - "Are there algorithms that are socially specific? The strongest evidence suggests theory of mind processing."
 - "Hold one level constant while examining the impact on another level."
-
-### Concept Graph
-
-- Algorithm (ToM) → neural implementation candidate (ACCg) → behavioral social predictions
-- Comparative tests → evaluate innateness vs learning
-- Continuous vs categorical social/non-social distinction → shapes experimental expectations
 
 ---
 
@@ -252,18 +230,13 @@ Nagel's study operationalized iterated reasoning and demonstrated that human str
 - Implements bounded rationality: resource constraints (cognitive depth) shape behavior.
 
 ### Connections
-
-Ties to bounded rationality (Herbert Simon), mentalizing (depth of representing others' beliefs), and modern work on recursive theory of mind in cognitive development.
-
-### Key Quotes or Phrases
-
-- "Most subjects behave as if they perform only a few steps of iterative reasoning."
-
-### Concept Graph
-
+- Ties to bounded rationality (Herbert Simon), mentalizing (depth of representing others' beliefs), and modern work on recursive theory of mind in cognitive development.
 - Iterated reasoning → level‑k distributions (k = 0,1,2…).
   - **Keynesian Beauty Contest:** A game where players guess 2/3 of the group average; equilibrium at 0 but humans show bounded unraveling.
   - **Level‑k model:** Agents assume others are at level k−1 and best‑respond.
+
+### Key Quotes or Phrases
+- "Most subjects behave as if they perform only a few steps of iterative reasoning."
 
 ---
 
@@ -302,17 +275,12 @@ Wang et al. offer a formal framework linking developmental data to mechanistic m
 - Brunswik: The paper operationalizes cue validity and sampling — how children learn which cues are informative.
 
 ### Connections
-
-Directly links to Epley & Waytz (mind perception as input to inference), impression formation (how priors shape trait learning), and broader predictive processing debates.
+- Directly links to Epley & Waytz (mind perception as input to inference), impression formation (how priors shape trait learning), and broader predictive processing debates.
+- Priors + observed actions → inverse inference (approximate) → latent mental state estimates → updated generative model → improved prediction.
 
 ### Key Quotes or Phrases
-
 - "Generative models map latent mental states to observable actions; learning them is the heart of social cognition."
 - "Transition structure — how mental states evolve — is central for predicting others."
-
-### Concept Graph
-
-- Priors + observed actions → inverse inference (approximate) → latent mental state estimates → updated generative model → improved prediction.
 
 ---
 
@@ -345,26 +313,14 @@ Waytz & Mitchell formalize a pluralistic view of social cognition. Rather than a
 - Integration: Rational agents could weight outputs from both systems according to evidence reliability (a Bayesian cue‑combination architecture), with neural correlates seen when both systems are co‑activated.
 
 ### Connections
-Links to Predictive Mind (cue weighting and prediction error), Intentional Stance (when design vs. intentional attributions are used), and broader debates on the mirror‑neuron hypothesis. Also ties to empathy research (affective v. cognitive empathy) and to work on episodic simulation and prospection.
-
-### Key Quotes or Phrases
-- "Mirroring involves a vicarious response in which a perceiver experiences the same current mental state as that of another person."
-- "Self‑projection involves imagining oneself in the same situation as another person… and assuming the other would think and feel the same way."
-
-### Concept Graph
+- Links to Predictive Mind (cue weighting and prediction error), Intentional Stance (when design vs. intentional attributions are used), and broader debates on the mirror‑neuron hypothesis. Also ties to empathy research (affective v. cognitive empathy) and to work on episodic simulation and prospection.
 - Simulation = {Mirroring, Self‑projection}
   - **Mirroring:** Definition: rapid, stimulus‑driven resonance mapping observed actions/states onto one's own sensorimotor/affective circuits. **Notable Figures:** Rizzolatti. **Related Concepts:** Mirror system; Affective empathy.
   - **Self‑projection:** Definition: offline generative simulation using episodic/semantic memory to imagine oneself in another's situation. **Notable Figures:** Buckner & Carroll. **Related Concepts:** Default network; Mental time travel; Cognitive empathy.
 
-### Relevant Terms
-- **Existing Terms Used:** Mentalizing, Intentional Stance, Representation, Predictive Mind, Marr's Computational/Algorithmic/Implementational levels.
-- **New Terms to Add:**
-  - **Self‑projection:** A process of simulation where perceivers imagine their own thoughts/feelings in a hypothetical situation and project those imagined states onto another individual. **Definition:** Mechanism recruits default network regions and supports inferences about distal, hypothetical, or trait‑level mental states. **Related Concepts:** Episodic simulation; Mentalizing.
-  - **Mirroring:** A rapid, vicarious process in which perceivers' sensorimotor or affective brain regions are activated in response to observing similar states in others. **Definition:** Mechanism maps observed cues to one's own experiential representations; implemented in parieto‑frontal mirror circuits and affective regions (e.g., insula, ACC). **Related Concepts:** Mirror system; Affective resonance; Embodied simulation.
-
----
-
-*Filename: Summary_Waytz2011.md*
+### Key Quotes or Phrases
+- "Mirroring involves a vicarious response in which a perceiver experiences the same current mental state as that of another person."
+- "Self‑projection involves imagining oneself in the same situation as another person… and assuming the other would think and feel the same way."
 
 ---
 
@@ -404,18 +360,11 @@ This review provides a mechanistic bridge between basic perceptual cues for mind
 - Brunswik: Would ask how reliable synchrony cues are as ecological indicators of kinship or similarity; Wheatley's kinship signaling hypothesis echoes Brunswik's emphasis on cue validity.
 
 ### Connections
-
-Ties to animacy detection (Wheatley's ERP animacy tipping point work), mirror/resonance systems, oxytocin-trust literature, and predictive-processing frameworks (entrainment as phase-alignment to reduce prediction error).
-
-### Key Quotes or Phrases
-
-- "Synchrony may serve as an adaptive marker of genetic similarity; we synchronize most with similar others."
-- "Neural synchrony reduces processing load and blurs self-other boundaries, producing pleasurable mental connection."
-
-### Concept Graph
-
+- Ties to animacy detection (Wheatley's ERP animacy tipping point work), mirror/resonance systems, oxytocin-trust literature, and predictive-processing frameworks (entrainment as phase-alignment to reduce prediction error).
 - Mind detection (face/voice/motion) → simulation (resonance, contagion) → behavioral synchrony (anticipation) → neural entrainment → reward & bonding.
   - **Synchrony:** Time-locked coupling across neural, physiological, and behavioral signals between interacting agents that supports mutual prediction and partial access to internal states. **Related Concepts:** resonance, neural entrainment, simulation.
   - **Neural efficiency (social sense):** A reduction in processing cost achieved when the perceiver and perceived entrain neural dynamics, aligning communication windows and lowering prediction-error propagation during interaction. **Related Concepts:** predictive processing, entrainment, reward.
 
----
+### Key Quotes or Phrases
+- "Synchrony may serve as an adaptive marker of genetic similarity; we synchronize most with similar others."
+- "Neural synchrony reduces processing load and blurs self-other boundaries, producing pleasurable mental connection."

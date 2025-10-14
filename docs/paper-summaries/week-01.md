@@ -36,16 +36,12 @@ Dennett offers a pragmatic account: intentionality as a tool, not a metaphysical
 - Marr: Intentional stance sits at an algorithmic/heuristic level for social prediction.
 
 ### Connections
-
 - Directly connects to Intentional Stance, Design Stance, Mentalizing, and Generative Models in the glossary.
+- System complexity → choice of stance (physical/design/intentional) → prediction accuracy.
 
 ### Key Quotes or Phrases
 
 - "The concept of an Intentional system is a relatively uncluttered and unmetaphysical notion."
-
-### Concept Graph
-
-- System complexity → choice of stance (physical/design/intentional) → prediction accuracy.
 
 ---
 
@@ -114,17 +110,13 @@ Epley & Waytz show that mind perception is not a binary cognitive act but a grad
 - Brunswik: Emphasizes cue validity and ecological sampling — which cues reliably indicate agency or experience across contexts.
 
 ### Connections
-
-Links to animacy, intentional stance, Theory of Mind, predictive processing, and dehumanization literature. Useful precursor reading before Wang et al. (2025).
+- Links to animacy, intentional stance, Theory of Mind, predictive processing, and dehumanization literature. Useful precursor reading before Wang et al. (2025).
+- Perceptual cues → (animacy detection) → Mind presence estimate → Map onto (Agency, Experience) → Guides prediction & moral judgment.
 
 ### Key Quotes or Phrases
 
 - "Mind perception is a pre‑attributional process: first do we see a mind, then what is that mind like?"
 - "Perceiving mindful agency is tied to causal responsibility; perceiving experience is tied to moral worth."
-
-### Concept Graph
-
-- Perceptual cues → (animacy detection) → Mind presence estimate → Map onto (Agency, Experience) → Guides prediction & moral judgment.
 
 ---
 
@@ -156,16 +148,12 @@ Multiple experiments: participants rated a variety of targets (humans, animals, 
 A compact representational account explains diverse phenomena — anthropomorphism, dehumanization, moral judgments — by showing that a small set of latent dimensions governs social inference. This aligns with computational cognitive science's emphasis on compressed representations for efficient prediction.
 
 ### Connections
-
 - Strongly connected to Epley & Waytz, Waytz et al., and course glossary terms like agency/experience and moral typecasting.
+- Target features → (map to) Agency/Experience → (drive) moral judgments.
 
 ### Key Quotes or Phrases
 
 - "Mind perception is organized along dimensions of experience and agency."
-
-### Concept Graph
-
-- Target features → (map to) Agency/Experience → (drive) moral judgments.
 
 ---
 
@@ -204,17 +192,13 @@ Heider & Simmel provide a clear demonstration that perception alone can trigger 
 - Brunswik: Emphasizes ecological validity — motion cues are probabilistic signals of agency and the perceiver uses ecological sampling (available cues) to infer hidden causes.
 
 ### Connections
-
 - Links to animacy literature, biological motion (Johansson), and predictive‑processing accounts where small prediction errors about self‑propelled motion trigger agent hypotheses.
+- Motion cues (self‑propulsion, contingency) → Animacy detection → Intentional stance → Mentalizing (goal/trait attributions)
 
 ### Key Quotes or Phrases
 
 - "Observers impose intentions and social roles on moving shapes."
 - "Motion alone is sufficient to elicit richly structured social narratives."
-
-### Concept Graph
-
-- Motion cues (self‑propulsion, contingency) → Animacy detection → Intentional stance → Mentalizing (goal/trait attributions)
 
 ---
 
@@ -254,17 +238,13 @@ The chapter stitches together classical schema theory with emerging embodied and
 - Brunswik: highlights cue validity and IF→THEN relations for relational theories.
 
 ### Connections
-
 - Links to Heider's animacy (schemas for agents), Mitchell's Marr framing (representations as algorithmic objects), and later lectures on predictive models.
+- Experience → Associations → Schema (prototype/exemplar) → Perception & Memory biases → Behavior
 
 ### Key Quotes or Phrases
 
 - "Schemas serve as filters that make stimuli knowable and actionable."
 - "Embodied states often trigger metaphorically linked social inferences outside awareness."
-
-### Concept Graph
-
-- Experience → Associations → Schema (prototype/exemplar) → Perception & Memory biases → Behavior
 
 ---
 
@@ -303,17 +283,13 @@ Provides students context: why contemporary social cognition focuses on represen
 - Brunswik: historical emphasis on cue validity and ecological sampling is a throughline.
 
 ### Connections
-
 - Ties to all course modules: attributions, schemas, mentalizing, predictive models.
+- Historical movements → theories of mind (schemas, attribution, computation) → modern predictive frameworks
 
 ### Key Quotes or Phrases
 
 - "Understanding the history clarifies why we now ask what representations do, not whether they exist."
 - "Lewin's field theory foreshadows the modern inclusion of Representations in behavior functions."
-
-### Concept Graph
-
-- Historical movements → theories of mind (schemas, attribution, computation) → modern predictive frameworks
 
 ---
 
@@ -346,15 +322,9 @@ A literature review integrating philosophy (Dennett), developmental findings on 
 For computational social cognition, the paper clarifies that adopting an intentional stance is an inference policy: agents (including designers) can manipulate cues to make mentalistic predictions more reliable, shaping social interaction. It connects philosophical theory (Dennett) directly to empirical HRI evidence.
 
 ### Connections
-
 - Links to Epley & Waytz, Gray et al., and course glossary entries on the intentional stance and animacy.
+- Robot cues (contingency, appearance) → (increase) Intentional stance adoption → (increase) Social attunement/perceived mind.
 
 ### Key Quotes or Phrases
 
 - "Adopting the intentional stance is a pragmatic predictive strategy that facilitates social attunement."
-
-### Concept Graph
-
-- Robot cues (contingency, appearance) → (increase) Intentional stance adoption → (increase) Social attunement/perceived mind.
-
----

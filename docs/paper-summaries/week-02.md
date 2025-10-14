@@ -28,18 +28,13 @@ Blakemore & Decety position the brain as a "simulating machine" where perception
 Formalizing the claims: the observer's generative model contains motor plans p(plan), a forward model f(plan) → predicted sensory trajectories, and a mapping from predicted trajectories to latent intentions. Reverse inference (Bayesian inversion) over plans given observed kinematics yields posterior beliefs about goals. This is compatible with Bayesian predictive frameworks and complements later "naïve utility" style models for goal inference.
 
 ### Connections
-Links to Marr's levels (algorithmic: representations of motor plans; implementational: mirror‑system circuits), predictive coding frameworks, and developmental work on infants' goal attribution. Also complements computational Bayesian models that invert generative action models.
-
-### Key Quotes or Phrases
-- "The brain is a powerful simulating machine, designed to detect biological motion in order to extract intentions."
-
-### Concept Graph
+- Links to Marr's levels (algorithmic: representations of motor plans; implementational: mirror‑system circuits), predictive coding frameworks, and developmental work on infants' goal attribution. Also complements computational Bayesian models that invert generative action models.
 - Biological motion → triggers animacy detection → engages STS and motor representations.
   - **Forward model:** A predictive mapping from motor command to expected sensory consequences. **Notable Figures:** Wolpert, Miall. **Related Concepts:** Efference copy; Motor prediction.
   - **Simulation theory:** Represent other minds by generating similar processes in oneself. **Notable Figures:** Goldman. **Related Concepts:** Mirror system; Imitation.
 
-### Relevant Terms
-- **Existing Terms Used:** Biological Motion; Mentalizing; Intentional Stance; Theory of Mind; Representation; Predictive Mind.
+### Key Quotes or Phrases
+- "The brain is a powerful simulating machine, designed to detect biological motion in order to extract intentions."
 
 ---
 
@@ -71,21 +66,14 @@ The review argues for ToM as both an evolved capacity and a developmentally plas
 From a modeling perspective: ToM could be formalized as a generative model that maps hidden mental states to observed actions, with priors shaped by social ecology. Developmental trajectories can be modeled as hierarchical Bayesian learning with limited data early in life, and psychopathology as altered priors or inference noise.
 
 ### Connections
-Links to Predictive Mind (priors for social inference), Marr's levels (function → algorithm → implementation), and clinical neuropsychology. Also ties to literature on imitation and joint attention as learning mechanisms.
-
-### Key Quotes or Phrases
-- "Theory of mind comprises an innate cognitive capacity represented in a dedicated neural network…" (p.1).
-- "Psychopathology almost always involves disturbances of social reasoning."
-
-### Concept Graph
+- Links to Predictive Mind (priors for social inference), Marr's levels (function → algorithm → implementation), and clinical neuropsychology. Also ties to literature on imitation and joint attention as learning mechanisms.
 - Social complexity → selection pressure → ToM capacity.
   - **Medial PFC / TPJ:** inference about beliefs and traits. **Notable Figures:** Frith, Mitchell. **Related Concepts:** Default mode network; trait inference.
   - **STS / Biological Motion:** input for animacy detection. **Definition:** motion cues that signal agency. **Related Concepts:** Animacy; Intentional stance.
 
-### Relevant Terms
-- **Existing Terms Used:** Theory of Mind; Mentalizing; Animacy; Intentional Stance; Predictive Mind; Representation. fileciteturn1file16 fileciteturn1file2
-- **New Terms to Add:**
-  - **Social Brain Network (as reviewed):** The constellation of medial PFC, TPJ/STS, ACC, and inferior parietal cortex implicated in ToM. **Definition:** neural substrate mapping from perceived behavior to inferred mental states. **Related Concepts:** Default Mode Network; Mentalizing.
+### Key Quotes or Phrases
+- "Theory of mind comprises an innate cognitive capacity represented in a dedicated neural network…" (p.1).
+- "Psychopathology almost always involves disturbances of social reasoning."
 
 ---
 
@@ -122,19 +110,14 @@ Frith & Frith argue mentalizing is neither wholly domain‑general nor magically
 Model mentalizing as hierarchical inference: low‑level detectors (biological motion filters) produce hypotheses about agents; mid‑level modules compute goal/intent representations via forward/inverse models (action ↔ goal mapping); high‑level modules run counterfactual simulations (beliefs about others' beliefs) and maintain self-other distinctions. This maps comfortably onto predictive‑processing accounts where prediction error at each level drives belief updating about agents' future actions.
 
 ### Connections
-Direct links to biological motion research (Troje), mirror neuron literature (Rizzolatti et al.), and predictive accounts of social cognition. Also relates to Dennett's Intentional Stance and debates about simulation vs. theory‑theory.
+- Direct links to biological motion research (Troje), mirror neuron literature (Rizzolatti et al.), and predictive accounts of social cognition. Also relates to Dennett's Intentional Stance and debates about simulation vs. theory‑theory.
+- Biological motion detection (STS) → Action/goal parsing (mirror/inferior frontal) → Mentalizing (medial PFC/ACC, TPJ).
 
 ### Key Quotes or Phrases
 - "The ability to 'mentalize' … depends on a dedicated and circumscribed brain system."
 - "Our ability to mentalize seems to have evolved largely from the dorsal action system."
 
-### Concept Graph
-- Biological motion detection (STS) → Action/goal parsing (mirror/inferior frontal) → Mentalizing (medial PFC/ACC, TPJ).
-  - **STS (biological motion):** detects animate movement; feeds goal inferences. **Notable Figures:** Oram, Perrett, Frith. **Related Concepts:** Point‑light displays; life detector.
-  - **Medial PFC:** self‑state representation and explicit mental state reasoning. **Notable Figures:** Frith & Frith. **Related Concepts:** False‑belief reasoning; executive control.
-
-### Relevant Terms
-- **Existing Terms Used:** Mentalizing, Theory of Mind, Biological Motion, STS.
+---
 
 ## Haslam, N. (2006). Dehumanization: An integrative review. *Personality and Social Psychology Review*, *10*(3), 252-264.
 
@@ -168,21 +151,16 @@ Formalize perceived humanness as a 2D latent vector h = [UH, HN]. Downstream fun
 Suggested operational tests: GNAT for implicit associations, trait‑rating batteries for UH/HN, manipulation of construal level (Trope & Liberman), and behavioral measures (willingness to punish/help; physiological empathy markers).
 
 ### Connections
-Links to course concepts: mentalizing/intentional stance (animacy cues trigger intentional stance; lack of HN undermines empathy and mentalizing), essentialism, psychological distance, predictive mind (reduced model complexity for distant/abstract others), objectification and moral exclusion.
-
-### Key Quotes or Phrases
-- "Two forms of dehumanization: the denial of uniquely human attributes and the denial of human nature." (p.252)
-- "Animalistic dehumanization evokes disgust; mechanistic dehumanization evokes indifference." (pp.7–8)
-
-### Concept Graph
+- Links to course concepts: mentalizing/intentional stance (animacy cues trigger intentional stance; lack of HN undermines empathy and mentalizing), essentialism, psychological distance, predictive mind (reduced model complexity for distant/abstract others), objectification and moral exclusion.
 - Humanness → two senses: UH (Uniquely Human) and HN (Human Nature).
   - **Uniquely Human (UH):** Traits that distinguish humans from animals (language, refinement, moral sensibility). **Notable Figures:** Haslam; Leyens. **Related Concepts:** Infra‑humanization, socialization.
   - **Human Nature (HN):** Core affective/agentive traits (warmth, emotionality, agency, depth). **Notable Figures:** Haslam. **Related Concepts:** Empathy, psychological distance, essentialism.
 - **Animalistic Dehumanization:** Denial of UH → likening to animals; associated with disgust/contempt; prototypically intergroup. **Related Concepts:** Infra‑humanization, moral exclusion.
 - **Mechanistic Dehumanization:** Denial of HN → likening to objects/machines; associated with indifference; occurs interpersonally and in institutional contexts. **Related Concepts:** Objectification, depersonalization.
 
-### Relevant Terms
-- **Existing Terms Used:** Animacy; Intentional Stance; Mentalizing; Agency; Experience; Empathy; Social Categorization; Psychological Distance; Essentialism; Objectification; Infra‑humanization. (See course glossary for canonical entries.)
+### Key Quotes or Phrases
+- "Two forms of dehumanization: the denial of uniquely human attributes and the denial of human nature." (p.252)
+- "Animalistic dehumanization evokes disgust; mechanistic dehumanization evokes indifference." (pp.7–8)
 
 ---
 
@@ -213,19 +191,12 @@ The study reframes FAE not as merely a cognitive shortcut or effort‑saving heu
 Model implication: a prioritized prior favoring dispositional causes—implemented via default network baseline—requires cognitive effort to override (situational re‑weighting). Models of social inference should include tonic activation of mind‑attribution priors and a control process to integrate situational evidence.
 
 ### Connections
-Bridges attribution theory, Default Mode Network research, and developmental work on autism. Directly links to the Brüne review's neural localization and Thornton's work on person representations via mental states.
-
-### Key Quotes or Phrases
-- "A lifetime of reflexively considering others' mental states… creates a default strategy for understanding other minds." (Moran et al., p.573). fileciteturn1file6
-
-### Concept Graph
+- Bridges attribution theory, Default Mode Network research, and developmental work on autism. Directly links to the Brüne review's neural localization and Thornton's work on person representations via mental states.
 - Default Mode Network baseline activity → spontaneous mentalizing → dispositional attributions (FAE).
   - **dmPFC / TPJ:** spontaneous trait inference. **Related Concepts:** Mentalizing; Intentional stance.
 
-### Relevant Terms
-- **Existing Terms Used:** Mentalizing; Intentional Stance; Default Mode Network (as discussed in course readings). fileciteturn1file6 fileciteturn1file2
-- **New Terms to Add:**
-  - **Tonic Mentalizing Bias:** baseline neural propensity (default network activity) to interpret actions via dispositional inferences. **Definition:** an a priori weighting toward internal-state explanations that must be modulated by evidence. **Related Concepts:** Predictive Mind; Default Mode Network.
+### Key Quotes or Phrases
+- "A lifetime of reflexively considering others' mental states… creates a default strategy for understanding other minds." (Moran et al., p.573). fileciteturn1file6
 
 ---
 
@@ -258,16 +229,9 @@ Introducing a third visual pathway reframes social perception as grounded in spe
 - Implementation: MT → pSTS/aSTS network (third pathway), projecting to nodes of social cognition (RTPJ, MPFC).
 
 ### Connections
-Connects to biological motion, animacy, and subsequent mentalizing computations in RTPJ/MPFC. Relevant to work on predictive coding of dynamic agents.
-
-### Concept Graph
+- Connects to biological motion, animacy, and subsequent mentalizing computations in RTPJ/MPFC. Relevant to work on predictive coding of dynamic agents.
 - Early visual cortex (V1) → MT/V5 (motion) → pSTS/aSTS (third pathway) → RTPJ/MPFC (mentalizing).
   - **Third Visual Pathway:** Motion→STS stream specialized for social signals. **Notable Figures:** Pitcher, Ungerleider. **Related Concepts:** Biological motion; STS; Animacy.
-
-### Relevant Terms
-- **Existing Terms Used:** Biological Motion, Animacy, STS, Representation, Mentalizing.
-- **New Terms to Add:**
-  - **Third Visual Pathway:** A lateral visual stream projecting from early visual areas via motion‑selective regions (MT/V5) into the superior temporal sulcus (STS), specialized for extracting dynamic social signals (gaze, expression, body movement). **Notable Figures:** Pitcher, Ungerleider. **Related Concepts:** MT/V5; STS; Social perception; Animacy.
 
 ---
 
@@ -300,13 +264,11 @@ Premack & Woodruff's paper launched ToM as an empirical question and a research 
 
 ### Connections
 - Directly ties to the course glossary's ToM entry (Premack & Woodruff 1978) and subsequent human infant literature.
+- Observed behavior + context → inferred knowledge state → predictive behavior (sender/receiver strategy)
+- Controlled manipulations → distinguish mentalizing vs behavior-reading
 
 ### Key Quotes or Phrases
 - "The test is quite simple." (description of sender/receiver setup) — a good lecture vignette.
-
-### Concept Graph
-- Observed behavior + context → inferred knowledge state → predictive behavior (sender/receiver strategy)
-- Controlled manipulations → distinguish mentalizing vs behavior-reading
 
 ---
 
@@ -346,24 +308,14 @@ The brain appears to construct a cross‑modal representational geometry that ma
 - **Egon Brunswik**: Would appreciate the ecological‑validity emphasis — using naturalistic, probabilistic feature mixtures and exploiting environmental covariation (conjunctive cues) to support perception.
 
 ### Connections
-Links to Sievers et al. (2013, 2019) on crossmodal structure, work on pSTS/pSTG in action and emotion understanding, and to predictive processing accounts where priors tune sensory representations.
-
-### Key Quotes or Phrases
-- "Auditory and visual cortex represent emotional music and movement in comparable terms."
-- "Sensory brain regions represent conjunctions of task‑relevant features, reducing the need for downstream inferential processing."
-
-### Concept Graph
+- Links to Sievers et al. (2013, 2019) on crossmodal structure, work on pSTS/pSTG in action and emotion understanding, and to predictive processing accounts where priors tune sensory representations.
 - Stimulus features (speed, jitter, consonance, size, up/down) → sensory representational geometry (because distance in feature space maps to neural pattern distance).
 - Sensory representational geometry → emotion judgments (because configural combinations align with perceived emotions).
 - pSTG (supramodal) ↔ sensory cortices (facilitates crossmodal comparison and integration).
 
-### Relevant Terms
-**Existing Terms Used:**
-- representation
-- cross‑modal dynamics
-- mentalizing (related, as emotion perception supports social inferences)
-- Marr's levels
-- animacy
+### Key Quotes or Phrases
+- "Auditory and visual cortex represent emotional music and movement in comparable terms."
+- "Sensory brain regions represent conjunctions of task‑relevant features, reducing the need for downstream inferential processing."
 
 ---
 
@@ -396,22 +348,14 @@ The paper argues that the mind organizes social knowledge primarily for *predict
 - Egon Brunswik: The emphasis on transition probabilities is Brunswikian—perceivers exploit probabilistic ecological regularities to make inferences under uncertainty.
 
 ### Connections
-Links strongly to Predictive Mind, Generative Models, Mentalizing, the ACT‑FAST taxonomy, and prior Thornton/Tamir work on the 3D mind model (rationality, social impact, valence).
-
-### Key Quotes or Phrases
-- "Social knowledge is organized to support prediction: dimensions and transition structure make the future statistically tractable."
-- "The same low‑dimensional code underlies trait and state representations, enabling efficient forecasting of other people."
-
-### Concept Graph
+- Links strongly to Predictive Mind, Generative Models, Mentalizing, the ACT‑FAST taxonomy, and prior Thornton/Tamir work on the 3D mind model (rationality, social impact, valence).
 - Dimensions (valence, sociality, competence) → structure conceptual maps.
 - Transition probabilities + conceptual maps → enable prediction of next states/actions.
 - Neural geometry (mPFC, STS/ATL) ↔ encodes the same dimensions → allows readout of predictions.
 
-### Relevant Terms
-**Existing Terms Used:** Predictive Mind; Generative Model; Representation; Transition Structure; Mentalizing; Marr's Levels.
-
-**New Terms to Add:**
-- **ACT-FAST Taxonomy:** A 6-dimensional action taxonomy for organizing actions in semantic space. The six dimensions are **A**bstract/social, **C**reation, **T**radition, **F**ood, **A**nimacy, and **S**piritualism (adding "Taxonomy" gives the acronym "ACT-FAST"). Used to scaffold action prediction and understand how actions relate and transition over time. **Notable Figures:** Thornton & Tamir. **Related Concepts:** Action representation; Transition Structure; Social prediction.
+### Key Quotes or Phrases
+- "Social knowledge is organized to support prediction: dimensions and transition structure make the future statistically tractable."
+- "The same low‑dimensional code underlies trait and state representations, enabling efficient forecasting of other people."
 
 ---
 
@@ -442,19 +386,12 @@ The brain appears to encode people compositionally via the mental states they ty
 The summed state account implies a generative representational codec: estimating person‑specific priors over state distributions. Models of social prediction should therefore maintain a state‑frequency histogram per person and use it to predict future behavior. This maps onto Bayesian models with state priors that are updated with observations.
 
 ### Connections
-Links to Thornton & Tamir's broader program (mental‑state centric models), trait psychology (Whole‑Trait theory), and neural pattern‑based approaches to social cognition. Also relates to predictive processing: person models provide priors that shape state prediction.
+- Links to Thornton & Tamir's broader program (mental‑state centric models), trait psychology (Whole‑Trait theory), and neural pattern‑based approaches to social cognition. Also relates to predictive processing: person models provide priors that shape state prediction.
+- Person representation = Σ frequency(state) × state pattern.
+- **Summed State Hypothesis:** compositionally builds person encodings from state representations. **Notable Figures:** Tamir, Thornton. **Related Concepts:** Representation; Predictive Mind.
 
 ### Key Quotes or Phrases
 - "People are represented as the sums of the mental states they experience." fileciteturn1file8
-
-### Concept Graph
-- Person representation = Σ frequency(state) × state pattern.
-  - **Summed State Hypothesis:** compositionally builds person encodings from state representations. **Notable Figures:** Tamir, Thornton. **Related Concepts:** Representation; Predictive Mind.
-
-### Relevant Terms
-- **Existing Terms Used:** Representation; Mentalizing; Predictive Mind; Transition Structure. fileciteturn1file12
-- **New Terms to Add:**
-  - **Summed State Representation:** A compositional person encoding defined as the frequency‑weighted sum of mental‑state representations. **Definition:** A compact, generative representation supporting person‑specific prediction. **Related Concepts:** Generative Model; Person Representation.
 
 ---
 
@@ -489,19 +426,12 @@ The study argues for a multi‑route account: shape–emotion associations are p
 Modeling implication: multiple feature spaces (visual curvature, acoustic spectral centroid, arousal axis) map onto emotion space; explicit tasks access higher‑level mappings that may integrate articulatory knowledge, while implicit tasks reflect low‑level perceptual–affective coupling. A latent variable model with cross‑modal loadings could capture these effects.
 
 ### Connections
-Ties to Sievers et al. (2013, 2019) on cross‑modal emotion codes, articulatory theories (Ramachandran & Hubbard), and literature on sound symbolism and language evolution.
+- Ties to Sievers et al. (2013, 2019) on cross‑modal emotion codes, articulatory theories (Ramachandran & Hubbard), and literature on sound symbolism and language evolution.
+- Angular shape ↔ high arousal / anger; Round shape ↔ low arousal / happiness.
+  - **Shape‑Emotion Correspondence:** perceptual mapping between curvature and affective valence/arousal. 
 
 ### Key Quotes or Phrases
 - "The kiki‑bouba effect… can be partially based on emotional mediation processes." fileciteturn1file11
-
-### Concept Graph
-- Angular shape ↔ high arousal / anger; Round shape ↔ low arousal / happiness.
-  - **Shape‑Emotion Correspondence:** perceptual mapping between curvature and affective valence/arousal. **Related Concepts:** Cross‑Modal Dynamics; Kiki‑Bouba effect.
-
-### Relevant Terms
-- **Existing Terms Used:** Cross‑Modal Dynamics; Animacy (as perceptual affordance); Predictive Mind (as framework for multimodal expectations). fileciteturn1file11 fileciteturn1file2
-- **New Terms to Add:**
-  - **Emotional Mediation (in sound symbolism):** The hypothesis that cross‑modal correspondences (shape↔sound) are partly mediated by shared mappings to affect/arousal dimensions. **Definition:** A latent affect axis that links low‑level perceptual features across modalities. **Related Concepts:** Cross‑Modal Dynamics; Arousal.
 
 ---
 
@@ -543,27 +473,16 @@ Wang et al. recast the uncanny problem from an engineering curve‑hunt into a p
 From a Marr‑inspired perspective: at the computational level the problem is to predict when an agent will elicit positive social affiliation vs. aversive uncanniness. Algorithmically, the paper suggests a two‑stage pipeline: (1) fast form/animacy detection that triggers the Intentional Stance and anthropomorphism; (2) slower validation/scrutiny that compares predicted properties (agency, experience) with observed cues — large prediction errors (mismatch) drive dehumanization and negative valence. Implementationally, the authors point to ERP (N170 / late positive potentials) and fusiform/pSTS signatures consistent with these stages.
 
 ### Connections
-
-Links to course glossary concepts: Animacy and Mentalizing (perceptual triggers), Intentional Stance (why we adopt humanlike explanations), Representation & Predictive Mind (prediction/validation pipeline), and Synchrony (contrast: synchrony increases affiliation; uncanny responses reduce it).
-
-### Key Quotes or Phrases
-
-- "The uncanny valley hypothesis is ultimately an engineering problem..." (paper's framing).
-- "We propose a Dehumanization hypothesis." (central proposal).
-
-### Concept Graph
-
+- Links to course glossary concepts: Animacy and Mentalizing (perceptual triggers), Intentional Stance (why we adopt humanlike explanations), Representation & Predictive Mind (prediction/validation pipeline), and Synchrony (contrast: synchrony increases affiliation; uncanny responses reduce it).
 - Rapid animacy/form detection → anthropomorphism (fast, perceptual).
 - Anthropomorphism → deeper scrutiny (slow, cognitive).
   - **Dehumanization hypothesis:** When scrutiny reveals mechanistic/nonhuman cues, observers deny human nature/uniqueness, producing negative affect and 'uncanniness.' **Notable Figures:** Wang, Lilienfeld, Rochat (2015). **Related Concepts:** Animacy, Mind Perception, Infrahumanization.
   - **Violated Expectation:** Mismatch between appearance and motion/voice. **Related Concepts:** Predictive Mind; Prediction Error.
 
-### Relevant Terms
+### Key Quotes or Phrases
+- "The uncanny valley hypothesis is ultimately an engineering problem..." (paper's framing).
+- "We propose a Dehumanization hypothesis." (central proposal).
 
-- **Existing Terms Used:** Animacy; Intentional Stance; Mentalizing; Agency; Representation; Predictive Mind.
-- **New Terms to Add:**
-  - **Uncanny valley:** Nonlinear relation (hypothesized) between human likeness and social affinity; a dip of negative affect for near‑human but imperfect replicas. **Notable Figures:** Masahiro Mori. **Related Concepts:** Animacy; Anthropomorphism; Dehumanization.
-  - **Dehumanization hypothesis:** A process model proposing that anthropomorphism (initial attribution of humanness) followed by detection of mechanistic discrepancies leads observers to dehumanize replicas (deny human nature/uniqueness), producing uncanny affect. **Notable Figures:** Wang, Lilienfeld, Rochat (2015). **Related Concepts:** Infrahumanization; Mind Perception; Violation of Expectation.
 
 ---
 
@@ -599,15 +518,11 @@ This paper reframes **mentalizing** not only as state inference (ToM) but as a g
 **What would Egon Brunswik think?** Brunswik would emphasize ecological validity: which environmental cues are reliable indicators of mind and how do perceivers weight noisy cues (lens model)? The paper's cue-competition results fit a Brunswikian perspective.
 
 ### Connections
-Links to: animacy/biological motion research, dehumanization literature, implicit bias (mPFC differences), and predictive-processing views (the role of expectancy/prediction in tagging minds).
-
-### Key Quotes or Phrases
-- "People think about other minds in terms of two distinct dimensions: experience and agency."
-- "Attributing mind confers moral rights; denying mind licenses harm."
-
-### Concept Graph
+- Links to: animacy/biological motion research, dehumanization literature, implicit bias (mPFC differences), and predictive-processing views (the role of expectancy/prediction in tagging minds).
 - Perceiver motives (loneliness, lack of control) → increase mind attribution because they satisfy needs for connection/effectance.
 - Target cues (human likeness, unpredictability) → increase mind attribution because they signal agency/experience.
 - Mind attribution → alters moral status (patient vs. agent) → changes helping/punishing behaviors.
 
----
+### Key Quotes or Phrases
+- "People think about other minds in terms of two distinct dimensions: experience and agency."
+- "Attributing mind confers moral rights; denying mind licenses harm."

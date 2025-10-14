@@ -36,13 +36,6 @@
 - **Related**: [Mentalizing](##mentalizing), [Biological Motion](##biological-motion), [Uncanny Valley](##uncanny-valley), [Dehumanization](##dehumanization), [Agency](##agency), [Experience](##experience)
 - **Notable figure(s)**: Aristotle; Fritz Heider & Marianne Simmel.
 
-## Animacy (ACT-FAST axis)
-- **Definition**: In the ACT-FAST taxonomy, an *action* axis capturing whether actions are directed toward or involve animate beings.
-- **Other ways to think about it**: "Is this action about interacting with living agents?"
-- **Lecture & slide**: 10-10-tom2, slides 34–36.
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a-amp-tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction-in-m-gilead-amp-k-n-ochsner-eds-the-neural-basis-of-mentalizing-pp-283-298-springer)
-- **Related**: [ACT-FAST Taxonomy](##act-fast-taxonomy), [Animacy](##animacy)
-
 ## Animalistic Dehumanization
 - **Definition**: Denying *uniquely human* traits to a target (e.g., civility, refinement), likening them to animals.
 - **Other ways to think about it**: Treating someone as less-than-human by stripping distinctively human qualities.
