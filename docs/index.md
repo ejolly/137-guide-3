@@ -1,12 +1,12 @@
 # Challenge 1 Study Guide
 
-This site contains several resources to help you prepare for Challenge 1.  
+This site contains several additional resources to help you prepare for Challenge 1.  
 You **do not** need to memorize the whole thing - treat it as a helpful *reference.*  
 Aim to be generally familiar with these ideas and you'll be fine - we're not trying to trick you!
 
-> **Challenge Scope.** You're responsible for material covered **in lecture only** (including any studies we mentioned!)
+?> Full lecture slides, podcasts, paper PDFs, & videos are available on [Canvas](https://canvas.ucsd.edu/courses/70082).
 
-**Suggested uses**
+## Suggested uses
 
 There are few ways you might find it helpful to review this material:
 
@@ -14,6 +14,17 @@ There are few ways you might find it helpful to review this material:
 - Start with the [glossary](glossary.md) and treat it like wikipedia. Jump around to different [papers](optional-readings/index.md) and [lecture notes](lecture-notes/index.md) for more context
 - Or just use whatever study methods work for you and use the *search box* to find anything in the guide you're looking for
 
+## AI study help (optional)
+
+You might also find it helpful to *chat* with each week's lecture materials or the full list of all lecture transcripts using the optional course NotebookLM:
+
+- Week 0 slides & papers: https://tinyurl.com/137-intro
+- Week 1 slides & papers: https://tinyurl.com/137-week-01
+- Week 2 slides & papers: https://tinyurl.com/137-week-02
+- Week 3 slides & papers: https://tinyurl.com/137-week-03
+- All lecture recordings: https://tinyurl.com/137-part-1
+
+Canvas also includes an "AI-lecture-recaps" Module that has brief (5-7min) refresher videos based on full lecture transcripts using NotebookLM!
 
 ---
 
