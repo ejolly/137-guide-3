@@ -365,6 +365,33 @@ python3 challenges/shuffle_exam.py challenges/challenge_01/ --exam-date "Fri Oct
 git diff challenges/challenge_01/challenge-01-v*.md
 ```
 
+### ✅ Verify Exam-Map Alignment
+
+**Critical:** Verify that the exam-map actually matches the generated exam files (catches data structure bugs):
+
+```bash
+# Check Version A, Question 1 - exam-map says correct answer is A
+grep "| 1 |" challenges/challenge_01/exam-map.md | head -1
+# Should show: | 1 | **A** | A-Q1 | ...
+
+# Verify the actual answer key file has bold marker on A
+sed -n '3,10p' challenges/challenge_01/challenge-01-vA-with-key.md
+# Should show: **(A)** **The mind is a blank slate...** (bold on A)
+```
+
+**Check Version B alignment:**
+```bash
+# Check what exam-map says for Version B Question 1
+sed -n '/^## Version B/,/^## Version C/p' challenges/challenge_01/exam-map.md | grep "| 1 |"
+# Note which letter is marked as correct
+
+# Verify in actual Version B answer key
+sed -n '/^### 1\./,/^### 2\./p' challenges/challenge_01/challenge-01-vB-with-key.md
+# Check that the same letter has the bold marker
+```
+
+**Why this matters:** This catches bugs where the exam-map reports incorrect answer keys due to data structure issues during shuffling.
+
 ---
 
 ## Understanding the Output
@@ -447,29 +474,51 @@ What is Theory of Mind?
 
 **Section 1: Quick Answer Keys**
 
-Tables for rapid lookup:
+Tables for rapid lookup (split into two tables for better PDF rendering):
 
 ```markdown
 ## Version A Answer Key
 
+### Questions 1-13
+
 | Q# | Correct Answer | Source Question | Question Preview |
 |----|----------------|-----------------|------------------|
-| 1  | **C**          | A-Q1           | What is Theory... |
-| 2  | **B**          | A-Q2           | Which statement... |
+| 1  | **A**          | A-Q1           | What key idea... |
+| 2  | **D**          | A-Q2           | Which statement... |
+...
+| 13 | **B**          | A-Q13          | The lecture proposes... |
+
+### Questions 14-26
+
+| Q# | Correct Answer | Source Question | Question Preview |
+|----|----------------|-----------------|------------------|
+| 14 | **D**          | A-Q14          | A robot makes... |
+| 15 | **C**          | A-Q15          | The research by... |
+...
+| 26 | **D**          | A-Q26          | In iterative... |
 ```
 
 **Section 2: Cross-Reference**
 
-Shows where each Version A question appears in other versions:
+Shows where each Version A question appears in other versions (note how correct answer letters vary):
 
 ```markdown
 ### Version A - Question 1
-**Correct Answer: C**
+**Correct Answer: A**
 
 - Version B: Question 14 (Correct: C)
 - Version C: Question 5 (Correct: C)
 - Version D: Question 17 (Correct: A)
+
+### Version A - Question 6
+**Correct Answer: B**
+
+- Version B: Question 7 (Correct: C)
+- Version C: Question 22 (Correct: A)
+- Version D: Question 6 (Correct: D)
 ```
+
+The varying correct answers (A, B, C, D across versions) prevent answer-pattern cheating.
 
 **Use cases:**
 - Verify consistent grading across versions
@@ -502,21 +551,24 @@ Shows where each Version A question appears in other versions:
 - Use `--skip-render` flag to skip this step during content iteration
 - If rendering fails, markdown files are still usable
 - PDFs use typst backend for better formatting (fallback to default if unavailable)
+- **Exam-map tables are split at question 13** to prevent PDF rendering issues with long tables
 
 ---
 
 ## Version Differences
 
-|                    | Version A    | Versions B, C, D |
-|--------------------|--------------|------------------|
-| Question order     | Original     | Shuffled         |
-| Answer order       | Original     | Shuffled         |
-| Random seed        | 0 (no shuffle) | 1, 2, 3        |
-| Use case           | Reference    | Student distribution |
+|                    | Version A        | Versions B, C, D |
+|--------------------|------------------|------------------|
+| Question order     | Original         | Shuffled         |
+| Answer order       | **Shuffled**     | Shuffled         |
+| Random seed        | 0                | 1, 2, 3          |
+| Use case           | Reference        | Student distribution |
+
+**Important:** All 4 versions now shuffle answer choices independently, meaning the correct answer for the same question will be different letters (A, B, C, or D) across versions. This prevents answer-pattern cheating.
 
 All versions have:
-- Same questions (just reordered)
-- Same correct answers (just different A/B/C/D positions)
+- Same questions (just reordered in B, C, D)
+- **Varied correct answer positions** (e.g., Q1 might be A in Version A, C in Version B, D in Version C)
 - Student version + Answer key version
 - Bonus question (student versions only)
 
@@ -528,20 +580,21 @@ All versions have:
 
 The script uses **fixed random seeds** for deterministic output:
 
-- **Version A:** Seed = 0 (questions not shuffled, answers not shuffled)
-- **Version B:** Seed = 1
-- **Version C:** Seed = 2
-- **Version D:** Seed = 3
+- **Version A:** Seed = 0 (questions in **original order**, answer choices **shuffled**)
+- **Version B:** Seed = 1 (questions **shuffled**, answer choices **shuffled**)
+- **Version C:** Seed = 2 (questions **shuffled**, answer choices **shuffled**)
+- **Version D:** Seed = 3 (questions **shuffled**, answer choices **shuffled**)
 
 **Why this matters:**
 - Running script multiple times produces **identical files**
 - You can regenerate exams if files are lost
 - Git diffs show actual content changes, not random reordering
 - TAs can verify exam integrity
+- **Answer positions vary across all versions** - prevents students from memorizing answer patterns
 
 ### Changing Seeds
 
-If you need different shuffles, edit `shuffle_exam.py` around lines 693-725 (search for `random.seed`):
+If you need different shuffles, edit `shuffle_exam.py` around lines 473-500 (search for `random.seed`):
 
 ```python
 random.seed(1)  # Change to random.seed(100) for different shuffling
@@ -851,15 +904,16 @@ git diff challenges/challenge_01/
 **Key features:**
 - ✅ Automatic validation (4 choices, 1 correct answer)
 - ✅ Answer format normalization (`**(A)** text  ` with 2 trailing spaces)
-- ✅ Reproducible output (fixed seeds)
+- ✅ **Answer shuffling across all versions** - prevents answer-pattern cheating
+- ✅ Reproducible output (fixed seeds 0, 1, 2, 3)
 - ✅ Works with any number of questions
 - ✅ Student-ready format (clean, with instructions)
-- ✅ Answer keys for grading
-- ✅ Bonus question support
+- ✅ Answer keys for grading (with bold markers)
+- ✅ Bonus question support (appended to student versions only)
 - ✅ Configurable point values
-- ✅ Cross-reference for TAs
-- ✅ PDF rendering for distribution
-- ✅ DOCX rendering for editing
+- ✅ Cross-reference exam-map for TAs (split tables for better PDF rendering)
+- ✅ PDF rendering for distribution (via pandoc + typst)
+- ✅ DOCX rendering for editing (via pandoc)
 - ✅ Graceful failure handling (markdown always generated)
 - ✅ Clear error messages
 

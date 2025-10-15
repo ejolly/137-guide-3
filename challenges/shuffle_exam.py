@@ -39,6 +39,7 @@ import random
 import sys
 import argparse
 import subprocess
+import copy
 from pathlib import Path
 
 
@@ -178,9 +179,8 @@ def shuffle_and_write_version(questions, version_letter, output_path, challenge_
     output_lines = [f"# {challenge_name} Question Bank Version {version_letter} - {total_questions} total\n"]
 
     for new_num, q in enumerate(shuffled_questions, 1):
-        # Shuffle answer choices
-        shuffled_choices = q['choices'].copy()
-        random.shuffle(shuffled_choices)
+        # Shuffle answer choices IN-PLACE so the data structure reflects the shuffle
+        random.shuffle(q['choices'])
 
         # Write question
         output_lines.append(f"### {new_num}.")
@@ -188,7 +188,7 @@ def shuffle_and_write_version(questions, version_letter, output_path, challenge_
         output_lines.append("")
 
         # Write choices with normalized format: **(A)** text  (with trailing spaces)
-        for new_letter, choice in zip(['A', 'B', 'C', 'D'], shuffled_choices):
+        for new_letter, choice in zip(['A', 'B', 'C', 'D'], q['choices']):
             if choice['is_correct']:
                 output_lines.append(f"**({new_letter})** **{choice['text']}**  ")
             else:
@@ -204,11 +204,14 @@ def shuffle_and_write_version(questions, version_letter, output_path, challenge_
 
 
 def write_version_a(questions, output_path, challenge_name):
-    """Write Version A without shuffling (original order) with marked answers."""
+    """Write Version A with shuffled choices (using seed 0) but original question order."""
     total_questions = len(questions)
     output_lines = [f"# {challenge_name} Question Bank Version A - {total_questions} total\n"]
 
     for q in questions:
+        # Shuffle answer choices IN-PLACE so the data structure reflects the shuffle
+        random.shuffle(q['choices'])
+
         output_lines.append(f"### {q['original_num']}.")
         output_lines.append(q['question_text'])
         output_lines.append("")
@@ -232,14 +235,20 @@ def create_exam_map(version_a_qs, version_b_qs, version_c_qs, version_d_qs, outp
     lines.append("This document helps TAs grade different exam versions.\n")
     lines.append("---\n")
 
-    # Create answer keys for each version
+    # Create answer keys for each version (split into two tables for better PDF rendering)
     for version_letter, questions in [('A', version_a_qs), ('B', version_b_qs),
                                        ('C', version_c_qs), ('D', version_d_qs)]:
         lines.append(f"## Version {version_letter} Answer Key\n")
+
+        # First table: Questions 1-13
+        lines.append("### Questions 1-13\n")
         lines.append("| Q# | Correct Answer | Source Question | Question Preview |")
         lines.append("|----|----------------|-----------------|------------------|")
 
         for new_num, q in enumerate(questions, 1):
+            if new_num > 13:
+                break
+
             # Find correct answer letter in shuffled version
             correct_text = q['correct_choice']['text']
             correct_letter = None
@@ -254,6 +263,31 @@ def create_exam_map(version_a_qs, version_b_qs, version_c_qs, version_d_qs, outp
             lines.append(f"| {new_num} | **{correct_letter}** | A-Q{q['original_num']} | {preview} |")
 
         lines.append("")
+
+        # Second table: Questions 14-26 (or to end if fewer questions)
+        if len(questions) > 13:
+            lines.append(f"### Questions 14-{len(questions)}\n")
+            lines.append("| Q# | Correct Answer | Source Question | Question Preview |")
+            lines.append("|----|----------------|-----------------|------------------|")
+
+            for new_num, q in enumerate(questions, 1):
+                if new_num <= 13:
+                    continue
+
+                # Find correct answer letter in shuffled version
+                correct_text = q['correct_choice']['text']
+                correct_letter = None
+                for letter, choice in zip(['A', 'B', 'C', 'D'], q['choices']):
+                    if choice['text'] == correct_text:
+                        correct_letter = letter
+                        break
+
+                # Get question preview (first 50 chars)
+                preview = q['question_text'].split('\n')[0][:50] + "..."
+
+                lines.append(f"| {new_num} | **{correct_letter}** | A-Q{q['original_num']} | {preview} |")
+
+            lines.append("")
 
     # Create cross-reference section
     lines.append("\n---\n")
@@ -689,35 +723,36 @@ def main():
     bonus_file = challenge_dir / "bonus-question.md"
     has_bonus = bonus_file.exists()
 
-    # Set base random seed for reproducibility
-    random.seed(0)
-
     # ===== STEP 1: Generate initial versions with marked answers =====
     print("📝 Generating initial versions with marked answers...")
 
-    # Version A is the original (no shuffling) - keep original order
-    version_a_qs = questions.copy()
+    # Create deep copies for each version so shuffling is independent
+    # Version A: Keep original question order, but shuffle choices (seed 0)
+    random.seed(0)
+    version_a_qs = copy.deepcopy(questions)
     output_a = challenge_dir / f"challenge-{challenge_num}-vA.md"
     write_version_a(version_a_qs, output_a, challenge_name)
 
-    # Generate other versions with different random seeds
+    # Version B: Shuffle questions and choices (seed 1)
     random.seed(1)
     version_b_qs = shuffle_and_write_version(
-        questions, 'B',
+        copy.deepcopy(questions), 'B',
         challenge_dir / f"challenge-{challenge_num}-vB.md",
         challenge_name
     )
 
+    # Version C: Shuffle questions and choices (seed 2)
     random.seed(2)
     version_c_qs = shuffle_and_write_version(
-        questions, 'C',
+        copy.deepcopy(questions), 'C',
         challenge_dir / f"challenge-{challenge_num}-vC.md",
         challenge_name
     )
 
+    # Version D: Shuffle questions and choices (seed 3)
     random.seed(3)
     version_d_qs = shuffle_and_write_version(
-        questions, 'D',
+        copy.deepcopy(questions), 'D',
         challenge_dir / f"challenge-{challenge_num}-vD.md",
         challenge_name
     )
