@@ -1,6 +1,6 @@
-# Challenge 1 Study Guide
+# Challenge 2 Study Guide
 
-This site contains several additional resources to help you prepare for Challenge 1. You should treat this as a *supplemental resource* to lecture slides, attendance & podcasts.
+This site contains several additional resources to help you prepare for Challenge 2. You should treat this as a *supplemental resource* to lecture slides, attendance & podcasts.
 
 !> These resources are **not comprehensive** and should serve as a general starting point and/or refresher. Make sure to refer to the actual lectures for details that might be missing here. "It wasn't in the study guide" won't be an acceptable excuse!
 
@@ -10,23 +10,22 @@ This site contains several additional resources to help you prepare for Challeng
 
 There are few ways you might find it helpful to review this material:
 
-- Start with [historical perspectives](timeline.md) then go through [lecture notes](lecture-notes/index.md) reviewing any [glossary terms](glossary.md) and/or [papers](paper-summaries/index.md) for more context
-- Start with the [glossary](glossary.md) and treat it like wikipedia. Jump around to different [papers](paper-summaries/index.md) and [lecture notes](lecture-notes/index.md) for more context
+- Start with the [evolution of rationality](timeline/part-02)
+- Start with the [glossary](glossary/part-02) and treat it like wikipedia. Jump around to different [papers](paper-summaries/part-02) and [lecture notes](lecture-notes/index.md) for more context
 - Or just use whatever study methods work for you and use the *search box* to find anything in the guide you're looking for
 
 ## AI study help (optional)
 
 You might also find it helpful to *chat* with each week's lecture materials or the full list of all lecture transcripts using the optional course NotebookLM:
 
-- Week 0 slides & papers: https://tinyurl.com/137-intro
-- Week 1 slides & papers: https://tinyurl.com/137-week-01
-- Week 2 slides & papers: https://tinyurl.com/137-week-02
-- Week 3 slides & papers: https://tinyurl.com/137-week-03
-- All lecture recordings: https://tinyurl.com/137-part-1
+- Week 4 slides & papers: https://tinyurl.com/137-week-04
+- Week 5 slides & papers: https://tinyurl.com/137-week-05
+- Week 6 slides & papers: https://tinyurl.com/137-week-06
+- All Part 2 lecture recordings: https://tinyurl.com/137-part-2
 
-Canvas also includes an "AI-lecture-recaps" Module that has brief (5-7min) refresher videos based on full lecture transcripts using NotebookLM!
+<!--Canvas also includes an "AI-lecture-recaps" Module that has brief (5-7min) refresher videos based on full lecture transcripts using NotebookLM!
 
-!> AI generate summaries and chats can sometimes be *more* confusing if you're asking about *nuanced details*. When this happens, try asking it to refer to specific lecture slides to force it to explain things in a more *class-consistent* way. However, for the final say always refer directly to lecture slides & podcasts!
+!> AI generate summaries and chats can sometimes be *more* confusing if you're asking about *nuanced details*. When this happens, try asking it to refer to specific lecture slides to force it to explain things in a more *class-consistent* way. However, for the final say always refer directly to lecture slides & podcasts!-->
 
 ---
 
