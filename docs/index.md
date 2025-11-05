@@ -10,18 +10,15 @@ This site contains several additional resources to help you prepare for Challeng
 
 There are few ways you might find it helpful to review this material:
 
-- Start with the [evolution of rationality](timeline/part-02)
+- Start with the [evolution of rationality](timeline/part-02) and then revisit [lecture notes](lecture-notes/part-02)
 - Start with the [glossary](glossary/part-02) and treat it like wikipedia. Jump around to different [papers](paper-summaries/part-02) and [lecture notes](lecture-notes/part-02) for more context
 - Or just use whatever study methods work for you and use the *search box* to find anything in the guide you're looking for
 
 ## AI study help (optional)
 
-You might also find it helpful to *chat* with each week's lecture materials or the full list of all lecture transcripts using the optional course NotebookLM:
+You might also find it helpful to *chat* with all lecture materials and transcripts from Part 2 of the course using the optional course NotebookLM:
 
-- Week 4 slides & papers: https://tinyurl.com/137-week-04
-- Week 5 slides & papers: https://tinyurl.com/137-week-05
-- Week 6 slides & papers: https://tinyurl.com/137-week-06
-- All Part 2 lecture recordings: https://tinyurl.com/137-part-2
+- All Part 2 lecture recordings: [https://tinyurl.com/137-part-2](https://tinyurl.com/137-part-2)
 
 <!--Canvas also includes an "AI-lecture-recaps" Module that has brief (5-7min) refresher videos based on full lecture transcripts using NotebookLM!
 

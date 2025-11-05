@@ -10,7 +10,7 @@
 * [Evolution of Rationality](timeline/part-02.md)
 * [Term Glossary](glossary/part-02.md)
 - ---
-* [Challenge 1 Study Guide](/part-01.md)
+<!--* [Challenge 1 Study Guide](/part-01.md)
   * [Lecture Notes](lecture-notes/part-01.md)
     * [Week 01](lecture-notes/week-01.md)
     * [Week 02](lecture-notes/week-02.md)
@@ -21,4 +21,4 @@
     * [Week 02](paper-summaries/week-02.md)
     * [Week 03](paper-summaries/week-03.md)
   * [Historical Perspectives](timeline/part-01.md)
-  * [Term Glossary](glossary/part-01.md)
+  * [Term Glossary](glossary/part-01.md)-->
