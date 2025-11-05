@@ -1,4 +1,4 @@
-# Course Glossary
+# Part 1 Term Glossary
 
 [A](#act-fast-taxonomy) | [B](#beautycontest--keynesian-game) | [C](#causal-inference) | [D](#dehumanization) | [E](#empiricism) | [F](#false-belief) | [G](#goal-directed-movement) | H | [I](#implicit-theories) | J | K | [L](#levels-of-explanation) | [M](#mechanistic-dehumanization) | N | O | [P](#perspective-giving) | Q | [R](#recursive-reasoning) | [S](#satisficing) | [T](#theory-of-mind-tom) | [U](#uncanny-valley) | [V](#valence) | W | X | Y | Z
 

@@ -1,467 +1,585 @@
-# Course Glossary
+# Part 2 Term Glossary
 
-[A](#act-fast-taxonomy) | [B](#beautycontest--keynesian-game) | [C](#causal-inference) | [D](#dehumanization) | [E](#empiricism) | [F](#false-belief) | [G](#goal-directed-movement) | H | [I](#implicit-theories) | J | K | [L](#levels-of-explanation) | [M](#mechanistic-dehumanization) | N | O | [P](#perspective-giving) | Q | [R](#recursive-reasoning) | [S](#satisficing) | [T](#theory-of-mind-tom) | [U](#uncanny-valley) | [V](#valence) | W | X | Y | Z
+[A](#ambiguity-aversion) | [B](#behavioral-economics) | [C](#certainty-effect) | [D](#defection) | [E](#evolution-of-trust) | [F](#fair-bet) | [G](#game) | [H](#heuristics) | [I](#independence-eut-axiom) | J | [K](#kin-selection) | [L](#loss-aversion) | M | [N](#nash-equilibrium) | O | [P](#payoff) | Q | [R](#ration-agent) | [S](#satisficing) | [T](#titfortat-tft) | [U](#utility) | [V](#value-function-prospect-theory) | W | X | Y | Z
 
 ---
 
-## ACT-FAST Taxonomy
-- **Definition**: A 6-axis taxonomy for organizing *actions* in semantic space: **A**bstractness, **C**reation, **T**radition, **F**ood, **A**nimacy, and **S**piritualism. It is used to predict how actions relate and transition over time.
-- **Other ways to think about it**: A coordinate system for behaviors—each action has a "position" along these six dimensions.
-- **Lecture & slide**: 10-10-tom2, slides 34–36.
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a-amp-tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction-in-m-gilead-amp-k-n-ochsner-eds-the-neural-basis-of-mentalizing-pp-283-298-springer)
-- **The six dimensions**:
-  - **Abstractness**: How *concrete vs. abstract* an action is (e.g., "socializing" is more abstract than "riding a bicycle"). General vs. specific behaviors.
-  - **Creation**: Actions that *make or produce* things. "Making" vs. "using."
-  - **Tradition**: Actions involving *customs, rituals, and culturally inherited* practices. "Old, established ways of doing things."
-  - **Food**: Actions involving *eating, preparing, or obtaining* food. "Food-relatedness" of actions.
-  - **Animacy**: Whether actions are directed toward or involve animate beings. "Is this action about interacting with living agents?"
-  - **Spiritualism**: Actions with *spiritual or religious* content. Actions about transcendence or ritual meaning.
-- **Example(s)**: "Cooking" scores high on Food and Creation; "Meditating" loads on Spiritualism and Abstractness.
-- **Notable figure(s)**: Diana Tamir, Mark Thornton (Tamir et al., 2021).
+## Ambiguity Aversion
 
-## Agency
-- **Definition**: A core **dimension of mind perception** referring to the capacity to *act, plan, think, remember, and exert self-control*.
-- **Other ways to think about it**: The "can do / can think" part of a mind.
-- **Lecture & slide**: 10-01-mind-perception, slides 29–31.  Also discussed in lecture context.
-- **Paper mentions:** [Week 01](paper-summaries/week-01.md#epley-n-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 01](paper-summaries/week-01.md#gray-h-m-gray-k-wegner-d-m-2007-dimensions-of-mind-perception-science-3155812-619), [Week 02](paper-summaries/week-02.md#waytz-a-gray-k-epley-n-wegner-d-m-2010-causes-and-consequences-of-mind-perception-trends-in-cognitive-sciences-148-383-388)
-- **Related**: [Experience](glossary?id=experience), [Theory of Mind (ToM)](glossary?id=theory-of-mind-tom), [Intentional Stance](glossary?id=intentional-stance), [Animacy](glossary?id=animacy)
-- **Notable figure(s)**: Kurt Gray (Gray et al., 2007).
+- **Definition**: A preference for options with known probabilities over options with unknown or ambiguous probabilities, even when the expected value is the same or higher for the ambiguous option.
+- **Other ways to think about it**: Dislike of 'unknown odds'; tending to avoid bets when the chance of outcomes isn't specified.
+- **Lecture & slide**: 10-27, slide 12
+- **Example(s)**: Choosing a 50% chance of $10 over drawing from an urn with an unknown red/black mix for the same payout.
+- **Related**: [Certainty Effect](#certainty-effect), [Expected Value (EV)](#expected-value-ev), [Expected Utility Theory (EUT)](#expected-utility-theory-eut), [Prospect Theory](#prospect-theory)
 
-## Animacy
-- **Definition**: An *internal signal/schema*—a "life-detector"—tracking whether something is a **mental agent** capable of *thinking* and/or *feeling*.
-- **Other ways to think about it**: Your brain's running estimate that "there's a mind here."
-- **Lecture & slide**: 10-03-animacy, slide 13.
-- **Paper mentions:** [Week 00](paper-summaries/week-00.md#moskowitz-g-b-2005-social-cognition-understanding-self-and-others-introduction-chapter-1-guilford-press-1), [Week 01](paper-summaries/week-01.md#epley-n-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 01](paper-summaries/week-01.md#heider-f-simmel-m-1944-an-experimental-study-of-apparent-behavior-the-american-journal-of-psychology-572-243-259), [Week 02](paper-summaries/week-02.md#blakemore-s-j-decety-j-2001-from-the-perception-of-action-to-the-understanding-of-intention-nature-reviews-neuroscience-28-561-567), [Week 02](paper-summaries/week-02.md#wang-s-lilienfeld-s-o-rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407), [Week 03](paper-summaries/week-03.md#wheatley-t-kang-o-parkinson-c-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606)
-- **Example(s)**: Heider–Simmel film (shapes seem to have intentions); point-light "biological motion" displays that look alive.
-- **Related**: [Mentalizing](glossary?id=mentalizing), [Biological Motion](glossary?id=biological-motion), [Uncanny Valley](glossary?id=uncanny-valley), [Dehumanization](glossary?id=dehumanization), [Agency](glossary?id=agency), [Experience](glossary?id=experience)
-- **Notable figure(s)**: Aristotle; Fritz Heider & Marianne Simmel.
 
-## Animalistic Dehumanization
-- **Definition**: Denying *uniquely human* traits to a target (e.g., civility, refinement), likening them to animals.
-- **Other ways to think about it**: Treating someone as less-than-human by stripping distinctively human qualities.
-- **Lecture & slide**: 10-08-tom, slide 30.
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#haslam-n-2006-dehumanization-an-integrative-review-personality-and-social-psychology-review-103-252-264)
-- **Related**: [Dehumanization](glossary?id=dehumanization), [Mechanistic Dehumanization](glossary?id=mechanistic-dehumanization), [Mentalizing](glossary?id=mentalizing)
-- **Notable figure(s)**: Nick Haslam.
+## Anchoring
 
-## Anthropomorphism
-- **Definition**: Attributing human minds or humanlike properties to nonhuman entities (animals, gadgets, robots, shapes).
-- **Other ways to think about it**: A coarse, fast “perceptual Turing test.”
-- **Lecture & slide**: 10-01 Mind Perception (Heider–Simmel → adopting the Intentional Stance), slides 19–23. :contentReference[oaicite:1]{index=1}
-- **Paper mentions**: Waytz, Gray, Epley, & Wegner (2010) review antecedents & consequences of mind perception, including anthropomorphism; see Week 02. :contentReference[oaicite:2]{index=2}
-- **Related**: [Animacy](glossary?id=animacy); [Intentional Stance](glossary?id=intentional-stance); [Uncanny Valley](glossary?id=uncanny-valley)
+- **Definition**: The tendency to rely on an initial value (the 'anchor') when making judgments or decisions, leading subsequent estimates to be biased toward that starting point.
+- **Other ways to think about it**: Smart reuse of prior information; a 'starting point' that pulls your judgment.
+- **Lecture & slide**: 10-27, slide 42; 10-29, slides 9–10
+- **Example(s)**: Salary negotiations starting from an initial offer; list price influencing willingness-to-pay.
+- **Related**: [Reference Dependence](#reference-dependence), [Framing Effect](#framing-effect), [Prospect Theory](#prospect-theory)
 
-## Anticipatory Coordination
-- **Definition**: Coupling across distinct times where partners adjust current behavior based on predictions of each other's upcoming states (e.g., dancing).
-- **Other ways to think about it**: Predict‑ahead alignment.
-- **Lecture & slide**: 10-13-simulation, slides 28–29.
-- **Related**: [Mutual Adaptation](glossary?id=mutual-adaptation), [Synchrony](glossary?id=synchrony)
 
-## Arousal
-- **Definition**: In the Circumplex Model of Affect, a dimension indexing *activation* (high vs. low).
-- **Other ways to think about it**: Energized vs. calm feelings.
-- **Lecture & slide**: 10-01-mind-perception, slide 33.
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#vainio-l-mo-x--vainio-m-2025-is-kiki-angry-and-bouba-happy-association-between-emotions-shapes-and-sounds-psychological-research-89-124)
-- **Related**: [Valence](glossary?id=valence), [Circumplex Model of Affect](glossary?id=circumplex-model-of-affect)
+## Availability Heuristic
 
-## Attribution Theory (Naive Psychology)
-- **Definition**: We go beyond perception to generate *explanations* for behavior—distinguishing internal (person) vs. external (situation) causes.
-- **Other ways to think about it**: Everyday "mini-theories" about why people do what they do.
-- **Lecture & slide**: 10-03-animacy, slide 33 (recap); 10-08-tom, slide 42 (Heider; Jones & Davis).
-- **Paper mentions:** [Week 01](paper-summaries/week-01.md#heider-f-amp-simmel-m-1944-an-experimental-study-of-apparent-behavior-the-american-journal-of-psychology-572-243-259), [Week 02](paper-summaries/week-02.md#moran-j-m-jolly-e-amp-mitchell-j-p-2014-spontaneous-mentalizing-predicts-the-fundamental-attribution-error-journal-of-cognitive-neuroscience-263-569-576)
-- **Related**: [Correspondent Inference Theory](glossary?id=correspondent-inference-theory), [Covariation Model](glossary?id=covariation-model), [Implicit Theories](glossary?id=implicit-theories), [Theory of Mind (ToM)](glossary?id=theory-of-mind-tom)
-- **Notable figure(s)**: Fritz Heider; Edward Jones & Keith Davis.
+- **Definition**: Judging frequency or likelihood by how easily examples come to mind, which can misrepresent true probabilities.
+- **Other ways to think about it**: Ease of recall stands in for chance.
+- **Lecture & slide**: 10-27, slide 20; 10-29, slide 17
+- **Example(s)**: Overestimating the risk of dramatic events you’ve seen in the news.
+- **Related**: [Representativeness Heuristic](#representativeness-heuristic), [Framing Effect](#framing-effect), [Resource Rationality](#resource-rationality)
 
-## Beauty‑Contest / Keynesian Game
-- **Definition**: A diagnostic guessing game in which players choose a number typically aiming at a fraction (e.g., 2/3) of the group average; used to reveal limited iterative reasoning.
-- **Other ways to think about it**: 'Guess 2/3 of the average' task.
-- **Lecture & slide**: 10-13-simulation; Optional readings (Nagel, 1995).
-- **Paper mentions:** [Week 03](paper-summaries/week-03.md#camerer-c-f-ho-t-h-chong-j-k-2004-a-cognitive-hierarchy-model-of-games-the-quarterly-journal-of-economics-1193-861-898), [Week 03](paper-summaries/week-03.md#nagel-r-1995-unraveling-in-guessing-games-an-experimental-study-the-american-economic-review-855-1313-1326)
-- **Related**: [Cognitive Hierarchy Theory (CHT)](glossary?id=cognitive-hierarchy-theory-cht); Level‑k models; [Bounded Rationality](glossary?id=bounded-rationality)
 
-## Behaviorism
-- **Definition**: A program emphasizing *conditioning* and observable behavior; often treated the mind as a "black box."
-- **Other ways to think about it**: Predict and control behavior via rewards/punishments.
-- **Lecture & slide**: 09-29-history, slides 12–17.
-- **Paper mentions:** [Week 01](paper-summaries/week-01.md#dennett-d-c-1971-intentional-systems-the-journal-of-philosophy-684-87-106), [Week 01](paper-summaries/week-01.md#pennington-d-c-2000-social-cognition-history-chapter-routledge)
-- **Related**: [Empiricism](glossary?id=empiricism), [Cognitive Psychology](glossary?id=cognitive-psychology)
+## Axelrod Tournament
 
-## Biological Motion
-- **Definition**: Motion patterns that suggest *causes beyond simple physics* (e.g., chasing, goal-directed movement); classic evidence for [animacy](glossary?id=animacy).
-- **Other ways to think about it**: Movement that "feels alive."
-- **Lecture & slide**: 10-03-animacy, slides 20–22, 23–26, 30–31.
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#blakemore-s-j-decety-j-2001-from-the-perception-of-action-to-the-understanding-of-intention-nature-reviews-neuroscience-28-561-567), [Week 02](paper-summaries/week-02.md#frith-c-d-frith-u-2006-how-we-predict-what-other-people-are-going-to-do-brain-research-10791-36-46), [Week 02](paper-summaries/week-02.md#pitcher-d-ungerleider-l-g-2021-evidence-for-a-third-visual-pathway-specialized-for-social-perception-trends-in-cognitive-sciences-252-100-110), [Week 02](paper-summaries/week-02.md#brüne-m-brüne-cohrs-u-2006-theory-of-mindevolution-ontogeny-brain-mechanisms-and-psychopathology-neuroscience-biobehavioral-reviews-304-437-455)
-- **Example(s)**: Johansson point-light walkers; dots that seem to "chase" each other; shared motion–music patterns (Sievers et al., 2021).
-- **Related**: [Animacy](glossary?id=animacy), [Mentalizing](glossary?id=mentalizing), [Intentional Stance](glossary?id=intentional-stance)
+- **Definition**: A 1981 computer tournament comparing strategies in the iterated Prisoner’s Dilemma; the simple 'Tit‑for‑Tat' strategy performed best across diverse opponents.
+- **Other ways to think about it**: Benchmark contest that revealed which strategies sustain cooperation over repeated interactions.
+- **Lecture & slide**: 10-31, slides 10, 13–18, 23; 11-05, slides 5, 7–10
+- **Example(s)**: Programs submitting strategies like Always Defect, Always Cooperate, and Tit‑for‑Tat to play round‑robin matches.
+- **Related**: [Tit‑for‑Tat (TFT)](#titfor-tat-tft), [Direct Reciprocity](#direct-reciprocity), [Prisoner’s Dilemma (PD)](#prisoners-dilemma-pd), [Nash Equilibrium](#nash-equilibrium)
+- **Notable figure(s)**: Robert Axelrod
+
+
+## Axioms of EUT (Overview)
+
+- **Definition**: The backbone of Expected Utility Theory: Completeness, Transitivity, Independence, and Continuity. Together they imply that preferences can be represented by a utility function and that choices maximize expected utility.
+- **Other ways to think about it**: The 'rules' that make EUT work.
+- **Lecture & slide**: 10-24, slides 24–25
+- **Example(s)**: 
+- **Related**: [Expected Utility Theory (EUT)](#expected-utility-theory-eut), [Completeness (EUT Axiom)](#completeness-eut-axiom), [Transitivity (EUT Axiom)](#transitivity-eut-axiom), [Independence (EUT Axiom)](#independence-eut-axiom), [Continuity (EUT Axiom)](#continuity-eut-axiom)
+
+
+## Behavioral Economics
+
+- **Definition**: An approach that incorporates psychological insights—such as biases, heuristics, and subjective value—into models of economic decision‑making.
+- **Other ways to think about it**: Economics that uses realistic psychology instead of idealized 'rational' agents.
+- **Lecture & slide**: 10-27, slide 22
+- **Example(s)**: Prospect Theory explaining risk attitudes; loss aversion shaping consumer choices.
+- **Related**: [Prospect Theory](#prospect-theory), [Expected Utility Theory (EUT)](#expected-utility-theory-eut), [Bounded Rationality](#bounded-rationality)
+- **Notable figure(s)**: Daniel Kahneman, Amos Tversky
+
+
+## Bounded Optimality
+
+- **Definition**: The idea that, given limits on time, information, and computation, good strategies maximize expected **utility of cognition** for the problem at hand.
+- **Other ways to think about it**: Best‑possible thinking **within** constraints; 'optimal given the bounds'.
+- **Lecture & slide**: 10-27, slide 38
+- **Example(s)**: Choosing a quick heuristic that yields near‑optimal results when time is short.
+- **Related**: [Resource Rationality](#resource-rationality), [Bounded Rationality](#bounded-rationality), [Heuristics (Fast & Frugal)](#heuristics-fast--frugal)
+- **Notable figure(s)**: Herbert Simon
+
 
 ## Bounded Rationality
-- **Definition**: Humans reason with *limited resources*; we "satisfice" rather than optimize.
-- **Other ways to think about it**: "Good enough" decision-making under constraints.
-- **Lecture & slide**: 09-29-history, slide 29.
-- **Paper mentions:** [Week 03](paper-summaries/week-03.md#camerer-c-f-ho-t-h-chong-j-k-2004-a-cognitive-hierarchy-model-of-games-the-quarterly-journal-of-economics-1193-861-898), [Week 03](paper-summaries/week-03.md#nagel-r-1995-unraveling-in-guessing-games-an-experimental-study-the-american-economic-review-855-1313-1326)
-- **Related**: [Satisficing](glossary?id=satisficing), [Cognitive Misers](glossary?id=cognitive-misers)
-- **Notable figure(s)**: Herbert Simon.
 
-## Causal Inference
-- **Definition**: The general ability to reason *backwards from observations to causes*—foundational for pretense/decoupling and representing others' beliefs.
-- **Other ways to think about it**: Figuring out "what must be true behind the scenes" to explain what you see.
-- **Lecture & slide**: 10-10-tom2, slide 57 (and adjacent). Discussed in class when introducing recursive belief reasoning.
-- **Paper mentions:** [Week 00](paper-summaries/week-00.md#mitchell-j-p-2006-mentalizing-and-marr-an-information-processing-approach-to-the-study-of-social-cognition-brain-research-1079-1-66-75), [Week 01](paper-summaries/week-01.md#heider-f--simmel-m-1944-an-experimental-study-of-apparent-behavior-the-american-journal-of-psychology-57-2-243-259), [Week 03](paper-summaries/week-03.md#wang-et-al-2025-modeling-other-minds-a-computational-account-of-social-cognition-and-its-development)
-- **Example(s)**: Inferring that a dropped glass broke because it hit the floor; in ToM tasks, inferring another's *false belief* from their actions.
-- **Related**: [False Belief](glossary?id=false-belief), [Pretense / Decoupling](glossary?id=pretense--decoupling), [Theory of Mind (ToM)](glossary?id=theory-of-mind-tom)
+- **Definition**: Humans make 'good enough' decisions using limited time, knowledge, and computation rather than perfect optimization.
+- **Other ways to think about it**: Satisficing under constraints; frugal reasoning instead of exhaustive calculation.
+- **Lecture & slide**: 10-24, slide 4
+- **Example(s)**: Stopping a search after finding an option that clears a threshold rather than scanning all options.
+- **Related**: [Satisficing](#satisficing), [Resource Rationality](#resource-rationality), [Bounded Optimality](#bounded-optimality)
+- **Notable figure(s)**: Herbert Simon
 
-## Circumplex Model of Affect
-- **Definition**: A 2D "feeling space" defined by **Valence** (positive–negative) and **Arousal** (activated–deactivated).
-- **Other ways to think about it**: A map of emotions you can plot any feeling onto.
-- **Lecture & slide**: 10-01-mind-perception, slide 33.
-- **Related**: [Valence](glossary?id=valence), [Arousal](glossary?id=arousal)
 
-## Cognitive Dissonance
-- **Definition**: Psychological discomfort when *beliefs, attitudes, or actions* contradict one another; motivates change.
-- **Other ways to think about it**: "Mental itch" that pushes you to reconcile inconsistencies.
-- **Lecture & slide**: 09-29-history, slide 25.
-- **Related**: [Constructivism](glossary?id=constructivism), [Predictive Mind](glossary?id=predictive-mind)
-- **Notable figure(s)**: Leon Festinger.
+## Certainty Effect
 
-## Cognitive Hierarchy Theory (CHT)
-- **Definition**: A model of boundedly rational strategic reasoning in which players come in discrete levels (k=0,1,2,…) and each k‑level best‑responds to a distribution of lower‑level types (0..k−1).
-- **Other ways to think about it**: Finite‑depth recursive reasoning.
-- **Lecture & slide**: 10-13-simulation, slides 17–18; optional readings (Camerer, Ho, & Chong, 2004).
-- **Paper mentions:** [Week 03](paper-summaries/week-03.md#camerer-c-f-ho-t-h-amp-chong-j-k-2004-a-cognitive-hierarchy-model-of-games-the-quarterly-journal-of-economics-1193-861-898), [Week 03](paper-summaries/week-03.md#nagel-r-1995-unraveling-in-guessing-games-an-experimental-study-the-american-economic-review-855-1313-1326)
-- **Related**: Level‑k models; [Bounded Rationality](glossary?id=bounded-rationality); Recursive reasoning
-- **Notable figure(s)**: Colin Camerer; Teck‑Ho; Juin‑Kuan Chong.
+- **Definition**: A robust tendency to overweight outcomes that are certain relative to merely probable ones, contributing to risk‑aversion for gains and risk‑seeking for losses.
+- **Other ways to think about it**: Preference for sure things—even when a high probability alternative has equal or higher expected value.
+- **Lecture & slide**: 10-27, slide 11; 10-20, slides 14–19
+- **Example(s)**: Choosing a sure $1000 over a 90% chance of $1200; preferring a sure loss to a larger probable loss in the loss frame.
+- **Related**: [Ambiguity Aversion](#ambiguity-aversion), [Prospect Theory](#prospect-theory), [Framing Effect](#framing-effect), [Expected Value (EV)](#expected-value-ev)
 
-## Cognitive Misers
-- **Definition**: The idea that people conserve cognitive effort, using efficient shortcuts (heuristics).
-- **Other ways to think about it**: We're frugal thinkers by default.
-- **Lecture & slide**: 09-29-history, slide 29.
-- **Related**: [Bounded Rationality](glossary?id=bounded-rationality), [Satisficing](glossary?id=satisficing)
 
-## Cognitive Psychology
-- **Definition**: The study of mental representations and processes that mediate between stimulus and response.
-- **Other ways to think about it**: Psychology that opens the "black box" of the mind.
-- **Lecture & slide**: 10-01-mind-perception, slides 11–15 (historical timeline).
-- **Related**: [Cognitive Science](glossary?id=cognitive-science), [Constructivism](glossary?id=constructivism)
+## Completeness (EUT Axiom)
 
-## Cognitive Science
-- **Definition**: Interdisciplinary science of the mind (psychology, AI, neuroscience, linguistics, philosophy).
-- **Other ways to think about it**: A coalition of fields to understand thinking.
-- **Lecture & slide**: 09-29-history, slides 27–31.
-- **Paper mentions:** [Additional](paper-summaries/additional.md#augusto-2005-review-symbols-and-knowledge-systems), [Additional](paper-summaries/additional.md#clark-2013-whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science), [Additional](paper-summaries/additional.md#kriegeskorte-amp-douglas-2018-cognitive-computational-neuroscience), [Additional](paper-summaries/additional.md#wheatley-et-al-2023-the-emerging-science-of-interacting-minds), [Additional](paper-summaries/additional.md#carvalho-amp-lampinen-2025-naturalistic-computational-cognitive-science-models-and-theories-that-capture-the-full-range-of-natural-behavior), [Week 03](paper-summaries/week-03.md#camerer-c-f-ho-t-h-amp-chong-j-k-2004-a-cognitive-hierarchy-model-of-games-the-quarterly-journal-of-economics-1193-861-898)
-- **Related**: [Computational Cognitive Science](glossary?id=computational-cognitive-science), [Physical Symbol System Hypothesis](glossary?id=physical-symbol-system-hypothesis)
+- **Definition**: For any two options A and B, a rational decision‑maker can state a preference: A ≥ B, B ≥ A, or indifference.
+- **Other ways to think about it**: You can always compare any two lotteries.
+- **Lecture & slide**: 10-24, slides 24–25
+- **Example(s)**: 
+- **Related**: [Expected Utility Theory (EUT)](#expected-utility-theory-eut), [Transitivity (EUT Axiom)](#transitivity-eut-axiom), [Independence (EUT Axiom)](#independence-eut-axiom), [Continuity (EUT Axiom)](#continuity-eut-axiom)
 
-## Complementarity
-- **Definition**: Coupling across distinct internal states in which partners take on differing but coordinated roles (e.g., conversation turn‑taking, teamwork).
-- **Other ways to think about it**: Role‑based coordination.
-- **Lecture & slide**: 10-13-simulation, slides 29–31.
-- **Related**: [Mutual Adaptation](glossary?id=mutual-adaptation)
 
-## Computational Cognitive Science
-- **Definition**: The view that *cognition = computation over representations*, used to model and predict behavior.
-- **Other ways to think about it**: Using algorithms to explain how minds work.
-- **Lecture & slide**: 10-01-mind-perception, slides 14–15.
-- **Paper mentions:** [Additional](paper-summaries/additional.md#augusto-2005-review-symbols-and-knowledge-systems), [Additional](paper-summaries/additional.md#clark-2013-whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science), [Additional](paper-summaries/additional.md#hohwy-2013-the-predictive-mind), [Additional](paper-summaries/additional.md#uleman-kressel-2013-a-brief-history-of-theory-and-research-on-impression-formation), [Additional](paper-summaries/additional.md#kriegeskorte-douglas-2018-cognitive-computational-neuroscience), [Additional](paper-summaries/additional.md#wheatley-et-al-2023-the-emerging-science-of-interacting-minds), [Additional](paper-summaries/additional.md#carvalho-lampinen-2025-naturalistic-computational-cognitive-science-models-and-theories-that-capture-the-full-range-of-natural-behavior), [Week 01](paper-summaries/week-01.md#gray-h-m-gray-k-wegner-d-m-2007-dimensions-of-mind-perception), [Week 03](paper-summaries/week-03.md#bruneau-e-g-saxe-r-2012-the-power-of-being-heard-the-benefits-of-perspective-giving-in-the-context-of-intergroup-conflict), [Week 03](paper-summaries/week-03.md#buckner-r-l-carroll-d-c-2007-self-projection-and-the-brain), [Week 03](paper-summaries/week-03.md#camerer-c-f-ho-t-h-chong-j-k-2004-a-cognitive-hierarchy-model-of-games), [Week 03](paper-summaries/week-03.md#lockwood-p-l-apps-m-a-j-chang-s-w-c-2020-is-there-a-social-brain-implementations-and-algorithms), [Week 03](paper-summaries/week-03.md#nagel-r-1995-unraveling-in-guessing-games-an-experimental-study), [Week 03](paper-summaries/week-03.md#wang-et-al-2025-modeling-other-minds-a-computational-account-of-social-cognition-and-its-development)
-- **Related**: [Predictive Mind](glossary?id=predictive-mind), [Levels of Explanation](glossary?id=levels-of-explanation)
+## Conditional Cooperation
 
-## Constructivism
-- **Definition**: We build reality using *internal representations* and schemas—perception is not passive.
-- **Other ways to think about it**: The "mind assembles" what we experience.
-- **Lecture & slide**: 10-01-mind-perception, slide 13.
-- **Paper mentions:** [Week 00](paper-summaries/week-00.md#greifeneder-r-bless-h-fiedler-k-2017-social-cognition-how-individuals-construct-social-reality-chapters-1-2-psychology-press)
-- **Related**: [Cognitive Psychology](glossary?id=cognitive-psychology), [Predictive Mind](glossary?id=predictive-mind)
+- **Definition**: A default human strategy in repeated games: start cooperatively and match (reward/punish) others’ previous moves.
+- **Other ways to think about it**: Cooperate if others do; respond in kind to defection.
+- **Lecture & slide**: 11-05, slide 13
+- **Example(s)**: In an iterated PD, cooperating after a partner cooperated last round and defecting after they defected.
+- **Related**: [Tit‑for‑Tat (TFT)](#titfor-tat-tft), [Direct Reciprocity](#direct-reciprocity), [Prisoner’s Dilemma (PD)](#prisoners-dilemma-pd)
 
-## Contingent Movement
-- **Definition**: Motion patterns showing *interdependence between objects*, such as chasing, fleeing, or coordinated interaction; evidence for [animacy](glossary?id=animacy).
-- **Other ways to think about it**: Movement that reveals "this thing is responding to that thing."
-- **Lecture & slide**: 10-08-tom (three animacy cues).
-- **Example(s)**: One shape "chasing" another; coordinated movements between objects; interactive displays.
-- **Related**: [Animacy](glossary?id=animacy), [Biological Motion](glossary?id=biological-motion), [Mentalizing](glossary?id=mentalizing), [Intentional Stance](glossary?id=intentional-stance)
 
-## Correspondent Inference Theory
-- **Definition**: We infer intentions from behavior by asking whether the actor *could have done otherwise* and whether the act was freely chosen.
-- **Other ways to think about it**: If a behavior stands out and seems unconstrained, we'll attribute it to internal motives.
-- **Lecture & slide**: 10-08-tom, slide 42.
-- **Related**: [Attribution Theory](glossary?id=attribution-theory-naive-psychology), [Covariation Model](glossary?id=covariation-model), [Implicit Theories](glossary?id=implicit-theories)
+## Cooperation
 
-## Covariation Model
-- **Definition**: We assign causes by tracking **Consistency** (across times/contexts), **Distinctiveness** (across targets), and **Consensus** (across people).
-- **Other ways to think about it**: "CCD" triad—how stable, specific, and widely shared is the behavior?
-- **Lecture & slide**: 10-08-tom, slide 43.
-- **Related**: [Attribution Theory](glossary?id=attribution-theory-naive-psychology), [Implicit Theories](glossary?id=implicit-theories)
-- **Notable figure(s)**: Harold Kelley.
+- **Definition**: Choosing actions that increase joint payoffs—especially salient in repeated and group settings where future interactions or reputations matter.
+- **Other ways to think about it**: Working together for mutual benefit.
+- **Lecture & slide**: 10-29, slides 26–28; 10-31, slides 13–18; 11-05, slides 11–27
+- **Example(s)**: Mutual cooperation in PD (both get 3 instead of 1); contributing to a public goods account.
+- **Related**: [Direct Reciprocity](#direct-reciprocity), [Public Goods Game (PGG)](#public-goods-game-pgg), [Tit‑for‑Tat (TFT)](#titfor-tat-tft), [Tragedy of the Commons](#tragedy-of-the-commons)
 
-## Dehumanization
-- **Definition**: The *denial of mental states* (or human essence) to agents who deserve them; inverse of [mentalizing](glossary?id=mentalizing).
-- **Other ways to think about it**: Treating a person as "less than a person."
-- **Lecture & slide**: 10-08-tom, slide 29–31.
-- **Paper mentions:** [Week 01](paper-summaries/week-01.md#epley-n-amp-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-amp-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 02](paper-summaries/week-02.md#haslam-n-2006-dehumanization-an-integrative-review-personality-and-social-psychology-review-103-252-264), [Week 02](paper-summaries/week-02.md#wang-s-lilienfeld-s-o-amp-rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407), [Week 02](paper-summaries/week-02.md#waytz-a-gray-k-epley-n-amp-wegner-d-m-2010-causes-and-consequences-of-mind-perception-trends-in-cognitive-sciences-148-383-388)
-- **Related**: [Animalistic Dehumanization](glossary?id=animalistic-dehumanization), [Mechanistic Dehumanization](glossary?id=mechanistic-dehumanization), [Uncanny Valley](glossary?id=uncanny-valley)
 
-## Default Mode Network (DMN)
-- **Definition**: A large-scale network (mPFC, PCC/precuneus, lateral parietal regions) active at rest and during internally oriented cognition (e.g., remembering, imagining, mentalizing).
-- **Other ways to think about it**: “Baseline mind-wandering” network that also supports thinking about minds.
-- **Lecture & slide**: Links to ToM and self-projection/simulation across 10‑10 and 10‑13; used to explain dispositional bias. :contentReference[oaicite:5]{index=5}
-- **Paper mentions**: Moran, Jolly, & Mitchell (2014) connect stronger spontaneous DMN engagement to stronger dispositional attributions (FAE). See Week 02. :contentReference[oaicite:6]{index=6}
-- **Related**: [Simulation (ToM Strategy)](glossary?id=simulation-tom-strategy); [Projection (Internal Simulation)](glossary?id=projection-internal-simulation); [Fundamental Attribution Error (FAE)]
+## Continuity (EUT Axiom)
 
-## Dimensions of Mind Perception
-- **Definition**: A two-dimensional framework—**Agency** (can act/think) and **Experience** (can feel)—that people use to perceive minds.
-- **Other ways to think about it**: "Can do/think" × "can feel."
-- **Lecture & slide**: 10-01-mind-perception, slides 29–31. Explained further in discussion.
-- **Paper mentions:** [Week 01](paper-summaries/week-01.md#gray-h-m-gray-k-amp-wegner-d-m-2007-dimensions-of-mind-perception-science-3155812-619), [Week 01](paper-summaries/week-01.md#epley-n-amp-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-amp-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 02](paper-summaries/week-02.md#waytz-a-gray-k-epley-n-amp-wegner-d-m-2010-causes-and-consequences-of-mind-perception-trends-in-cognitive-sciences)
-- **Related**: [Agency](glossary?id=agency), [Experience](glossary?id=experience)
+- **Definition**: If A ≻ B ≻ C, then there exists some probability p such that you are indifferent between B and the lottery (A with probability p; C with probability 1−p).
+- **Other ways to think about it**: No 'jumps' in preferences—lotteries can trade off smoothly.
+- **Lecture & slide**: 10-24, slides 24–25
+- **Example(s)**: 
+- **Related**: [Expected Utility Theory (EUT)](#expected-utility-theory-eut), [Completeness (EUT Axiom)](#completeness-eut-axiom), [Transitivity (EUT Axiom)](#transitivity-eut-axiom), [Independence (EUT Axiom)](#independence-eut-axiom)
 
-## Dualism
-- **Definition**: The view that *mind and body are separate* substances with different properties.
-- **Other ways to think about it**: "Two kinds of stuff"—physical body vs. mental soul.
-- **Lecture & slide**: 09-29-history, slide 8; timeline reintroduced 10-01, slides 11–15.
-- **Related**: [Empiricism](glossary?id=empiricism), [Cognitive Psychology](glossary?id=cognitive-psychology)
-- **Notable figure(s)**: René Descartes.
 
-## Empiricism
-- **Definition**: Knowledge arises from *sensory experience*; the mind starts as a "blank slate" (tabula rasa).
-- **Other ways to think about it**: Learn by observing the world.
-- **Lecture & slide**: 09-29-history, slide 10; timeline also in 10-01, slides 11–15.
-- **Paper mentions:** [Week 01](paper-summaries/week-01.md#pennington-d-c-2000-social-cognition-history-chapter-routledge)
-- **Related**: [Behaviorism](glossary?id=behaviorism), [Constructivism](glossary?id=constructivism)
-- **Notable figure(s)**: John Locke.
+## Defection
 
-## Experience
-- **Definition**: The **mind-perception** dimension indexing capacity to *feel* (e.g., hunger, fear, pain, pleasure).
-- **Other ways to think about it**: The "can feel" part of a mind.
-- **Lecture & slide**: 10-01-mind-perception, slides 29–31. Explained in lecture.
-- **Paper mentions:** [Week 01](paper-summaries/week-01.md#epley-n-amp-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-amp-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 01](paper-summaries/week-01.md#gray-h-m-gray-k-amp-wegner-d-m-2007-dimensions-of-mind-perception-science-3155812-619), [Week 02](paper-summaries/week-02.md#waytz-a-gray-k-epley-n-amp-wegner-d-m-2010-causes-and-consequences-of-mind-perception-trends-in-cognitive-sciences-148-383-388)
-- **Related**: [Agency](glossary?id=agency), [Dimensions of Mind Perception](glossary?id=dimensions-of-mind-perception)
+- **Definition**: In social dilemmas like PD or PGG, choosing the self‑interested action that yields a higher individual payoff regardless of the partner’s cooperation.
+- **Other ways to think about it**: Non‑cooperative move; 'take' instead of 'give'.
+- **Lecture & slide**: 10-29, slides 26–28; 10-31, slides 13–18; 11-05, slides 18–21
+- **Example(s)**: Defecting in PD when the other cooperates to get the temptation payoff; contributing $0 in a public goods round.
+- **Related**: [Prisoner’s Dilemma (PD)](#prisoners-dilemma-pd), [Cooperation](#cooperation), [Tit‑for‑Tat (TFT)](#titfor-tat-tft), [Public Goods Game (PGG)](#public-goods-game-pgg)
 
-## False Belief
-- **Definition**: A situation where an agent holds a belief that is *not* aligned with reality; a classic test of [theory of mind](glossary?id=theory-of-mind-tom).
-- **Other ways to think about it**: Predicting what *another* will do based on what *they think*, not what *you know*.
-- **Lecture & slide**: 10-10-tom2 (section "What about false beliefs?"), ~slides 48–52. Discussed with ape-looking-time tasks in class.
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#premack-d-woodruff-g-1978-does-the-chimpanzee-have-a-theory-of-mind-behavioral-and-brain-sciences-14-515-526), [Week 03](paper-summaries/week-03.md#wang-et-al-2025-modeling-other-minds-a-computational-account-of-social-cognition-and-its-development)
-- **Related**: [Causal Inference](glossary?id=causal-inference), [Pretense / Decoupling](glossary?id=pretense--decoupling)
 
-## Feeling Transitions
-- **Definition**: Empirical regularities describing how *emotions* tend to transition from one state to another over time.
-- **Other ways to think about it**: The "paths" emotions take through affective space.
-- **Lecture & slide**: 10-01-mind-perception, post–slide 33 (Thornton & Tamir, 2016).
-- **Related**: [Circumplex Model of Affect](glossary?id=circumplex-model-of-affect), [Predictive Mind](glossary?id=predictive-mind)
+## Descriptive Theory
 
-## Foundations of Mind Perception (Predict-then-Explain)
-- **Definition**: The course theme that we *predict* and then *explain* minds, leveraging conceptual geometry in both action and mental-state spaces.
-- **Other ways to think about it**: "Use what you know about how states/actions flow to infer what comes next."
-- **Lecture & slide**: 10-10-tom2, slides 31–39 (organizing social knowledge for prediction).
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a--tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction), [Week 02](paper-summaries/week-02.md#frith-c-d--frith-u-2006-how-we-predict-what-other-people-are-going-to-do), [Week 02](paper-summaries/week-02.md#thornton-m-a-weaverdyck-m-e--tamir-d-i-2019-the-brain-represents-people-as-the-mental-states-they-habitually-experience), [Week 03](paper-summaries/week-03.md#wang-et-al-2025-modeling-other-minds-a-computational-account-of-social-cognition-and-its-development)
-- **Related**: [Predictive Mind](glossary?id=predictive-mind), [ACT-FAST Taxonomy](glossary?id=act-fast-taxonomy)
+- **Definition**: A model that captures *what people do*—their actual choices/patterns (e.g., Prospect Theory).
+- **Other ways to think about it**: Behavior‑first account; explains observed regularities.
+- **Lecture & slide**: 10-27, slide 25
+- **Example(s)**: 
+- **Related**: [Normative Theory](#normative-theory), [Prospect Theory](#prospect-theory), [Expected Utility Theory (EUT)](#expected-utility-theory-eut)
 
-## Fundamental Attribution Error (FAE)
-- **Definition**: The tendency to overweight internal/person causes and underweight situational causes when explaining others’ behavior.
-- **Other ways to think about it**: Disposition-first default; situation as an afterthought.
-- **Lecture & slide**: 10-08 ToM I (attribution foundations), and discussed alongside mentalizing → dispositional bias.
-- **Paper mentions**: Moran, Jolly, & Mitchell (2014) show that spontaneous mentalizing (DMN engagement) predicts stronger dispositional attributions (i.e., FAE). See Week 02 summary. 
-- **Related**: [Attribution Theory](glossary?id=attribution-theory-naive-psychology); [Correspondent Inference Theory](glossary?id=correspondent-inference-theory); [Covariation Model](glossary?id=covariation-model); [Default Mode Network] (add entry below)
 
-## Goal-Directed Movement
-- **Definition**: Motion patterns showing *rationality and efficiency*, such as taking the shortest path or behaving purposively toward a goal; evidence for [animacy](glossary?id=animacy).
-- **Other ways to think about it**: Movement that looks "intentional" or "smart."
-- **Lecture & slide**: 10-08-tom (three animacy cues).
-- **Example(s)**: Taking efficient paths; obstacle avoidance; purposive approach/avoidance behaviors.
-- **Related**: [Animacy](glossary?id=animacy), [Biological Motion](glossary?id=biological-motion), [Mentalizing](glossary?id=mentalizing), [Intentional Stance](glossary?id=intentional-stance)
+## Direct Reciprocity
 
-## Implicit Theories
-- **Definition**: Fast, learned *rules/schemas* about the social world that we use to explain and *predict* others' minds and behaviors.
-- **Other ways to think about it**: Your "default" social algorithms.
-- **Lecture & slide**: 10-08-tom, slides 39–43; modern predictive view, slide 45. Extended in lecture.
-- **Related**: [Attribution Theory](glossary?id=attribution-theory-naive-psychology), [Covariation Model](glossary?id=covariation-model), [Theory of Mind (ToM)](glossary?id=theory-of-mind-tom)
+- **Definition**: Cooperation sustained by repeated interactions with the *same partner*: today’s action depends on yesterday’s move.
+- **Other ways to think about it**: I’ll treat you as you treated me.
+- **Lecture & slide**: 11-05, slides 11, 13, 15–16
+- **Example(s)**: Tit‑for‑Tat in iterated PD; cooperating early, then mirroring a partner’s last choice.
+- **Related**: [Tit‑for‑Tat (TFT)](#titfor-tat-tft), [Conditional Cooperation](#conditional-cooperation), [Repeated Interaction](#repeated-interaction)
+- **Notable figure(s)**: Martin Nowak, David Rand
 
-## Information-Processing System (Mind as)
-- **Definition**: The mind viewed as a system that *processes inputs* to produce outputs via internal representations.
-- **Other ways to think about it**: The "software" running on brain "hardware."
-- **Lecture & slide**: 10-01-mind-perception, slide 12.
-- **Paper mentions:** [Week 00](paper-summaries/week-00.md#greifeneder-r-bless-h-amp-fiedler-k-2017-social-cognition-how-individuals-construct-social-reality-chapters-1-amp-2-psychology-press), [Week 00](paper-summaries/week-00.md#mitchell-j-p-2006-mentalizing-and-marr-an-information-processing-approach-to-the-study-of-social-cognition-brain-research-10791-66-75), [Additional](paper-summaries/additional.md#augusto-2005-review-symbols-and-knowledge-systems)
-- **Related**: [Computational Cognitive Science](glossary?id=computational-cognitive-science), [Levels of Explanation](glossary?id=levels-of-explanation)
 
-## Infrahumanization
-- **Definition**: Attributing fewer “secondary” (uniquely human) emotions to outgroups than to ingroups.
-- **Other ways to think about it**: Seeing outgroups as “less fully human” in their inner lives.
-- **Lecture & slide**: 10-08 ToM I (dehumanization family), with HN/UH distinctions used across Week 02. :contentReference[oaicite:3]{index=3}
-- **Paper mentions**: Haslam (2006) review; Week 02 outlines UH vs HN and links to dehumanization phenomena. :contentReference[oaicite:4]{index=4}
-- **Related**: [Dehumanization](glossary?id=dehumanization); [Animalistic Dehumanization](glossary?id=animalistic-dehumanization); [Mechanistic Dehumanization](glossary?id=mechanistic-dehumanization)
+## Evolution of Trust
 
-## Intentional Stance
-- **Definition**: A strategy of treating a system *as if* it has beliefs, desires, and rationality—useful for predicting behavior.
-- **Other ways to think about it**: "Assume a mind and see what follows."
-- **Lecture & slide**: 10-01-mind-perception, slide 22.
-- **Paper mentions:** [Week 01](paper-summaries/week-01.md#dennett-d-c-1971-intentional-systems-the-journal-of-philosophy-684-87-106), [Week 01](paper-summaries/week-01.md#dennett-d-c-1988-pr%C3%A9cis-of-the-intentional-stance-behavioral-and-brain-sciences-113-495-505), [Week 01](paper-summaries/week-01.md#heider-f-amp-simmel-m-1944-an-experimental-study-of-apparent-behavior-the-american-journal-of-psychology-572-243-259), [Week 01](paper-summaries/week-01.md#p%C3%A9rez-osorio-j-amp-wykowska-a-2020-adopting-the-intentional-stance-toward-natural-and-artificial-agents-philosophical-psychology-333-369-395), [Week 02](paper-summaries/week-02.md#blakemore-s-j-amp-decety-j-2001-from-the-perception-of-action-to-the-understanding-of-intention-nature-reviews-neuroscience-28-561-567), [Week 02](paper-summaries/week-02.md#br%C3%BCne-m-amp-br%C3%BCne-cohrs-u-2006-theory-of-mind%E2%80%94evolution-ontogeny-brain-mechanisms-and-psychopathology-neuroscience-amp-biobehavioral-reviews-304-437-455), [Week 02](paper-summaries/week-02.md#frith-c-d-amp-frith-u-2006-how-we-predict-what-other-people-are-going-to-do-brain-research-10791-36-46), [Week 02](paper-summaries/week-02.md#haslam-n-2006-dehumanization-an-integrative-review-personality-and-social-psychology-review-103-252-264), [Week 02](paper-summaries/week-02.md#moran-j-m-jolly-e-amp-mitchell-j-p-2014-spontaneous-mentalizing-predicts-the-fundamental-attribution-error-journal-of-cognitive-neuroscience-263-569-576), [Week 02](paper-summaries/week-02.md#wang-s-lilienfeld-s-o-amp-rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407), [Week 03](paper-summaries/week-03.md#waytz-a-amp-mitchell-j-p-2011-two-mechanisms-for-simulating-other-minds-dissociations-between-mirroring-and-self-projection-current-directions-in-psychological-science-203-197-200)
-- **Related**: [Mentalizing](glossary?id=mentalizing), [Theory of Mind (ToM)](glossary?id=theory-of-mind-tom), [Animacy](glossary?id=animacy)
+- **Definition**: The idea (popularized via simulations and Axelrod’s work) that simple contingent strategies can build and stabilize cooperation in noisy, repeated environments.
+- **Other ways to think about it**: How trust emerges from repeated reciprocal interactions.
+- **Lecture & slide**: 10-31, slides 18, 23
+- **Example(s)**: Tit‑for‑Tat sustaining mutual cooperation despite occasional errors.
+- **Related**: [Tit‑for‑Tat (TFT)](#titfor-tat-tft), [Direct Reciprocity](#direct-reciprocity), [Prisoner’s Dilemma (PD)](#prisoners-dilemma-pd)
+- **Notable figure(s)**: Robert Axelrod
 
-## Levels of Explanation
-- **Definition**: Different levels at which we can explain a system (e.g., *computational/functional*, *algorithmic/representational*, *implementational*).
-- **Other ways to think about it**: "Why?" vs. "How/what representations?" vs. "In what hardware?"
-- **Lecture & slide**: 09-29-history, slides 37–39.
-- **Paper mentions:** [Week 00](paper-summaries/week-00.md#mitchell-j-p-2006-mentalizing-and-marr-an-information-processing-approach-to-the-study-of-social-cognition-brain-research), [Week 02](paper-summaries/week-02.md#thornton-m-a-tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction), [Week 03](paper-summaries/week-03.md#bruneau-e-g-saxe-r-2012-the-power-of-being-heard-the-benefits-of-perspective-giving-in-the-context-of-intergroup-conflict-journal-of-experimental-social-psychology-484-855-866), [Week 03](paper-summaries/week-03.md#buckner-r-l-carroll-d-c-2007-self-projection-and-the-brain-trends-in-cognitive-sciences-112-49-57), [Week 03](paper-summaries/week-03.md#camerer-c-f-ho-t-h-chong-j-k-2004-a-cognitive-hierarchy-model-of-games-the-quarterly-journal-of-economics-1193-861-898), [Week 03](paper-summaries/week-03.md#lockwood-p-l-apps-m-a-j-chang-s-w-c-2020-is-there-a-social-brain-implementations-and-algorithms-trends-in-cognitive-sciences-2410-802-813), [Additional](paper-summaries/additional.md#augusto-2005-review-symbols-and-knowledge-systems), [Additional](paper-summaries/additional.md#clark-2013-whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science), [Additional](paper-summaries/additional.md#hohwy-2013-the-predictive-mind), [Additional](paper-summaries/additional.md#kriegeskorte-douglas-2018-cognitive-computational-neuroscience), [Additional](paper-summaries/additional.md#wheatley-et-al-2023-the-emerging-science-of-interacting-minds), [Additional](paper-summaries/additional.md#carvalho-lampinen-2025-naturalistic-computational-cognitive-science-models-and-theories-that-capture-the-full-range-of-natural-behavior)
-- **Related**: [Computational Cognitive Science](glossary?id=computational-cognitive-science), [Information-Processing System (Mind as)](glossary?id=information-processing-system-mind-as)
-- **Notable figure(s)**: David Marr.
 
-## Mechanistic Dehumanization
-- **Definition**: Denying *human nature* (e.g., warmth, emotionality) by treating targets as *objects or machines*.
-- **Other ways to think about it**: "Cold" objectification—seeing people as tools.
-- **Lecture & slide**: 10-08-tom, slide 31.
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#haslam-n-2006-dehumanization-an-integrative-review-personality-and-social-psychology-review-103-252-264)
-- **Related**: [Dehumanization](glossary?id=dehumanization), [Animalistic Dehumanization](glossary?id=animalistic-dehumanization)
+## Evolutionary Dynamics of Cooperation
 
-## Mentalizing
-- **Definition**: The *automatic attribution of mental states* to explain/predict behavior; perception and attribution are linked.
-- **Other ways to think about it**: Spotting a mind and inferring its contents.
-- **Lecture & slide**: 10-03-animacy, slides 7–9, 16–19; 10-01-mind-perception (ToM intro).
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#blakemore-s-j-amp-decety-j-2001-from-the-perception-of-action-to-the-understanding-of-intention-nature-reviews-neuroscience-28-561-567), [Week 02](paper-summaries/week-02.md#brune-m-amp-brune-cohrs-u-2006-theory-of-mind-evolution-ontogeny-brain-mechanisms-and-psychopathology-neuroscience-amp-biobehavioral-reviews-304-437-455), [Week 02](paper-summaries/week-02.md#frith-c-d-amp-frith-u-2006-how-we-predict-what-other-people-are-going-to-do-brain-research-10791-36-46), [Week 02](paper-summaries/week-02.md#haslam-n-2006-dehumanization-an-integrative-review-personality-and-social-psychology-review-103-252-264), [Week 02](paper-summaries/week-02.md#moran-j-m-jolly-e-amp-mitchell-j-p-2014-spontaneous-mentalizing-predicts-the-fundamental-attribution-error-journal-of-cognitive-neuroscience-263-569-576), [Week 02](paper-summaries/week-02.md#pitcher-d-amp-ungerleider-l-g-2021-evidence-for-a-third-visual-pathway-specialized-for-social-perception-trends-in-cognitive-sciences-252-100-110), [Week 02](paper-summaries/week-02.md#premack-d-amp-woodruff-g-1978-does-the-chimpanzee-have-a-theory-of-mind-behavioral-and-brain-sciences-14-515-526), [Week 02](paper-summaries/week-02.md#thornton-m-a-amp-tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction-in-m-gilead-amp-k-n-ochsner-eds-the-neural-basis-of-mentalizing-pp-283-298-springer), [Week 02](paper-summaries/week-02.md#thornton-m-a-weaverdyck-m-e-amp-tamir-d-i-2019-the-brain-represents-people-as-the-mental-states-they-habitually-experience-nature-communications-101-2291), [Week 02](paper-summaries/week-02.md#wang-s-lilienfeld-s-o-amp-rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407), [Week 02](paper-summaries/week-02.md#waytz-a-gray-k-epley-n-amp-wegner-d-m-2010-causes-and-consequences-of-mind-perception-trends-in-cognitive-sciences-148-383-388), [Week 03](paper-summaries/week-03.md#bruneau-e-g-amp-saxe-r-2012-the-power-of-being-heard-the-benefits-of-perspective-giving-in-the-context-of-intergroup-conflict-journal-of-experimental-social-psychology-484-855-866), [Week 03](paper-summaries/week-03.md#buckner-r-l-amp-carroll-d-c-2007-self-projection-and-the-brain-trends-in-cognitive-sciences-112-49-57), [Week 03](paper-summaries/week-03.md#nagel-r-1995-unraveling-in-guessing-games-an-experimental-study-the-american-economic-review-855-1313-1326), [Week 03](paper-summaries/week-03.md#waytz-a-amp-mitchell-j-p-2011-two-mechanisms-for-simulating-other-minds-dissociations-between-mirroring-and-self-projection-current-directions-in-psychological-science-203-197-200), [Additional](paper-summaries/additional.md#clark-2013-whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science), [Additional](paper-summaries/additional.md#carvalho-amp-lampinen-2025-naturalistic-computational-cognitive-science-models-and-theories-that-capture-the-full-range-of-natural-behavior)
-- **Related**: [Animacy](glossary?id=animacy), [Intentional Stance](glossary?id=intentional-stance), [Theory of Mind (ToM)](glossary?id=theory-of-mind-tom)
+- **Definition**: Mechanisms that support cooperation over time: repeated interactions (direct reciprocity), observability/reputation, group‑level competition, and kinship.
+- **Other ways to think about it**: Why cooperation can persist despite short‑term incentives to defect.
+- **Lecture & slide**: 11-05, slides 26–27
+- **Example(s)**: Cooperation spreading through a network via reputation; higher between genetic relatives (kin).
+- **Related**: [Direct Reciprocity](#direct-reciprocity), [Public Goods Game (PGG)](#public-goods-game-pgg), [Tragedy of the Commons](#tragedy-of-the-commons)
 
-## Mirroring (Embodied Simulation)
-- **Definition**: Automatic activation of an observer's motor and affective representations when perceiving another agent's actions or states; a near‑immediate vicarious resonance.
-- **Other ways to think about it**: Resonance; motor/affective contagion.
-- **Lecture & slide**: 10-13-simulation, slides 22–23.
-- **Paper mentions:** [Week 03](paper-summaries/week-03.md#waytz-a-amp-mitchell-j-p-2011-two-mechanisms-for-simulating-other-minds-dissociations-between-mirroring-and-self-projection-current-directions-in-psychological-science-203-197-200), [Week 03](paper-summaries/week-03.md#wheatley-t-kang-o-parkinson-c-amp-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606), [Week 02](paper-summaries/week-02.md#frith-c-d-amp-frith-u-2006-how-we-predict-what-other-people-are-going-to-do-brain-research-10791-36-46), [Week 02](paper-summaries/week-02.md#blakemore-s-j-amp-decety-j-2001-from-the-perception-of-action-to-the-understanding-of-intention-nature-reviews-neuroscience-28-561-567)
-- **Related**: [Simulation (ToM Strategy)](glossary?id=simulation-tom-strategy), [Synchrony](glossary?id=synchrony), Mirror system, [Affective Empathy](glossary?id=empathy)
-- **Notable figure(s)**: Giacomo Rizzolatti; Adam Waytz & Jason Mitchell.
 
-## Mutual Adaptation
-- **Definition**: Dynamic coupling between interacting agents whereby each predicts and adjusts to the other's behavior to coordinate effectively.
-- **Other ways to think about it**: Interactive alignment; real‑time coordination dynamics.
-- **Lecture & slide**: 10-13-simulation, slides 30–31.
-- **Paper mentions:** [Additional](paper-summaries/additional.md#wheatley-et-al-2023-the-emerging-science-of-interacting-minds), [Week 03](paper-summaries/week-03.md#wheatley-t-kang-o-parkinson-c-amp-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606)
-- **Related**: [Synchrony](glossary?id=synchrony), [Anticipatory Coordination](glossary?id=anticipatory-coordination), [Complementarity](glossary?id=complementarity), [Predictive Mind](glossary?id=predictive-mind)
+## Expected Utility
 
-## Perspective‑Giving
-- **Definition**: An interaction format in which a speaker shares their own experiences or constraints to update another's beliefs; especially impactful for lower‑power groups.
-- **Other ways to think about it**: Being heard; evidence provision in dialog.
-- **Lecture & slide**: Optional readings (Bruneau & Saxe, 2012).
-- **Paper mentions:** [Week 03](paper-summaries/week-03.md#bruneau-e-g-amp-saxe-r-2012-the-power-of-being-heard-the-benefits-of-perspective-giving-in-the-context-of-intergroup-conflict-journal-of-experimental-social-psychology-484-855-866)
-- **Related**: [Perspective‑Taking](glossary?id=perspective‑taking)
+- **Definition**: The weighted average of utilities across possible outcomes, using *subjective* utilities and probabilities.
+- **Other ways to think about it**: Average psychological value you expect to get.
+- **Lecture & slide**: 10-24, slides 19–23; 10-27, slides 4–6
+- **Example(s)**: Choosing between a sure $400 and a 50% chance at $1000 by comparing expected utilities, not dollar values.
+- **Related**: [Expected Utility Theory (EUT)](#expected-utility-theory-eut), [Utility](#utility), [Utility Function](#utility-function)
 
-## Perspective‑Taking
-- **Definition**: An interaction format in which a listener actively summarizes/encodes another's perspective, signaling acknowledgment and reducing defensive inference (especially for higher‑power groups).
-- **Other ways to think about it**: Active summarization of the other's view.
-- **Lecture & slide**: Optional readings (Bruneau & Saxe, 2012).
-- **Paper mentions:** [Week 03](paper-summaries/week-03.md#bruneau-e-g-amp-saxe-r-2012-the-power-of-being-heard-the-benefits-of-perspective-giving-in-the-context-of-intergroup-conflict-journal-of-experimental-social-psychology-484-855-866), [Week 03](paper-summaries/week-03.md#wheatley-t-kang-o-parkinson-c-amp-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606)
-- **Related**: [Perspective‑Giving](glossary?id=perspective‑giving); Mentalizing; Attribution
 
-## Physical Symbol System Hypothesis
-- **Definition**: The claim that a *physical symbol system* has the necessary and sufficient means for **intelligent action**.
-- **Other ways to think about it**: Intelligence can arise from symbol manipulation.
-- **Lecture & slide**: 09-29-history, slides 35–36.
-- **Paper mentions:** [Additional](paper-summaries/additional.md#augusto-2005-review-symbols-and-knowledge-systems)
-- **Related**: [Cognitive Science](glossary?id=cognitive-science), [Computational Cognitive Science](glossary?id=computational-cognitive-science)
-- **Notable figure(s)**: Allen Newell & Herbert Simon.
+## Expected Utility Theory (EUT)
 
-## Predictive Mind
-- **Definition**: The mind constantly *predicts* sensory inputs and compares them to reality; representations are shaped by prediction errors and support action, simulation, and mindreading.
-- **Other ways to think about it**: "Brains as prediction engines."
-- **Lecture & slide**: 10-01-mind-perception, slide 16; overview also shown in 09-29-history, slide 41.
-- **Paper mentions:** [Additional](paper-summaries/additional.md#clark-2013-whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science), [Additional](paper-summaries/additional.md#hohwy-2013-the-predictive-mind), [Week 00](paper-summaries/week-00.md#greifeneder-r-bless-h-fiedler-k-2017-social-cognition-how-individuals-construct-social-reality-chapters-1-2-psychology-press), [Week 00](paper-summaries/week-00.md#moskowitz-g-b-2005-social-cognition-understanding-self-and-others-introduction-chapter-1-guilford-press), [Week 00](paper-summaries/week-00.md#mitchell-j-p-2006-mentalizing-and-marr-an-information-processing-approach-to-the-study-of-social-cognition-brain-research-10791-66-75), [Week 01](paper-summaries/week-01.md#epley-n-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 02](paper-summaries/week-02.md#thornton-m-a-tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction-in-m-gilead-k-n-ochsner-eds-the-neural-basis-of-mentalizing-pp-283-298-springer), [Week 02](paper-summaries/week-02.md#thornton-m-a-weaverdyck-m-e-tamir-d-i-2019-the-brain-represents-people-as-the-mental-states-they-habitually-experience-nature-communications-101-2291), [Week 02](paper-summaries/week-02.md#wang-s-lilienfeld-s-o-rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407), [Week 03](paper-summaries/week-03.md#buckner-r-l-carroll-d-c-2007-self-projection-and-the-brain-trends-in-cognitive-sciences-112-49-57), [Week 03](paper-summaries/week-03.md#waytz-a-mitchell-j-p-2011-two-mechanisms-for-simulating-other-minds-dissociations-between-mirroring-and-self-projection-current-directions-in-psychological-science-203-197-200), [Week 03](paper-summaries/week-03.md#wheatley-t-kang-o-parkinson-c-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606)
-- **Related**: [Constructivism](glossary?id=constructivism), [Feeling Transitions](glossary?id=feeling-transitions), [Theory of Mind (ToM)](glossary?id=theory-of-mind-tom)
+- **Definition**: A normative decision framework in which rational agents maximize expected utility subject to axioms (completeness, transitivity, independence, continuity).
+- **Other ways to think about it**: Rational choice as maximizing average psychological value based on a utility function.
+- **Lecture & slide**: 10-24, slides 16–25
+- **Example(s)**: Preferring A over B whenever EU(A) > EU(B), even if A’s dollar EV is lower but utility is higher.
+- **Related**: [Expected Value (EV)](#expected-value-ev), [Utility Function](#utility-function), [Axioms of EUT (Overview)](#axioms-of-eut-overview), [Prospect Theory](#prospect-theory)
 
-## Pretense / Decoupling
-- **Definition**: The ability to *represent the world differently* from what is currently observed—decoupling one's mental representation from perception (a foundation for ToM).
-- **Other ways to think about it**: "Imagination mode": temporarily suspend reality to consider alternatives.
-- **Lecture & slide**: 10-10-tom2, "Pretending = Decoupling from the World" (Leslie, 1987), around slides 52–56.
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#frith-c-d-frith-u-2006-how-we-predict-what-other-people-are-going-to-do-brain-research-10791-36-46)
-- **Related**: [Causal Inference](glossary?id=causal-inference), [False Belief](glossary?id=false-belief), [Theory of Mind (ToM)](glossary?id=theory-of-mind-tom)
-- **Notable figure(s)**: Alan Leslie.
 
-## Projection (Internal Simulation)
-- **Definition**: Using autobiographical memory to construct imagined perspectives (past, future, counterfactual) and to 'step into another's shoes.'
-- **Other ways to think about it**: Mental time travel; counterfactual simulation.
-- **Lecture & slide**: 10-13-simulation, slides 24–27.
-- **Paper mentions:** [Week 03](paper-summaries/week-03.md#buckner-r-l-amp-carroll-d-c-2007-self-projection-and-the-brain-trends-in-cognitive-sciences-112-49-57), [Week 03](paper-summaries/week-03.md#waytz-a-amp-mitchell-j-p-2011-two-mechanisms-for-simulating-other-minds-dissociations-between-mirroring-and-self-projection-current-directions-in-psychological-science-203-197-200)
-- **Related**: [Simulation (ToM Strategy)](glossary?id=simulation-tom-strategy), [Prospection](glossary?id=prospection-episodic-future-thinking), [Episodic Memory](glossary?id=episodic-memory)
-- **Notable figure(s)**: Randy Buckner & Daniel Carroll; Adam Waytz & Jason Mitchell.
+## Expected Value (EV)
 
-## Prospection (Episodic Future Thinking)
-- **Definition**: Constructing detailed, self‑referenced simulations of plausible future events guided by episodic memory; used for planning and social inference.
-- **Other ways to think about it**: Future‑oriented mental time travel.
-- **Lecture & slide**: Optional readings (Buckner & Carroll, 2007).
-- **Paper mentions:** [Week 03](paper-summaries/week-03.md#buckner-r-l-amp-carroll-d-c-2007-self-projection-and-the-brain-trends-in-cognitive-sciences-112-49-57)
-- **Related**: [Self‑Projection (Internal Simulation)](glossary?id=self‑projection-internal-simulation); [Predictive Mind](glossary?id=predictive-mind)
+- **Definition**: The long‑run average outcome of a gamble computed by multiplying each outcome by its probability and summing.
+- **Other ways to think about it**: The logic of fair bets; average dollar payoff in repeated play.
+- **Lecture & slide**: 10-24, slides 10–12; 10-24, slides 13–14 (EV Theory)
+- **Example(s)**: A coin flip that pays $2 on heads and $0 on tails has EV = $1.
+- **Related**: [Expected Value Theory](#expected-value-theory), [Expected Utility Theory (EUT)](#expected-utility-theory-eut)
+
+
+## Expected Value Theory
+
+- **Definition**: Early normative account assuming people maximize objective expected value (dollars) rather than subjective utility.
+- **Other ways to think about it**: Maximize the money, not the feeling.
+- **Lecture & slide**: 10-24, slides 13–15
+- **Example(s)**: Choosing a 50% chance of $1000 (EV=$500) over a sure $400.
+- **Related**: [Expected Value (EV)](#expected-value-ev), [Expected Utility Theory (EUT)](#expected-utility-theory-eut)
+
+
+## Fair Bet
+
+- **Definition**: A gamble priced at its expected value so that, over many plays, neither side has an advantage.
+- **Other ways to think about it**: A 'just' lottery where EV equals the ticket price.
+- **Lecture & slide**: 10-24, slide 10
+- **Example(s)**: Paying $1 for a game that on average returns $1 per play.
+- **Related**: [Expected Value (EV)](#expected-value-ev), [Statistical Decision Theory](#statistical-decision-theory)
+
+
+## Fluency (Processing Fluency)
+
+- **Definition**: A fast‑and‑frugal heuristic: prefer options that are easier to process, understand, or act upon.
+- **Other ways to think about it**: Go with what’s easy to use or read.
+- **Lecture & slide**: 10-27, slide 40; 10-29, slide 16
+- **Example(s)**: Choosing a simpler form or a clearer interface over a complex one.
+- **Related**: [Heuristics (Fast & Frugal)](#heuristics-fast--frugal), [Satisficing](#satisficing), [Resource Rationality](#resource-rationality)
+
+
+## Framing Effect
+
+- **Definition**: Choices change when the **same** outcomes are described as gains vs. losses, even with identical probabilities and payoffs.
+- **Other ways to think about it**: 'Lives saved' vs 'lives lost'—wording shifts risk preference.
+- **Lecture & slide**: 10-20, slides 14–16
+- **Example(s)**: Preferring a sure gain when a disease program is framed as 'saves 200' but preferring a risky option when framed as '400 will die'.
+- **Related**: [Prospect Theory](#prospect-theory), [Reference Point](#reference-point), [Loss Aversion](#loss-aversion)
+
+
+## Game
+
+- **Definition**: Any interaction where the outcome depends on the actions of more than one person.
+- **Other ways to think about it**: Analyzed situation with interdependent choices.
+- **Lecture & slide**: 10-29, slide 22
+- **Example(s)**: Two drivers deciding whether to yield; firms choosing prices.
+- **Related**: [Game Theory](#game-theory), [Strategy](#strategy), [Payoff](#payoff)
+
+
+## Game Theory
+
+- **Definition**: A framework for analyzing strategic decisions among interacting agents.
+- **Other ways to think about it**: Mathematical toolkit for interdependent choice.
+- **Lecture & slide**: 10-29, slides 21–22
+- **Example(s)**: Modeling the Prisoner’s Dilemma; analyzing pricing competition.
+- **Related**: [Prisoner’s Dilemma (PD)](#prisoners-dilemma-pd), [Nash Equilibrium](#nash-equilibrium), [Strategy](#strategy), [Payoff Matrix](#payoff-matrix)
+
+
+## Group‑Level Competition
+
+- **Definition**: Competitive selection pressures between groups that can favor cooperative strategies within groups.
+- **Other ways to think about it**: Groups that cooperate internally can outcompete less cooperative groups.
+- **Lecture & slide**: 11-05, slides 26–27
+- **Example(s)**: Firms/teams with higher internal cooperation performing better and spreading their norms.
+- **Related**: [Evolutionary Dynamics of Cooperation](#evolutionary-dynamics-of-cooperation), [Public Goods Game (PGG)](#public-goods-game-pgg), [Direct Reciprocity](#direct-reciprocity)
+
+
+## Heuristics
+
+- **Definition**: Simple decision rules that deliver good performance with minimal time/effort, exploiting regularities of the environment (fast & frugal).
+- **Other ways to think about it**: Shortcuts tailored to the structure of real‑world problems.
+- **Lecture & slide**: 10-27, slides 39–41; 10-29, slide 16
+- **Example(s)**: Choose the first option that meets your criteria (satisficing).
+- **Related**: [Satisficing](#satisficing), [Fluency (Processing Fluency)](#fluency-processing-fluency), [Resource Rationality](#resource-rationality)
+
+
+## Homo‑economicus
+
+- **Definition**: An idealized 'economic man' who has perfect information and optimizes expected utility without computational limits.
+- **Other ways to think about it**: The frictionless, mathematically optimal decision‑maker.
+- **Lecture & slide**: 10-27, slides 7–8; 10-27, slide 39 (contrast)
+- **Example(s)**: 
+- **Related**: [Expected Utility Theory (EUT)](#expected-utility-theory-eut), [Homo‑heuristicus](#homoheuristicus), [Bounded Rationality](#bounded-rationality)
+
+
+## Homo‑heuristicus
+
+- **Definition**: A reframing of human decision‑makers as adaptive users of heuristics that fit their environments rather than as perfect optimizers.
+- **Other ways to think about it**: 'Biases' viewed as strategies that work under real‑world constraints.
+- **Lecture & slide**: 10-27, slide 39; 10-29, slide 15
+- **Example(s)**: Relying on fluency or social learning when time is short.
+- **Related**: [Heuristics (Fast & Frugal)](#heuristics-fast--frugal), [Resource Rationality](#resource-rationality), [Bounded Optimality](#bounded-optimality)
+
+
+## Independence (EUT Axiom)
+
+- **Definition**: Preferences between lotteries should not change when they are mixed with (or 'padded' by) the same additional lottery.
+- **Other ways to think about it**: Irrelevant alternatives don’t change your ranking.
+- **Lecture & slide**: 10-24, slides 24–25
+- **Example(s)**: 
+- **Related**: [Expected Utility Theory (EUT)](#expected-utility-theory-eut), [Completeness (EUT Axiom)](#completeness-eut-axiom), [Transitivity (EUT Axiom)](#transitivity-eut-axiom), [Continuity (EUT Axiom)](#continuity-eut-axiom)
+
+
+## Iterated Prisoner’s Dilemma (IPD)
+
+- **Definition**: A repeated version of PD in which the same players interact over multiple rounds, allowing conditional strategies and reciprocity.
+- **Other ways to think about it**: PD played again and again with the same partner.
+- **Lecture & slide**: 10-31, slides 10, 13–18; 11-05, slides 5, 7–10, 15–16
+- **Example(s)**: Tit‑for‑Tat and conditional cooperation emerge as successful IPD strategies.
+- **Related**: [Tit‑for‑Tat (TFT)](#titfor-tat-tft), [Direct Reciprocity](#direct-reciprocity), [Nash Equilibrium](#nash-equilibrium)
+
+
+## Kin Selection
+
+- **Definition**: A pathway for cooperation favored by genetic relatedness: helping relatives can increase inclusive fitness.
+- **Other ways to think about it**: Cooperate more with family because genes are shared.
+- **Lecture & slide**: 11-05, slides 26–27 ("interacting with genetic kin")
+- **Example(s)**: Sharing resources preferentially with siblings or cousins in group tasks.
+- **Related**: [Evolutionary Dynamics of Cooperation](#evolutionary-dynamics-of-cooperation), [Direct Reciprocity](#direct-reciprocity)
+
+
+## Loss Aversion
+
+- **Definition**: Losses loom larger than equivalent gains; losing $x hurts roughly twice as much as gaining $x feels good.
+- **Other ways to think about it**: 'Bad is stronger than good' for money and outcomes.
+- **Lecture & slide**: 10-27, slides 20, 42; 10-29, slides 9–10, 17
+- **Example(s)**: Disliking a $50 loss much more than you like a $50 gain; being risk‑seeking to avoid sure losses.
+- **Related**: [Prospect Theory](#prospect-theory), [Reference Point](#reference-point), [Framing Effect](#framing-effect)
+- **Notable figure(s)**: Daniel Kahneman, Amos Tversky
+
+
+## Nash Equilibrium
+
+- **Definition**: A profile of strategies in which no player can improve their payoff by unilaterally changing their own strategy.
+- **Other ways to think about it**: A 'no regrets' stand‑still—given others’ choices, you’re best‑responding.
+- **Lecture & slide**: 10-29, slides 26–27; 11-05, slides 7–8
+- **Example(s)**: In one‑shot PD, mutual defection is a Nash equilibrium even though mutual cooperation is better for both.
+- **Related**: [Prisoner’s Dilemma (PD)](#prisoners-dilemma-pd), [Game Theory](#game-theory), [Strategy](#strategy)
+- **Notable figure(s)**: John Nash
+
+
+### Normative Theory
+
+- **Definition**: A model that prescribes *how one ought to decide* (ideal rationality), regardless of how people actually behave.
+- **Other ways to think about it**: The 'should' standard; benchmark for optimal choice.
+- **Lecture & slide**: 10-24, slides 16–25 (EUT as normative); 10-27, slide 25 (contrast with descriptive)
+- **Example(s)**: 
+- **Related**: [Expected Utility Theory (EUT)](#expected-utility-theory-eut), [Descriptive Theory](#descriptive-theory)
+
+
+## Payoff
+
+- **Definition**: The outcome a player receives in a game given the combination of strategies chosen by all players.
+- **Other ways to think about it**: Your result—points, money, utility—from the joint actions.
+- **Lecture & slide**: 10-29, slide 22
+- **Example(s)**: The 'temptation' payoff in PD when you defect and the other cooperates.
+- **Related**: [Payoff Matrix](#payoff-matrix), [Game](#game), [Strategy](#strategy)
+
+
+### Payoff Matrix
+
+- **Definition**: A table listing players’ payoffs for every combination of strategies in a game.
+- **Other ways to think about it**: Grid that shows who gets what for each joint move.
+- **Lecture & slide**: 10-29, slides 26–27 (PD matrix shown)
+- **Example(s)**: The 2×2 PD matrix with rewards (R), temptations (T), sucker’s (S), and punishments (P).
+- **Related**: [Prisoner’s Dilemma (PD)](#prisoners-dilemma-pd), [Nash Equilibrium](#nash-equilibrium), [Strategy](#strategy)
+
+
+### Player
+
+- **Definition**: An agent making choices in a game whose payoff depends on all players’ actions.
+- **Other ways to think about it**: Decision‑maker in a strategic setting.
+- **Lecture & slide**: 10-29, slides 21–22
+- **Example(s)**: Two companies setting prices; two prisoners deciding to cooperate or defect.
+- **Related**: [Game](#game), [Strategy](#strategy), [Payoff](#payoff)
+
+
+### Probability Weighting Function
+
+- **Definition**: In Prospect Theory, a transformation that maps objective probabilities to subjective decision weights (often overweighting small p and underweighting large p).
+- **Other ways to think about it**: How we 'feel' probability—not linearly—when deciding.
+- **Lecture & slide**: 10-27, slide 17
+- **Example(s)**: Treating a 1% chance as if it were larger (buying a lottery ticket).
+- **Related**: [Prospect Theory](#prospect-theory), [Value Function (Prospect Theory)](#value-function-prospect-theory)
+
+
+### Prospect Theory
+
+- **Definition**: A descriptive model of decision‑making where outcomes are evaluated relative to a reference point via a value function (concave for gains, convex for losses, steeper for losses) and probabilities are transformed by a weighting function.
+- **Other ways to think about it**: Realistic account with reference dependence, loss aversion, and nonlinear probability weighting.
+- **Lecture & slide**: 10-27, slides 16–17; 10-29, slides 7–8
+- **Example(s)**: Risk‑averse for gains but risk‑seeking for losses; preferring a small‑probability gamble because of overweighted p.
+- **Related**: [Value Function (Prospect Theory)](#value-function-prospect-theory), [Probability Weighting Function](#probability-weighting-function), [Framing Effect](#framing-effect), [Loss Aversion](#loss-aversion), [Reference Point](#reference-point)
+- **Notable figure(s)**: Daniel Kahneman, Amos Tversky
+
+
+### Public Goods Game (PGG)
+
+- **Definition**: A multi‑player social dilemma where individuals decide how much to contribute to a group account that multiplies and redistributes returns to all.
+- **Other ways to think about it**: Scaled‑up PD with continuous contributions.
+- **Lecture & slide**: 11-05, slides 18–22
+- **Example(s)**: Group account doubled then split evenly, creating an incentive to free‑ride (defect) while others contribute.
+- **Related**: [Tragedy of the Commons](#tragedy-of-the-commons), [Cooperation](#cooperation), [Punishment (Altruistic/Punitive)](#punishment-altruisticpunitive)
+
+
+### Punishment (Altruistic/Punitive)
+
+- **Definition**: Paying a personal cost to reduce another’s payoff in order to deter defection and support cooperation.
+- **Other ways to think about it**: Costly sanctioning to enforce norms.
+- **Lecture & slide**: 11-05, slide 23
+- **Example(s)**: Spending tokens to decrease a non‑contributor’s earnings in the PGG.
+- **Related**: [Public Goods Game (PGG)](#public-goods-game-pgg), [Cooperation](#cooperation), [Direct Reciprocity](#direct-reciprocity)
+- **Notable figure(s)**: Ernst Fehr, Simon Gächter
+
+
+### Prisoner’s Dilemma (PD)
+
+- **Definition**: A 2‑player game where each chooses to cooperate or defect; mutual defection is the Nash equilibrium but mutual cooperation yields higher joint payoff.
+- **Other ways to think about it**: Incentives to defect even though both would be better off cooperating.
+- **Lecture & slide**: 10-29, slides 26–28; 11-05, slides 5, 7–10
+- **Example(s)**: Arms races and 'AI investment' analogies to PD; temptation to defect for short‑term advantage.
+- **Related**: [Nash Equilibrium](#nash-equilibrium), [Tit‑for‑Tat (TFT)](#titfor-tat-tft), [Direct Reciprocity](#direct-reciprocity), [Public Goods Game (PGG)](#public-goods-game-pgg)
+
+
+## Rational Agent
+
+- **Definition**: An idealized decision‑maker who follows axioms of rationality (e.g., those of EUT) to maximize expected utility.
+- **Other ways to think about it**: The benchmark 'should' chooser.
+- **Lecture & slide**: 10-24, slides 16–25
+- **Example(s)**: 
+- **Related**: [Expected Utility Theory (EUT)](#expected-utility-theory-eut), [Normative Theory](#normative-theory), [Homo‑economicus](#homoeconomicus)
+
+
+## Reference Dependence
+
+- **Definition**: Evaluating outcomes relative to a reference point (status quo/expectations), not in absolute terms.
+- **Other ways to think about it**: Value is about changes from where you stand.
+- **Lecture & slide**: 10-27, slide 42; 10-29, slides 9–10
+- **Example(s)**: A $10 price drop feels like a gain if you expected a higher price; receiving $0 after expecting $10 feels like a loss.
+- **Related**: [Reference Point](#reference-point), [Framing Effect](#framing-effect), [Prospect Theory](#prospect-theory), [Anchoring](#anchoring)
+
+
+## Reference Point
+
+- **Definition**: The comparison baseline (status quo, expectation, or aspiration) relative to which gains and losses are coded.
+- **Other ways to think about it**: Your 'zero' line for judging outcomes.
+- **Lecture & slide**: 10-27, slide 17 (value function is reference‑dependent)
+- **Example(s)**: Judging a $20 discount as a gain relative to the expected price; feeling a 'loss' after a decreased bonus.
+- **Related**: [Reference Dependence](#reference-dependence), [Prospect Theory](#prospect-theory), [Loss Aversion](#loss-aversion)
+
+
+## Resource Rationality
+
+- **Definition**: The view that humans maximize expected **utility of cognition** by choosing decision strategies that best trade accuracy for cost given available resources and task structure.
+- **Other ways to think about it**: Pick the right tool for the job under constraints.
+- **Lecture & slide**: 10-27, slides 26–27, 30–36, 38
+- **Example(s)**: Using a simple recognition heuristic when time is short and accuracy costs are small.
+- **Related**: [Bounded Optimality](#bounded-optimality), [Heuristics (Fast & Frugal)](#heuristics-fast--frugal), [Bounded Rationality](#bounded-rationality)
+
+
+## Risk Aversion
+
+- **Definition**: Preference for a sure outcome over a risky one with equal or higher expected value in the **gain** domain.
+- **Other ways to think about it**: Avoiding variability when dealing with gains.
+- **Lecture & slide**: 10-20, slides 14–19
+- **Example(s)**: Choosing a sure $1000 over a 90% chance at $1200.
+- **Related**: [Certainty Effect](#certainty-effect), [Prospect Theory](#prospect-theory), [Risk Seeking](#risk-seeking)
+
+
+## Risk Seeking
+
+- **Definition**: Preference for a risky option over a sure loss of equal value in the **loss** domain.
+- **Other ways to think about it**: Willingness to gamble to avoid a sure loss.
+- **Lecture & slide**: 10-20, slides 14–19
+- **Example(s)**: Preferring a 25% chance to lose $400 (75% chance to lose nothing) over a sure loss of $300.
+- **Related**: [Certainty Effect](#certainty-effect), [Prospect Theory](#prospect-theory), [Risk Aversion](#risk-aversion)
+
 
 ## Satisficing
-- **Definition**: Choosing an option that is *good enough*, rather than optimal, given limits on time/knowledge.
-- **Other ways to think about it**: "Stop searching once it clears the bar."
-- **Lecture & slide**: 09-29-history, slide 29.
-- **Related**: [Bounded Rationality](glossary?id=bounded-rationality), [Cognitive Misers](glossary?id=cognitive-misers)
-- **Notable figure(s)**: Herbert Simon.
 
-## Simulation (ToM Strategy)
-- **Definition**: Using *one's own mind* as a model to *simulate* another's mental states to predict their behavior.
-- **Other ways to think about it**: "Run it on your brain to see what they might do."
-- **Lecture & slide**: 10-10-tom2, "ToM: 3 broad strategies," slide 57.
-- **Paper mentions:** [Week 03](paper-summaries/week-03.md#waytz-a-amp-mitchell-j-p-2011-two-mechanisms-for-simulating-other-minds-dissociations-between-mirroring-and-self-projection-current-directions-in-psychological-science-203-197-200), [Week 03](paper-summaries/week-03.md#buckner-r-l-amp-carroll-d-c-2007-self-projection-and-the-brain-trends-in-cognitive-sciences-112-49-57), [Week 02](paper-summaries/week-02.md#blakemore-s-j-amp-decety-j-2001-from-the-perception-of-action-to-the-understanding-of-intention-nature-reviews-neuroscience-28-561-567)
-- **Related**: [Implicit Theories](glossary?id=implicit-theories), [Causal Inference](glossary?id=causal-inference), [Theory of Mind (ToM)](glossary?id=theory-of-mind-tom)
+- **Definition**: Stopping the search once an option meets an acceptable threshold rather than optimizing.
+- **Other ways to think about it**: 'Good enough' decision rule.
+- **Lecture & slide**: 10-27, slide 40; 10-29, slide 16
+- **Example(s)**: Picking the first apartment that meets budget and location requirements.
+- **Related**: [Bounded Rationality](#bounded-rationality), [Heuristics (Fast & Frugal)](#heuristics-fast--frugal)
+- **Notable figure(s)**: Herbert Simon
 
-## Social Impact (Mind-Space Axis)
-- **Definition**: An axis of mental state space indicating how *socially impactful* a state is (e.g., envy vs. fatigue).
-- **Other ways to think about it**: "How much does this state inherently involve other people?"
-- **Lecture & slide**: 10-10-tom2, slide 33.
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a-tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction)
-- **Related**: [Valence](glossary?id=valence), [Rationality](glossary?id=rationality)
 
-## Synchrony
-- **Definition**: Coupling in time and internal state between partners (e.g., tapping together, imitation/mimicry) that supports mutual prediction and bonding.
-- **Other ways to think about it**: Temporal entrainment; time‑locked coupling.
-- **Lecture & slide**: 10-13-simulation, slides 27–31.
-- **Paper mentions:** [Week 03](paper-summaries/week-03.md#wheatley-t-kang-o-parkinson-c-amp-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606), [Additional](paper-summaries/additional.md#wheatley-et-al-2023-the-emerging-science-of-interacting-minds)
-- **Related**: [Mutual Adaptation](glossary?id=mutual-adaptation), [Mirroring (Embodied Simulation)](glossary?id=mirroring-embodied-simulation)
-- **Notable figure(s)**: Talia Wheatley.
+## Simon’s Scissors
 
-## Recursive Reasoning
-- **Definition**: Thinking about what others think (k‑levels deep): “I think, they think, I think…”
-- **Other ways to think about it**: Higher‑order ToM; iterated belief reasoning.
-- **Lecture & slide**: 10‑10 ToM II, recursion limit ≈ 4–5 levels discussed. :contentReference[oaicite:8]{index=8}
-- **Related**: [Cognitive Hierarchy Theory (CHT)](glossary?id=cognitive-hierarchy-theory-cht); [Beauty‑Contest / Keynesian Game](glossary?id=beauty‑contest--keynesian-game); [False Belief](glossary?id=false-belief)
+- **Definition**: Herbert Simon’s metaphor that rationality depends on both the cognitive constraints (one blade) and the structure of the environment (the other blade).
+- **Other ways to think about it**: Behavior = mind constraints × environment structure.
+- **Lecture & slide**: 10-24, slide 5
+- **Example(s)**: A heuristic is 'rational' when it matches environmental structure under limited time/knowledge.
+- **Related**: [Bounded Rationality](#bounded-rationality), [Resource Rationality](#resource-rationality), [Heuristics (Fast & Frugal)](#heuristics-fast--frugal)
+- **Notable figure(s)**: Herbert Simon
 
-## Theory of Mind (ToM)
-- **Definition**: The capacity to *represent others' beliefs, desires, and intentions* to explain and predict their behavior—*a theory* because such states are unobservable yet predict actions.
-- **Other ways to think about it**: "Reasoning about what's in someone else's head."
-- **Lecture & slide**: 10-08-tom (Premack & Woodruff quote; ToM definition), slides ~35–38; 10-01 ToM intro; 10-10-tom2 extends.
-- **Paper mentions:** [Week 01](paper-summaries/week-01.md#epley-n-amp-waytz-a-2010-mind-perception-in-s-t-fiske-d-t-gilbert-amp-g-lindzey-eds-handbook-of-social-psychology-5th-ed-vol-1-pp-498-541-wiley), [Week 02](paper-summaries/week-02.md#blakemore-s-j-amp-decety-j-2001-from-the-perception-of-action-to-the-understanding-of-intention-nature-reviews-neuroscience-28-561-567), [Week 02](paper-summaries/week-02.md#brüne-m-amp-brüne-cohrs-u-2006-theory-of-mindevolution-ontogeny-brain-mechanisms-and-psychopathology-neuroscience-amp-biobehavioral-reviews-304-437-455), [Week 02](paper-summaries/week-02.md#frith-c-d-amp-frith-u-2006-how-we-predict-what-other-people-are-going-to-do-brain-research-10791-36-46), [Week 02](paper-summaries/week-02.md#premack-d-amp-woodruff-g-1978-does-the-chimpanzee-have-a-theory-of-mind-behavioral-and-brain-sciences-14-515-526), [Week 03](paper-summaries/week-03.md#buckner-r-l-amp-carroll-d-c-2007-self-projection-and-the-brain-trends-in-cognitive-sciences-112-49-57), [Week 03](paper-summaries/week-03.md#lockwood-p-l-apps-m-a-j-amp-chang-s-w-c-2020-is-there-a-social-brain-implementations-and-algorithms-trends-in-cognitive-sciences-2410-802-813)
-- **Related**: [Implicit Theories](glossary?id=implicit-theories), [Causal Inference](glossary?id=causal-inference), [Simulation](glossary?id=simulation-tom-strategy), [False Belief](glossary?id=false-belief), [Mentalizing](glossary?id=mentalizing)
-- **Notable figure(s)**: David Premack & Guy Woodruff.
 
-## Theory-of-Mind: Three Strategies (Algorithms)
-- **Definition**: Three broad strategies for arriving at mental-state hypotheses: **Implicit Theories**, **Causal Inference**, **Simulation**.
-- **Other ways to think about it**: Three "recipes" minds use to read other minds.
-- **Lecture & slide**: 10-10-tom2, slide 57.
-- **Related**: [Implicit Theories](glossary?id=implicit-theories), [Causal Inference](glossary?id=causal-inference), [Simulation](glossary?id=simulation-tom-strategy)
+## Social Learning
 
-## Third Visual Pathway (Social Perception)
-- **Definition**: Proposed visual stream specialized for dynamic social information (pSTS-centered), complementing ventral “what” and dorsal “where/how.”
-- **Other ways to think about it**: A motion‑ and interaction‑tuned route for social vision.
-- **Paper mentions**: Pitcher & Ungerleider (2021); summarized in Week 02. :contentReference[oaicite:7]{index=7}
-- **Related**: [Biological Motion](glossary?id=biological-motion); [Animacy](glossary?id=animacy)
+- **Definition**: Adopting strategies by observing and copying others who appear successful.
+- **Other ways to think about it**: Imitate the winners.
+- **Lecture & slide**: 10-27, slide 40; 10-29, slide 16
+- **Example(s)**: Choosing a busy restaurant assuming it’s better; copying a peer’s study tactic with high returns.
+- **Related**: [Heuristics (Fast & Frugal)](#heuristics-fast--frugal), [Resource Rationality](#resource-rationality)
 
-## Turing Test
-- **Definition**: A behavioral criterion for whether a machine appears to *have a mind*: if a perceiver can't tell it's not human.
-- **Other ways to think about it**: "If it's indistinguishable from a person in conversation, treat it as minded."
-- **Lecture & slide**: 10-01-mind-perception, slide 27 ("What kinds of things have a mind?").
-- **Paper mentions:** [Additional](paper-summaries/additional.md#augusto-2005-review-symbols-and-knowledge-systems), [Week 03](paper-summaries/week-03.md#wheatley-t-kang-o-parkinson-c-amp-looser-c-e-2012-from-mind-perception-to-mental-connection-synchrony-as-a-mechanism-for-social-understanding-social-and-personality-psychology-compass-68-589-606), [Week 02](paper-summaries/week-02.md#waytz-a-gray-k-epley-n-amp-wegner-d-m-2010-causes-and-consequences-of-mind-perception-trends-in-cognitive-sciences-148-383-388)
-- **Related**: [Intentional Stance](glossary?id=intentional-stance), [Predictive Mind](glossary?id=predictive-mind)
 
-## Uncanny Valley
-- **Definition**: A *negative sensation* when something is *almost* human but *not quite*—your [animacy](glossary?id=animacy) detector receives conflicting cues.
-- **Other ways to think about it**: "Creepy-almost-human" effect.
-- **Lecture & slide**: 10-08-tom, slides 26–28. Also elaborated in class: features (shape, motion, contingency) can conflict.
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#wang-s-lilienfeld-s-o-amp-rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407)
-- **Related**: [Animacy](glossary?id=animacy), [Dehumanization](glossary?id=dehumanization)
+## Statistical Decision Theory
 
-## Valence
-- **Definition**: In affect, how *positive vs. negative* a state feels.
-- **Other ways to think about it**: Pleasantness of a feeling.
-- **Lecture & slide**: 10-01-mind-perception, slide 33; appears again as mental-state axis (10-10-tom2, slide 33).
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#thornton-m-a--tamir-d-i-2021-the-organization-of-social-knowledge-is-tuned-for-prediction-in-m-gilead--k-n-ochsner-eds-the-neural-basis-of-mentalizing-pp-283-298-springer), [Week 02](paper-summaries/week-02.md#vainio-l-mo-x--vainio-m-2025-is-kiki-angry-and-bouba-happy-association-between-emotions-shapes-and-sounds-psychological-research-89-124), [Week 02](paper-summaries/week-02.md#wang-s-lilienfeld-s-o--rochat-p-2015-the-uncanny-valley-existence-and-explanations-review-of-general-psychology-194-393-407)
-- **Related**: [Arousal](glossary?id=arousal), [Circumplex Model of Affect](glossary?id=circumplex-model-of-affect)
+- **Definition**: Early formalism asking what outcome a rational player should expect when a chance game is played repeatedly: maximize expected value.
+- **Other ways to think about it**: Probability‑based logic for repeated gambles.
+- **Lecture & slide**: 10-24, slides 8–11
+- **Example(s)**: Deriving EV by weighting outcomes by probabilities for a fair game.
+- **Related**: [Expected Value (EV)](#expected-value-ev), [Expected Value Theory](#expected-value-theory)
 
-## Violation-of-Expectation (VOE) Paradigm
-- **Definition**: A *nonverbal* method for probing what infants/animals "know": they *look longer* when an event violates expectations—implying latent beliefs.
-- **Other ways to think about it**: "Surprise = longer looking," a window into preverbal knowledge.
-- **Lecture & slide**: 10-10-tom2, slides 46–47 (and following developmental timeline).
-- **Paper mentions:** [Week 02](paper-summaries/week-02.md#brüne-m-amp-brüne-cohrs-u-2006-theory-of-mindevolution-ontogeny-brain-mechanisms-and-psychopathology-neuroscience-amp-biobehavioral-reviews-304-437-455), [Week 02](paper-summaries/week-02.md#premack-d-amp-woodruff-g-1978-does-the-chimpanzee-have-a-theory-of-mind-behavioral-and-brain-sciences-14-515-526)
-- **Related**: [Causal Inference](glossary?id=causal-inference), [False Belief](glossary?id=false-belief)
+
+## Strategy
+
+- **Definition**: A plan or rule determining a player’s action(s) in a game (e.g., cooperate/defect; respond to the opponent’s last move).
+- **Other ways to think about it**: Your decision rule in a strategic setting.
+- **Lecture & slide**: 10-29, slide 22; 10-31, slides 13–16
+- **Example(s)**: Tit‑for‑Tat in IPD (start cooperatively, then copy the partner’s previous move).
+- **Related**: [Game](#game), [Payoff](#payoff), [Nash Equilibrium](#nash-equilibrium)
+
+
+## Tit‑for‑Tat (TFT)
+
+- **Definition**: A simple strategy for IPD: Cooperate on the first move; thereafter, do exactly what your partner did last round.
+- **Other ways to think about it**: Be nice, retaliate quickly, and forgive quickly.
+- **Lecture & slide**: 10-31, slides 13–16; 11-05, slides 8, 14–16
+- **Example(s)**: Starting with C, then mirroring D or C in subsequent rounds.
+- **Related**: [Direct Reciprocity](#direct-reciprocity), [Conditional Cooperation](#conditional-cooperation), [Iterated Prisoner’s Dilemma (IPD)](#iterated-prisoners-dilemma-ipd)
+- **Notable figure(s)**: Robert Axelrod
+
+
+### Tragedy of the Commons
+
+- **Definition**: When individually rational choices to not contribute (defect) deplete a shared resource, reducing group welfare.
+- **Other ways to think about it**: Collective ruin from self‑interest in shared systems.
+- **Lecture & slide**: 11-05, slide 22
+- **Example(s)**: Declining contributions in the PGG over rounds when others free‑ride.
+- **Related**: [Public Goods Game (PGG)](#public-goods-game-pgg), [Cooperation](#cooperation), [Punishment (Altruistic/Punitive)](#punishment-altruisticpunitive)
+- **Notable figure(s)**: Garrett Hardin
+
+
+### Transitivity (EUT Axiom)
+
+- **Definition**: If A ≥ B and B ≥ C, then A ≥ C. Preferences are internally consistent and non‑circular.
+- **Other ways to think about it**: No cycles like A ≻ B ≻ C ≻ A.
+- **Lecture & slide**: 10-24, slides 24–25
+- **Example(s)**: 
+- **Related**: [Expected Utility Theory (EUT)](#expected-utility-theory-eut), [Completeness (EUT Axiom)](#completeness-eut-axiom), [Independence (EUT Axiom)](#independence-eut-axiom), [Continuity (EUT Axiom)](#continuity-eut-axiom)
+
+
+## Utility
+
+- **Definition**: Subjective value or desirability of an outcome (how good it *feels*), which need not scale linearly with money.
+- **Other ways to think about it**: Psychological value, not just dollars.
+- **Lecture & slide**: 10-24, slides 16–19
+- **Example(s)**: Utility of an extra $100 decreases as wealth increases (diminishing marginal utility).
+- **Related**: [Expected Utility](#expected-utility), [Utility Function](#utility-function), [Expected Utility Theory (EUT)](#expected-utility-theory-eut)
+
+
+## Utility Function
+
+- **Definition**: A function mapping objective outcomes (e.g., money) to subjective utility, often concave for gains (diminishing marginal utility).
+- **Other ways to think about it**: Curve translating money to feeling.
+- **Lecture & slide**: 10-24, slides 20–22; 10-27, slides 4–5
+- **Example(s)**: U($) that rises with money but with decreasing slope.
+- **Related**: [Expected Utility](#expected-utility), [Expected Utility Theory (EUT)](#expected-utility-theory-eut), [Value Function (Prospect Theory)](#value-function-prospect-theory)
+
+
+## Value Function (Prospect Theory)
+
+- **Definition**: Reference‑dependent mapping from outcomes to subjective value: concave for gains, convex for losses, and steeper for losses (loss aversion).
+- **Other ways to think about it**: How outcomes feel relative to a baseline.
+- **Lecture & slide**: 10-27, slide 17
+- **Example(s)**: Gaining $100 feels good but less than the pain of losing $100; smaller sensitivity to changes far from the reference point.
+- **Related**: [Prospect Theory](#prospect-theory), [Reference Point](#reference-point), [Loss Aversion](#loss-aversion)
+
+
+## Violations of EUT
+
+- **Definition**: Systematic patterns that contradict EUT predictions, such as the **Certainty Effect** and **Ambiguity Aversion**.
+- **Other ways to think about it**: Where people depart from the axioms.
+- **Lecture & slide**: 10-27, slides 11–12; 10-24, slide 26 (early evidence)
+- **Example(s)**: Preferring a sure $400 to a 50% chance at $1000 (gain domain), or preferring a risky loss to avoid a sure loss (loss domain).
+- **Related**: [Certainty Effect](#certainty-effect), [Ambiguity Aversion](#ambiguity-aversion), [Prospect Theory](#prospect-theory)
