@@ -11,7 +11,7 @@ This site contains several additional resources to help you prepare for Challeng
 There are few ways you might find it helpful to review this material:
 
 - Start with the [evolution of rationality](timeline/part-02)
-- Start with the [glossary](glossary/part-02) and treat it like wikipedia. Jump around to different [papers](paper-summaries/part-02) and [lecture notes](lecture-notes/index.md) for more context
+- Start with the [glossary](glossary/part-02) and treat it like wikipedia. Jump around to different [papers](paper-summaries/part-02) and [lecture notes](lecture-notes/part-02) for more context
 - Or just use whatever study methods work for you and use the *search box* to find anything in the guide you're looking for
 
 ## AI study help (optional)
