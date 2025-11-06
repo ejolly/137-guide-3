@@ -1,4 +1,4 @@
-# Challenge 3 Question Bank 25 total
+# Challenge 3 Question Bank 22 total
 
 ### 1. 
 In studies of the Public Goods game, _____ has been shown to increase average levels of cooperation over time.
@@ -24,11 +24,11 @@ What is the primary conceptual shift from Expected Value Theory (EVT) to Expecte
 - **C.** EV is a descriptive theory of what people actually do, while EU is a normative theory of what people should do
 - **D.** **EV assumes decisions are based on objective value, while EU assumes decisions are based on subjective value**
 
-### 4. 
+### 4.
 Which of the following scenarios best illustrates the concept of 'loss aversion' from Prospect Theory?
 
 - **A.** After losing money on a stock, an investor doubles down on their investment to try to recoup their losses
-- **B.** **a person prefers gamble A (50% chance of +$100 or +$0) over gamble B (50% of -$100 or +$200)** 
+- **B.** **A person prefers gamble A (50% chance of +$100 or +$0) over gamble B (50% of -$100 or +$200)**
 - **C.** A person prefers gamble A (100% change of +$200) over gamble B (50% chance of +$400 or +$0)
 - **D.** A person's happiness from an bonus depends on whether they were expecting one or not
 
@@ -43,7 +43,7 @@ What is the resource rational perspective on "cognitive biases"?
 ### 6. 
 In a one-shot (non-repeated) Prisoner's Dilemma, what is the "Nash Equilibrium" and why does it represent a dilemma?
 
-- **A.** both players choose *cooperate*; it's a dilemma because defecting would earn both players a higher reward
+- **A.** both players choose cooperate; it's a dilemma because defecting would earn both players a higher reward
 - **B.** **both player choose *defect*; it's a dilemma because the best individual choice produces the worst outcome for both players**
 - **C.** both player choose randomly to cooperate/defect; it's a dilemma because the outcome is unpredictable and depends on both players' choices
 - **D.** one player cooperates while the other defects; it's a dilemma because the cooperator receives the worst outcome for doing the right things
@@ -167,7 +167,6 @@ During lecture & on Canvas, you saw the sigmoid (S-shaped) utility function from
 - **B.** For every $1 increase in wealth, you experience > 1 unit increase in happiness when your starting wealth is low
 - **C.** For every $1 increase in wealth, you experience < 1 unit increase in happiness when your starting wealth is high
 - **D.** **B & C**
-
 
 ### 22. 
 You're trying to decide which of two fellowships to apply for and you turn to your Herb Nash for advice who says:  
