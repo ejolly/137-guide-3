@@ -2,6 +2,19 @@
 
 This document helps TAs grade different exam versions.
 
+**Manual Fix Notes:** Answer text was corrected post-generation for questions with letter references:
+
+Q1 (Public Goods game):
+- Version A (Q1): Changed from "A & B" to "B & C" to match shuffled positions
+- Version B (Q9): Changed from "A & B" to "A & D" to match shuffled positions
+- Versions C & D: Already correct
+
+Q21 (Sigmoid utility function):
+- Version A (Q21): Changed from "B & C" to "A & D" to match shuffled positions
+- Version B (Q5): Changed from "B & C" to "B & D" to match shuffled positions
+- Version C (Q20): Changed from "B & C" to "A & C" to match shuffled positions
+- Version D (Q12): Changed from "B & C" to "A & D" to match shuffled positions
+
 ---
 
 ## Version A Answer Key

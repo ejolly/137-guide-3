@@ -98,9 +98,9 @@ What was a key finding from the longitudinal study by Mao et al. (2016) where pe
 ### 12.
 During lecture & on Canvas, you saw the sigmoid (S-shaped) utility function from Prospect theory with loss <-> gain on the X-axis and pleasure (positive) <-> pain (negative) utility on the Y-axis. What does this function say about the relationship between *gaining* money and any *happiness* you might experience?
 
-**(A)** For every $1 increase in wealth, you experience < 1 unit increase in happiness when your starting wealth is high  
-**(B)** For every $1 increase in wealth, you experience 1 unit decrease in happiness (utility)  
-**(C)** B & C  
+**(A)** For every $1 increase in wealth, you experience < 1 unit increase in happiness when your starting wealth is high
+**(B)** For every $1 increase in wealth, you experience 1 unit decrease in happiness (utility)
+**(C)** A & D
 **(D)** For every $1 increase in wealth, you experience > 1 unit increase in happiness when your starting wealth is low  
 
 ### 13.

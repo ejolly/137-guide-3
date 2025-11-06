@@ -42,9 +42,9 @@ Prospect Theory introduced the concept of a 'reference point'. What does this me
 ### 5.
 During lecture & on Canvas, you saw the sigmoid (S-shaped) utility function from Prospect theory with loss <-> gain on the X-axis and pleasure (positive) <-> pain (negative) utility on the Y-axis. What does this function say about the relationship between *gaining* money and any *happiness* you might experience?
 
-**(A)** For every $1 increase in wealth, you experience 1 unit decrease in happiness (utility)  
-**(B)** For every $1 increase in wealth, you experience < 1 unit increase in happiness when your starting wealth is high  
-**(C)** B & C  
+**(A)** For every $1 increase in wealth, you experience 1 unit decrease in happiness (utility)
+**(B)** For every $1 increase in wealth, you experience < 1 unit increase in happiness when your starting wealth is high
+**(C)** B & D
 **(D)** For every $1 increase in wealth, you experience > 1 unit increase in happiness when your starting wealth is low  
 
 ### 6.
@@ -76,9 +76,9 @@ Which of the following is not one of the five *evolutionary dynamics* that influ
 ### 9.
 In studies of the Public Goods game, _____ has been shown to increase average levels of cooperation over time.
 
-**(A)** Punishing defectors  
-**(B)** A & B  
-**(C)** Incentivizing group level outcomes  
+**(A)** Punishing defectors
+**(B)** A & D
+**(C)** Incentivizing group level outcomes
 **(D)** Having some resilient cooperators  
 
 ### 10.

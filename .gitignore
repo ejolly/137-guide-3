@@ -7,4 +7,7 @@ CITATION_GUIDE.md
 *.pdf
 *.docx
 *.zip
-# *question-bank*
+grades/
+lectures/
+prompts/
+papers/
