@@ -28,9 +28,9 @@ What is the primary conceptual shift from Expected Value Theory (EVT) to Expecte
 Which of the following scenarios best illustrates the concept of 'loss aversion' from Prospect Theory?
 
 - **A.** After losing money on a stock, an investor doubles down on their investment to try to recoup their losses
-- **B.** **The pain of losing $50 is felt more intensely that the pleasure of gaining $50**
-- **C.** A person chooses a guaranteed $200 gain over a 50% chance of gaining $400
-- **D.** A person's happiness from an unexpected bonus depends on whether they were expecting one or not
+- **B.** **a person prefers gamble A (50% chance of +$100 or +$0) over gamble B (50% of -$100 or +$200)** 
+- **C.** A person prefers gamble A (100% change of +$200) over gamble B (50% chance of +$400 or +$0)
+- **D.** A person's happiness from an bonus depends on whether they were expecting one or not
 
 ### 5. 
 What is the resource rational perspective on "cognitive biases"?
@@ -41,12 +41,12 @@ What is the resource rational perspective on "cognitive biases"?
 - **D.** Preferences based that were only useful in our evolutionary past
 
 ### 6. 
-In a one-shot (non-repeated) Prisoner's Dilemma, what is the "Nash Equilibrium" proposed by John Nash?
+In a one-shot (non-repeated) Prisoner's Dilemma, what is the "Nash Equilibrium" and why does it represent a dilemma?
 
-- **A.** A strategy that always beats the other player
-- **B.** One player cooperates the other defects
-- **C.** Both players cooperate
-- **D.** **Both players defect**
+- **A.** both players choose *cooperate*; it's a dilemma because defecting would earn both players a higher reward
+- **B.** **both player choose *defect*; it's a dilemma because the best individual choice produces the worst outcome for both players**
+- **C.** both player choose randomly to cooperate/defect; it's a dilemma because the outcome is unpredictable and depends on both players' choices
+- **D.** one player cooperates while the other defects; it's a dilemma because the cooperator receives the worst outcome for doing the right things
 
 ### 7. 
 What the key mechanism that allows direct reciprocity to sustain cooperation between two individuals?
@@ -73,131 +73,109 @@ What was a key finding from the longitudinal study by Mao et al. (2016) where pe
 - **D.** Over the month, everyone learned that 'always defect' was the optimal strategy
 
 ### 10. 
-How is “animacy" described from the computational perspective of social cognition?
+Prospect Theory introduced the concept of a 'reference point'. What does this mean?
 
-- **A.** A label applied after we identify a face.
-- **B.** **An internal representation that predicts whether something can act or feel, updated from visible evidence like motion.**
-- **C.** A purely linguistic construction with no perceptual basis.
-- **D.** An emotion that arises whenever we see movement.
+- **A.** People's true preferences violate EUT axioms because of intransitivity 
+- **B.** It allowed for modeling of non-monetary outcomes like emotions
+- **C.** It demonstrated that people are always risk-averse regardless of the situation
+- **D.** **It suggests that people evaluate gains & losses in a relative rather than absolute way**
 
 ### 11. 
-What does it mean for biological motion to be "cross-modal" or “modality-independent"?
+How does adding the possibility of punishment alter the dynamics of a Public Goods Game?
 
-- **A.** It can be perceived only through vision.
-- **B.** **The same underlying structure for detecting animacy generalizes across sight and sound.**
-- **C.** It requires language to interpret.
-- **D.** It is unaffected by context or goals.
+- **A.** It leads the "tragedy of the commons"
+- **B.** It make players more self-interested
+- **C.** It has no effect on behavior
+- **D.** **It allows players to enforce a social norm**
 
 ### 12. 
-Which of the following is NOT one of the three main perceptual cues for animacy discussed in the lecture?
+The study by Fowler and Christakis (2010) re-analyzed data from a Public Goods Game and found that cooperative behavior could cascade through social networks. How?
 
-- **A.** Biological motion.
-- **B.** Rationality/Efficiency (goal-directed movement).
-- **C.** Contingency/Interaction.
-- **D.** **Color similarity.**
+- **A.** Social networks quickly break down all defection, leading to widespread cooperation
+- **B.** Punishment spreads through networks, making everyone more cooperative
+- **C.** **A single act of cooperation can indirectly influence others to cooperate more**
+- **D.** Because an individual's choices are only affected by the people around them
 
 ### 13. 
-The lecture proposes a third neural pathway for perception, in addition to the traditional ‘what’ and ‘where’ pathways. What is the specialized function of this proposed third pathway?
+Which of the following is not one of the five *evolutionary dynamics* that influence cooperation discussed in lecture?
 
-- **A.** To track the speed and trajectory of a moving object.
-- **B.** To determine the color and texture of an object.
-- **C.** To recognize and process human faces.
-- **D.** **To extract dynamic social cues like gaze, expression, and biological motion.**
+- **A.** **conversation**
+- **B.** indirect reciprocity
+- **C.** kin selection
+- **D.** direct reciprocity
 
-### 14.
-A robot makes eye contact with you but has jerky lip movements when speaking. The weird feeling you get is known as `_______` and is caused by `_______`.
+### 14. 
+What is the point of a utility function?
 
-- **A.** **uncanny valley; a close, but imperfect display of biological motion**
-- **B.** uncanny valley; eye contact that is too prolonged
-- **C.** Stroop; focusing on one facila feature and not the whole face while iteracting
-- **D.** violation-of-expectation; expecting something to behave in a certain way
-
+- **A.** it ensures that decider's choices are rational
+- **B.** it describes how irrational a decider is
+- **C.** **it maps objective outcomes to subjective value**
+- **D.** to calculate the long-run average value of an outcome
 
 ### 15. 
-The research by Premack & Woodruff defines Theory of Mind as a ‘theory’ primarily because the mental states it deals with are what?
+According to the principles discovered in Axelrod's Tournament, which of the following best describes a 'nice' strategy?
 
-- **A.** Observable directly under certain conditions.
-- **B.** Socially constructed and not tied to behavior.
-- **C.** **Hidden/unobservable causes that must be inferred to predict behavior.**
-- **D.** Irrelevant to understanding actions.
+- **A.** **A strategy that cooperates on the first move and is never the first to defect on subsequent moves**
+- **B.** A strategy that always cooperates, regardless of an opponents' actions
+- **C.** A strategy that analyzes opponent's past behavior to preemptively defend against defection
+- **D.** A strategy that remembers every time an opponent defected
 
 ### 16. 
-According to Kelley's (1973) Covariation Model, if you are trying to understand why a friend laughs at a particular comedian, what does the ‘consensus’ factor refer to?
+In a Public Goods Game, why does cooperation typically decline over repeated rounds when no other mechanisms are present?
 
-- **A.** How often your friend laughs in general.
-- **B.** **Whether other people also laugh at that comedian.**
-- **C.** Whether your friend laughs at other comedians.
-- **D.** Whether your friend was in a good mood that day.
+- **A.** The shared resource is depleted, leaving nothing left for anyone
+- **B.** Players learn that cooperation benefits the everyone the most
+- **C.** The rules of the game change in later rounds to favor defection over cooperation
+- **D.** **Cooperative players see others 'free-riding' and reduce their own contributions in subsequent rounds**
 
 ### 17. 
-Moran, Jolly & Mitchell (2014) link the Fundamental Attribution Error (FAE) to which mechanism?
+From a resource rationality perspective, why might humans rely on a simple heuristic like Tit-for-Tat instead of calculating the mathematically optimal move in every social interaction?
 
-- **A.** **Spontaneous activity in mentalizing (default network) regions biases perceivers toward dispositional explanations.**
-- **B.** Fatigue-induced failures in working memory reduce attention to situational details.
-- **C.** Perceptual load in the ventral stream masks situational cues.
-- **D.** Language processing demands crowd out causal reasoning.
+- **A.** Humans are incapable of complex calculations and have to use simple rules
+- **B.** Tit-for-tat is the only strategy that guarantees a player will never lose a game
+- **C.** The mathematically optimal strategy is too emotionally difficult for humans to execute
+- **D.** **It's highly adaptive in environments where repeated interactions are likely***
 
 ### 18. 
-During lecture we discussed the "inverse of mentalizing", where one denies mental states to another being. What is this concept called?
+Which of the following scenarios best illustrates a 'zero-sum game'?
 
-- **A.** Anthropomorphism.
-- **B.** **Dehumanization.**
-- **C.** Synchronization.
-- **D.** Simulation.
+- **A.** Two companies investing in a new technology that could grow the entire market, allowing both to profit
+- **B.** Drivers in traffic trying to merge, where smooth coordination can get everyone to their destination faster
+- **C.** A group of students working on a project, where everyone receives the same grade based on the final quality of the work
+- **D.** **A game of poker where the money one player wins is the exact amount the other players have lost**
 
-### 19.
-Which scenario illustrates *mechanistic* (vs animalistic) dehumanization as defined by Haslam?
+### 19. 
+ How does the 'framing effect' introduced by Prospect Theory demonstrate the subjectivity of value?
 
-- **A.** **A hospital policy treats patients as case numbers, assuming they lack warmth or inner experience.**
-- **B.** An ethnic caricature portrays a group as primitive and uncivilized.
-- **C.** A coach praises a player’s grit and discipline.
-- **D.** A teacher attributes a student’s failure to lack of effort.
+- **A.** Choices vary across people, but each person always makes consistent choices
+- **B.** **The same monetary outcome is evaluated differently depending on whether it's presented as a loss or gain**
+- **C.** People are consistently risk-seeking based on their subject preferences
+- **D.** People are biased because they make the wrong choice
 
 ### 20.
-In the chimpanzee eye-tracking study we class in lecture, IF the researchers had observed that the chimpanzees first looked where the item was moved behind the target’s back when the target returned, it would be evidence that ____.
+Which of the following is an example of 'satisficing'?
 
-- **A.** Chimpanzees have theory of mind
-- **B.** **Chimpanzees fail this theory of mind task**
-- **C.** Chimpanzees have the cognitive abilities of a 5-yr old human
-- **D.** Chimpanzees do not attribute animacy but do mentalize
+- **A.** Systematically researching every cafe on campus to create a spreadsheet with ratings, prices, and distance to choose the best place
+- **B.** Always going to same cafe
+- **C.** Going to the cafe with the easiest name to pronounce
+- **D.** **Picking the first cafe you see that meets your basic criteria for food, price, and time**
 
 ### 21. 
-The concept of ‘Theory of Mind' suggests that we understand other people's mental states by:
+During lecture & on Canvas, you saw the sigmoid (S-shaped) utility function from Prospect theory with loss <-> gain on the X-axis and pleasure (positive) <-> pain (negative) utility on the Y-axis. What does this function say about the relationship between *gaining* money and any *happiness* you might experience?
 
-- **A.** Directly observing their thoughts.
-- **B.** **Inferring their beliefs, desires, and intentions to explain and predict behavior.**
-- **C.** Ignoring their subjective experiences.
-- **D.** Using only physiological data.
+- **A.** For every $1 increase in wealth, you experience 1 unit decrease in happiness (utility)
+- **B.** For every $1 increase in wealth, you experience > 1 unit increase in happiness when your starting wealth is low
+- **C.** For every $1 increase in wealth, you experience < 1 unit increase in happiness when your starting wealth is high
+- **D.** **B & C**
+
 
 ### 22. 
-In Leslie’s pretense/decoupling account, which behavior shows the foundational capacity needed for later false-belief reasoning?
+You're trying to decide which of two fellowships to apply for and you turn to your Herb Nash for advice who says:  
+*"It sounds like there's a 10% chance you're going to get the Fellowship A ($200k). But if you finish your thesis, get all your reference letters, and maintain a 3.7 GPA by the end of the quarter you could probably raise your chances it to 50%. Fellowship B only requires a 3 page essay, but it's a 50% chance for less money ($120k). If I were you I would apply to Fellowship B."*
 
-- **A.** **Treating a banana as a telephone during pretend play.**
-- **B.** Copying exactly how an adult stacks blocks.
-- **C.** Looking longer at an object after it disappears behind a screen.
-- **D.** Pointing to the location where an object actually is.
+Is their advice more consistent with Homo-Economicus or Homo-Heuristicus? 
 
-### 23. 
-The violation-of-expectation (VOE) paradigm in infant research relies on the assumption that:
-
-- **A.** **Longer looking times indicate surprise due to violated expectations.**
-- **B.** Infants prefer complex over simple stimuli.
-- **C.** Shorter looking always indicates stronger learning.
-- **D.** Infants cannot represent hidden causes.
-
-### 24. 
-The lecture suggests that our social knowledge is organized for prediction. What does this mean in practice?
-
-- **A.** We memorize isolated facts about people without considering patterns.
-- **B.** **We represent transitions between mental states and actions to anticipate what comes next.**
-- **C.** We avoid making predictions about others due to uncertainty.
-- **D.** We only rely on explicit rules to forecast behavior.
-
-### 25.
-You watch a friend twist their ankle and cringe in response. Which best matches the likely dominant mechanism at work?
-
-- **A.** **Ankle twist → mirroring / sensorimotor-affective circuits**
-- **B.** Ankle twist → self-projection / simulation circuits
-- **C.** Ankle twist → uncanny valley / discomfort response
-- **D.** Ankle twist → mentalizing / attribution
-
+- **C.** Economicus because the Probability of getting Fellowship B > A
+- **B.** Heuristicus because the Probability of getting Fellowship B > A
+- **A.** Economicus because the Expected Value of Fellowship B > A
+- **D.** **Heuristicus because the Expected Value of Fellowship B = A for less effort**
