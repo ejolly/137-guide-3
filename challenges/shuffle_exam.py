@@ -176,7 +176,7 @@ def shuffle_and_write_version(questions, version_letter, output_path, challenge_
     random.shuffle(shuffled_questions)
 
     total_questions = len(questions)
-    output_lines = [f"# {challenge_name} Question Bank Version {version_letter} - {total_questions} total\n"]
+    output_lines = [f"# {challenge_name} Question Bank - {total_questions} total\n\n## Version {version_letter}\n"]
 
     for new_num, q in enumerate(shuffled_questions, 1):
         # Shuffle answer choices IN-PLACE so the data structure reflects the shuffle
@@ -206,7 +206,7 @@ def shuffle_and_write_version(questions, version_letter, output_path, challenge_
 def write_version_a(questions, output_path, challenge_name):
     """Write Version A with shuffled choices (using seed 0) but original question order."""
     total_questions = len(questions)
-    output_lines = [f"# {challenge_name} Question Bank Version A - {total_questions} total\n"]
+    output_lines = [f"# {challenge_name} Question Bank - {total_questions} total\n\n## Version A\n"]
 
     for q in questions:
         # Shuffle answer choices IN-PLACE so the data structure reflects the shuffle
@@ -511,41 +511,73 @@ def create_answer_key_copy(version_file, output_path):
         f.write(content)
 
 
-def parse_bonus_question(bonus_file):
-    """Parse bonus question from markdown file."""
+def parse_bonus_questions(bonus_file):
+    """Parse multiple bonus questions from markdown file.
+
+    Returns a list of (question_text, choices) tuples, one per bonus question.
+    Handles format like:
+    ### Bonus 1
+    Question text
+    - **A.** choice
+    - **B.** choice
+    ...
+
+    ### Bonus 2
+    Question text
+    - **A.** choice
+    ...
+    """
     with open(bonus_file, 'r') as f:
         content = f.read()
 
-    # Remove header if present
-    content = re.sub(r'^###\s+Bonus\s*\n', '', content.strip())
+    # Split by bonus question headers (### Bonus, ### Bonus 1, ### Bonus 2, etc.)
+    # First, normalize any "### Bonus" without number to "### Bonus 1" for consistency
+    content = re.sub(r'^###\s+Bonus\s*$', '### Bonus 1', content, flags=re.MULTILINE)
 
-    lines = content.split('\n')
-    question_lines = []
-    choices = []
-    in_choices = False
+    # Split on bonus headers
+    parts = re.split(r'^###\s+Bonus\s*\d*\s*$', content, flags=re.MULTILINE)
 
-    for line in lines:
-        stripped = line.strip()
-        if stripped.startswith('- **'):
-            in_choices = True
-            # Parse choice and normalize to (A)/(B)/(C)/(D) format with trailing spaces
-            match = re.match(r'- \*\*([A-D])\.?\*\* (.+)', line)
-            if match:
-                letter, text = match.groups()
-                choices.append(f"**({letter})** {text}  ")
-        elif not in_choices and stripped:
-            question_lines.append(line)
+    bonus_questions = []
 
-    question_text = '\n'.join(question_lines).strip()
-    return question_text, choices
+    for part in parts:
+        part = part.strip()
+        if not part:
+            continue
+
+        lines = part.split('\n')
+        question_lines = []
+        choices = []
+        in_choices = False
+
+        for line in lines:
+            stripped = line.strip()
+            if stripped.startswith('- **'):
+                in_choices = True
+                # Parse choice and normalize to (A)/(B)/(C)/(D) format with trailing spaces
+                match = re.match(r'- \*\*([A-D])\.?\*\* (.+)', line)
+                if match:
+                    letter, text = match.groups()
+                    choices.append(f"**({letter})** {text}  ")
+            elif in_choices and stripped.startswith('- **') is False and stripped:
+                # We hit a new question after choices - this shouldn't happen with proper headers
+                # but handle it gracefully
+                pass
+            elif not in_choices and stripped:
+                question_lines.append(line)
+
+        if question_lines and choices:
+            question_text = '\n'.join(question_lines).strip()
+            bonus_questions.append((question_text, choices))
+
+    return bonus_questions
 
 
-def create_student_header(challenge_name, exam_date):
-    """Create student-friendly header."""
+def create_student_header(challenge_name, exam_date, version_letter):
+    """Create student-friendly header with version letter on separate line."""
     # Extract challenge number
     challenge_num = re.search(r'\d+', challenge_name).group()
 
-    return f"# Challenge {challenge_num} - {exam_date}"
+    return f"# Challenge {challenge_num} - {exam_date}\n\n## Version {version_letter}"
 
 
 def create_instructions_block(question_count, points_per_q):
@@ -560,26 +592,41 @@ You will have the full lecture time to answer all {question_count} multiple choi
 
 
 def create_bonus_section(bonus_file, bonus_points):
-    """Parse and format bonus question for student version."""
-    question_text, choices = parse_bonus_question(bonus_file)
+    """Parse and format bonus questions for student version.
 
-    section = f"""### Bonus Question
+    Formats each bonus question with the same markdown structure as regular questions:
+    ### Bonus 1
+    Question text
 
-**No right answer - Free {bonus_points} points!**
+    **(A)** choice
+    **(B)** choice
+    ...
+    """
+    bonus_questions = parse_bonus_questions(bonus_file)
+    num_bonus = len(bonus_questions)
+    total_bonus_points = bonus_points * num_bonus
 
-{question_text}
+    # Header section
+    section = f"""### Bonus Questions
+
+**No right answer - Free {total_bonus_points} points! ({bonus_points} points each)**
 
 """
 
-    for choice in choices:
-        section += choice + "\n"
+    # Format each bonus question like a regular question
+    for i, (question_text, choices) in enumerate(bonus_questions, 1):
+        section += f"### B{i}.\n"
+        section += f"{question_text}\n\n"
+        for choice in choices:
+            section += choice + "\n"
+        section += "\n"
 
     return section.strip()
 
 
 def transform_to_student_version(version_file, challenge_name, exam_date,
                                  question_count, question_points,
-                                 bonus_points, bonus_file):
+                                 bonus_points, bonus_file, version_letter):
     """Transform answer key version to student-ready version."""
 
     # Read current content
@@ -587,7 +634,7 @@ def transform_to_student_version(version_file, challenge_name, exam_date,
         content = f.read()
 
     # Step 1: Replace header with student-friendly header
-    new_header = create_student_header(challenge_name, exam_date)
+    new_header = create_student_header(challenge_name, exam_date, version_letter)
 
     # Replace old header (first line)
     lines = content.split('\n')
@@ -778,7 +825,8 @@ def main():
             question_count,
             args.question_points,
             args.bonus_points,
-            bonus_file
+            bonus_file,
+            version_letter
         )
         print(f"  ✅ {version_file.name}")
 

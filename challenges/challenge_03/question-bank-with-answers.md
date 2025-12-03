@@ -1,4 +1,4 @@
-# Challenge 3 Question Bank
+# Challenge 3 Question Bank 23 total
 
 ### 1.
 According the lectures, which of the following is a central aspect of perception?
@@ -108,7 +108,7 @@ What distinguishes the 'self as a causal narrative' view from the 'self as an in
 Research on visceral states like hunger shows they can lead to influence judgements and decision-making'. What is an example of this?
 
 - **A.** Accurately planning your grocery shopping for the week regardless of your current hunger level.
-- **B.** **Shopping from tomorrow's groceries when you're hungry and buying too much.**
+- **B.** **Shopping for tomorrow's groceries when you're hungry and buying too much.**
 - **C.** Feeling empathy for a hungry person because you remember what it's like to be hungry.
 - **D.** Choosing healthier food options when you are hungry.
 
