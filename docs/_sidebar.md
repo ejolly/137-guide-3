@@ -1,3 +1,15 @@
+* [Challenge 3 Study Guide](/)
+* [Lecture Notes](lecture-notes/part-03.md)
+  * [Week 07](lecture-notes/week-07.md)
+  * [Week 08](lecture-notes/week-08.md)
+  * [Week 09 & 10](lecture-notes/week-09-10.md)
+* [Paper Summaries](paper-summaries/part-03.md)
+  * [Week 04](paper-summaries/week-04.md)
+  * [Week 05](paper-summaries/week-05.md)
+  * [Week 06](paper-summaries/week-06.md)
+* [Term Glossary](glossary/part-03.md)
+- ---
+<!--
 * [Challenge 2 Study Guide](/)
 * [Lecture Notes](lecture-notes/part-02.md)
   * [Week 04](lecture-notes/week-04.md)
@@ -9,7 +21,7 @@
   * [Week 06](paper-summaries/week-06.md)
 * [Evolution of Rationality](timeline/part-02.md)
 * [Term Glossary](glossary/part-02.md)
-- ---
+-->
 <!--* [Challenge 1 Study Guide](/part-01.md)
   * [Lecture Notes](lecture-notes/part-01.md)
     * [Week 01](lecture-notes/week-01.md)

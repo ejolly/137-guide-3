@@ -1,6 +1,6 @@
-# Challenge 2 Study Guide
+# Challenge 3 Study Guide
 
-This site contains several additional resources to help you prepare for Challenge 2. You should treat this as a *supplemental resource* to lecture slides, attendance & podcasts.
+This site contains several additional resources to help you prepare for Challenge 3. You should treat this as a *supplemental resource* to lecture slides, attendance & podcasts.
 
 !> These resources are **not comprehensive** and should serve as a general starting point and/or refresher. Make sure to refer to the actual lectures for details that might be missing here. "It wasn't in the study guide" won't be an acceptable excuse!
 
@@ -10,15 +10,14 @@ This site contains several additional resources to help you prepare for Challeng
 
 There are few ways you might find it helpful to review this material:
 
-- Start with the [evolution of rationality](timeline/part-02) and then revisit [lecture notes](lecture-notes/part-02)
-- Start with the [glossary](glossary/part-02) and treat it like wikipedia. Jump around to different [papers](paper-summaries/part-02) and [lecture notes](lecture-notes/part-02) for more context
+- Start with the [lecture notes](lecture-notes/part-03), use the [glossary](glossary/part-03) like wikipedia, and jump around to different [papers](paper-summaries/part-03) for more context.
 - Or just use whatever study methods work for you and use the *search box* to find anything in the guide you're looking for
 
 ## AI study help (optional)
 
 You might also find it helpful to *chat* with all lecture materials and transcripts from Part 2 of the course using the optional course NotebookLM:
 
-- All Part 2 lecture recordings: [https://tinyurl.com/137-part-2](https://tinyurl.com/137-part-2)
+- All Part 2 lecture recordings: [https://tinyurl.com/137-part-3](https://tinyurl.com/137-part-3)
 
 <!--Canvas also includes an "AI-lecture-recaps" Module that has brief (5-7min) refresher videos based on full lecture transcripts using NotebookLM!
 
