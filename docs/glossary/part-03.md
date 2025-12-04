@@ -41,19 +41,8 @@
 
 ---
 
-## Baby-Facedness
 
-- **Definition**: A set of facial features—rounder face, larger eyes, softer contours—that resemble infant-like faces and systematically bias impressions toward traits like warmth, naiveté, and approachability.  
-- **Other ways to think about it**: Faces that “look like a baby version of an adult,” which our perceptual system treats as a cue to harmlessness or needing care.
-- **Lecture & slide**:  
-  - 11-19 (Part 3: Lecture 4 – External Signals: Social Perception), slides on “Cues from Faces / Zebrowitz – value, demographics, baby-facedness, emotion”  
-- **Example(s)**:  
-  - Two politicians with identical résumés, but the more baby-faced one is judged as more warm and less dominant.  
-- **Related**: [Social Perception (Impressions from Faces)](#social-perception-impressions-from-faces), [Stereotypes](#stereotypes), [Trustworthiness (Face Evaluation)](#trustworthiness-face-evaluation), [Dominance (Face Evaluation)](#dominance-face-evaluation)
-
----
-
-## Categorization (Perception as an Act of Categorization)
+## Categorization
 
 - **Definition**: The idea that perception is not a passive recording of sensory input but an **active process of assigning stimuli to categories**, using cues to infer “what kind of thing” something is.  
 - **Other ways to think about it**: Seeing is partly **labeling**—your brain is always asking “what is this like?” and sorting inputs into buckets.
@@ -78,17 +67,6 @@
 
 ---
 
-## Collective Memory
-
-- **Definition**: Shared memories that are distributed across people and carried in social networks, conversations, and cultural artifacts, rather than only in one individual’s head.  
-- **Other ways to think about it**: The “memory of a group” created by overlapping recollections and shared stories.
-- **Lecture & slide**: 11-12, slide 80–92 (“Signal Dynamics (Interaction): Collective memory, shared experience, & social networks”)  
-- **Example(s)**:  
-  - A friend group jointly reconstructing “how that wild party went” where no single person remembers everything, but together they can.  
-- **Related**: [Signal Dynamics](#signal-dynamics), [Shared Experience & Synchrony](#synchrony-interpersonal), [Self as Causal Narrative](#self-as-causal-narrative)
-
----
-
 ## Constructivist/Core Affect Theories
 
 - **Definition**: Theories (e.g., Lisa Feldman Barrett, Russell) claiming that emotions are **conceptual interpretations** built on top of more primitive [affect](#affect) signals (valence, arousal), shaped by language, culture, and conceptual knowledge.  
@@ -97,18 +75,6 @@
 - **Example(s)**:  
   - A child feeling some unpleasant arousal but not knowing the word “embarrassed” yet; as they learn language and concepts, they begin to label and interpret that same core affect as “embarrassment” in certain contexts.  
 - **Related**: [Circumplex Model of Affect](#circumplex-model-of-affect), [Appraisal Theories (Emotion)](#appraisal-theories-emotion), [Visceral Signals](#visceral-signals)
-
----
-
-## Deep Brain Stimulation (DBS)
-
-- **Definition**: A medical procedure that involves surgically implanting electrodes in specific brain regions to deliver electrical stimulation, used clinically for conditions like severe depression or Parkinson’s disease. In lecture it is used to illustrate how **expectations and beliefs** can affect treatment outcomes.  
-- **Other ways to think about it**: A “brain pacemaker” where beliefs about the treatment—real vs sham—can still produce large placebo-like effects.
-- **Lecture & slide**:  
-  - 11-24, slides 147–177 (depression severity over visits; real vs sham stimulation)  
-- **Example(s)**:  
-  - Patients in both real and sham DBS arms showing improvements because their expectations and the patient–provider relationship contribute heavily to outcomes.  
-- **Related**: [Placebo Effect (Socially Transmitted Placebo)](#placebo-effect-socially-transmitted-placebo), [Visceral Signals](#visceral-signals)
 
 ---
 
@@ -320,18 +286,6 @@
 
 ---
 
-## Social Categories
-
-- **Definition**: Group labels (e.g., gender, race, political affiliation, team) that bundle people into **perceived types**, each associated with characteristic traits and stereotypes.  
-- **Other ways to think about it**: Mental folders that store assumptions about “people like that.”
-- **Lecture & slide**:  
-  - 11-14, slides on “Social categories = bundles of characteristic traits”; Rosenberg (trait theory) and Fiske & Cuddy (Stereotype Content Model).  
-- **Example(s)**:  
-  - Thinking of “engineers,” “artists,” or “international students” as distinct categories with expected traits.  
-- **Related**: [Categorization (Perception as an Act of Categorization)](#categorization-perception-as-an-act-of-categorization), [Stereotypes](#stereotypes), [Stereotype Content Model](#stereotype-content-model), [Minimal Group Paradigm](#minimal-group-paradigm)
-
----
-
 ## Social Groups
 
 - **Definition**: Sets of individuals perceived to share a common identity, fate, or norms (e.g., Eagles vs Rattlers, in-group vs out-group), which profoundly shape conflict, cooperation, and stereotyping.  
@@ -341,29 +295,6 @@
 - **Example(s)**:  
   - 22 boys at Robbers Cave split into Eagles and Rattlers, who rapidly develop group identities and conflicts over scarce resources.  
 - **Related**: [Minimal Group Paradigm](#minimal-group-paradigm), [Out-Group Homogeneity Effect](#out-group-homogeneity-effect), [Transitivity](#transitivity)
-
----
-
-## Social Networks
-
-- **Definition**: The pattern of **relationships and interactions** among individuals, through which social signals, emotions, and memories propagate and gain structure.  
-- **Other ways to think about it**: The graph of who is connected to whom, which constrains how signals spread.
-- **Lecture & slide**: 11-12, slide 80–92 (Signal Dynamics: “Collective memory, shared experience, & social networks”); later references when discussing synchronization and attachment.  
-- **Example(s)**:  
-  - Emotion contagion traveling 2–3 steps through a friendship network; clusters of people who share more similar impressions because they’re more tightly connected.  
-- **Related**: [Signal Dynamics](#signal-dynamics), [Collective Memory](#collective-memory), [Synchrony (Interpersonal)](#synchrony-interpersonal)
-
----
-
-## Social Perception (Impressions from Faces)
-
-- **Definition**: The process of using **facial cues and other social signals** to infer the mental states, traits, and intentions of others, often organized around dimensions like [trustworthiness](#trustworthiness-face-evaluation) and [dominance](#dominance-face-evaluation).  
-- **Other ways to think about it**: Turning “what a face looks like right now” into a guess about “what kind of person this is” and “what they might do.”
-- **Lecture & slide**:  
-  - 11-17, slides “External Signals: Impressions from Faces” and “2D Face Evaluation Model” (Oosterhof & Todorov).  
-- **Example(s)**:  
-  - Inferring that a slightly smiling face is friendly and approachable (high trustworthiness, low dominance) versus a scowling face as threatening (low trustworthiness, high dominance).  
-- **Related**: [First Impressions](#first-impressions), [Thin-Slice Judgments](#thin-slice-judgments), [Facial Action Coding System (FACS)](#facial-action-coding-system-facs), [Stereotypes](#stereotypes)
 
 ---
 
@@ -403,43 +334,6 @@
 - **Example(s)**:  
   - Two strangers whose facial expressions and heart rate synchronize while watching a show later report greater liking and sense of “being on the same wavelength.”  
 - **Related**: [Electrodermal Synchrony](#electrodermal-synchrony), [Placebo Effect (Socially Transmitted Placebo)](#placebo-effect-socially-transmitted-placebo), [Collective Memory](#collective-memory)
-
----
-
-## Text Embeddings (Historical Stereotypes)
-
-- **Definition**: Statistical vector representations of words learned from large text corpora, used here to **quantify how stereotypes about social groups drift or persist over time** in language.  
-- **Other ways to think about it**: Turning words into coordinates so we can measure which descriptors stick to which groups across decades.
-- **Lecture & slide**:  
-  - 11-17 (Part 3: Lecture 3 – External Signals & Stereotypes over Time), description of Charlesworth et al. using text embeddings on Google Books to track stereotypes from 1800–1990.  
-- **Example(s)**:  
-  - Showing that words associated with “women” or “Black people” change over decades, but that overall similarity structure between groups shows both drift and persistent biases.  
-- **Related**: [High-Dimensional Model of Social Impressions](#high-dimensional-model-of-social-impressions), [Stereotypes](#stereotypes), [Social Categories](#social-categories)
-
----
-
-## Thin-Slice Judgments
-
-- **Definition**: Social judgments made from **brief observations** of behavior or appearance (thin “slices” of time), such as a short video clip or snapshot of a face.  
-- **Other ways to think about it**: Snap decisions about people based on very little data.
-- **Lecture & slide**:  
-  - 11-12, slide 80–82 (“External Signals (Perception): faces, thin-slices, & first-impressions”).  
-  - 11-17, first-impression time-course (200 ms) curves.  
-- **Example(s)**:  
-  - Predicting teaching evaluations from 10-second silent clips of lecturers; predicting election winners from split-second face glimpses.  
-- **Related**: [First Impressions](#first-impressions), [Social Perception (Impressions from Faces)](#social-perception-impressions-from-faces)
-
----
-
-## Thermedol Study (Doctor–Patient Pain Study)
-
-- **Definition**: A simulated clinical experiment (Chen et al., 2019) in which “doctors” are conditioned to believe one cream (Thermedol) is more effective than another, then interact with “patients” while delivering identical heat stimulation, showing that **doctor beliefs and facial expressions change patients’ pain experience**.  
-- **Other ways to think about it**: A concrete demonstration that beliefs can be socially transmitted via subtle non-verbal cues and change visceral experience.
-- **Lecture & slide**:  
-  - 11-24, slides 202–221 (“Phase 1: Doctor conditioning; Phase 2: Belief transmission; Study recap”).  
-- **Example(s)**:  
-  - Patients report lower pain, show less pain-like facial expressions, and have reduced skin conductance when treated with “Thermedol” versus “Control” cream—even though both are just Vaseline with identical heat stimuli.  
-- **Related**: [Placebo Effect (Socially Transmitted Placebo)](#placebo-effect-socially-transmitted-placebo), [Synchrony (Interpersonal)](#synchrony-interpersonal)
 
 ---
 

@@ -4,13 +4,13 @@
   * [Week 08](lecture-notes/week-08.md)
   * [Week 09 & 10](lecture-notes/week-09-10.md)
 * [Paper Summaries](paper-summaries/part-03.md)
-  * [Week 04](paper-summaries/week-04.md)
-  * [Week 05](paper-summaries/week-05.md)
-  * [Week 06](paper-summaries/week-06.md)
+  * [Week 07](paper-summaries/week-07.md)
+  * [Week 08](paper-summaries/week-08.md)
+  * [Week 09 & 10](paper-summaries/week-09-10.md)
 * [Term Glossary](glossary/part-03.md)
 - ---
 <!--
-* [Challenge 2 Study Guide](/)
+* [Challenge 2 Study Guide](/part-02.md)
 * [Lecture Notes](lecture-notes/part-02.md)
   * [Week 04](lecture-notes/week-04.md)
   * [Week 05](lecture-notes/week-05.md)

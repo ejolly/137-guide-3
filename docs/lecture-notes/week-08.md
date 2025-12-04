@@ -1,11 +1,10 @@
 # Part 3 - Week 8 Lecture Notes
 
 ## Mon-11-17 Stereotypes as Overgeneralization & Face Perception
-**Big Questions.** Why do we categorize people into stereotypes despite living in diverse, changing environments? How do first impressions from faces drive rapid social judgments, and what are the consequences?
+**Big Questions.** How do first impressions from faces drive rapid social judgments, and what are the consequences?
 
 ### Key Ideas
 - **Stereotyping as Heuristic:** Categorization simplifies percepts by collapsing individual variability into group labels, reducing demands on attention, memory, and decision-making
-- **Stereotype Content Model (Warmth × Competence):** Groups are bundled along two primary dimensions—warmth (trustworthiness, friendliness) and competence (ability, intelligence)—creating a trait space for social categorization
 - **Text Embeddings:** Statistical models that convert words into numerical representations, capturing semantic similarity (e.g., "statistics" clusters with "math"; used to analyze historical stereotype content)
 - **Overgeneralization Hypothesis (Zebrowitz):** Stereotyping emerges from ancient adaptive mechanisms for rapid friend-or-foe detection, but becomes inaccurate when applied to diverse modern environments
 - **First Impressions (200ms):** Face perception triggers automatic judgments within ~200 milliseconds; while impressions can change with more information, initial snap judgments stabilize quickly
@@ -20,9 +19,6 @@
 - Classic experiments (from previous lectures) demonstrated how we perceive out-group members as more similar to each other than they actually are (out-group homogeneity effect)
 
 **Stereotype Content Model: Warmth and Competence Dimensions**
-- Building on trait theory (individuals vary along dimensions capturing intellectual capacity, social disposition), Susan Fiske, Amy Cuddy, and colleagues (2002) proposed groups are perceived along two primary axes:
-  - **Warmth dimension:** How friendly, trustworthy, or well-intentioned a group seems
-  - **Competence dimension:** How capable, intelligent, or skilled a group appears
 - Stereotyping involves placing individuals/groups into a two-dimensional trait space (warmth × competence), then using that categorization to make automatic inferences about unobserved behaviors and traits
 - This serves as a heuristic: once categorized, future encounters allow rapid predictions without detailed individual assessment
 - **Critical limitation:** Stereotyping is only adaptive in unchanging, homogeneous environments where group membership reliably predicts individual traits
@@ -147,12 +143,12 @@ But critically, **impressions don't predict the target's actual behavior**. Your
 
 **Physiognomy: Historical and Contemporary Dangers**
 
-In Alex Todorov's critical analysis, the lecture traced the return of **physiognomy**—the discredited belief that facial structure reveals character. This pseudoscience has deep historical roots (ancient Greeks, Renaissance polymaths) and reached its peak in the 19th century with figures like:
+In Alex Todorov's critical analysis, he traced the return of **physiognomy**—the discredited belief that facial structure reveals character. This pseudoscience has deep historical roots (ancient Greeks, Renaissance polymaths) and reached its peak in the 19th century with figures like:
 - **Cesare Lombroso**: "Father of criminal anthropology" who claimed criminals were evolutionary degenerates identifiable by facial features; his influence compared to Darwin's *Origin of Species*
 - **Francis Galton**: Created composite photographs of "criminal types" (notably, all white faces in his studies)
 - **Nazi racial science**: Used similar "scientific" justifications for categorization and persecution
 
-The lecture emphasized: "This is the same kind of problems that people were dealing with in the 19th century. It hasn't changed at all. It's just the tools are new."
+We emphasized: "This is the same kind of problems that people were dealing with in the 19th century. It hasn't changed at all. It's just the tools are new."
 
 **Modern AI and the Physiognomy Fallacy**
 
@@ -171,7 +167,7 @@ Social cognitive scientists understand face impressions as **overgeneralizations
 
 **Using AI as Cognitive Science Tools**
 
-The lecture concluded with appropriate uses of AI for face perception research. Rather than claiming to detect objective personality traits, models can help reverse-engineer the subjective mapping process. The **deep learning face model** paper by Todorov's lab demonstrates this approach:
+We concluded with appropriate uses of AI for face perception research. Rather than claiming to detect objective personality traits, models can help reverse-engineer the subjective mapping process. The **deep learning face model** paper by Todorov's lab demonstrates this approach:
 
 The researchers:
 1. Collected judgments from people rating millions of faces on dozens of dimensions (trustworthiness, competence, age, attractiveness, emotion, demographics, stereotypes)
@@ -187,7 +183,7 @@ The models don't tell us anything about objective personality. Instead, they rev
 
 **Critical Distinction**
 
-The operative word in the paper title ("Deep Models of Social Judgments") is **"judgments"**—these are models of subjective human perception, not objective truth. Models can capture our subjectivities and predict our impressions, but "we should never assume and try to think that what they're capturing is objectivity."
+The operative word in the paper title ("Deep Models of Social Judgments") is **"judgments"** —these are models of subjective human perception, not objective truth. Models can capture our subjectivities and predict our impressions, but "we should never assume and try to think that what they're capturing is objectivity."
 
 ### Highlights
 
@@ -214,19 +210,19 @@ The operative word in the paper title ("Deep Models of Social Judgments") is **"
 
 #### The Limits of AI Face Perception Models
 
-The lecture began by reviewing core ideas from the previous session about how we construct impressions from faces. When we perceive facial cues that resemble emotional expressions (happiness → trustworthy, anger → dominant), we use our categorical knowledge to inform judgments. However, a critical distinction emerged: **your impression predicts your own behavior but does not predict the other person's actual behavior or mental states.**
+We began by reviewing core ideas from the previous session about how we construct impressions from faces. When we perceive facial cues that resemble emotional expressions (happiness → trustworthy, anger → dominant), we use our categorical knowledge to inform judgments. However, a critical distinction emerged: **your impression predicts your own behavior but does not predict the other person's actual behavior or mental states.**
 
 This distinction becomes crucial when building AI models. The predominant approach to modern AI is **training systems to imitate what people do**—whether computer vision models or language models. This means AI models can only reproduce human-like judgments about faces, not access a person's true mental states or traits. As with the **Turing test** (Alan Turing's proposal that a machine is intelligent if we cannot distinguish its output from a human's), these models pass for human-like performance, but this is fundamentally different from accessing objective reality.
 
-The instructor emphasized that the **history of social cognition research demonstrates how stereotyping and impression formation reflect our tendency to generalize inaccurately from faces.** When we train a model using human judgments as "correct answers," we risk perpetuating the false assumption that these represent objective accuracy. AI models are really **expert imitation machines**—clever tools that replicate human patterns without knowing the underlying algorithms the brain uses.
+We emphasized that the **history of social cognition research demonstrates how stereotyping and impression formation reflect our tendency to generalize inaccurately from faces.** When we train a model using human judgments as "correct answers," we risk perpetuating the false assumption that these represent objective accuracy. AI models are really **expert imitation machines**—clever tools that replicate human patterns without knowing the underlying algorithms the brain uses.
 
 #### Models as Tools for Understanding Subjective Consistency
 
-Rather than viewing this limitation negatively, the lecture reframed AI models as **scientific tools for capturing subjective consistency across individuals.** A model that is sophisticated enough with sufficient data can reveal patterns in how groups of people consistently perceive faces, even if those perceptions don't map to objective truth.
+Rather than viewing this limitation negatively, we reframed AI models as **scientific tools for capturing subjective consistency across individuals.** A model that is sophisticated enough with sufficient data can reveal patterns in how groups of people consistently perceive faces, even if those perceptions don't map to objective truth.
 
-This perspective allows researchers to explore cognition in more **ecologically valid ways.** The instructor noted that almost all theories about person perception seem to fall into approximately **two-dimensional spaces**—warmth × competence (Stereotype Content Model), trustworthiness × dominance (face evaluation)—but questioned whether this reflects the true essence of social cognition or is merely an oversimplification.
+This perspective allows researchers to explore cognition in more **ecologically valid ways.** We noted that almost all theories about person perception seem to fall into approximately **two-dimensional spaces**—warmth × competence (Stereotype Content Model), trustworthiness × dominance (face evaluation)—but questioned whether this reflects the true essence of social cognition or is merely an oversimplification.
 
-One of the instructor's early papers argued for expanding beyond these low-dimensional frameworks. By using AI to handle more **data diversity** (posed images, spontaneous expressions, images from the wild), researchers can test multiple factors simultaneously and unpack how humans integrate complex features when making judgments.
+Remember the Flatland Fallacy from part 1? - Eshin's paper that argued for expanding beyond these low-dimensional frameworks. By using AI to handle more **data diversity** (posed images, spontaneous expressions, images from the wild), researchers can test multiple factors simultaneously and unpack how humans integrate complex features when making judgments.
 
 The **Peterson et al. model** exemplifies this approach by learning the complex mapping between visual features (edges, shapes, facial features, smiles, glasses, demographics) and the diverse judgments people make. These models show that face perception isn't just about dominance or trustworthiness—it's about **all of these dimensions together**. The model can characterize the full high-dimensional space of impressions.
 
@@ -253,7 +249,7 @@ A recent paper on **social constructionism** illustrates real-world consequences
 
 3. **Driver's license context:** A facial image with just a name—what impressions might officials form from this limited information?
 
-The lecture emphasized that **context matters tremendously.** The same individual is perceived radically differently depending on what information is available and in what setting. Modern computational social cognition aims to incorporate this complexity—how visual inputs, conceptual knowledge, cultural norms, and situational context all interact during impression formation.
+We emphasized that **context matters tremendously.** The same individual is perceived radically differently depending on what information is available and in what setting. Modern computational social cognition aims to incorporate this complexity—how visual inputs, conceptual knowledge, cultural norms, and situational context all interact during impression formation.
 
 #### Affective Computing and Facial Expression Recognition
 
@@ -275,7 +271,7 @@ Given enough labeled training data (humans annotating which AUs are present), mo
 
 #### Problems with Current Affective Computing Models
 
-The instructor posed the critical question: **If we're teaching machines to look at faces like people, how good are people at looking at faces?** The answer: people are pretty consistent but **not universally so**—cultural background, individual experience, and context create variability.
+We posed the critical question: **If we're teaching machines to look at faces like people, how good are people at looking at faces?** The answer: people are pretty consistent but **not universally so**—cultural background, individual experience, and context create variability.
 
 When comparing **state-of-the-art algorithms to humans**, the algorithms perform even worse, especially on **spontaneous expressions** (real people emoting in response to events) versus **posed expressions** (lab experiments). The models leave much to be desired.
 
@@ -287,7 +283,7 @@ The idea that models can be "correct" about facial expressions is **flawed at it
 
 #### A New Approach: Data-Driven Psychological Models
 
-The instructor's lab developed a different approach with their **Py-FEAT toolbox.** Rather than treating model outputs as right/wrong answers, they use models for what they're good at: **seeing the whole picture over time.**
+We demo'd a different approach with Eshin's lab's **Py-FEAT toolbox.** Rather than treating model outputs as right/wrong answers, they use models for what they're good at: **seeing the whole picture over time.**
 
 In an example study, people were filmed giving good news versus bad news. When analyzing all the facial action units over time, the raw patterns are complex and hard to interpret. Rather than labeling these as "correct" expressions of positive/negative emotion, the researchers asked: **Can we identify a particular configuration of facial movements that consistently separates these two contexts?**
 
@@ -297,7 +293,7 @@ This approach produces **compact, psychologically informed models** that can be 
 
 #### Models as Cumulative Scientific Tools
 
-The lecture concluded with Alan Newell's vision: **models should be things we share and build upon as scientists.** Rather than disparate theories, we should iteratively refine models over time, adding what they miss.
+We concluded with Alan Newell's vision: **models should be things we share and build upon as scientists.** Rather than disparate theories, we should iteratively refine models over time, adding what they miss.
 
 **Modern affective computing** attempts to bring together:
 - The best computational models of facial movements
