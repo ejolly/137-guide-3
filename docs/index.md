@@ -17,7 +17,7 @@ There are few ways you might find it helpful to review this material:
 
 You might also find it helpful to *chat* with all lecture materials and transcripts from Part 2 of the course using the optional course NotebookLM:
 
-- All Part 2 lecture recordings: [https://tinyurl.com/137-part-3](https://tinyurl.com/137-part-3)
+- All Part 3 lecture recordings: [https://tinyurl.com/137-part-3](https://tinyurl.com/137-part-3)
 
 <!--Canvas also includes an "AI-lecture-recaps" Module that has brief (5-7min) refresher videos based on full lecture transcripts using NotebookLM!
 
